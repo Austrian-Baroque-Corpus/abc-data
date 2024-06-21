@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/abacus.rnc" type="application/relax-ng-compact-syntax"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ABaC:us - Austrian Baroque Corpus</title>
+                <respStmt>
+                    <resp>herausgegeben von</resp>
+                    <name>
+                        <name>Ulrike Czeitschner</name>
+                        <name>Claudia Resch</name>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>unter Mitarbeit von</resp>
+                    <name>
+                        <name>Barbara Krautgartner</name>
+                        <name>Eva Wohlfarter</name>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Centre for Digital Humanities, Österreichische Akademie der Wissenschaften</publisher>
+                <pubPlace>Wien</pubPlace>
+                <date when="2015">2015</date>
+                <address>
+                    <addrLine>Sonnenfelsgasse 19</addrLine>
+                    <addrLine>1010 Wien</addrLine>
+                </address>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-sa/3.0/</licence>
+                    <p>Die Werke von ABaC:us sind auch als Rohdaten im TEI/XML-Format verfügbar.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Die Quellenangaben zu den einzelnen Texten finden sich im teiHeader des jeweiligen TEI-Dokuments.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <charDecl>
+                <char xml:id="tironian-et">
+                    <charName>TIRONIAN SIGN ET (U+204A)</charName>
+                    <mapping>&#x204A;</mapping>
+                </char>
+            </charDecl>
+            <editorialDecl>
+                <p>
+                    <interp xml:id="oov">Als oov (out of vocabulary) wurden jene Lemmata gekennzeichnet, die in den verwendeten Referenzwerken 
+                        (Duden bzw. Deutsches Wörterbuch von Jacob und Wilhelm Grimm) keinen Eintrag haben.</interp>
+                    <interp xml:id="prose">Text (vorwiegend) in Prosa</interp>
+                    <interp xml:id="verse">Text (vorwiegend) in Versen</interp>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <xi:include href="Abraham-Augustini_feuriges_Hertz.xml"/>
+    <xi:include href="Abraham-Loesch_Wienn.xml"/>
+    <xi:include href="Abraham-Mercks_Wien.xml"/>
+    <xi:include href="Abraham-Todten_Bruderschaft.xml"/>
+    <xi:include href="Abraham-Todten_Capelle.xml"/>
+</teiCorpus>
