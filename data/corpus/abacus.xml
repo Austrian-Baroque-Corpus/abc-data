@@ -1,62 +1,322 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="schema/abacus.rnc" type="application/relax-ng-compact-syntax"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>ABaC:us - Austrian Baroque Corpus</title>
-                <respStmt>
-                    <resp>herausgegeben von</resp>
-                    <name>
-                        <name>Ulrike Czeitschner</name>
-                        <name>Claudia Resch</name>
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>unter Mitarbeit von</resp>
-                    <name>
-                        <name>Barbara Krautgartner</name>
-                        <name>Eva Wohlfarter</name>
-                    </name>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>Austrian Centre for Digital Humanities, Österreichische Akademie der Wissenschaften</publisher>
-                <pubPlace>Wien</pubPlace>
-                <date when="2015">2015</date>
-                <address>
-                    <addrLine>Sonnenfelsgasse 19</addrLine>
-                    <addrLine>1010 Wien</addrLine>
-                </address>
-                <availability status="free">
-                    <licence>http://creativecommons.org/licenses/by-nc-sa/3.0/</licence>
-                    <p>Die Werke von ABaC:us sind auch als Rohdaten im TEI/XML-Format verfügbar.</p>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Die Quellenangaben zu den einzelnen Texten finden sich im teiHeader des jeweiligen TEI-Dokuments.</p>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <charDecl>
-                <char xml:id="tironian-et">
-                    <charName>TIRONIAN SIGN ET (U+204A)</charName>
-                    <mapping>&#x204A;</mapping>
-                </char>
-            </charDecl>
-            <editorialDecl>
-                <p>
-                    <interp xml:id="oov">Als oov (out of vocabulary) wurden jene Lemmata gekennzeichnet, die in den verwendeten Referenzwerken 
-                        (Duden bzw. Deutsches Wörterbuch von Jacob und Wilhelm Grimm) keinen Eintrag haben.</interp>
-                    <interp xml:id="prose">Text (vorwiegend) in Prosa</interp>
-                    <interp xml:id="verse">Text (vorwiegend) in Versen</interp>
-                </p>
-            </editorialDecl>
-        </encodingDesc>
-    </teiHeader>
-    <xi:include href="Abraham-Augustini_feuriges_Hertz.xml"/>
-    <xi:include href="Abraham-Loesch_Wienn.xml"/>
-    <xi:include href="Abraham-Mercks_Wien.xml"/>
-    <xi:include href="Abraham-Todten_Bruderschaft.xml"/>
-    <xi:include href="Abraham-Todten_Capelle.xml"/>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>ABaC:us - Austrian Baroque Corpus</title>
+				<respStmt>
+					<resp>herausgegeben von</resp>
+					<name>
+						<name>Ulrike Czeitschner</name>
+						<name>Claudia Resch</name>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>unter Mitarbeit von</resp>
+					<name>
+						<name>Barbara Krautgartner</name>
+						<name>Eva Wohlfarter</name>
+					</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Austrian Centre for Digital Humanities, Österreichische Akademie der
+					Wissenschaften</publisher>
+				<pubPlace>Wien</pubPlace>
+				<date when="2015">2015</date>
+				<address>
+					<addrLine>Sonnenfelsgasse 19</addrLine>
+					<addrLine>1010 Wien</addrLine>
+				</address>
+				<availability status="free">
+					<licence>http://creativecommons.org/licenses/by-nc-sa/3.0/</licence>
+					<p>Die Werke von ABaC:us sind auch als Rohdaten im TEI/XML-Format verfügbar.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Die Quellenangaben zu den einzelnen Texten finden sich im teiHeader des
+					jeweiligen TEI-Dokuments.</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<charDecl>
+				<char xml:id="tironian-et">
+					<charName>TIRONIAN SIGN ET (U+204A)</charName>
+					<mapping>&#x204A;</mapping>
+				</char>
+			</charDecl>
+			<editorialDecl>
+				<p>
+					<interp xml:id="oov">Als oov (out of vocabulary) wurden jene Lemmata
+						gekennzeichnet, die in den verwendeten Referenzwerken
+						(Duden bzw. Deutsches Wörterbuch von Jacob und Wilhelm Grimm) keinen Eintrag
+						haben.</interp>
+					<interp xml:id="prose">Text (vorwiegend) in Prosa</interp>
+					<interp xml:id="verse">Text (vorwiegend) in Versen</interp>
+				</p>
+			</editorialDecl>
+			<classDecl>
+				<taxonomy xml:id="postags">
+					<category xml:id="sttsstd">
+						<catDesc>Stuttgart-Tübingen-TagSet</catDesc>
+						<category xml:id="ADJA">
+							<catDesc>attributives Adjektiv</catDesc>
+						</category>
+						<category xml:id="ADJD">
+							<catDesc>adverbiales oder prädikatives Adjektiv</catDesc>
+						</category>
+						<category xml:id="ADV">
+							<catDesc>Adverb</catDesc>
+						</category>
+						<category xml:id="APPO">
+							<catDesc>Postposition</catDesc>
+						</category>
+						<category xml:id="APPR">
+							<catDesc>Präposition; Zirkumposition links</catDesc>
+						</category>
+						<category xml:id="APPRART">
+							<catDesc>Präposition mit Artikel</catDesc>
+						</category>
+						<category xml:id="APZR">
+							<catDesc>Zirkumposition rechts</catDesc>
+						</category>
+						<category xml:id="ART">
+							<catDesc>bestimmter oder unbestimmter Artikel</catDesc>
+						</category>
+						<category xml:id="CARD">
+							<catDesc>Kardinalzahl</catDesc>
+						</category>
+						<category xml:id="FM">
+							<catDesc>Fremdsprachliches Material</catDesc>
+						</category>
+						<category xml:id="ITJ">
+							<catDesc>Interjektion</catDesc>
+						</category>
+						<category xml:id="KOKOM">
+							<catDesc>Vergleichskonjunktion</catDesc>
+						</category>
+						<category xml:id="KON">
+							<catDesc>nebenordnende Konjunktion</catDesc>
+						</category>
+						<category xml:id="KOUI">
+							<catDesc>unterordnende Konjunktion mit ``zu'' und Infinitiv</catDesc>
+						</category>
+						<category xml:id="KOUS">
+							<catDesc>unterordnende Konjunktion mit Satz</catDesc>
+						</category>
+						<category xml:id="NE">
+							<catDesc>Eigennamen</catDesc>
+						</category>
+						<category xml:id="NN">
+							<catDesc>normales Nomen</catDesc>
+						</category>
+						<category xml:id="PAV">
+							<catDesc>Pronominaladverb</catDesc>
+						</category>
+						<category xml:id="PDAT">
+							<catDesc>attribuierendes Demonstrativpronomen</catDesc>
+						</category>
+						<category xml:id="PDS">
+							<catDesc>substituierendes Demonstrativpronomen</catDesc>
+						</category>
+						<category xml:id="PIAT">
+							<catDesc>attribuierendes Indefinitpronomen ohne Determiner</catDesc>
+						</category>
+						<category xml:id="PIDAT">
+							<catDesc>attribuierendes Indefinitpronomen mit Determiner</catDesc>
+						</category>
+						<category xml:id="PIS">
+							<catDesc>substituierendes Indefinitpronomen</catDesc>
+						</category>
+						<category xml:id="PPER">
+							<catDesc>irreflexives Personalpronomen</catDesc>
+						</category>
+						<category xml:id="PPOSAT">
+							<catDesc>attribuierendes Possessivpronomen</catDesc>
+						</category>
+						<category xml:id="PPOSS">
+							<catDesc>substituierendes Possessivpronomen</catDesc>
+						</category>
+						<category xml:id="PRELAT">
+							<catDesc>attribuierendes Relativpronomen</catDesc>
+						</category>
+						<category xml:id="PRELS">
+							<catDesc>substituierendes Relativpronomen</catDesc>
+						</category>
+						<category xml:id="PRF">
+							<catDesc>reflexives Personalpronomen</catDesc>
+						</category>
+						<category xml:id="PTKA">
+							<catDesc>Partikel bei Adjektiv oder Adverb</catDesc>
+						</category>
+						<category xml:id="PTKANT">
+							<catDesc>Antwortpartikel</catDesc>
+						</category>
+						<category xml:id="PTKNEG">
+							<catDesc>Negationspartikel</catDesc>
+						</category>
+						<category xml:id="PTKVZ">
+							<catDesc>abgetrennter Verbzusatz</catDesc>
+						</category>
+						<category xml:id="PTKZU">
+							<catDesc>``zu'' vor Infinitiv</catDesc>
+						</category>
+						<category xml:id="PWAT">
+							<catDesc>attribuierendes Interrogativpronomen</catDesc>
+						</category>
+						<category xml:id="PWAV">
+							<catDesc>adverbiales Interrogativ- oder Relativpronomen</catDesc>
+						</category>
+						<category xml:id="PWS">
+							<catDesc>substituierendes Interrogativpronomen</catDesc>
+						</category>
+						<category xml:id="TRUNC">
+							<catDesc>Kompositions-Erstglied</catDesc>
+						</category>
+						<category xml:id="VAFIN">
+							<catDesc>finites Verb, aux</catDesc>
+						</category>
+						<category xml:id="VAIMP">
+							<catDesc>Imperativ, aux</catDesc>
+						</category>
+						<category xml:id="VAINF">
+							<catDesc>Infinitiv, aux</catDesc>
+						</category>
+						<category xml:id="VAPP">
+							<catDesc>Partizip Perfekt, aux</catDesc>
+						</category>
+						<category xml:id="VMFIN">
+							<catDesc>finites Verb, modal</catDesc>
+						</category>
+						<category xml:id="VMINF">
+							<catDesc>Infinitiv, modal</catDesc>
+						</category>
+						<category xml:id="VMPP">
+							<catDesc>Partizip Perfekt, modal</catDesc>
+						</category>
+						<category xml:id="VVFIN">
+							<catDesc>finites Verb, voll</catDesc>
+						</category>
+						<category xml:id="VVIMP">
+							<catDesc>Imperativ, voll</catDesc>
+						</category>
+						<category xml:id="VVINF">
+							<catDesc>Infinitiv, voll</catDesc>
+						</category>
+						<category xml:id="VVIZU">
+							<catDesc>Infinitiv mit ``zu'', voll</catDesc>
+						</category>
+						<category xml:id="VVPP">
+							<catDesc>Partizip Perfekt, voll</catDesc>
+						</category>
+						<category xml:id="XY">
+							<catDesc>Nichtwort, Sonderzeichen enthaltend</catDesc>
+						</category>
+						<category xml:id="span">
+							<catDesc>span</catDesc>
+						</category>
+						<category xml:id="VVIMPART">
+							<catDesc>VVIMPART</catDesc>
+						</category>
+					</category>
+					<category xml:id="cf1">
+					    <catDesc>Kontrahierte Formen I</catDesc>
+					    <category xml:id="advc">
+					        <catDesc>Adverb mit Klitikon</catDesc>
+					        <category xml:id="ADVART">
+						        <catDesc>ADVART</catDesc>
+					        </category>
+                        </category>
+                        <category xml:id="conc">
+                            <catDesc>Konjunktion mit Klitikon</catDesc>
+                            <category xml:id="KOUSPPER">
+                                <catDesc>KOUSPPER</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="nomc">
+                            <catDesc>Nomen mit Klitikon</catDesc>
+                            <category xml:id="ARTNN">
+                                <catDesc>ARTNN</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="proc">
+                            <catDesc>Pronomen mit Klitikon</catDesc>
+                            <category xml:id="PDSPPER">
+                                <catDesc>PDSPPER</catDesc>
+                            </category>
+                            <category xml:id="PISPPER">
+                                <catDesc>PISPPER</catDesc>
+                            </category>
+                            <category xml:id="PPER">
+                                <catDesc>PPER</catDesc>
+                            </category>
+                            <category xml:id="PPERPPER">
+                                <catDesc>PPERPPER </catDesc>
+                            </category>
+                            <category xml:id="PRFPPER">
+                                <catDesc>PRFPPER</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="verc">
+                            <catDesc>Verb mit Klitikon</catDesc>
+                            <category xml:id="VAFINPPER">
+                                <catDesc>VAFINPPER</catDesc>
+                            </category>
+                            <category xml:id="VMFINPPER">
+                                <catDesc>VMFINPPER</catDesc>
+                            </category>
+                            <category xml:id="VVFINPPER">
+                                <catDesc>VVFINPPER</catDesc>
+                            </category>
+                            <category xml:id="VVIMPPPER">
+                                <catDesc>VVIMPPPER</catDesc>
+                            </category>
+                        </category>
+					</category>
+					<category xml:id="cf2">
+						<catDesc>Kontrahierte Formen II</catDesc>
+						<category xml:id="ADJD_VVPP">
+							<catDesc>ADJD_VVPP</catDesc>
+						</category>
+						<category xml:id="ADV_ADV">
+							<catDesc>ADV_ADV</catDesc>
+						</category>
+						<category xml:id="APPR_APZR">
+							<catDesc>APPR_APZR</catDesc>
+						</category>
+						<category xml:id="APPR_NN">
+							<catDesc>APPR_NN</catDesc>
+						</category>
+						<category xml:id="ART_NN">
+							<catDesc>ART_NN</catDesc>
+						</category>
+						<category xml:id="FM_FM">
+							<catDesc>FM_FM</catDesc>
+						</category>
+						<category xml:id="KOUS_PIS">
+							<catDesc>KOUS_PIS</catDesc>
+						</category>
+						<category xml:id="NE_NE">
+							<catDesc>NE_NE</catDesc>
+						</category>
+						<category xml:id="PTKVZ_ADJD">
+							<catDesc>PTKVZ_ADJD</catDesc>
+						</category>
+						<category xml:id="PTKVZ_PTKZU">
+							<catDesc>PTKVZ_PTKZU</catDesc>
+						</category>
+						<category xml:id="PTKZU_VVINF">
+							<catDesc>PTKZU_VVINF</catDesc>
+						</category>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+	</teiHeader>
+	<xi:include href="Abraham-Augustini_feuriges_Hertz.xml" />
+	<xi:include href="Abraham-Loesch_Wienn.xml" />
+	<xi:include href="Abraham-Mercks_Wien.xml" />
+	<xi:include href="Abraham-Todten_Bruderschaft.xml" />
+	<xi:include href="Abraham-Todten_Capelle.xml" />
 </teiCorpus>
