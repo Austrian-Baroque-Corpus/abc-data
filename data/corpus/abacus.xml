@@ -228,51 +228,51 @@
 						        <catDesc>ADVART</catDesc>
 					        </category>
                         </category>
-                        <category xml:id="conc">
-                            <catDesc>Konjunktion mit Klitikon</catDesc>
-                            <category xml:id="KOUSPPER">
-                                <catDesc>KOUSPPER</catDesc>
-                            </category>
+					    <category xml:id="conc">
+					        <catDesc>Konjunktion mit Klitikon</catDesc>
+					        <category xml:id="KOUSPPER">
+						        <catDesc>KOUSPPER</catDesc>
+					        </category>
                         </category>
-                        <category xml:id="nomc">
-                            <catDesc>Nomen mit Klitikon</catDesc>
-                            <category xml:id="ARTNN">
-                                <catDesc>ARTNN</catDesc>
-                            </category>
+					    <category xml:id="nomc">
+					        <catDesc>Nomen mit Klitikon</catDesc>
+					        <category xml:id="ARTNN">
+						        <catDesc>ARTNN</catDesc>
+					        </category>
                         </category>
-                        <category xml:id="proc">
-                            <catDesc>Pronomen mit Klitikon</catDesc>
-                            <category xml:id="PDSPPER">
-                                <catDesc>PDSPPER</catDesc>
-                            </category>
-                            <category xml:id="PISPPER">
-                                <catDesc>PISPPER</catDesc>
-                            </category>
-                            <category xml:id="PPER">
-                                <catDesc>PPER</catDesc>
-                            </category>
-                            <category xml:id="PPERPPER">
-                                <catDesc>PPERPPER </catDesc>
-                            </category>
-                            <category xml:id="PRFPPER">
-                                <catDesc>PRFPPER</catDesc>
-                            </category>
-                        </category>
-                        <category xml:id="verc">
-                            <catDesc>Verb mit Klitikon</catDesc>
-                            <category xml:id="VAFINPPER">
-                                <catDesc>VAFINPPER</catDesc>
-                            </category>
-                            <category xml:id="VMFINPPER">
-                                <catDesc>VMFINPPER</catDesc>
-                            </category>
-                            <category xml:id="VVFINPPER">
-                                <catDesc>VVFINPPER</catDesc>
-                            </category>
-                            <category xml:id="VVIMPPPER">
-                                <catDesc>VVIMPPPER</catDesc>
-                            </category>
-                        </category>
+                    </category>
+					<category xml:id="proc">
+						<catDesc>Pronomen mit Klitikon</catDesc>
+						<category xml:id="PDSPPER">
+							<catDesc>PDSPPER</catDesc>
+						</category>
+						<category xml:id="PISPPER">
+							<catDesc>PISPPER</catDesc>
+						</category>
+						<category xml:id="PPER">
+							<catDesc>PPER</catDesc>
+						</category>
+						<category xml:id="PPERPPER">
+							<catDesc>PPERPPER </catDesc>
+						</category>
+						<category xml:id="PRFPPER">
+							<catDesc>PRFPPER</catDesc>
+						</category>
+						<category xml:id="verc">
+							<catDesc>Verb mit Klitikon</catDesc>
+							<category xml:id="VAFINPPER">
+								<catDesc>VAFINPPER</catDesc>
+							</category>
+							<category xml:id="VMFINPPER">
+								<catDesc>VMFINPPER</catDesc>
+							</category>
+							<category xml:id="VVFINPPER">
+								<catDesc>VVFINPPER</catDesc>
+							</category>
+							<category xml:id="VVIMPPPER">
+								<catDesc>VVIMPPPER</catDesc>
+							</category>
+						</category>
 					</category>
 					<category xml:id="cf2">
 						<catDesc>Kontrahierte Formen II</catDesc>
@@ -310,7 +310,7 @@
 							<catDesc>PTKZU_VVINF</catDesc>
 						</category>
 					</category>
-				</taxonomy>
+                </taxonomy>
 			</classDecl>
 		</encodingDesc>
 	</teiHeader>
