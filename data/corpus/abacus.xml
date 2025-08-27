@@ -319,4 +319,6 @@
 	<xi:include href="Abraham-Mercks_Wien.xml" />
 	<xi:include href="Abraham-Todten_Bruderschaft.xml" />
 	<xi:include href="Abraham-Todten_Capelle.xml" />
+	<xi:include href="abc_register_persons.xml" />
+	<xi:include href="abc_register_places.xml" />
 </teiCorpus>
