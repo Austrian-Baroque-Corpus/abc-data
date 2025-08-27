@@ -47,6 +47,7 @@ Requirements:
 from pathlib import Path
 import json
 from jinja2 import Environment, FileSystemLoader
+from slugify import slugify
 
 # ----------------------------------------------------------------------
 # CONFIGURATION
@@ -94,6 +95,7 @@ def normalize_records(records: list[dict]) -> list[dict]:
     for r in records:
         out.append({
             "key": r.get("key", ""),
+            "key2": slugify(r.get("key","")),
             "lemma": r.get("lemma", ""),
             "variations": r.get("variations", []) or [],
             "files": r.get("files", []) or [],

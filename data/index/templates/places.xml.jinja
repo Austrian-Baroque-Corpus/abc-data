@@ -40,8 +40,8 @@
          <div type="index_places">
             <listPlace xml:id="listplace">
             {% for x in objects %}
-               <place xml:id="{{ x.key }}">
-                  <placeName type="main">{{ x.lemma }}</placeName>
+               <place xml:id="{{ x.key2 }}">
+                  <placeName type="main" key ="{{ x.key }}">{{ x.lemma }}</placeName>
                   {% for y in x.variations %}
                   <placeName type="variation">{{ y }}</placeName> 
                   {% endfor %}                

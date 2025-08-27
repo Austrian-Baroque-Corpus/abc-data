@@ -40,8 +40,8 @@
          <div type="index_persons">
             <listPerson xml:id="listperson">
             {% for x in objects %}
-               <person xml:id="{{ x.key }}">
-                  <persName type="main">{{ x.lemma }}</persName>
+               <person xml:id="{{ x.key2 }}">
+                  <persName type="main" key="{{ x.key }}">{{ x.lemma }}</persName>
                   {% for y in x.variations %}
                   <persName type="variation">{{ y }}</persName> 
                   {% endfor %}                
