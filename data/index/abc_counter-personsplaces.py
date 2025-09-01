@@ -1,23 +1,27 @@
 #!/usr/bin/env python3
 """
-Count how often each <persName> and <placeName> (by @key) occurs per TEI-XML file.
+Create a JSON summary of persons (<persName>) and places (<placeName>) across TEI-XML files.
+
+New in this version:
+- Also extract the element-level @type for BOTH persons and places.
+  For each unique @key, we keep the first non-empty @type observed across the corpus.
 
 For both persons and places:
-- "lemma" (display name) is built from the @lemma values of descendant <w> elements
-  within <persName>/<placeName>. If no @lemma is present on any descendant <w>,
-  fallback to concatenated <w> texts (not normalized).
-- "variations" are distinct surface forms from concatenated <w> texts (deduplicated).
+- "lemma" (display name) is built from @lemma values of descendant <w> elements;
+  if none exist, fallback to concatenated <w> text (not normalized).
+- "variations" are unique surface forms from concatenated <w> texts.
 - Output JSON has two top-level keys: "persons" and "places".
-  Each is a list of records with: key, lemma, TOTAL, files[] (only nonzero), variations.
+  Each list contains records with: key, type, lemma, TOTAL, files[] (nonzero only), variations.
 
-Example JSON record:
+Example JSON person record:
 {
   "key": "pers123",
+  "type": "noble",
   "lemma": "Karl von Habsburg",
   "TOTAL": 4,
   "files": [
-    {"file": "file1.xml", "count": 3},
-    {"file": "file2.xml", "count": 1}
+    {"file": "issue_1898-01-02.xml", "count": 3},
+    {"file": "issue_1898-01-09.xml", "count": 1}
   ],
   "variations": ["Karl v. Habsburg", "Karl von Habsburg"]
 }
@@ -38,15 +42,15 @@ from acdh_tei_pyutils.tei import TeiReader
 # CONFIGURATION
 # ----------------------------------------------------------------------
 
-XML_DIR = Path("data/editions")   # folder containing the TEI-XML files
-GLOB    = "*.xml"         # file pattern for TEI files inside XML_DIR
+XML_DIR = Path("abc-data/data/editions")   # folder containing the TEI-XML files
+GLOB    = "*.xml"         # pattern for TEI files inside XML_DIR
 
 # ----------------------------------------------------------------------
 # HELPER FUNCTIONS
 # ----------------------------------------------------------------------
 
 def xpath_tag(tag: str) -> str:
-    """Return a namespace-agnostic XPath for a given tag name (e.g. 'persName')."""
+    """Namespace-agnostic XPath for a given tag name (e.g., 'persName')."""
     return f'//*[local-name()="{tag}"]'
 
 # XPath snippets to locate <w> descendants
@@ -62,7 +66,7 @@ def collapse_spaces(s: str) -> str:
 
 def build_lemma_from_w(el) -> str:
     """
-    Build the 'lemma' for a persName/placeName element:
+    Build the 'lemma' string for a persName/placeName element:
     - Prefer concatenating all @lemma attributes of descendant <w>.
     - Fallback: concatenate surface text of descendant <w>.
     """
@@ -78,7 +82,7 @@ def build_lemma_from_w(el) -> str:
 def surface_from_w(el) -> str:
     """
     Construct a surface-form string (variation) from the text content of descendant <w>.
-    Example: <persName><w>Karl</w> <w>von</w> <w>Habsburg</w></persName> → "Karl von Habsburg"
+    Example: <persName><w>Karl</w><w>von</w><w>Habsburg</w></persName> → "Karl von Habsburg"
     """
     w_texts = el.xpath(XPATH_W_TEXTS)
     if not w_texts:
@@ -88,15 +92,16 @@ def surface_from_w(el) -> str:
 def count_keys_in_file(xml_path: Path, tag: str):
     """
     Parse a TEI file and count occurrences of <persName> or <placeName>.
-    
+
     Parameters:
         xml_path: Path to TEI-XML file
         tag: 'persName' or 'placeName'
-    
+
     Returns:
         counts: Counter mapping key -> frequency in this file
         local_key_to_lemma: dict mapping key -> first lemma seen for that key in this file
         local_variations: dict mapping key -> set of surface-form variations
+        local_key_to_type: dict mapping key -> first non-empty element-level @type
     """
     doc = TeiReader(str(xml_path))
     hits = doc.tree.xpath(xpath_tag(tag))
@@ -104,6 +109,7 @@ def count_keys_in_file(xml_path: Path, tag: str):
     counts = Counter()
     local_key_to_lemma = {}
     local_variations = defaultdict(set)
+    local_key_to_type = {}
 
     for el in hits:
         key = el.get("key")
@@ -124,21 +130,34 @@ def count_keys_in_file(xml_path: Path, tag: str):
         if surface:
             local_variations[key].add(surface)
 
-    return counts, local_key_to_lemma, local_variations
+        # Capture the element's @type (first non-empty encountered per file)
+        t = el.get("type")
+        if t and (key not in local_key_to_type):
+            local_key_to_type[key] = t
 
-def assemble_records(files, per_file_counts, key_to_lemma, key_to_variations):
+    return counts, local_key_to_lemma, local_variations, local_key_to_type
+
+def assemble_records(
+    files,
+    per_file_counts,
+    key_to_lemma,
+    key_to_variations,
+    key_to_type=None  # dict for type strings (persons/places), or None to omit
+):
     """
-    Assemble all collected data into JSON records for one entity type (persons/places).
-    
+    Assemble collected data into JSON records for one entity type (persons/places).
+
     Parameters:
         files: list of Path objects for all input files
         per_file_counts: dict[file_name -> Counter(key -> count)]
         key_to_lemma: dict[key -> lemma string]
         key_to_variations: dict[key -> set of variation strings]
-    
+        key_to_type: dict[key -> type string] (optional; if provided, included in output)
+
     Returns:
         List of dicts, each representing one entity with fields:
         - key
+        - type        # included only if key_to_type is provided
         - lemma
         - TOTAL
         - files (list of {"file", "count"} only for nonzero counts)
@@ -168,7 +187,7 @@ def assemble_records(files, per_file_counts, key_to_lemma, key_to_variations):
     # Compute TOTAL counts across all files
     df["TOTAL"] = df.select_dtypes("number").sum(axis=1)
 
-    # Sort by TOTAL desc, then lemma, then key
+    # Sort by TOTAL desc, then lemma, then key (stable/human-friendly)
     df = df.sort_values(by=["TOTAL", "lemma", "key"], ascending=[False, True, True])
 
     # Convert numeric columns to ints
@@ -183,6 +202,10 @@ def assemble_records(files, per_file_counts, key_to_lemma, key_to_variations):
             "lemma": row["lemma"],
             "TOTAL": int(row["TOTAL"]),
         }
+        # Include type if provided (persons and places now)
+        if key_to_type is not None:
+            rec["type"] = key_to_type.get(k, "")
+
         # Include only nonzero file counts
         files_list = [
             {"file": col, "count": int(row[col])}
@@ -207,41 +230,62 @@ def main():
     per_file_counts_persons = {}
     key_to_lemma_persons = {}
     key_to_variations_persons = defaultdict(set)
+    key_to_type_persons = {}
 
     # --- Collect data for places ---
     per_file_counts_places = {}
     key_to_lemma_places = {}
     key_to_variations_places = defaultdict(set)
+    key_to_type_places = {}
 
     # Process each file once, extract both persName and placeName
     for f in files:
         # Persons
-        p_counts, p_k2l, p_vars = count_keys_in_file(f, "persName")
+        p_counts, p_k2l, p_vars, p_k2t = count_keys_in_file(f, "persName")
         per_file_counts_persons[f.name] = p_counts
         for k, l in p_k2l.items():
             if k not in key_to_lemma_persons and l:
                 key_to_lemma_persons[k] = l
         for k, vs in p_vars.items():
             key_to_variations_persons[k].update(vs)
+        for k, t in p_k2t.items():
+            # keep the first non-empty type observed globally for this key
+            if k not in key_to_type_persons and t:
+                key_to_type_persons[k] = t
 
         # Places
-        pl_counts, pl_k2l, pl_vars = count_keys_in_file(f, "placeName")
+        pl_counts, pl_k2l, pl_vars, pl_k2t = count_keys_in_file(f, "placeName")
         per_file_counts_places[f.name] = pl_counts
         for k, l in pl_k2l.items():
             if k not in key_to_lemma_places and l:
                 key_to_lemma_places[k] = l
         for k, vs in pl_vars.items():
             key_to_variations_places[k].update(vs)
+        for k, t in pl_k2t.items():
+            if k not in key_to_type_places and t:
+                key_to_type_places[k] = t
 
-    # Assemble final records
-    persons_records = assemble_records(files, per_file_counts_persons, key_to_lemma_persons, key_to_variations_persons)
-    places_records  = assemble_records(files, per_file_counts_places,  key_to_lemma_places,  key_to_variations_places)
+    # Assemble final records (include 'type' for both)
+    persons_records = assemble_records(
+        files,
+        per_file_counts_persons,
+        key_to_lemma_persons,
+        key_to_variations_persons,
+        key_to_type=key_to_type_persons,
+    )
+    places_records  = assemble_records(
+        files,
+        per_file_counts_places,
+        key_to_lemma_places,
+        key_to_variations_places,
+        key_to_type=key_to_type_places,
+    )
 
     # Wrap in top-level dict
     out = {"persons": persons_records, "places": places_records}
 
     # Write JSON to file
-    out_path = Path("data/index/output/abc_register-personsplaces.json")
+    out_path = Path("abc-data/data/index/output/abc_register-personsplaces.json")
     with out_path.open("w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
 

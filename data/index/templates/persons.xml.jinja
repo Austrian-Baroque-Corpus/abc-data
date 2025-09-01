@@ -39,21 +39,25 @@
       <body>
          <div type="index_persons">
             <listPerson xml:id="listperson">
-            {% for x in objects %}
-               <person xml:id="{{ x.key2 }}">
-                  <persName type="main" key="{{ x.key }}">{{ x.lemma }}</persName>
-                  {% for y in x.variations %}
-                  <persName type="variation">{{ y }}</persName> 
-                  {% endfor %}                
-                  <noteGrp>
-                  {% for z in x.files %}
-                     <note type="mentions" target="{{z.file}}" n="{{ z.count }}">{{ z.count }} {% if z.count == 1 %}Erwähnung{% else %}Erwähnungen{% endif %} in der Datei {{z.file}}</note>
-                     {% endfor %}
-                     <note type="mentions" n="{{x.totalcount}}">{{x.totalcount}} Erwähnungen gesamt</note>
-                  </noteGrp>
-               </person>
+            {% for g in groups %}
+               <listPerson type="{{ g.type }}">
+               {% for x in g.objects %}
+                  <person xml:id="{{ x.key2 }}" {% if x.type %}type="{{ x.type }}"{% endif %}>
+                     <persName type="main" key="{{ x.key }}">{{ x.lemma }}</persName>
+                     {% for y in x.variations %}
+                     <persName type="variation">{{ y }}</persName> 
+                     {% endfor %}                
+                     <noteGrp>
+                     {% for z in x.files %}
+                        <note type="mentions" target="{{z.file}}" n="{{ z.count }}">{{ z.count }} {% if z.count == 1 %}Erwähnung{% else %}Erwähnungen{% endif %} in der Datei {{z.file}}</note>
+                        {% endfor %}
+                        <note type="mentions" n="{{x.totalcount}}">{{x.totalcount}} Erwähnungen gesamt</note>
+                     </noteGrp>
+                  </person>
+               {% endfor %}
+               </listPerson>
             {% endfor %}
-            </listPerson>
+            </listPerson>  
          </div>
       </body>
    </text>
