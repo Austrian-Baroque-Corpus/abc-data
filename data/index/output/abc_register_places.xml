@@ -41,7 +41,7 @@
             <listPlace xml:id="listplace">
                <listPlace type="city">
                   <place xml:id="vien" type="city">
-                     <placeName type="main" key ="vien">Wien</placeName>
+                     <placeName type="main" key="vien">Wien</placeName>
                      <placeName type="variation">= Statt</placeName> 
                      <placeName type="variation">Haubt statt</placeName> 
                      <placeName type="variation">Haubt vnd Kayserl Residentz Statt</placeName> 
@@ -80,7 +80,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="jeru" type="city">
-                     <placeName type="main" key ="jeru">Jerusalem</placeName>
+                     <placeName type="main" key="jeru">Jerusalem</placeName>
                      <placeName type="variation">Je rusalem</placeName> 
                      <placeName type="variation">Jerusa lem</placeName> 
                      <placeName type="variation">Jerusalem</placeName> 
@@ -96,7 +96,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="rome" type="city">
-                     <placeName type="main" key ="rome">Rom</placeName>
+                     <placeName type="main" key="rome">Rom</placeName>
                      <placeName type="variation">Laterano</placeName> 
                      <placeName type="variation">Rom</placeName> 
                      <placeName type="variation">Roms</placeName> 
@@ -113,7 +113,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="prag" type="city">
-                     <placeName type="main" key ="prag">Prag</placeName>
+                     <placeName type="main" key="prag">Prag</placeName>
                      <placeName type="variation">Königliche Haubstatt</placeName> 
                      <placeName type="variation">Praag</placeName> 
                      <placeName type="variation">Prag</placeName> 
@@ -126,7 +126,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="sodo" type="city">
-                     <placeName type="main" key ="sodo">Sodom</placeName>
+                     <placeName type="main" key="sodo">Sodom</placeName>
                      <placeName type="variation">Sodom</placeName> 
                      <placeName type="variation">Sodoma</placeName> 
                 
@@ -140,7 +140,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="beth" type="city">
-                     <placeName type="main" key ="beth">Bethlehem</placeName>
+                     <placeName type="main" key="beth">Bethlehem</placeName>
                      <placeName type="variation">Beth lehem</placeName> 
                      <placeName type="variation">Bethle hem</placeName> 
                      <placeName type="variation">Bethlehem</placeName> 
@@ -154,7 +154,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="gomo" type="city">
-                     <placeName type="main" key ="gomo">Gomorra</placeName>
+                     <placeName type="main" key="gomo">Gomorra</placeName>
                      <placeName type="variation">Comorra</placeName> 
                      <placeName type="variation">Go morra</placeName> 
                      <placeName type="variation">Gomor ra</placeName> 
@@ -171,7 +171,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="nini" type="city">
-                     <placeName type="main" key ="nini">Ninive</placeName>
+                     <placeName type="main" key="nini">Ninive</placeName>
                      <placeName type="variation">Ninive</placeName> 
                      <placeName type="variation">Stadt</placeName> 
                 
@@ -183,7 +183,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="pari" type="city">
-                     <placeName type="main" key ="pari">Paris</placeName>
+                     <placeName type="main" key="pari">Paris</placeName>
                      <placeName type="variation">Haubt=Statt</placeName> 
                      <placeName type="variation">Paris</placeName> 
                      <placeName type="variation">Pariß</placeName> 
@@ -196,7 +196,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="cons" type="city">
-                     <placeName type="main" key ="cons">Konstantinopel</placeName>
+                     <placeName type="main" key="cons">Konstantinopel</placeName>
                      <placeName type="variation">Constantino pel</placeName> 
                      <placeName type="variation">Constantinopel</placeName> 
                 
@@ -208,7 +208,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="naim" type="city">
-                     <placeName type="main" key ="naim">Naim</placeName>
+                     <placeName type="main" key="naim">Naim</placeName>
                      <placeName type="variation">Ci vitatis</placeName> 
                      <placeName type="variation">Naim</placeName> 
                      <placeName type="variation">Stadt</placeName> 
@@ -221,7 +221,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="salz" type="city">
-                     <placeName type="main" key ="salz">Salzburg</placeName>
+                     <placeName type="main" key="salz">Salzburg</placeName>
                      <placeName type="variation">Juvavium</placeName> 
                      <placeName type="variation">Saltz burg</placeName> 
                      <placeName type="variation">Saltzburg</placeName> 
@@ -234,7 +234,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="babe" type="city">
-                     <placeName type="main" key ="babe">Babel</placeName>
+                     <placeName type="main" key="babe">Babel</placeName>
                      <placeName type="variation">Babel</placeName> 
                 
                      <noteGrp>
@@ -245,7 +245,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="jeri" type="city">
-                     <placeName type="main" key ="jeri">Jericho</placeName>
+                     <placeName type="main" key="jeri">Jericho</placeName>
                      <placeName type="variation">Jericho</placeName> 
                 
                      <noteGrp>
@@ -256,7 +256,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="juda" type="city">
-                     <placeName type="main" key ="juda">Juda</placeName>
+                     <placeName type="main" key="juda">Juda</placeName>
                      <placeName type="variation">Juda</placeName> 
                 
                      <noteGrp>
@@ -266,7 +266,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="augs" type="city">
-                     <placeName type="main" key ="augs">Augsburg</placeName>
+                     <placeName type="main" key="augs">Augsburg</placeName>
                      <placeName type="variation">Aug spurg</placeName> 
                      <placeName type="variation">Augspurg</placeName> 
                 
@@ -278,7 +278,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="main" type="city">
-                     <placeName type="main" key ="main">Mainz</placeName>
+                     <placeName type="main" key="main">Mainz</placeName>
                      <placeName type="variation">Maintz</placeName> 
                      <placeName type="variation">Mayn</placeName> 
                      <placeName type="variation">Mayntz</placeName> 
@@ -291,7 +291,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="napl" type="city">
-                     <placeName type="main" key ="napl">Neapel</placeName>
+                     <placeName type="main" key="napl">Neapel</placeName>
                      <placeName type="variation">NEapol</placeName> 
                      <placeName type="variation">Neapel</placeName> 
                      <placeName type="variation">Neapl</placeName> 
@@ -305,7 +305,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="rege" type="city">
-                     <placeName type="main" key ="rege">Regensburg</placeName>
+                     <placeName type="main" key="rege">Regensburg</placeName>
                      <placeName type="variation">Regen spurg</placeName> 
                      <placeName type="variation">Regenspurg</placeName> 
                      <placeName type="variation">Statt</placeName> 
@@ -318,7 +318,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="bern" type="city">
-                     <placeName type="main" key ="bern">Bern</placeName>
+                     <placeName type="main" key="bern">Bern</placeName>
                      <placeName type="variation">Bern</placeName> 
                 
                      <noteGrp>
@@ -327,7 +327,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="colo" type="city">
-                     <placeName type="main" key ="colo">Köln</placeName>
+                     <placeName type="main" key="colo">Köln</placeName>
                      <placeName type="variation">Cöllen</placeName> 
                      <placeName type="variation">Cölln</placeName> 
                 
@@ -338,7 +338,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="mila" type="city">
-                     <placeName type="main" key ="mila">Mailand</placeName>
+                     <placeName type="main" key="mila">Mailand</placeName>
                      <placeName type="variation">Mayland</placeName> 
                      <placeName type="variation">Mäyland</placeName> 
                 
@@ -349,7 +349,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="mann" type="city">
-                     <placeName type="main" key ="mann">Mannheim</placeName>
+                     <placeName type="main" key="mann">Mannheim</placeName>
                      <placeName type="variation">Hofstadt</placeName> 
                      <placeName type="variation">Monheimb</placeName> 
                 
@@ -359,7 +359,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="pass" type="city">
-                     <placeName type="main" key ="pass">Passau</placeName>
+                     <placeName type="main" key="pass">Passau</placeName>
                      <placeName type="variation">Passau</placeName> 
                 
                      <noteGrp>
@@ -369,7 +369,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="anti" type="city">
-                     <placeName type="main" key ="anti">Antiochia</placeName>
+                     <placeName type="main" key="anti">Antiochia</placeName>
                      <placeName type="variation">Antiochia</placeName> 
                 
                      <noteGrp>
@@ -378,7 +378,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="athe" type="city">
-                     <placeName type="main" key ="athe">Athen</placeName>
+                     <placeName type="main" key="athe">Athen</placeName>
                      <placeName type="variation">Athen</placeName> 
                 
                      <noteGrp>
@@ -387,7 +387,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="bamb" type="city">
-                     <placeName type="main" key ="bamb">Bamberg</placeName>
+                     <placeName type="main" key="bamb">Bamberg</placeName>
                      <placeName type="variation">Bambergæ</placeName> 
                 
                      <noteGrp>
@@ -396,7 +396,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="base" type="city">
-                     <placeName type="main" key ="base">Basel</placeName>
+                     <placeName type="main" key="base">Basel</placeName>
                      <placeName type="variation">Basel</placeName> 
                      <placeName type="variation">Statt</placeName> 
                 
@@ -406,7 +406,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="presl" type="city">
-                     <placeName type="main" key ="presl">Breslau</placeName>
+                     <placeName type="main" key="presl">Breslau</placeName>
                      <placeName type="variation">Preßlau</placeName> 
                 
                      <noteGrp>
@@ -415,7 +415,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="cali" type="city">
-                     <placeName type="main" key ="cali">Calicut</placeName>
+                     <placeName type="main" key="cali">Calicut</placeName>
                      <placeName type="variation">Ca lecuth</placeName> 
                      <placeName type="variation">Callecuth</placeName> 
                 
@@ -426,7 +426,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="frank" type="city">
-                     <placeName type="main" key ="frank">Frankfurt</placeName>
+                     <placeName type="main" key="frank">Frankfurt</placeName>
                      <placeName type="variation">Franck furt</placeName> 
                      <placeName type="variation">Franckfurt</placeName> 
                 
@@ -437,7 +437,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="graz" type="city">
-                     <placeName type="main" key ="graz">Graz</placeName>
+                     <placeName type="main" key="graz">Graz</placeName>
                      <placeName type="variation">Grätz</placeName> 
                 
                      <noteGrp>
@@ -447,7 +447,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="hai" type="city">
-                     <placeName type="main" key ="hai">Hai</placeName>
+                     <placeName type="main" key="hai">Hai</placeName>
                      <placeName type="variation">Hai</placeName> 
                 
                      <noteGrp>
@@ -457,7 +457,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="hamb" type="city">
-                     <placeName type="main" key ="hamb">Hamburg</placeName>
+                     <placeName type="main" key="hamb">Hamburg</placeName>
                      <placeName type="variation">Hamburg</placeName> 
                 
                      <noteGrp>
@@ -466,7 +466,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="ingo" type="city">
-                     <placeName type="main" key ="ingo">Ingolstadt</placeName>
+                     <placeName type="main" key="ingo">Ingolstadt</placeName>
                      <placeName type="variation">Jngolstatt</placeName> 
                 
                      <noteGrp>
@@ -476,7 +476,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="lisb" type="city">
-                     <placeName type="main" key ="lisb">Lissabon</placeName>
+                     <placeName type="main" key="lisb">Lissabon</placeName>
                      <placeName type="variation">Lißbona</placeName> 
                      <placeName type="variation">Lysabona</placeName> 
                 
@@ -486,7 +486,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="muen" type="city">
-                     <placeName type="main" key ="muen">Münster</placeName>
+                     <placeName type="main" key="muen">Münster</placeName>
                      <placeName type="variation">Minster</placeName> 
                      <placeName type="variation">Münster</placeName> 
                 
@@ -497,7 +497,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="nure" type="city">
-                     <placeName type="main" key ="nure">Nürnberg</placeName>
+                     <placeName type="main" key="nure">Nürnberg</placeName>
                      <placeName type="variation">Nürn berg</placeName> 
                      <placeName type="variation">Nürnberg</placeName> 
                 
@@ -507,7 +507,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="spey" type="city">
-                     <placeName type="main" key ="spey">Speyer</placeName>
+                     <placeName type="main" key="spey">Speyer</placeName>
                      <placeName type="variation">Speyer</placeName> 
                 
                      <noteGrp>
@@ -517,7 +517,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="tren" type="city">
-                     <placeName type="main" key ="tren">Trient</placeName>
+                     <placeName type="main" key="tren">Trient</placeName>
                      <placeName type="variation">Trident</placeName> 
                 
                      <noteGrp>
@@ -527,7 +527,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vero" type="city">
-                     <placeName type="main" key ="vero">Verona</placeName>
+                     <placeName type="main" key="vero">Verona</placeName>
                      <placeName type="variation">Verona</placeName> 
                 
                      <noteGrp>
@@ -537,7 +537,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="alto" type="city">
-                     <placeName type="main" key ="alto">Altötting</placeName>
+                     <placeName type="main" key="alto">Altötting</placeName>
                      <placeName type="variation">Alten=Oetting</placeName> 
                 
                      <noteGrp>
@@ -546,7 +546,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="baby" type="city">
-                     <placeName type="main" key ="baby">Babylon</placeName>
+                     <placeName type="main" key="baby">Babylon</placeName>
                      <placeName type="variation">Babylon</placeName> 
                 
                      <noteGrp>
@@ -555,7 +555,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="bego" type="city">
-                     <placeName type="main" key ="bego">Bego</placeName>
+                     <placeName type="main" key="bego">Bego</placeName>
                      <placeName type="variation">Bego</placeName> 
                 
                      <noteGrp>
@@ -564,7 +564,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="bers" type="city">
-                     <placeName type="main" key ="bers">Berseba</placeName>
+                     <placeName type="main" key="bers">Berseba</placeName>
                      <placeName type="variation">Bersa bea</placeName> 
                 
                      <noteGrp>
@@ -573,7 +573,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="bethu" type="city">
-                     <placeName type="main" key ="bethu">Bethulien</placeName>
+                     <placeName type="main" key="bethu">Bethulien</placeName>
                      <placeName type="variation">Be thulien</placeName> 
                 
                      <noteGrp>
@@ -582,7 +582,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="bett" type="city">
-                     <placeName type="main" key ="bett">Bett</placeName>
+                     <placeName type="main" key="bett">Bett</placeName>
                      <placeName type="variation">Bettel</placeName> 
                 
                      <noteGrp>
@@ -591,7 +591,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="bono" type="city">
-                     <placeName type="main" key ="bono">Bologna</placeName>
+                     <placeName type="main" key="bono">Bologna</placeName>
                      <placeName type="variation">Bononien</placeName> 
                 
                      <noteGrp>
@@ -600,7 +600,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="bred" type="city">
-                     <placeName type="main" key ="bred">Breda</placeName>
+                     <placeName type="main" key="bred">Breda</placeName>
                      <placeName type="variation">Bre da</placeName> 
                 
                      <noteGrp>
@@ -609,7 +609,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="brus" type="city">
-                     <placeName type="main" key ="brus">Brüssel</placeName>
+                     <placeName type="main" key="brus">Brüssel</placeName>
                      <placeName type="variation">Brüssel</placeName> 
                 
                      <noteGrp>
@@ -618,7 +618,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="cerv" type="city">
-                     <placeName type="main" key ="cerv">Cervera</placeName>
+                     <placeName type="main" key="cerv">Cervera</placeName>
                      <placeName type="variation">Cervena</placeName> 
                 
                      <noteGrp>
@@ -627,7 +627,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="dan" type="city">
-                     <placeName type="main" key ="dan">Dan</placeName>
+                     <placeName type="main" key="dan">Dan</placeName>
                      <placeName type="variation">dan̅</placeName> 
                 
                      <noteGrp>
@@ -636,7 +636,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="danz" type="city">
-                     <placeName type="main" key ="danz">Danzig</placeName>
+                     <placeName type="main" key="danz">Danzig</placeName>
                      <placeName type="variation">Dantzig</placeName> 
                 
                      <noteGrp>
@@ -645,7 +645,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="fail" type="city">
-                     <placeName type="main" key ="fail">Failon</placeName>
+                     <placeName type="main" key="fail">Failon</placeName>
                      <placeName type="variation">Failon</placeName> 
                 
                      <noteGrp>
@@ -654,7 +654,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="flor" type="city">
-                     <placeName type="main" key ="flor">Florenz</placeName>
+                     <placeName type="main" key="flor">Florenz</placeName>
                      <placeName type="variation">Florentz</placeName> 
                 
                      <noteGrp>
@@ -663,7 +663,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="frans" type="city">
-                     <placeName type="main" key ="frans">Frankenstein</placeName>
+                     <placeName type="main" key="frans">Frankenstein</placeName>
                      <placeName type="variation">Franckenstein</placeName> 
                 
                      <noteGrp>
@@ -672,7 +672,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="geno" type="city">
-                     <placeName type="main" key ="geno">Genua</placeName>
+                     <placeName type="main" key="geno">Genua</placeName>
                      <placeName type="variation">Genua</placeName> 
                 
                      <noteGrp>
@@ -681,7 +681,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="isaf" type="city">
-                     <placeName type="main" key ="isaf">Isafay</placeName>
+                     <placeName type="main" key="isaf">Isafay</placeName>
                      <placeName type="variation">Isafay</placeName> 
                 
                      <noteGrp>
@@ -690,7 +690,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="call" type="city">
-                     <placeName type="main" key ="call">Kalkutta</placeName>
+                     <placeName type="main" key="call">Kalkutta</placeName>
                      <placeName type="variation">Cal lecuth</placeName> 
                 
                      <noteGrp>
@@ -699,7 +699,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="kitz" type="city">
-                     <placeName type="main" key ="kitz">Kitzbühel</placeName>
+                     <placeName type="main" key="kitz">Kitzbühel</placeName>
                      <placeName type="variation">Kitz pichel</placeName> 
                 
                      <noteGrp>
@@ -708,7 +708,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="korn" type="city">
-                     <placeName type="main" key ="korn">Korneuburg</placeName>
+                     <placeName type="main" key="korn">Korneuburg</placeName>
                      <placeName type="variation">Corneüburg</placeName> 
                 
                      <noteGrp>
@@ -717,7 +717,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="kons" type="city">
-                     <placeName type="main" key ="kons">Kostnitz | Konstanz</placeName>
+                     <placeName type="main" key="kons">Kostnitz | Konstanz</placeName>
                      <placeName type="variation">Kostnitz</placeName> 
                 
                      <noteGrp>
@@ -726,7 +726,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="leip" type="city">
-                     <placeName type="main" key ="leip">Leipzig</placeName>
+                     <placeName type="main" key="leip">Leipzig</placeName>
                      <placeName type="variation">Leipzig</placeName> 
                 
                      <noteGrp>
@@ -735,7 +735,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="linz" type="city">
-                     <placeName type="main" key ="linz">Linz</placeName>
+                     <placeName type="main" key="linz">Linz</placeName>
                      <placeName type="variation">Lintz</placeName> 
                 
                      <noteGrp>
@@ -744,7 +744,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="lugd" type="city">
-                     <placeName type="main" key ="lugd">Lyon</placeName>
+                     <placeName type="main" key="lugd">Lyon</placeName>
                      <placeName type="variation">Lugdon</placeName> 
                 
                      <noteGrp>
@@ -753,7 +753,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="madr" type="city">
-                     <placeName type="main" key ="madr">Madrid</placeName>
+                     <placeName type="main" key="madr">Madrid</placeName>
                      <placeName type="variation">Madritt</placeName> 
                 
                      <noteGrp>
@@ -762,7 +762,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="magd" type="city">
-                     <placeName type="main" key ="magd">Magdeburg</placeName>
+                     <placeName type="main" key="magd">Magdeburg</placeName>
                      <placeName type="variation">Magdeburg</placeName> 
                 
                      <noteGrp>
@@ -771,7 +771,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="mess" type="city">
-                     <placeName type="main" key ="mess">Messina</placeName>
+                     <placeName type="main" key="mess">Messina</placeName>
                      <placeName type="variation">Messana</placeName> 
                 
                      <noteGrp>
@@ -780,7 +780,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="mosc" type="city">
-                     <placeName type="main" key ="mosc">Moskau</placeName>
+                     <placeName type="main" key="mosc">Moskau</placeName>
                      <placeName type="variation">Moscau</placeName> 
                 
                      <noteGrp>
@@ -789,7 +789,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="nanq" type="city">
-                     <placeName type="main" key ="nanq">Nanquim</placeName>
+                     <placeName type="main" key="nanq">Nanquim</placeName>
                      <placeName type="variation">Nanquim</placeName> 
                 
                      <noteGrp>
@@ -798,7 +798,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="nant" type="city">
-                     <placeName type="main" key ="nant">Nantes</placeName>
+                     <placeName type="main" key="nant">Nantes</placeName>
                      <placeName type="variation">Nante</placeName> 
                 
                      <noteGrp>
@@ -807,7 +807,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="nava" type="city">
-                     <placeName type="main" key ="nava">Navarra</placeName>
+                     <placeName type="main" key="nava">Navarra</placeName>
                      <placeName type="variation">Navar ra</placeName> 
                 
                      <noteGrp>
@@ -816,7 +816,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="naza" type="city">
-                     <placeName type="main" key ="naza">Nazareth</placeName>
+                     <placeName type="main" key="naza">Nazareth</placeName>
                      <placeName type="variation">Nazareth</placeName> 
                 
                      <noteGrp>
@@ -825,7 +825,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="nola" type="city">
-                     <placeName type="main" key ="nola">Nola</placeName>
+                     <placeName type="main" key="nola">Nola</placeName>
                      <placeName type="variation">Nola</placeName> 
                 
                      <noteGrp>
@@ -834,7 +834,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="padu" type="city">
-                     <placeName type="main" key ="padu">Padua</placeName>
+                     <placeName type="main" key="padu">Padua</placeName>
                      <placeName type="variation">Padua</placeName> 
                 
                      <noteGrp>
@@ -843,7 +843,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="pali" type="city">
-                     <placeName type="main" key ="pali">Palipur</placeName>
+                     <placeName type="main" key="pali">Palipur</placeName>
                      <placeName type="variation">Palipor</placeName> 
                 
                      <noteGrp>
@@ -852,7 +852,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="paqu" type="city">
-                     <placeName type="main" key ="paqu">Paquim</placeName>
+                     <placeName type="main" key="paqu">Paquim</placeName>
                      <placeName type="variation">Paquim</placeName> 
                 
                      <noteGrp>
@@ -861,7 +861,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="perg" type="city">
-                     <placeName type="main" key ="perg">Pergamon</placeName>
+                     <placeName type="main" key="perg">Pergamon</placeName>
                      <placeName type="variation">Pergamo</placeName> 
                 
                      <noteGrp>
@@ -870,7 +870,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="phil" type="city">
-                     <placeName type="main" key ="phil">Philippsburg</placeName>
+                     <placeName type="main" key="phil">Philippsburg</placeName>
                      <placeName type="variation">Philippsburg</placeName> 
                 
                      <noteGrp>
@@ -879,7 +879,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="presb" type="city">
-                     <placeName type="main" key ="presb">Pressburg</placeName>
+                     <placeName type="main" key="presb">Pressburg</placeName>
                      <placeName type="variation">Preßburg</placeName> 
                 
                      <noteGrp>
@@ -888,7 +888,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="rein" type="city">
-                     <placeName type="main" key ="rein">Rheinfelden</placeName>
+                     <placeName type="main" key="rein">Rheinfelden</placeName>
                      <placeName type="variation">Reinfelden</placeName> 
                 
                      <noteGrp>
@@ -897,7 +897,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="salm" type="city">
-                     <placeName type="main" key ="salm">Salamanca</placeName>
+                     <placeName type="main" key="salm">Salamanca</placeName>
                      <placeName type="variation">Salmantica</placeName> 
                 
                      <noteGrp>
@@ -906,7 +906,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="sant" type="city">
-                     <placeName type="main" key ="sant">Santarem</placeName>
+                     <placeName type="main" key="sant">Santarem</placeName>
                      <placeName type="variation">Santaremo</placeName> 
                 
                      <noteGrp>
@@ -915,7 +915,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="scay" type="city">
-                     <placeName type="main" key ="scay">Scay</placeName>
+                     <placeName type="main" key="scay">Scay</placeName>
                      <placeName type="variation">Scay</placeName> 
                 
                      <noteGrp>
@@ -924,7 +924,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="scha" type="city">
-                     <placeName type="main" key ="scha">Schaffhausen</placeName>
+                     <placeName type="main" key="scha">Schaffhausen</placeName>
                      <placeName type="variation">Schaffhausen</placeName> 
                 
                      <noteGrp>
@@ -933,7 +933,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="solo" type="city">
-                     <placeName type="main" key ="solo">Solothurn</placeName>
+                     <placeName type="main" key="solo">Solothurn</placeName>
                      <placeName type="variation">Solothurn</placeName> 
                 
                      <noteGrp>
@@ -942,7 +942,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="stai" type="city">
-                     <placeName type="main" key ="stai">Stein</placeName>
+                     <placeName type="main" key="stai">Stein</placeName>
                      <placeName type="variation">Stain</placeName> 
                 
                      <noteGrp>
@@ -951,7 +951,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="strb" type="city">
-                     <placeName type="main" key ="strb">Straubing</placeName>
+                     <placeName type="main" key="strb">Straubing</placeName>
                      <placeName type="variation">Straubing</placeName> 
                 
                      <noteGrp>
@@ -960,7 +960,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="stra" type="city">
-                     <placeName type="main" key ="stra">Straßburg</placeName>
+                     <placeName type="main" key="stra">Straßburg</placeName>
                      <placeName type="variation">Straßburg</placeName> 
                 
                      <noteGrp>
@@ -969,7 +969,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="thek" type="city">
-                     <placeName type="main" key ="thek">Tekoa</placeName>
+                     <placeName type="main" key="thek">Tekoa</placeName>
                      <placeName type="variation">Thekoa</placeName> 
                 
                      <noteGrp>
@@ -978,7 +978,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="tibe" type="city">
-                     <placeName type="main" key ="tibe">Tiberias</placeName>
+                     <placeName type="main" key="tibe">Tiberias</placeName>
                      <placeName type="variation">Tiberias</placeName> 
                 
                      <noteGrp>
@@ -987,7 +987,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="tole" type="city">
-                     <placeName type="main" key ="tole">Tolentino</placeName>
+                     <placeName type="main" key="tole">Tolentino</placeName>
                      <placeName type="variation">Tolentino</placeName> 
                 
                      <noteGrp>
@@ -996,7 +996,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="troy" type="city">
-                     <placeName type="main" key ="troy">Troja</placeName>
+                     <placeName type="main" key="troy">Troja</placeName>
                      <placeName type="variation">Troja</placeName> 
                 
                      <noteGrp>
@@ -1005,7 +1005,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="tuni" type="city">
-                     <placeName type="main" key ="tuni">Tunis</placeName>
+                     <placeName type="main" key="tuni">Tunis</placeName>
                      <placeName type="variation">Tunis</placeName> 
                 
                      <noteGrp>
@@ -1014,7 +1014,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="tyros" type="city">
-                     <placeName type="main" key ="tyros">Tyros</placeName>
+                     <placeName type="main" key="tyros">Tyros</placeName>
                      <placeName type="variation">Tyro</placeName> 
                 
                      <noteGrp>
@@ -1023,7 +1023,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="veni" type="city">
-                     <placeName type="main" key ="veni">Venedig</placeName>
+                     <placeName type="main" key="veni">Venedig</placeName>
                      <placeName type="variation">Ve nedig</placeName> 
                 
                      <noteGrp>
@@ -1032,7 +1032,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="viln" type="city">
-                     <placeName type="main" key ="viln">Vilna</placeName>
+                     <placeName type="main" key="viln">Vilna</placeName>
                      <placeName type="variation">Vilnæ</placeName> 
                 
                      <noteGrp>
@@ -1041,7 +1041,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="waid" type="city">
-                     <placeName type="main" key ="waid">Waidhofen</placeName>
+                     <placeName type="main" key="waid">Waidhofen</placeName>
                      <placeName type="variation">Waidhoffen</placeName> 
                 
                      <noteGrp>
@@ -1050,7 +1050,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="wurz" type="city">
-                     <placeName type="main" key ="würz">Würzburg</placeName>
+                     <placeName type="main" key="würz">Würzburg</placeName>
                      <placeName type="variation">Würtzburg</placeName> 
                 
                      <noteGrp>
@@ -1059,7 +1059,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="wrne" type="city">
-                     <placeName type="main" key ="wrNe">wienerisch Wiener Neustadt</placeName>
+                     <placeName type="main" key="wrNe">wienerisch Wiener Neustadt</placeName>
                      <placeName type="variation">Wiennerischen Neustatt</placeName> 
                 
                      <noteGrp>
@@ -1070,7 +1070,7 @@
                </listPlace>
                <listPlace type="cont">
                   <place xml:id="afri" type="cont">
-                     <placeName type="main" key ="afri">Afrika</placeName>
+                     <placeName type="main" key="afri">Afrika</placeName>
                      <placeName type="variation">Affrica</placeName> 
                      <placeName type="variation">Africa</placeName> 
                 
@@ -1082,7 +1082,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="asia" type="cont">
-                     <placeName type="main" key ="asia">Asien</placeName>
+                     <placeName type="main" key="asia">Asien</placeName>
                      <placeName type="variation">Asia</placeName> 
                 
                      <noteGrp>
@@ -1092,7 +1092,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="euro" type="cont">
-                     <placeName type="main" key ="euro">Europa</placeName>
+                     <placeName type="main" key="euro">Europa</placeName>
                      <placeName type="variation">Europa</placeName> 
                 
                      <noteGrp>
@@ -1103,7 +1103,7 @@
                </listPlace>
                <listPlace type="coun">
                   <place xml:id="aust" type="coun">
-                     <placeName type="main" key ="aust">Österreich</placeName>
+                     <placeName type="main" key="aust">Österreich</placeName>
                      <placeName type="variation">Land</placeName> 
                      <placeName type="variation">Oester reich</placeName> 
                      <placeName type="variation">Oester reich unter der Ennß</placeName> 
@@ -1123,7 +1123,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="fran" type="coun">
-                     <placeName type="main" key ="fran">Frankreich</placeName>
+                     <placeName type="main" key="fran">Frankreich</placeName>
                      <placeName type="variation">Franckreich</placeName> 
                      <placeName type="variation">Frank reich</placeName> 
                      <placeName type="variation">Regno Franciæ</placeName> 
@@ -1138,7 +1138,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="egyp" type="coun">
-                     <placeName type="main" key ="egyp">Ägypten</placeName>
+                     <placeName type="main" key="egyp">Ägypten</placeName>
                      <placeName type="variation">Egypten</placeName> 
                      <placeName type="variation">König reichs</placeName> 
                 
@@ -1151,7 +1151,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="bohe" type="coun">
-                     <placeName type="main" key ="bohe">Böhmen</placeName>
+                     <placeName type="main" key="bohe">Böhmen</placeName>
                      <placeName type="variation">Bayern</placeName> 
                      <placeName type="variation">Böh men</placeName> 
                      <placeName type="variation">Böhmen</placeName> 
@@ -1164,7 +1164,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="germ" type="coun">
-                     <placeName type="main" key ="germ">Deutschland</placeName>
+                     <placeName type="main" key="germ">Deutschland</placeName>
                      <placeName type="variation">Teut schen Boden</placeName> 
                      <placeName type="variation">Teutschland</placeName> 
                      <placeName type="variation">teutschen Boden</placeName> 
@@ -1177,7 +1177,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="hung" type="coun">
-                     <placeName type="main" key ="hung">Ungarn</placeName>
+                     <placeName type="main" key="hung">Ungarn</placeName>
                      <placeName type="variation">Un garn</placeName> 
                      <placeName type="variation">Ungarn</placeName> 
                      <placeName type="variation">Ungern</placeName> 
@@ -1192,7 +1192,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="isra" type="coun">
-                     <placeName type="main" key ="isra">Israel</placeName>
+                     <placeName type="main" key="isra">Israel</placeName>
                      <placeName type="variation">Jesrael</placeName> 
                      <placeName type="variation">Js rael</placeName> 
                      <placeName type="variation">Jsrael</placeName> 
@@ -1205,7 +1205,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="spai" type="coun">
-                     <placeName type="main" key ="spai">Spanien</placeName>
+                     <placeName type="main" key="spai">Spanien</placeName>
                      <placeName type="variation">Spanien</placeName> 
                 
                      <noteGrp>
@@ -1216,7 +1216,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="bava" type="coun">
-                     <placeName type="main" key ="bava">Bayern</placeName>
+                     <placeName type="main" key="bava">Bayern</placeName>
                      <placeName type="variation">Bayerland</placeName> 
                      <placeName type="variation">Bayern</placeName> 
                      <placeName type="variation">Bayrn</placeName> 
@@ -1231,7 +1231,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="engl" type="coun">
-                     <placeName type="main" key ="engl">England</placeName>
+                     <placeName type="main" key="engl">England</placeName>
                      <placeName type="variation">Engeland</placeName> 
                      <placeName type="variation">Engelland</placeName> 
                 
@@ -1243,7 +1243,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="ital" type="coun">
-                     <placeName type="main" key ="ital">Italien</placeName>
+                     <placeName type="main" key="ital">Italien</placeName>
                      <placeName type="variation">Jta lien</placeName> 
                      <placeName type="variation">Jtalien</placeName> 
                 
@@ -1256,7 +1256,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="pola" type="coun">
-                     <placeName type="main" key ="pola">Polen</placeName>
+                     <placeName type="main" key="pola">Polen</placeName>
                      <placeName type="variation">Pohlen</placeName> 
                      <placeName type="variation">Polen</placeName> 
                 
@@ -1268,7 +1268,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="gree" type="coun">
-                     <placeName type="main" key ="gree">Griechenland</placeName>
+                     <placeName type="main" key="gree">Griechenland</placeName>
                      <placeName type="variation">Grie chenland</placeName> 
                      <placeName type="variation">Griechen</placeName> 
                      <placeName type="variation">Griechen=Landes</placeName> 
@@ -1282,7 +1282,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="indi" type="coun">
-                     <placeName type="main" key ="indi">Indien</placeName>
+                     <placeName type="main" key="indi">Indien</placeName>
                      <placeName type="variation">India</placeName> 
                      <placeName type="variation">Jndien</placeName> 
                      <placeName type="variation">Jndie̅</placeName> 
@@ -1294,7 +1294,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="port" type="coun">
-                     <placeName type="main" key ="port">Portugal</placeName>
+                     <placeName type="main" key="port">Portugal</placeName>
                      <placeName type="variation">Portugal</placeName> 
                      <placeName type="variation">Portugall</placeName> 
                 
@@ -1304,7 +1304,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="swis" type="coun">
-                     <placeName type="main" key ="swis">Schweizerland</placeName>
+                     <placeName type="main" key="swis">Schweizerland</placeName>
                      <placeName type="variation">Schwei tzerland</placeName> 
                      <placeName type="variation">Schweitzerland</placeName> 
                 
@@ -1315,7 +1315,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="wels" type="coun">
-                     <placeName type="main" key ="wels">Welschland</placeName>
+                     <placeName type="main" key="wels">Welschland</placeName>
                      <placeName type="variation">Welschland</placeName> 
                      <placeName type="variation">Wälschland</placeName> 
                 
@@ -1326,7 +1326,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="neth" type="coun">
-                     <placeName type="main" key ="neth">Niederlande</placeName>
+                     <placeName type="main" key="neth">Niederlande</placeName>
                      <placeName type="variation">Niederland</placeName> 
                 
                      <noteGrp>
@@ -1335,7 +1335,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="norw" type="coun">
-                     <placeName type="main" key ="norw">Norwegen</placeName>
+                     <placeName type="main" key="norw">Norwegen</placeName>
                      <placeName type="variation">Nordweegen</placeName> 
                      <placeName type="variation">Norwegen</placeName> 
                 
@@ -1346,7 +1346,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="scot" type="coun">
-                     <placeName type="main" key ="scot">Schottland</placeName>
+                     <placeName type="main" key="scot">Schottland</placeName>
                      <placeName type="variation">Schott= Land</placeName> 
                      <placeName type="variation">Schottland</placeName> 
                 
@@ -1356,7 +1356,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="swed" type="coun">
-                     <placeName type="main" key ="swed">Schweden</placeName>
+                     <placeName type="main" key="swed">Schweden</placeName>
                      <placeName type="variation">Schwe den</placeName> 
                      <placeName type="variation">Schweden</placeName> 
                 
@@ -1367,7 +1367,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="assy" type="coun">
-                     <placeName type="main" key ="assy">Assyrien</placeName>
+                     <placeName type="main" key="assy">Assyrien</placeName>
                      <placeName type="variation">Assyrien</placeName> 
                 
                      <noteGrp>
@@ -1376,7 +1376,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="babi" type="coun">
-                     <placeName type="main" key ="babi">Babylonien</placeName>
+                     <placeName type="main" key="babi">Babylonien</placeName>
                      <placeName type="variation">Babilonien</placeName> 
                 
                      <noteGrp>
@@ -1385,7 +1385,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="bras" type="coun">
-                     <placeName type="main" key ="bras">Brasilien</placeName>
+                     <placeName type="main" key="bras">Brasilien</placeName>
                      <placeName type="variation">Presila</placeName> 
                 
                      <noteGrp>
@@ -1394,7 +1394,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="brit" type="coun">
-                     <placeName type="main" key ="brit">Britannien</placeName>
+                     <placeName type="main" key="brit">Britannien</placeName>
                      <placeName type="variation">Britannien</placeName> 
                 
                      <noteGrp>
@@ -1403,7 +1403,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="green" type="coun">
-                     <placeName type="main" key ="green">Grönland</placeName>
+                     <placeName type="main" key="green">Grönland</placeName>
                      <placeName type="variation">Grönland</placeName> 
                 
                      <noteGrp>
@@ -1412,7 +1412,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="hiri" type="coun">
-                     <placeName type="main" key ="hiri">Hiriania</placeName>
+                     <placeName type="main" key="hiri">Hiriania</placeName>
                      <placeName type="variation">Hiriania</placeName> 
                 
                      <noteGrp>
@@ -1421,7 +1421,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="icel" type="coun">
-                     <placeName type="main" key ="icel">Island</placeName>
+                     <placeName type="main" key="icel">Island</placeName>
                      <placeName type="variation">Jsland</placeName> 
                 
                      <noteGrp>
@@ -1430,7 +1430,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="cors" type="coun">
-                     <placeName type="main" key ="cors">Korsika</placeName>
+                     <placeName type="main" key="cors">Korsika</placeName>
                      <placeName type="variation">Cor sica</placeName> 
                 
                      <noteGrp>
@@ -1439,7 +1439,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="lydi" type="coun">
-                     <placeName type="main" key ="lydi">Lydien</placeName>
+                     <placeName type="main" key="lydi">Lydien</placeName>
                      <placeName type="variation">Lydien</placeName> 
                 
                      <noteGrp>
@@ -1448,7 +1448,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="pale" type="coun">
-                     <placeName type="main" key ="pale">Palästina</placeName>
+                     <placeName type="main" key="pale">Palästina</placeName>
                      <placeName type="variation">Palestina</placeName> 
                 
                      <noteGrp>
@@ -1457,7 +1457,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="pers" type="coun">
-                     <placeName type="main" key ="pers">Persien</placeName>
+                     <placeName type="main" key="pers">Persien</placeName>
                      <placeName type="variation">Per sia</placeName> 
                 
                      <noteGrp>
@@ -1466,7 +1466,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="peru" type="coun">
-                     <placeName type="main" key ="peru">Peru</placeName>
+                     <placeName type="main" key="peru">Peru</placeName>
                      <placeName type="variation">Peru</placeName> 
                 
                      <noteGrp>
@@ -1475,7 +1475,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="cypr" type="coun">
-                     <placeName type="main" key ="cypr">Zypern</placeName>
+                     <placeName type="main" key="cypr">Zypern</placeName>
                      <placeName type="variation">Cypern</placeName> 
                 
                      <noteGrp>
@@ -1484,7 +1484,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="ethi" type="coun">
-                     <placeName type="main" key ="ethi">Äthiopien</placeName>
+                     <placeName type="main" key="ethi">Äthiopien</placeName>
                      <placeName type="variation">Æthiopia</placeName> 
                 
                      <noteGrp>
@@ -1495,7 +1495,7 @@
                </listPlace>
                <listPlace type="dist">
                   <place xml:id="swab" type="dist">
-                     <placeName type="main" key ="swab">Schwaben</placeName>
+                     <placeName type="main" key="swab">Schwaben</placeName>
                      <placeName type="variation">Schwa ben</placeName> 
                      <placeName type="variation">Schwaben</placeName> 
                 
@@ -1508,7 +1508,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="cana" type="dist">
-                     <placeName type="main" key ="cana">Kana</placeName>
+                     <placeName type="main" key="cana">Kana</placeName>
                      <placeName type="variation">Cana</placeName> 
                      <placeName type="variation">Canaan</placeName> 
                      <placeName type="variation">Chanaan</placeName> 
@@ -1522,7 +1522,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="loau" type="dist">
-                     <placeName type="main" key ="loau">(span) niederösterreichisch Land</placeName>
+                     <placeName type="main" key="loau">(span) niederösterreichisch Land</placeName>
                      <placeName type="variation">N Oe Lan den</placeName> 
                      <placeName type="variation">N Oe Landen</placeName> 
                 
@@ -1532,7 +1532,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="brab" type="dist">
-                     <placeName type="main" key ="brab">Brabant</placeName>
+                     <placeName type="main" key="brab">Brabant</placeName>
                      <placeName type="variation">Braband</placeName> 
                      <placeName type="variation">Brabant</placeName> 
                 
@@ -1544,7 +1544,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="undefined" type="dist">
-                     <placeName type="main" key ="undefined">Reich</placeName>
+                     <placeName type="main" key="undefined">Reich</placeName>
                      <placeName type="variation">Reich</placeName> 
                      <placeName type="variation">Reichsstatt</placeName> 
                 
@@ -1554,7 +1554,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="arag" type="dist">
-                     <placeName type="main" key ="arag">Aragonien</placeName>
+                     <placeName type="main" key="arag">Aragonien</placeName>
                      <placeName type="variation">Ara gonien</placeName> 
                      <placeName type="variation">Arago nia</placeName> 
                 
@@ -1565,7 +1565,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="molu" type="dist">
-                     <placeName type="main" key ="molu">Molukken</placeName>
+                     <placeName type="main" key="molu">Molukken</placeName>
                      <placeName type="variation">Moluco</placeName> 
                      <placeName type="variation">Moluka</placeName> 
                 
@@ -1575,7 +1575,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="ober" type="dist">
-                     <placeName type="main" key ="ober">Oberland</placeName>
+                     <placeName type="main" key="ober">Oberland</placeName>
                      <placeName type="variation">Ober land</placeName> 
                      <placeName type="variation">Oberkirch</placeName> 
                 
@@ -1585,7 +1585,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="sile" type="dist">
-                     <placeName type="main" key ="sile">Schlesien</placeName>
+                     <placeName type="main" key="sile">Schlesien</placeName>
                      <placeName type="variation">Schlesien</placeName> 
                 
                      <noteGrp>
@@ -1594,7 +1594,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="sici" type="dist">
-                     <placeName type="main" key ="sici">Sizilien</placeName>
+                     <placeName type="main" key="sici">Sizilien</placeName>
                      <placeName type="variation">Sicilien</placeName> 
                 
                      <noteGrp>
@@ -1604,7 +1604,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="styr" type="dist">
-                     <placeName type="main" key ="styr">Steiermark</placeName>
+                     <placeName type="main" key="styr">Steiermark</placeName>
                      <placeName type="variation">Steyermarck</placeName> 
                 
                      <noteGrp>
@@ -1613,7 +1613,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="thur" type="dist">
-                     <placeName type="main" key ="thur">Thüringen</placeName>
+                     <placeName type="main" key="thur">Thüringen</placeName>
                      <placeName type="variation">Thüringen</placeName> 
                 
                      <noteGrp>
@@ -1622,7 +1622,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="tyro" type="dist">
-                     <placeName type="main" key ="tyro">Tirol</placeName>
+                     <placeName type="main" key="tyro">Tirol</placeName>
                      <placeName type="variation">Tyrol</placeName> 
                 
                      <noteGrp>
@@ -1632,7 +1632,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="uoes" type="dist">
-                     <placeName type="main" key ="uoes">Unterösterreich</placeName>
+                     <placeName type="main" key="uoes">Unterösterreich</placeName>
                      <placeName type="variation">Unter= Oesterreichs</placeName> 
                      <placeName type="variation">Unter=Oester reich</placeName> 
                 
@@ -1643,7 +1643,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="aver" type="dist">
-                     <placeName type="main" key ="aver">Averoe</placeName>
+                     <placeName type="main" key="aver">Averoe</placeName>
                      <placeName type="variation">Averoe</placeName> 
                 
                      <noteGrp>
@@ -1652,7 +1652,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="byth" type="dist">
-                     <placeName type="main" key ="byth">Bithynien</placeName>
+                     <placeName type="main" key="byth">Bithynien</placeName>
                      <placeName type="variation">en</placeName> 
                 
                      <noteGrp>
@@ -1661,7 +1661,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="bret" type="dist">
-                     <placeName type="main" key ="bret">Bretagne</placeName>
+                     <placeName type="main" key="bret">Bretagne</placeName>
                      <placeName type="variation">Bretagne</placeName> 
                 
                      <noteGrp>
@@ -1670,7 +1670,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="burg" type="dist">
-                     <placeName type="main" key ="burg">Burgund</placeName>
+                     <placeName type="main" key="burg">Burgund</placeName>
                      <placeName type="variation">Burgund</placeName> 
                 
                      <noteGrp>
@@ -1679,7 +1679,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="cand" type="dist">
-                     <placeName type="main" key ="cand">Candia</placeName>
+                     <placeName type="main" key="cand">Candia</placeName>
                      <placeName type="variation">Candia</placeName> 
                 
                      <noteGrp>
@@ -1688,7 +1688,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="gali" type="dist">
-                     <placeName type="main" key ="gali">Galiläa</placeName>
+                     <placeName type="main" key="gali">Galiläa</placeName>
                      <placeName type="variation">Galilæa</placeName> 
                 
                      <noteGrp>
@@ -1697,7 +1697,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="heke" type="dist">
-                     <placeName type="main" key ="heke">Hegau</placeName>
+                     <placeName type="main" key="heke">Hegau</placeName>
                      <placeName type="variation">Hekey</placeName> 
                 
                      <noteGrp>
@@ -1706,7 +1706,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="canar" type="dist">
-                     <placeName type="main" key ="canar">Kanari</placeName>
+                     <placeName type="main" key="canar">Kanari</placeName>
                      <placeName type="variation">Canari</placeName> 
                 
                      <noteGrp>
@@ -1715,7 +1715,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="capp" type="dist">
-                     <placeName type="main" key ="capp">Kappadokien</placeName>
+                     <placeName type="main" key="capp">Kappadokien</placeName>
                      <placeName type="variation">Cappado cia</placeName> 
                 
                      <noteGrp>
@@ -1724,7 +1724,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="cata" type="dist">
-                     <placeName type="main" key ="cata">Katalonien</placeName>
+                     <placeName type="main" key="cata">Katalonien</placeName>
                      <placeName type="variation">Catalonia</placeName> 
                 
                      <noteGrp>
@@ -1733,7 +1733,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="cari" type="dist">
-                     <placeName type="main" key ="cari">Kärnten</placeName>
+                     <placeName type="main" key="cari">Kärnten</placeName>
                      <placeName type="variation">Karn ten</placeName> 
                 
                      <noteGrp>
@@ -1742,7 +1742,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="lyci" type="dist">
-                     <placeName type="main" key ="lyci">Lykien</placeName>
+                     <placeName type="main" key="lyci">Lykien</placeName>
                      <placeName type="variation">Licia</placeName> 
                 
                      <noteGrp>
@@ -1751,7 +1751,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="mala" type="dist">
-                     <placeName type="main" key ="mala">Malaga</placeName>
+                     <placeName type="main" key="mala">Malaga</placeName>
                      <placeName type="variation">Malaca</placeName> 
                 
                      <noteGrp>
@@ -1760,7 +1760,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="malu" type="dist">
-                     <placeName type="main" key ="malu">Maluku</placeName>
+                     <placeName type="main" key="malu">Maluku</placeName>
                      <placeName type="variation">Malucco</placeName> 
                 
                      <noteGrp>
@@ -1769,7 +1769,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="moro" type="dist">
-                     <placeName type="main" key ="moro">Moro</placeName>
+                     <placeName type="main" key="moro">Moro</placeName>
                      <placeName type="variation">Moro</placeName> 
                 
                      <noteGrp>
@@ -1778,7 +1778,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="upau" type="dist">
-                     <placeName type="main" key ="upau">Oberösterreich</placeName>
+                     <placeName type="main" key="upau">Oberösterreich</placeName>
                      <placeName type="variation">Ober= Oesterreich</placeName> 
                 
                      <noteGrp>
@@ -1787,7 +1787,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="pegu" type="dist">
-                     <placeName type="main" key ="pegu">Pegu</placeName>
+                     <placeName type="main" key="pegu">Pegu</placeName>
                      <placeName type="variation">Pegu</placeName> 
                 
                      <noteGrp>
@@ -1796,7 +1796,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="pala" type="dist">
-                     <placeName type="main" key ="pala">Pfalz</placeName>
+                     <placeName type="main" key="pala">Pfalz</placeName>
                      <placeName type="variation">Pfaltz</placeName> 
                 
                      <noteGrp>
@@ -1805,7 +1805,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="sard" type="dist">
-                     <placeName type="main" key ="sard">Sardinien</placeName>
+                     <placeName type="main" key="sard">Sardinien</placeName>
                      <placeName type="variation">Sarden</placeName> 
                 
                      <noteGrp>
@@ -1814,7 +1814,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="scyt" type="dist">
-                     <placeName type="main" key ="scyt">Skythien</placeName>
+                     <placeName type="main" key="scyt">Skythien</placeName>
                      <placeName type="variation">Scithia</placeName> 
                 
                      <noteGrp>
@@ -1823,7 +1823,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="umbr" type="dist">
-                     <placeName type="main" key ="umbr">Umbrien</placeName>
+                     <placeName type="main" key="umbr">Umbrien</placeName>
                      <placeName type="variation">Umbria</placeName> 
                 
                      <noteGrp>
@@ -1832,7 +1832,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="virg" type="dist">
-                     <placeName type="main" key ="virg">Virginia</placeName>
+                     <placeName type="main" key="virg">Virginia</placeName>
                      <placeName type="variation">Virginiæ</placeName> 
                 
                      <noteGrp>
@@ -1841,7 +1841,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="weph" type="dist">
-                     <placeName type="main" key ="weph">Westfalen</placeName>
+                     <placeName type="main" key="weph">Westfalen</placeName>
                      <placeName type="variation">Westphalen</placeName> 
                 
                      <noteGrp>
@@ -1852,7 +1852,7 @@
                </listPlace>
                <listPlace type="lake">
                   <place xml:id="galim" type="lake">
-                     <placeName type="main" key ="galiM">galiläisch Meer schiffen</placeName>
+                     <placeName type="main" key="galiM">galiläisch Meer schiffen</placeName>
                      <placeName type="variation">Galilæi sche Meer Schiffte</placeName> 
                 
                      <noteGrp>
@@ -1863,7 +1863,7 @@
                </listPlace>
                <listPlace type="moun">
                   <place xml:id="etna" type="moun">
-                     <placeName type="main" key ="etna">Ätna</placeName>
+                     <placeName type="main" key="etna">Ätna</placeName>
                      <placeName type="variation">Aetna</placeName> 
                      <placeName type="variation">Ætna</placeName> 
                 
@@ -1875,7 +1875,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vesu" type="moun">
-                     <placeName type="main" key ="vesu">Vesuvius</placeName>
+                     <placeName type="main" key="vesu">Vesuvius</placeName>
                      <placeName type="variation">Vesuvius</placeName> 
                 
                      <noteGrp>
@@ -1886,7 +1886,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="hecl" type="moun">
-                     <placeName type="main" key ="hecl">Hekla</placeName>
+                     <placeName type="main" key="hecl">Hekla</placeName>
                      <placeName type="variation">Hecla</placeName> 
                 
                      <noteGrp>
@@ -1896,7 +1896,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="tabo" type="moun">
-                     <placeName type="main" key ="tabo">Tabor</placeName>
+                     <placeName type="main" key="tabo">Tabor</placeName>
                      <placeName type="variation">Tabor</placeName> 
                      <placeName type="variation">Tha bor</placeName> 
                 
@@ -1907,7 +1907,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="leba" type="moun">
-                     <placeName type="main" key ="leba">Libanon</placeName>
+                     <placeName type="main" key="leba">Libanon</placeName>
                      <placeName type="variation">Libani</placeName> 
                      <placeName type="variation">Libano</placeName> 
                 
@@ -1918,7 +1918,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="sina" type="moun">
-                     <placeName type="main" key ="sina">Sinai</placeName>
+                     <placeName type="main" key="sina">Sinai</placeName>
                      <placeName type="variation">Sinai</placeName> 
                 
                      <noteGrp>
@@ -1928,7 +1928,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="zion" type="moun">
-                     <placeName type="main" key ="zion">Zion</placeName>
+                     <placeName type="main" key="zion">Zion</placeName>
                      <placeName type="variation">Sion</placeName> 
                      <placeName type="variation">Zion</placeName> 
                 
@@ -1939,7 +1939,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="acro" type="moun">
-                     <placeName type="main" key ="acro">Acroauna</placeName>
+                     <placeName type="main" key="acro">Acroauna</placeName>
                      <placeName type="variation">Acroauna</placeName> 
                 
                      <noteGrp>
@@ -1948,7 +1948,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="chim" type="moun">
-                     <placeName type="main" key ="chim">Chimaira</placeName>
+                     <placeName type="main" key="chim">Chimaira</placeName>
                      <placeName type="variation">Chime ra</placeName> 
                 
                      <noteGrp>
@@ -1957,7 +1957,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="diez" type="moun">
-                     <placeName type="main" key ="diez">Diezberg</placeName>
+                     <placeName type="main" key="diez">Diezberg</placeName>
                      <placeName type="variation">Diezberg</placeName> 
                 
                      <noteGrp>
@@ -1966,7 +1966,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="fich" type="moun">
-                     <placeName type="main" key ="fich">Fichtelberg</placeName>
+                     <placeName type="main" key="fich">Fichtelberg</placeName>
                      <placeName type="variation">Fichtelberg</placeName> 
                 
                      <noteGrp>
@@ -1975,7 +1975,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="gast" type="moun">
-                     <placeName type="main" key ="gast">Gasteiner</placeName>
+                     <placeName type="main" key="gast">Gasteiner</placeName>
                      <placeName type="variation">Chasteiner</placeName> 
                 
                      <noteGrp>
@@ -1984,7 +1984,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="kahl" type="moun">
-                     <placeName type="main" key ="kahl">Kahlenberg</placeName>
+                     <placeName type="main" key="kahl">Kahlenberg</placeName>
                      <placeName type="variation">Kallenberg</placeName> 
                 
                      <noteGrp>
@@ -1993,7 +1993,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="kara" type="moun">
-                     <placeName type="main" key ="kara">Karawanken</placeName>
+                     <placeName type="main" key="kara">Karawanken</placeName>
                      <placeName type="variation">Cara vancas</placeName> 
                 
                      <noteGrp>
@@ -2002,7 +2002,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="carm" type="moun">
-                     <placeName type="main" key ="carm">Karmel</placeName>
+                     <placeName type="main" key="carm">Karmel</placeName>
                      <placeName type="variation">Carmelo</placeName> 
                 
                      <noteGrp>
@@ -2011,7 +2011,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="laeb" type="moun">
-                     <placeName type="main" key ="laeb">Leberberg</placeName>
+                     <placeName type="main" key="laeb">Leberberg</placeName>
                      <placeName type="variation">Läber=Berg</placeName> 
                 
                      <noteGrp>
@@ -2020,7 +2020,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="parn" type="moun">
-                     <placeName type="main" key ="parn">Parnass</placeName>
+                     <placeName type="main" key="parn">Parnass</placeName>
                      <placeName type="variation">Parnaso</placeName> 
                 
                      <noteGrp>
@@ -2029,7 +2029,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="scho" type="moun">
-                     <placeName type="main" key ="scho">Schöckl</placeName>
+                     <placeName type="main" key="scho">Schöckl</placeName>
                      <placeName type="variation">Schöckl</placeName> 
                 
                      <noteGrp>
@@ -2038,7 +2038,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="teon" type="moun">
-                     <placeName type="main" key ="teon">Teonocherna</placeName>
+                     <placeName type="main" key="teon">Teonocherna</placeName>
                      <placeName type="variation">Teono cherna</placeName> 
                 
                      <noteGrp>
@@ -2049,7 +2049,7 @@
                </listPlace>
                <listPlace type="rive">
                   <place xml:id="danu" type="rive">
-                     <placeName type="main" key ="danu">Donau</placeName>
+                     <placeName type="main" key="danu">Donau</placeName>
                      <placeName type="variation">Do nau</placeName> 
                      <placeName type="variation">Donau</placeName> 
                 
@@ -2062,7 +2062,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="enns" type="rive">
-                     <placeName type="main" key ="enns">Enns</placeName>
+                     <placeName type="main" key="enns">Enns</placeName>
                      <placeName type="variation">Ennß</placeName> 
                 
                      <noteGrp>
@@ -2072,7 +2072,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="jord" type="rive">
-                     <placeName type="main" key ="jord">Jordan</placeName>
+                     <placeName type="main" key="jord">Jordan</placeName>
                      <placeName type="variation">Jor dans</placeName> 
                      <placeName type="variation">Jordan</placeName> 
                 
@@ -2082,7 +2082,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="cedr" type="rive">
-                     <placeName type="main" key ="cedr">Kidron</placeName>
+                     <placeName type="main" key="cedr">Kidron</placeName>
                      <placeName type="variation">Cedron</placeName> 
                 
                      <noteGrp>
@@ -2092,7 +2092,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="tigr" type="rive">
-                     <placeName type="main" key ="tigr">Tigris</placeName>
+                     <placeName type="main" key="tigr">Tigris</placeName>
                      <placeName type="variation">Ti gris</placeName> 
                      <placeName type="variation">Tigris</placeName> 
                 
@@ -2102,7 +2102,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="alst" type="rive">
-                     <placeName type="main" key ="alst">Alsterbach</placeName>
+                     <placeName type="main" key="alst">Alsterbach</placeName>
                      <placeName type="variation">Alsterbach</placeName> 
                 
                      <noteGrp>
@@ -2111,7 +2111,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="euph" type="rive">
-                     <placeName type="main" key ="euph">Euphrat</placeName>
+                     <placeName type="main" key="euph">Euphrat</placeName>
                      <placeName type="variation">Euphrates</placeName> 
                 
                      <noteGrp>
@@ -2120,7 +2120,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="giho" type="rive">
-                     <placeName type="main" key ="giho">Gihon</placeName>
+                     <placeName type="main" key="giho">Gihon</placeName>
                      <placeName type="variation">Gi hon</placeName> 
                 
                      <noteGrp>
@@ -2129,7 +2129,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="lech" type="rive">
-                     <placeName type="main" key ="lech">Lech</placeName>
+                     <placeName type="main" key="lech">Lech</placeName>
                      <placeName type="variation">Lech</placeName> 
                 
                      <noteGrp>
@@ -2138,7 +2138,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="leit" type="rive">
-                     <placeName type="main" key ="leit">Leitha</placeName>
+                     <placeName type="main" key="leit">Leitha</placeName>
                      <placeName type="variation">Leytha</placeName> 
                 
                      <noteGrp>
@@ -2147,7 +2147,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="oder" type="rive">
-                     <placeName type="main" key ="oder">Oder</placeName>
+                     <placeName type="main" key="oder">Oder</placeName>
                      <placeName type="variation">Oder</placeName> 
                 
                      <noteGrp>
@@ -2156,7 +2156,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="phis" type="rive">
-                     <placeName type="main" key ="phis">Pischon</placeName>
+                     <placeName type="main" key="phis">Pischon</placeName>
                      <placeName type="variation">Phison</placeName> 
                 
                      <noteGrp>
@@ -2165,7 +2165,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="rhin" type="rive">
-                     <placeName type="main" key ="rhin">Rhein</placeName>
+                     <placeName type="main" key="rhin">Rhein</placeName>
                      <placeName type="variation">Rhein</placeName> 
                 
                      <noteGrp>
@@ -2174,7 +2174,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="sava" type="rive">
-                     <placeName type="main" key ="sava">Sava</placeName>
+                     <placeName type="main" key="sava">Sava</placeName>
                      <placeName type="variation">Sava</placeName> 
                 
                      <noteGrp>
@@ -2185,7 +2185,7 @@
                </listPlace>
                <listPlace type="sea">
                   <place xml:id="dead" type="sea">
-                     <placeName type="main" key ="dead">Totes Meer</placeName>
+                     <placeName type="main" key="dead">Totes Meer</placeName>
                      <placeName type="variation">Ma re mortuum</placeName> 
                      <placeName type="variation">Todte= Meer</placeName> 
                 
@@ -2197,7 +2197,7 @@
                </listPlace>
                <listPlace type="sett">
                   <place xml:id="lore" type="sett">
-                     <placeName type="main" key ="lore">Loretto</placeName>
+                     <placeName type="main" key="lore">Loretto</placeName>
                      <placeName type="variation">Loretto</placeName> 
                 
                      <noteGrp>
@@ -2206,7 +2206,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="mago" type="sett">
-                     <placeName type="main" key ="mago">Magor</placeName>
+                     <placeName type="main" key="mago">Magor</placeName>
                      <placeName type="variation">Ma gor</placeName> 
                 
                      <noteGrp>
@@ -2215,7 +2215,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="maur" type="sett">
-                     <placeName type="main" key ="maur">Mauerbach</placeName>
+                     <placeName type="main" key="maur">Mauerbach</placeName>
                      <placeName type="variation">Maurbach</placeName> 
                 
                      <noteGrp>
@@ -2224,7 +2224,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="nijm" type="sett">
-                     <placeName type="main" key ="nijm">Nijmegen | Nimmwegen</placeName>
+                     <placeName type="main" key="nijm">Nijmegen | Nimmwegen</placeName>
                      <placeName type="variation">Nimwegen</placeName> 
                 
                      <noteGrp>
@@ -2235,7 +2235,7 @@
                </listPlace>
                <listPlace type="stre">
                   <place xml:id="vienneuermarkt" type="stre">
-                     <placeName type="main" key ="vienNeuerMarkt">Neuer Markt</placeName>
+                     <placeName type="main" key="vienNeuerMarkt">Neuer Markt</placeName>
                      <placeName type="variation">Neuen marckt</placeName> 
                      <placeName type="variation">neuen Marckt</placeName> 
                 
@@ -2246,7 +2246,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienschulerstrasse" type="stre">
-                     <placeName type="main" key ="vienSchulerstraße">Schulerstraße</placeName>
+                     <placeName type="main" key="vienSchulerstraße">Schulerstraße</placeName>
                      <placeName type="variation">Schuler=Straß</placeName> 
                      <placeName type="variation">Schulerstrassen</placeName> 
                 
@@ -2257,7 +2257,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienarsenal-cordina" type="stre">
-                     <placeName type="main" key ="vienArsenal-Cordina">(span) Arsenal-Cordina</placeName>
+                     <placeName type="main" key="vienArsenal-Cordina">(span) Arsenal-Cordina</placeName>
                      <placeName type="variation">Ar senal Cordina</placeName> 
                      <placeName type="variation">Arsenal Cordina</placeName> 
                 
@@ -2267,7 +2267,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienelend-bastei" type="stre">
-                     <placeName type="main" key ="vienElend-Bastei">(span) Elend-Bastei</placeName>
+                     <placeName type="main" key="vienElend-Bastei">(span) Elend-Bastei</placeName>
                      <placeName type="variation">Elend Pastey</placeName> 
                      <placeName type="variation">Elend=Pastey</placeName> 
                 
@@ -2277,7 +2277,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienschotten-cordina" type="stre">
-                     <placeName type="main" key ="vienSchotten-Cordina">(span) Schotten-Cordina</placeName>
+                     <placeName type="main" key="vienSchotten-Cordina">(span) Schotten-Cordina</placeName>
                      <placeName type="variation">Schotten Cor dina</placeName> 
                      <placeName type="variation">Schotten Cordina</placeName> 
                 
@@ -2287,7 +2287,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienbauernmarkt" type="stre">
-                     <placeName type="main" key ="vienBauernmarkt">Bauernmarkt</placeName>
+                     <placeName type="main" key="vienBauernmarkt">Bauernmarkt</placeName>
                      <placeName type="variation">Bauernmarckt</placeName> 
                      <placeName type="variation">Bauren marckt</placeName> 
                 
@@ -2298,7 +2298,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="viengraben" type="stre">
-                     <placeName type="main" key ="vienGraben">Graben</placeName>
+                     <placeName type="main" key="vienGraben">Graben</placeName>
                      <placeName type="variation">Gra ben</placeName> 
                      <placeName type="variation">Graben</placeName> 
                 
@@ -2309,7 +2309,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienherrengasse" type="stre">
-                     <placeName type="main" key ="vienHerrengasse">Herrengasse</placeName>
+                     <placeName type="main" key="vienHerrengasse">Herrengasse</placeName>
                      <placeName type="variation">Herrengassen</placeName> 
                      <placeName type="variation">Herrn=Gassen</placeName> 
                 
@@ -2320,7 +2320,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienhohermarkt" type="stre">
-                     <placeName type="main" key ="vienHoherMarkt">Hoher Markt</placeName>
+                     <placeName type="main" key="vienHoherMarkt">Hoher Markt</placeName>
                      <placeName type="variation">Hohenmarckt</placeName> 
                 
                      <noteGrp>
@@ -2330,7 +2330,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienjungferngasse" type="stre">
-                     <placeName type="main" key ="vienJungferngasse">Jungferngasse</placeName>
+                     <placeName type="main" key="vienJungferngasse">Jungferngasse</placeName>
                      <placeName type="variation">Jung frau Gassel</placeName> 
                      <placeName type="variation">Jungfraugassel</placeName> 
                 
@@ -2340,7 +2340,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienkienmarkt" type="stre">
-                     <placeName type="main" key ="vienKienmarkt">Kienmarkt</placeName>
+                     <placeName type="main" key="vienKienmarkt">Kienmarkt</placeName>
                      <placeName type="variation">Kienmarckt</placeName> 
                      <placeName type="variation">Künmarckt</placeName> 
                 
@@ -2351,7 +2351,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="viensauwinkel" type="stre">
-                     <placeName type="main" key ="vienSauwinkel">Sauwinkel</placeName>
+                     <placeName type="main" key="vienSauwinkel">Sauwinkel</placeName>
                      <placeName type="variation">Sauwin ckel</placeName> 
                      <placeName type="variation">Sauwinckl</placeName> 
                 
@@ -2362,7 +2362,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienstockimeisen" type="stre">
-                     <placeName type="main" key ="vienStockimEisen">(span) (span) Stock im Eisen</placeName>
+                     <placeName type="main" key="vienStockimEisen">(span) (span) Stock im Eisen</placeName>
                      <placeName type="variation">Stock in Eysen</placeName> 
                 
                      <noteGrp>
@@ -2371,7 +2371,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienaugustiner-cordina" type="stre">
-                     <placeName type="main" key ="vienAugustiner-Cordina">(span) Augustiner-Cordina</placeName>
+                     <placeName type="main" key="vienAugustiner-Cordina">(span) Augustiner-Cordina</placeName>
                      <placeName type="variation">Augustiner Cordina</placeName> 
                 
                      <noteGrp>
@@ -2380,7 +2380,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienbiber-cordina" type="stre">
-                     <placeName type="main" key ="vienBiber-Cordina">(span) Biber-Cordina</placeName>
+                     <placeName type="main" key="vienBiber-Cordina">(span) Biber-Cordina</placeName>
                      <placeName type="variation">Piber Cordina</placeName> 
                 
                      <noteGrp>
@@ -2389,7 +2389,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienbraun-bastei" type="stre">
-                     <placeName type="main" key ="vienBraun-Bastei">(span) Braun-Bastei</placeName>
+                     <placeName type="main" key="vienBraun-Bastei">(span) Braun-Bastei</placeName>
                      <placeName type="variation">Praun Pastey</placeName> 
                 
                      <noteGrp>
@@ -2398,7 +2398,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienbraun-cordina" type="stre">
-                     <placeName type="main" key ="vienBraun-Cordina">(span) Braun-Cordina</placeName>
+                     <placeName type="main" key="vienBraun-Cordina">(span) Braun-Cordina</placeName>
                      <placeName type="variation">Praun Cordi na</placeName> 
                 
                      <noteGrp>
@@ -2407,7 +2407,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienburg-bastei" type="stre">
-                     <placeName type="main" key ="vienBurg-Bastei">(span) Burg-Bastei</placeName>
+                     <placeName type="main" key="vienBurg-Bastei">(span) Burg-Bastei</placeName>
                      <placeName type="variation">Burck Pastey</placeName> 
                 
                      <noteGrp>
@@ -2416,7 +2416,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienburg-cordina" type="stre">
-                     <placeName type="main" key ="vienBurg-Cordina">(span) Burg-Cordina</placeName>
+                     <placeName type="main" key="vienBurg-Cordina">(span) Burg-Cordina</placeName>
                      <placeName type="variation">Burck Cordina</placeName> 
                 
                      <noteGrp>
@@ -2425,7 +2425,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="viendominikaner-bastei" type="stre">
-                     <placeName type="main" key ="vienDominikaner-Bastei">(span) Dominikaner-Bastei</placeName>
+                     <placeName type="main" key="vienDominikaner-Bastei">(span) Dominikaner-Bastei</placeName>
                      <placeName type="variation">Do minicaner Pastey</placeName> 
                 
                      <noteGrp>
@@ -2434,7 +2434,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienkarntner-bastei" type="stre">
-                     <placeName type="main" key ="vienKärntner-Bastei">(span) Kärntner-Bastei</placeName>
+                     <placeName type="main" key="vienKärntner-Bastei">(span) Kärntner-Bastei</placeName>
                      <placeName type="variation">Kärner Pastey</placeName> 
                 
                      <noteGrp>
@@ -2443,7 +2443,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienkarntner-cordina" type="stre">
-                     <placeName type="main" key ="vienKärntner-Cordina">(span) Kärntner-Cordina</placeName>
+                     <placeName type="main" key="vienKärntner-Cordina">(span) Kärntner-Cordina</placeName>
                      <placeName type="variation">Kärner Cordina</placeName> 
                 
                      <noteGrp>
@@ -2452,7 +2452,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienlowel-bastei" type="stre">
-                     <placeName type="main" key ="vienLöwel-Bastei">(span) Löwel-Bastei</placeName>
+                     <placeName type="main" key="vienLöwel-Bastei">(span) Löwel-Bastei</placeName>
                      <placeName type="variation">Lewel Pastey</placeName> 
                 
                      <noteGrp>
@@ -2461,7 +2461,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienlowel-cordina" type="stre">
-                     <placeName type="main" key ="vienLöwel-Cordina">(span) Löwel-Cordina</placeName>
+                     <placeName type="main" key="vienLöwel-Cordina">(span) Löwel-Cordina</placeName>
                      <placeName type="variation">Lewel Cordina</placeName> 
                 
                      <noteGrp>
@@ -2470,7 +2470,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienmelker-bastei" type="stre">
-                     <placeName type="main" key ="vienMelker-Bastei">(span) Melker-Bastei</placeName>
+                     <placeName type="main" key="vienMelker-Bastei">(span) Melker-Bastei</placeName>
                      <placeName type="variation">Melcker Pastey</placeName> 
                 
                      <noteGrp>
@@ -2479,7 +2479,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienmonch-cordina" type="stre">
-                     <placeName type="main" key ="vienMönch-Cordina">(span) Mönch-Cordina</placeName>
+                     <placeName type="main" key="vienMönch-Cordina">(span) Mönch-Cordina</placeName>
                      <placeName type="variation">Münch Cordina</placeName> 
                 
                      <noteGrp>
@@ -2488,7 +2488,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienneuebastei" type="stre">
-                     <placeName type="main" key ="vienNeueBastei">(span) Neue Bastei</placeName>
+                     <placeName type="main" key="vienNeueBastei">(span) Neue Bastei</placeName>
                      <placeName type="variation">Neu Pastey</placeName> 
                 
                      <noteGrp>
@@ -2497,7 +2497,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienneueswerk" type="stre">
-                     <placeName type="main" key ="vienNeuesWerk">(span) Neues Werk</placeName>
+                     <placeName type="main" key="vienNeuesWerk">(span) Neues Werk</placeName>
                      <placeName type="variation">Neue Werck</placeName> 
                 
                      <noteGrp>
@@ -2506,7 +2506,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienstubentor-cordina" type="stre">
-                     <placeName type="main" key ="vienStubentor-Cordina">(span) Stubentor-Cordina</placeName>
+                     <placeName type="main" key="vienStubentor-Cordina">(span) Stubentor-Cordina</placeName>
                      <placeName type="variation">Stuben=Thor Cordina</placeName> 
                 
                      <noteGrp>
@@ -2515,7 +2515,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienwasserkunst-bastei" type="stre">
-                     <placeName type="main" key ="vienWasserkunst-Bastei">(span) Wasserkunst-Bastei</placeName>
+                     <placeName type="main" key="vienWasserkunst-Bastei">(span) Wasserkunst-Bastei</placeName>
                      <placeName type="variation">Wasserkunst Pastey</placeName> 
                 
                      <noteGrp>
@@ -2524,7 +2524,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienzwolfapostel" type="stre">
-                     <placeName type="main" key ="vienZwölfApostel">(span) Zwölf Apostel</placeName>
+                     <placeName type="main" key="vienZwölfApostel">(span) Zwölf Apostel</placeName>
                      <placeName type="variation">zwölff Aposteln</placeName> 
                 
                      <noteGrp>
@@ -2533,7 +2533,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienalterfleischmarckt" type="stre">
-                     <placeName type="main" key ="vienAlterFleischmarckt">(span) alter Fleischmarckt</placeName>
+                     <placeName type="main" key="vienAlterFleischmarckt">(span) alter Fleischmarckt</placeName>
                      <placeName type="variation">alten Fleisch marckt</placeName> 
                 
                      <noteGrp>
@@ -2542,7 +2542,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienblutgasse" type="stre">
-                     <placeName type="main" key ="vienBlutgasse">Blutgasse</placeName>
+                     <placeName type="main" key="vienBlutgasse">Blutgasse</placeName>
                      <placeName type="variation">Blutgassel</placeName> 
                 
                      <noteGrp>
@@ -2551,7 +2551,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienbognergasse" type="stre">
-                     <placeName type="main" key ="vienBognergasse">Bognergasse</placeName>
+                     <placeName type="main" key="vienBognergasse">Bognergasse</placeName>
                      <placeName type="variation">Bognergassen</placeName> 
                 
                      <noteGrp>
@@ -2560,7 +2560,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienbrandstatte" type="stre">
-                     <placeName type="main" key ="vienBrandstätte">Brandstätte</placeName>
+                     <placeName type="main" key="vienBrandstätte">Brandstätte</placeName>
                      <placeName type="variation">Brandstatt</placeName> 
                 
                      <noteGrp>
@@ -2569,7 +2569,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienbraunerstrasse" type="stre">
-                     <placeName type="main" key ="vienBräunerstraße">Bräunerstraße</placeName>
+                     <placeName type="main" key="vienBräunerstraße">Bräunerstraße</placeName>
                      <placeName type="variation">Breiner strassen</placeName> 
                 
                      <noteGrp>
@@ -2578,7 +2578,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienburgtor" type="stre">
-                     <placeName type="main" key ="vienBurgtor">Burgtor</placeName>
+                     <placeName type="main" key="vienBurgtor">Burgtor</placeName>
                      <placeName type="variation">Burg=Thor</placeName> 
                 
                      <noteGrp>
@@ -2587,7 +2587,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienbackerstrasse" type="stre">
-                     <placeName type="main" key ="vienBäckerstraße">Bäckerstraße</placeName>
+                     <placeName type="main" key="vienBäckerstraße">Bäckerstraße</placeName>
                      <placeName type="variation">Becker strassen</placeName> 
                 
                      <noteGrp>
@@ -2596,7 +2596,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="viendorotheergasse" type="stre">
-                     <placeName type="main" key ="vienDorotheergasse">Dorotheergasse</placeName>
+                     <placeName type="main" key="vienDorotheergasse">Dorotheergasse</placeName>
                      <placeName type="variation">Do rotheagassen</placeName> 
                 
                      <noteGrp>
@@ -2605,7 +2605,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienfischerstiege" type="stre">
-                     <placeName type="main" key ="vienFischerstiege">Fischerstiege</placeName>
+                     <placeName type="main" key="vienFischerstiege">Fischerstiege</placeName>
                      <placeName type="variation">Fischerstiegen</placeName> 
                 
                      <noteGrp>
@@ -2614,7 +2614,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienfischmarkt" type="stre">
-                     <placeName type="main" key ="vienFischmarkt">Fischmarkt</placeName>
+                     <placeName type="main" key="vienFischmarkt">Fischmarkt</placeName>
                      <placeName type="variation">Fischmarckt</placeName> 
                 
                      <noteGrp>
@@ -2623,7 +2623,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienfleischmarkt" type="stre">
-                     <placeName type="main" key ="vienFleischmarkt">Fleischmarkt</placeName>
+                     <placeName type="main" key="vienFleischmarkt">Fleischmarkt</placeName>
                      <placeName type="variation">Fleischmarckt</placeName> 
                 
                      <noteGrp>
@@ -2632,7 +2632,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienfreyung" type="stre">
-                     <placeName type="main" key ="vienFreyung">Freyung</placeName>
+                     <placeName type="main" key="vienFreyung">Freyung</placeName>
                      <placeName type="variation">Freyung</placeName> 
                 
                      <noteGrp>
@@ -2641,7 +2641,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienfarbergasse" type="stre">
-                     <placeName type="main" key ="vienFärbergasse">Färbergasse</placeName>
+                     <placeName type="main" key="vienFärbergasse">Färbergasse</placeName>
                      <placeName type="variation">Ferbergassel</placeName> 
                 
                      <noteGrp>
@@ -2650,7 +2650,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="viengrunanger" type="stre">
-                     <placeName type="main" key ="vienGrünanger">Grünanger</placeName>
+                     <placeName type="main" key="vienGrünanger">Grünanger</placeName>
                      <placeName type="variation">Grünanger</placeName> 
                 
                      <noteGrp>
@@ -2659,7 +2659,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienheidenschuss" type="stre">
-                     <placeName type="main" key ="vienHeidenschuss">Heidenschuss</placeName>
+                     <placeName type="main" key="vienHeidenschuss">Heidenschuss</placeName>
                      <placeName type="variation">Hey denschuß</placeName> 
                 
                      <noteGrp>
@@ -2668,7 +2668,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienhimmelpfortgasse" type="stre">
-                     <placeName type="main" key ="vienHimmelpfortgasse">Himmelpfortgasse</placeName>
+                     <placeName type="main" key="vienHimmelpfortgasse">Himmelpfortgasse</placeName>
                      <placeName type="variation">Himmelportgassen</placeName> 
                 
                      <noteGrp>
@@ -2677,7 +2677,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienhimmelspforte" type="stre">
-                     <placeName type="main" key ="vienHimmelspforte">Himmelspforte</placeName>
+                     <placeName type="main" key="vienHimmelspforte">Himmelspforte</placeName>
                      <placeName type="variation">Himmel=Porten</placeName> 
                 
                      <noteGrp>
@@ -2686,7 +2686,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienhohebrucke" type="stre">
-                     <placeName type="main" key ="vienHoheBrücke">Hohe Brücke</placeName>
+                     <placeName type="main" key="vienHoheBrücke">Hohe Brücke</placeName>
                      <placeName type="variation">Hohen brucken</placeName> 
                 
                      <noteGrp>
@@ -2695,7 +2695,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienhutergassel" type="stre">
-                     <placeName type="main" key ="vienHutergassel">Hutergassel</placeName>
+                     <placeName type="main" key="vienHutergassel">Hutergassel</placeName>
                      <placeName type="variation">Huter gassel</placeName> 
                 
                      <noteGrp>
@@ -2704,7 +2704,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienjohannesgasse" type="stre">
-                     <placeName type="main" key ="vienJohannesgasse">Johannesgasse</placeName>
+                     <placeName type="main" key="vienJohannesgasse">Johannesgasse</placeName>
                      <placeName type="variation">Joannesgaß</placeName> 
                 
                      <noteGrp>
@@ -2713,7 +2713,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienjudengasse" type="stre">
-                     <placeName type="main" key ="vienJudengasse">Judengasse</placeName>
+                     <placeName type="main" key="vienJudengasse">Judengasse</placeName>
                      <placeName type="variation">Ju dengaßl</placeName> 
                 
                      <noteGrp>
@@ -2722,7 +2722,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienjudenplatz" type="stre">
-                     <placeName type="main" key ="vienJudenplatz">Judenplatz</placeName>
+                     <placeName type="main" key="vienJudenplatz">Judenplatz</placeName>
                      <placeName type="variation">Judenplatz</placeName> 
                 
                      <noteGrp>
@@ -2731,7 +2731,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienkatzensteig" type="stre">
-                     <placeName type="main" key ="vienKatzensteig">Katzensteig</placeName>
+                     <placeName type="main" key="vienKatzensteig">Katzensteig</placeName>
                      <placeName type="variation">Katzensteig</placeName> 
                 
                      <noteGrp>
@@ -2740,7 +2740,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienklugerstrasse" type="stre">
-                     <placeName type="main" key ="vienKlugerstraße">Klugerstraße</placeName>
+                     <placeName type="main" key="vienKlugerstraße">Klugerstraße</placeName>
                      <placeName type="variation">Klu gerstrassen</placeName> 
                 
                      <noteGrp>
@@ -2749,7 +2749,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienkohlmarkt" type="stre">
-                     <placeName type="main" key ="vienKohlmarkt">Kohlmarkt</placeName>
+                     <placeName type="main" key="vienKohlmarkt">Kohlmarkt</placeName>
                      <placeName type="variation">Kohl marckt</placeName> 
                 
                      <noteGrp>
@@ -2758,7 +2758,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienkarntnerstrasse" type="stre">
-                     <placeName type="main" key ="vienKärntnerStraße">Kärntner Straße</placeName>
+                     <placeName type="main" key="vienKärntnerStraße">Kärntner Straße</placeName>
                      <placeName type="variation">Kärnerstrassen</placeName> 
                 
                      <noteGrp>
@@ -2767,7 +2767,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienkarntnertor" type="stre">
-                     <placeName type="main" key ="vienKärntnertor">Kärntnertor</placeName>
+                     <placeName type="main" key="vienKärntnertor">Kärntnertor</placeName>
                      <placeName type="variation">Kär ner=Thor</placeName> 
                 
                      <noteGrp>
@@ -2776,7 +2776,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="laim" type="stre">
-                     <placeName type="main" key ="laim">Laimgrube</placeName>
+                     <placeName type="main" key="laim">Laimgrube</placeName>
                      <placeName type="variation">Laimgruben</placeName> 
                 
                      <noteGrp>
@@ -2785,7 +2785,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienlandskrongasse" type="stre">
-                     <placeName type="main" key ="vienLandskrongasse">Landskrongasse</placeName>
+                     <placeName type="main" key="vienLandskrongasse">Landskrongasse</placeName>
                      <placeName type="variation">Lands=Cron</placeName> 
                 
                      <noteGrp>
@@ -2794,7 +2794,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="viennaglergasse" type="stre">
-                     <placeName type="main" key ="vienNaglergasse">Naglergasse</placeName>
+                     <placeName type="main" key="vienNaglergasse">Naglergasse</placeName>
                      <placeName type="variation">Naglergassen</placeName> 
                 
                      <noteGrp>
@@ -2803,7 +2803,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienofenloch" type="stre">
-                     <placeName type="main" key ="vienOfenloch">Ofenloch</placeName>
+                     <placeName type="main" key="vienOfenloch">Ofenloch</placeName>
                      <placeName type="variation">Ofenloch</placeName> 
                 
                      <noteGrp>
@@ -2812,7 +2812,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienrathgasse" type="stre">
-                     <placeName type="main" key ="vienRathgasse">Rathgasse</placeName>
+                     <placeName type="main" key="vienRathgasse">Rathgasse</placeName>
                      <placeName type="variation">Rathgassel</placeName> 
                 
                      <noteGrp>
@@ -2821,7 +2821,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienrenngasse" type="stre">
-                     <placeName type="main" key ="vienRenngasse">Renngasse</placeName>
+                     <placeName type="main" key="vienRenngasse">Renngasse</placeName>
                      <placeName type="variation">Renngassel</placeName> 
                 
                      <noteGrp>
@@ -2830,7 +2830,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienriemergasse" type="stre">
-                     <placeName type="main" key ="vienRiemergasse">Riemergasse</placeName>
+                     <placeName type="main" key="vienRiemergasse">Riemergasse</placeName>
                      <placeName type="variation">Riemerstras sen</placeName> 
                 
                      <noteGrp>
@@ -2839,7 +2839,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienrosengasse" type="stre">
-                     <placeName type="main" key ="vienRosengasse">Rosengasse</placeName>
+                     <placeName type="main" key="vienRosengasse">Rosengasse</placeName>
                      <placeName type="variation">Rosengaßl</placeName> 
                 
                      <noteGrp>
@@ -2848,7 +2848,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="viensalzgries" type="stre">
-                     <placeName type="main" key ="vienSalzgries">Salzgries</placeName>
+                     <placeName type="main" key="vienSalzgries">Salzgries</placeName>
                      <placeName type="variation">Saltzgriß</placeName> 
                 
                      <noteGrp>
@@ -2857,7 +2857,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="viensaumarkt" type="stre">
-                     <placeName type="main" key ="vienSaumarkt">Saumarkt</placeName>
+                     <placeName type="main" key="vienSaumarkt">Saumarkt</placeName>
                      <placeName type="variation">Saw marckt</placeName> 
                 
                      <noteGrp>
@@ -2866,7 +2866,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienschaumarkt" type="stre">
-                     <placeName type="main" key ="vienSchaumarkt">Schaumarkt</placeName>
+                     <placeName type="main" key="vienSchaumarkt">Schaumarkt</placeName>
                      <placeName type="variation">Schaumarckt</placeName> 
                 
                      <noteGrp>
@@ -2875,7 +2875,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienschenkerstrasse" type="stre">
-                     <placeName type="main" key ="vienSchenkerstraße">Schenkerstraße</placeName>
+                     <placeName type="main" key="vienSchenkerstraße">Schenkerstraße</placeName>
                      <placeName type="variation">Schenckerstras sen</placeName> 
                 
                      <noteGrp>
@@ -2884,7 +2884,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienschlossergasse" type="stre">
-                     <placeName type="main" key ="vienSchlossergasse">Schlossergasse</placeName>
+                     <placeName type="main" key="vienSchlossergasse">Schlossergasse</placeName>
                      <placeName type="variation">Schlosser gassel</placeName> 
                 
                      <noteGrp>
@@ -2893,7 +2893,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienschottentor" type="stre">
-                     <placeName type="main" key ="vienSchottentor">Schottentor</placeName>
+                     <placeName type="main" key="vienSchottentor">Schottentor</placeName>
                      <placeName type="variation">Schotten= Thor</placeName> 
                 
                      <noteGrp>
@@ -2902,7 +2902,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienseilerstatte" type="stre">
-                     <placeName type="main" key ="vienSeilerstätte">Seilerstätte</placeName>
+                     <placeName type="main" key="vienSeilerstätte">Seilerstätte</placeName>
                      <placeName type="variation">Sailerstatt</placeName> 
                 
                      <noteGrp>
@@ -2911,7 +2911,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="viensingerstrasse" type="stre">
-                     <placeName type="main" key ="vienSingerstraße">Singerstraße</placeName>
+                     <placeName type="main" key="vienSingerstraße">Singerstraße</placeName>
                      <placeName type="variation">Singerstrassen</placeName> 
                 
                      <noteGrp>
@@ -2920,7 +2920,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienstrohgasse" type="stre">
-                     <placeName type="main" key ="vienStrohgasse">Strohgasse</placeName>
+                     <placeName type="main" key="vienStrohgasse">Strohgasse</placeName>
                      <placeName type="variation">Strohgassel</placeName> 
                 
                      <noteGrp>
@@ -2929,7 +2929,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienstubentor" type="stre">
-                     <placeName type="main" key ="vienStubentor">Stubentor</placeName>
+                     <placeName type="main" key="vienStubentor">Stubentor</placeName>
                      <placeName type="variation">Stuben=Thor</placeName> 
                 
                      <noteGrp>
@@ -2938,7 +2938,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienteinfaltstrasse" type="stre">
-                     <placeName type="main" key ="vienTeinfaltstraße">Teinfaltstraße</placeName>
+                     <placeName type="main" key="vienTeinfaltstraße">Teinfaltstraße</placeName>
                      <placeName type="variation">Don faltstrassen</placeName> 
                 
                      <noteGrp>
@@ -2947,7 +2947,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienwallerstrasse" type="stre">
-                     <placeName type="main" key ="vienWallerstraße">Wallerstraße</placeName>
+                     <placeName type="main" key="vienWallerstraße">Wallerstraße</placeName>
                      <placeName type="variation">Wallerstrassen</placeName> 
                 
                      <noteGrp>
@@ -2956,7 +2956,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienweidenburg" type="stre">
-                     <placeName type="main" key ="vienWeidenburg">Weidenburg</placeName>
+                     <placeName type="main" key="vienWeidenburg">Weidenburg</placeName>
                      <placeName type="variation">Weidenburg</placeName> 
                 
                      <noteGrp>
@@ -2965,7 +2965,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienwipplingerstrasse" type="stre">
-                     <placeName type="main" key ="vienWipplingerstraße">Wipplingerstraße</placeName>
+                     <placeName type="main" key="vienWipplingerstraße">Wipplingerstraße</placeName>
                      <placeName type="variation">Wiplingerstrassen</placeName> 
                 
                      <noteGrp>
@@ -2976,7 +2976,7 @@
                </listPlace>
                <listPlace type="subu">
                   <place xml:id="krem" type="subu">
-                     <placeName type="main" key ="krem">Kreml</placeName>
+                     <placeName type="main" key="krem">Kreml</placeName>
                      <placeName type="variation">Kremelin</placeName> 
                 
                      <noteGrp>
@@ -2987,7 +2987,7 @@
                </listPlace>
                <listPlace type="vill">
                   <place xml:id="cape" type="vill">
-                     <placeName type="main" key ="cape">Kafarnaum</placeName>
+                     <placeName type="main" key="cape">Kafarnaum</placeName>
                      <placeName type="variation">Caper naum</placeName> 
                      <placeName type="variation">Capernaum</placeName> 
                      <placeName type="variation">Capharnaum</placeName> 
@@ -3000,7 +3000,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="mabr" type="vill">
-                     <placeName type="main" key ="mabr">(span) Mariabrunn</placeName>
+                     <placeName type="main" key="mabr">(span) Mariabrunn</placeName>
                      <placeName type="variation">Ma ria Brunn</placeName> 
                      <placeName type="variation">Marien= Brunn</placeName> 
                      <placeName type="variation">Marienbrunn</placeName> 
@@ -3012,7 +3012,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="maze" type="vill">
-                     <placeName type="main" key ="maze">(span) Mariazell</placeName>
+                     <placeName type="main" key="maze">(span) Mariazell</placeName>
                      <placeName type="variation">Maria Zell</placeName> 
                      <placeName type="variation">Marien=Zell</placeName> 
                 
@@ -3024,7 +3024,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="eger" type="vill">
-                     <placeName type="main" key ="eger">Egeregg</placeName>
+                     <placeName type="main" key="eger">Egeregg</placeName>
                      <placeName type="variation">Egeregg</placeName> 
                 
                      <noteGrp>
@@ -3034,7 +3034,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="enge" type="vill">
-                     <placeName type="main" key ="enge">Engelstein</placeName>
+                     <placeName type="main" key="enge">Engelstein</placeName>
                      <placeName type="variation">Engelstein</placeName> 
                 
                      <noteGrp>
@@ -3044,7 +3044,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="leop" type="vill">
-                     <placeName type="main" key ="leop">Leopoldstadt</placeName>
+                     <placeName type="main" key="leop">Leopoldstadt</placeName>
                      <placeName type="variation">Judenstatt</placeName> 
                      <placeName type="variation">Leopold statt</placeName> 
                      <placeName type="variation">Leopoldstatt</placeName> 
@@ -3055,7 +3055,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="sues" type="vill">
-                     <placeName type="main" key ="sues">Süssenbrunn</placeName>
+                     <placeName type="main" key="sues">Süssenbrunn</placeName>
                      <placeName type="variation">Sies senbrunn</placeName> 
                      <placeName type="variation">Süssenbrunn</placeName> 
                 
@@ -3066,7 +3066,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="hein" type="vill">
-                     <placeName type="main" key ="hein">Heindorf</placeName>
+                     <placeName type="main" key="hein">Heindorf</placeName>
                      <placeName type="variation">Heindorff</placeName> 
                 
                      <noteGrp>
@@ -3075,7 +3075,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="umke" type="vill">
-                     <placeName type="main" key ="umke">Unken</placeName>
+                     <placeName type="main" key="umke">Unken</placeName>
                      <placeName type="variation">Umcken</placeName> 
                      <placeName type="variation">Umken</placeName> 
                 
@@ -3085,7 +3085,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="wald" type="vill">
-                     <placeName type="main" key ="wald">Waldenfels</placeName>
+                     <placeName type="main" key="wald">Waldenfels</placeName>
                      <placeName type="variation">Wal denfels</placeName> 
                      <placeName type="variation">Waltenfelß</placeName> 
                 
@@ -3096,7 +3096,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="ach" type="vill">
-                     <placeName type="main" key ="ach">Ach</placeName>
+                     <placeName type="main" key="ach">Ach</placeName>
                      <placeName type="variation">Ach</placeName> 
                 
                      <noteGrp>
@@ -3105,7 +3105,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="asch" type="vill">
-                     <placeName type="main" key ="asch">Aschach</placeName>
+                     <placeName type="main" key="asch">Aschach</placeName>
                      <placeName type="variation">Aschach</placeName> 
                 
                      <noteGrp>
@@ -3114,7 +3114,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="berg" type="vill">
-                     <placeName type="main" key ="berg">Bergstätten</placeName>
+                     <placeName type="main" key="berg">Bergstätten</placeName>
                      <placeName type="variation">Berg=Stätten</placeName> 
                 
                      <noteGrp>
@@ -3123,7 +3123,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="prug" type="vill">
-                     <placeName type="main" key ="prug">Bruck an d Leitha</placeName>
+                     <placeName type="main" key="prug">Bruck an d Leitha</placeName>
                      <placeName type="variation">Prugg an der Leytha</placeName> 
                 
                      <noteGrp>
@@ -3132,7 +3132,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="chot" type="vill">
-                     <placeName type="main" key ="chot">Chotovin</placeName>
+                     <placeName type="main" key="chot">Chotovin</placeName>
                      <placeName type="variation">Chotovin</placeName> 
                 
                      <noteGrp>
@@ -3141,7 +3141,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="clai" type="vill">
-                     <placeName type="main" key ="clai">Clairvaux</placeName>
+                     <placeName type="main" key="clai">Clairvaux</placeName>
                      <placeName type="variation">Clara val</placeName> 
                 
                      <noteGrp>
@@ -3150,7 +3150,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="feld" type="vill">
-                     <placeName type="main" key ="feld">Feldkirch</placeName>
+                     <placeName type="main" key="feld">Feldkirch</placeName>
                      <placeName type="variation">Feldkirch</placeName> 
                 
                      <noteGrp>
@@ -3159,7 +3159,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="helb" type="vill">
-                     <placeName type="main" key ="helb">Helfenburg</placeName>
+                     <placeName type="main" key="helb">Helfenburg</placeName>
                      <placeName type="variation">Helf fenburg</placeName> 
                 
                      <noteGrp>
@@ -3168,7 +3168,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="held" type="vill">
-                     <placeName type="main" key ="held">Helfendorf</placeName>
+                     <placeName type="main" key="held">Helfendorf</placeName>
                      <placeName type="variation">Helffendorff</placeName> 
                 
                      <noteGrp>
@@ -3177,7 +3177,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="hels" type="vill">
-                     <placeName type="main" key ="hels">Helfenstein</placeName>
+                     <placeName type="main" key="hels">Helfenstein</placeName>
                      <placeName type="variation">Helffenstein</placeName> 
                 
                      <noteGrp>
@@ -3186,7 +3186,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="herr" type="vill">
-                     <placeName type="main" key ="herr">Hernals</placeName>
+                     <placeName type="main" key="herr">Hernals</placeName>
                      <placeName type="variation">Herrnalß</placeName> 
                 
                      <noteGrp>
@@ -3195,7 +3195,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="hert" type="vill">
-                     <placeName type="main" key ="hert">Herzogburg</placeName>
+                     <placeName type="main" key="hert">Herzogburg</placeName>
                      <placeName type="variation">Hertzogburg</placeName> 
                 
                      <noteGrp>
@@ -3204,7 +3204,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="himb" type="vill">
-                     <placeName type="main" key ="himb">Himberg</placeName>
+                     <placeName type="main" key="himb">Himberg</placeName>
                      <placeName type="variation">Himberg</placeName> 
                 
                      <noteGrp>
@@ -3213,7 +3213,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="carn" type="vill">
-                     <placeName type="main" key ="carn">Karnabrunn</placeName>
+                     <placeName type="main" key="carn">Karnabrunn</placeName>
                      <placeName type="variation">Cärnabrunn</placeName> 
                 
                      <noteGrp>
@@ -3222,7 +3222,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="kree" type="vill">
-                     <placeName type="main" key ="kree">Kreenheinstetten</placeName>
+                     <placeName type="main" key="kree">Kreenheinstetten</placeName>
                      <placeName type="variation">Greensteten</placeName> 
                 
                      <noteGrp>
@@ -3231,7 +3231,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="land" type="vill">
-                     <placeName type="main" key ="land">Landstraße</placeName>
+                     <placeName type="main" key="land">Landstraße</placeName>
                      <placeName type="variation">Landstraß</placeName> 
                 
                      <noteGrp>
@@ -3240,7 +3240,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="laus" type="vill">
-                     <placeName type="main" key ="laus">Lausnitz</placeName>
+                     <placeName type="main" key="laus">Lausnitz</placeName>
                      <placeName type="variation">Laußnitz</placeName> 
                 
                      <noteGrp>
@@ -3249,7 +3249,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="laxe" type="vill">
-                     <placeName type="main" key ="laxe">Laxenburg</placeName>
+                     <placeName type="main" key="laxe">Laxenburg</placeName>
                      <placeName type="variation">Laxenburg</placeName> 
                 
                      <noteGrp>
@@ -3258,7 +3258,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="moes" type="vill">
-                     <placeName type="main" key ="moes">Meßkirch</placeName>
+                     <placeName type="main" key="moes">Meßkirch</placeName>
                      <placeName type="variation">Mößkirch</placeName> 
                 
                      <noteGrp>
@@ -3267,7 +3267,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="neuk" type="vill">
-                     <placeName type="main" key ="neuk">Neukirch</placeName>
+                     <placeName type="main" key="neuk">Neukirch</placeName>
                      <placeName type="variation">Neu kirch</placeName> 
                 
                      <noteGrp>
@@ -3276,7 +3276,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="otto" type="vill">
-                     <placeName type="main" key ="otto">Ottobeuren</placeName>
+                     <placeName type="main" key="otto">Ottobeuren</placeName>
                      <placeName type="variation">Ottobeürn</placeName> 
                 
                      <noteGrp>
@@ -3285,7 +3285,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="penz" type="vill">
-                     <placeName type="main" key ="penz">Penzing</placeName>
+                     <placeName type="main" key="penz">Penzing</placeName>
                      <placeName type="variation">Pen tzing</placeName> 
                 
                      <noteGrp>
@@ -3294,7 +3294,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="reic" type="vill">
-                     <placeName type="main" key ="reic">Reichenberg</placeName>
+                     <placeName type="main" key="reic">Reichenberg</placeName>
                      <placeName type="variation">Reichenberg</placeName> 
                 
                      <noteGrp>
@@ -3303,7 +3303,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="reid" type="vill">
-                     <placeName type="main" key ="reid">Reidling</placeName>
+                     <placeName type="main" key="reid">Reidling</placeName>
                      <placeName type="variation">Reidling</placeName> 
                 
                      <noteGrp>
@@ -3312,7 +3312,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="rora" type="vill">
-                     <placeName type="main" key ="rora">Rohrau</placeName>
+                     <placeName type="main" key="rora">Rohrau</placeName>
                      <placeName type="variation">Rorau</placeName> 
                 
                      <noteGrp>
@@ -3321,7 +3321,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="ross" type="vill">
-                     <placeName type="main" key ="ross">Rossau</placeName>
+                     <placeName type="main" key="ross">Rossau</placeName>
                      <placeName type="variation">Rossau</placeName> 
                 
                      <noteGrp>
@@ -3330,7 +3330,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="schw" type="vill">
-                     <placeName type="main" key ="schw">Schweinfurt</placeName>
+                     <placeName type="main" key="schw">Schweinfurt</placeName>
                      <placeName type="variation">Schwein furth</placeName> 
                 
                      <noteGrp>
@@ -3339,7 +3339,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="soll" type="vill">
-                     <placeName type="main" key ="soll">Sollenau</placeName>
+                     <placeName type="main" key="soll">Sollenau</placeName>
                      <placeName type="variation">Solenau</placeName> 
                 
                      <noteGrp>
@@ -3348,7 +3348,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="spit" type="vill">
-                     <placeName type="main" key ="spit">Spittelau</placeName>
+                     <placeName type="main" key="spit">Spittelau</placeName>
                      <placeName type="variation">Spitlaw</placeName> 
                 
                      <noteGrp>
@@ -3357,7 +3357,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="stau" type="vill">
-                     <placeName type="main" key ="stau">Stauff</placeName>
+                     <placeName type="main" key="stau">Stauff</placeName>
                      <placeName type="variation">Stauff</placeName> 
                 
                      <noteGrp>
@@ -3366,7 +3366,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="stei" type="vill">
-                     <placeName type="main" key ="stei">Steinkirch</placeName>
+                     <placeName type="main" key="stei">Steinkirch</placeName>
                      <placeName type="variation">Steinkirch</placeName> 
                 
                      <noteGrp>
@@ -3375,7 +3375,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="wayd" type="vill">
-                     <placeName type="main" key ="wayd">Weithaag</placeName>
+                     <placeName type="main" key="wayd">Weithaag</placeName>
                      <placeName type="variation">Waydthaag</placeName> 
                 
                      <noteGrp>

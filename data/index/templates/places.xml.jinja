@@ -43,7 +43,7 @@
                <listPlace type="{{ g.type }}">
                {% for x in g.objects %}
                   <place xml:id="{{ x.key2 }}" {% if x.type %}type="{{ x.type }}"{% endif %}>
-                     <placeName type="main" key ="{{ x.key }}">{{ x.lemma }}</placeName>
+                     <placeName type="main" key="{{ x.key }}">{{ x.lemma }}</placeName>
                      {% for y in x.variations %}
                      <placeName type="variation">{{ y }}</placeName> 
                      {% endfor %}                
