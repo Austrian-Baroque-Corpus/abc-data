@@ -5460,7 +5460,7 @@
     },
     {
       "key": "thomasVillanovanus",
-      "lemma": "Thomas de (span) Villanova",
+      "lemma": "Thomas de Villanova",
       "TOTAL": 2,
       "type": "hist",
       "files": [
@@ -17619,7 +17619,7 @@
     },
     {
       "key": "mabr",
-      "lemma": "(span) Mariabrunn",
+      "lemma": "Mariabrunn",
       "TOTAL": 3,
       "type": "vill",
       "files": [
@@ -17640,7 +17640,7 @@
     },
     {
       "key": "maze",
-      "lemma": "(span) Mariazell",
+      "lemma": "Mariazell",
       "TOTAL": 3,
       "type": "vill",
       "files": [
@@ -17664,7 +17664,7 @@
     },
     {
       "key": "loau",
-      "lemma": "(span) niederösterreichisch Land",
+      "lemma": "niederösterreichisch Land",
       "TOTAL": 3,
       "type": "dist",
       "files": [
@@ -18018,7 +18018,7 @@
     },
     {
       "key": "vienArsenal-Cordina",
-      "lemma": "(span) Arsenal-Cordina",
+      "lemma": "Arsenal-Cordina",
       "TOTAL": 2,
       "type": "stre",
       "files": [
@@ -18034,7 +18034,7 @@
     },
     {
       "key": "vienElend-Bastei",
-      "lemma": "(span) Elend-Bastei",
+      "lemma": "Elend-Bastei",
       "TOTAL": 2,
       "type": "stre",
       "files": [
@@ -18050,7 +18050,7 @@
     },
     {
       "key": "vienSchotten-Cordina",
-      "lemma": "(span) Schotten-Cordina",
+      "lemma": "Schotten-Cordina",
       "TOTAL": 2,
       "type": "stre",
       "files": [
@@ -18870,7 +18870,7 @@
     },
     {
       "key": "vienStockimEisen",
-      "lemma": "(span) (span) Stock im Eisen",
+      "lemma": "Stock im Eisen",
       "TOTAL": 1,
       "type": "stre",
       "files": [
@@ -18885,7 +18885,7 @@
     },
     {
       "key": "vienAugustiner-Cordina",
-      "lemma": "(span) Augustiner-Cordina",
+      "lemma": "Augustiner-Cordina",
       "TOTAL": 1,
       "type": "stre",
       "files": [
@@ -18900,7 +18900,7 @@
     },
     {
       "key": "vienBiber-Cordina",
-      "lemma": "(span) Biber-Cordina",
+      "lemma": "Biber-Cordina",
       "TOTAL": 1,
       "type": "stre",
       "files": [
@@ -18915,7 +18915,7 @@
     },
     {
       "key": "vienBraun-Bastei",
-      "lemma": "(span) Braun-Bastei",
+      "lemma": "Braun-Bastei",
       "TOTAL": 1,
       "type": "stre",
       "files": [
@@ -18930,7 +18930,7 @@
     },
     {
       "key": "vienBraun-Cordina",
-      "lemma": "(span) Braun-Cordina",
+      "lemma": "Braun-Cordina",
       "TOTAL": 1,
       "type": "stre",
       "files": [
@@ -18945,7 +18945,7 @@
     },
     {
       "key": "vienBurg-Bastei",
-      "lemma": "(span) Burg-Bastei",
+      "lemma": "Burg-Bastei",
       "TOTAL": 1,
       "type": "stre",
       "files": [
@@ -18960,7 +18960,7 @@
     },
     {
       "key": "vienBurg-Cordina",
-      "lemma": "(span) Burg-Cordina",
+      "lemma": "Burg-Cordina",
       "TOTAL": 1,
       "type": "stre",
       "files": [
@@ -18975,7 +18975,7 @@
     },
     {
       "key": "vienDominikaner-Bastei",
-      "lemma": "(span) Dominikaner-Bastei",
+      "lemma": "Dominikaner-Bastei",
       "TOTAL": 1,
       "type": "stre",
       "files": [
@@ -18990,7 +18990,7 @@
     },
     {
       "key": "vienKärntner-Bastei",
-      "lemma": "(span) Kärntner-Bastei",
+      "lemma": "Kärntner-Bastei",
       "TOTAL": 1,
       "type": "stre",
       "files": [
@@ -19005,7 +19005,7 @@
     },
     {
       "key": "vienKärntner-Cordina",
-      "lemma": "(span) Kärntner-Cordina",
+      "lemma": "Kärntner-Cordina",
       "TOTAL": 1,
       "type": "stre",
       "files": [
@@ -19020,7 +19020,7 @@
     },
     {
       "key": "vienLöwel-Bastei",
-      "lemma": "(span) Löwel-Bastei",
+      "lemma": "Löwel-Bastei",
       "TOTAL": 1,
       "type": "stre",
       "files": [
@@ -19035,7 +19035,7 @@
     },
     {
       "key": "vienLöwel-Cordina",
-      "lemma": "(span) Löwel-Cordina",
+      "lemma": "Löwel-Cordina",
       "TOTAL": 1,
       "type": "stre",
       "files": [
@@ -19050,7 +19050,7 @@
     },
     {
       "key": "vienMelker-Bastei",
-      "lemma": "(span) Melker-Bastei",
+      "lemma": "Melker-Bastei",
       "TOTAL": 1,
       "type": "stre",
       "files": [
@@ -19065,7 +19065,7 @@
     },
     {
       "key": "vienMönch-Cordina",
-      "lemma": "(span) Mönch-Cordina",
+      "lemma": "Mönch-Cordina",
       "TOTAL": 1,
       "type": "stre",
       "files": [
@@ -19080,7 +19080,7 @@
     },
     {
       "key": "vienNeueBastei",
-      "lemma": "(span) Neue Bastei",
+      "lemma": "Neue Bastei",
       "TOTAL": 1,
       "type": "stre",
       "files": [
@@ -19095,7 +19095,7 @@
     },
     {
       "key": "vienNeuesWerk",
-      "lemma": "(span) Neues Werk",
+      "lemma": "Neues Werk",
       "TOTAL": 1,
       "type": "stre",
       "files": [
@@ -19110,7 +19110,7 @@
     },
     {
       "key": "vienStubentor-Cordina",
-      "lemma": "(span) Stubentor-Cordina",
+      "lemma": "Stubentor-Cordina",
       "TOTAL": 1,
       "type": "stre",
       "files": [
@@ -19125,7 +19125,7 @@
     },
     {
       "key": "vienWasserkunst-Bastei",
-      "lemma": "(span) Wasserkunst-Bastei",
+      "lemma": "Wasserkunst-Bastei",
       "TOTAL": 1,
       "type": "stre",
       "files": [
@@ -19140,7 +19140,7 @@
     },
     {
       "key": "vienZwölfApostel",
-      "lemma": "(span) Zwölf Apostel",
+      "lemma": "Zwölf Apostel",
       "TOTAL": 1,
       "type": "stre",
       "files": [
@@ -19155,7 +19155,7 @@
     },
     {
       "key": "vienAlterFleischmarckt",
-      "lemma": "(span) alter Fleischmarckt",
+      "lemma": "alter Fleischmarckt",
       "TOTAL": 1,
       "type": "stre",
       "files": [

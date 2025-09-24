@@ -3478,7 +3478,7 @@
                      </noteGrp>
                   </person>
                   <person xml:id="thomasvillanovanus" role="hist">
-                     <persName type="main" key="thomasVillanovanus">Thomas de (span) Villanova</persName>
+                     <persName type="main" key="thomasVillanovanus">Thomas de Villanova</persName>
                      <persName type="variation">Tho mas de Villa nova</persName> 
                      <persName type="variation">Thomas Villanovanus</persName> 
                 

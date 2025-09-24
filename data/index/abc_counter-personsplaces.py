@@ -64,6 +64,10 @@ def collapse_spaces(s: str) -> str:
     """Collapse multiple spaces/tabs/newlines into a single space and trim edges."""
     return _space_re.sub(" ", s).strip()
 
+def clean_lemma(s: str) -> str:
+    """Remove '(span) ' prefix from lemma strings."""
+    return s.replace("(span) ", "")
+
 def build_lemma_from_w(el) -> str:
     """
     Build the 'lemma' string for a persName/placeName element:
@@ -182,7 +186,7 @@ def assemble_records(
 
     # Insert key and lemma columns
     df.insert(0, "key", df.index)
-    df.insert(1, "lemma", df["key"].map(lambda k: key_to_lemma.get(k) if key_to_lemma.get(k) is not None else ""))
+    df.insert(1, "lemma", df["key"].map(lambda k: clean_lemma(key_to_lemma.get(k)) if key_to_lemma.get(k) is not None else ""))
 
     # Compute TOTAL counts across all files
     df["TOTAL"] = df.select_dtypes("number").sum(axis=1)

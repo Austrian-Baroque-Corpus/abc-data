@@ -1524,7 +1524,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="loau" type="dist">
-                     <placeName type="main" key="loau">(span) niederösterreichisch Land</placeName>
+                     <placeName type="main" key="loau">niederösterreichisch Land</placeName>
                      <placeName type="variation">N Oe Lan den</placeName> 
                      <placeName type="variation">N Oe Landen</placeName> 
                 
@@ -2259,7 +2259,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienarsenal-cordina" type="stre">
-                     <placeName type="main" key="vienArsenal-Cordina">(span) Arsenal-Cordina</placeName>
+                     <placeName type="main" key="vienArsenal-Cordina">Arsenal-Cordina</placeName>
                      <placeName type="variation">Ar senal Cordina</placeName> 
                      <placeName type="variation">Arsenal Cordina</placeName> 
                 
@@ -2269,7 +2269,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienelend-bastei" type="stre">
-                     <placeName type="main" key="vienElend-Bastei">(span) Elend-Bastei</placeName>
+                     <placeName type="main" key="vienElend-Bastei">Elend-Bastei</placeName>
                      <placeName type="variation">Elend Pastey</placeName> 
                      <placeName type="variation">Elend=Pastey</placeName> 
                 
@@ -2279,7 +2279,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienschotten-cordina" type="stre">
-                     <placeName type="main" key="vienSchotten-Cordina">(span) Schotten-Cordina</placeName>
+                     <placeName type="main" key="vienSchotten-Cordina">Schotten-Cordina</placeName>
                      <placeName type="variation">Schotten Cor dina</placeName> 
                      <placeName type="variation">Schotten Cordina</placeName> 
                 
@@ -2364,7 +2364,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienstockimeisen" type="stre">
-                     <placeName type="main" key="vienStockimEisen">(span) (span) Stock im Eisen</placeName>
+                     <placeName type="main" key="vienStockimEisen">Stock im Eisen</placeName>
                      <placeName type="variation">Stock in Eysen</placeName> 
                 
                      <noteGrp>
@@ -2373,7 +2373,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienaugustiner-cordina" type="stre">
-                     <placeName type="main" key="vienAugustiner-Cordina">(span) Augustiner-Cordina</placeName>
+                     <placeName type="main" key="vienAugustiner-Cordina">Augustiner-Cordina</placeName>
                      <placeName type="variation">Augustiner Cordina</placeName> 
                 
                      <noteGrp>
@@ -2382,7 +2382,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienbiber-cordina" type="stre">
-                     <placeName type="main" key="vienBiber-Cordina">(span) Biber-Cordina</placeName>
+                     <placeName type="main" key="vienBiber-Cordina">Biber-Cordina</placeName>
                      <placeName type="variation">Piber Cordina</placeName> 
                 
                      <noteGrp>
@@ -2391,7 +2391,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienbraun-bastei" type="stre">
-                     <placeName type="main" key="vienBraun-Bastei">(span) Braun-Bastei</placeName>
+                     <placeName type="main" key="vienBraun-Bastei">Braun-Bastei</placeName>
                      <placeName type="variation">Praun Pastey</placeName> 
                 
                      <noteGrp>
@@ -2400,7 +2400,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienbraun-cordina" type="stre">
-                     <placeName type="main" key="vienBraun-Cordina">(span) Braun-Cordina</placeName>
+                     <placeName type="main" key="vienBraun-Cordina">Braun-Cordina</placeName>
                      <placeName type="variation">Praun Cordi na</placeName> 
                 
                      <noteGrp>
@@ -2409,7 +2409,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienburg-bastei" type="stre">
-                     <placeName type="main" key="vienBurg-Bastei">(span) Burg-Bastei</placeName>
+                     <placeName type="main" key="vienBurg-Bastei">Burg-Bastei</placeName>
                      <placeName type="variation">Burck Pastey</placeName> 
                 
                      <noteGrp>
@@ -2418,7 +2418,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienburg-cordina" type="stre">
-                     <placeName type="main" key="vienBurg-Cordina">(span) Burg-Cordina</placeName>
+                     <placeName type="main" key="vienBurg-Cordina">Burg-Cordina</placeName>
                      <placeName type="variation">Burck Cordina</placeName> 
                 
                      <noteGrp>
@@ -2427,7 +2427,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="viendominikaner-bastei" type="stre">
-                     <placeName type="main" key="vienDominikaner-Bastei">(span) Dominikaner-Bastei</placeName>
+                     <placeName type="main" key="vienDominikaner-Bastei">Dominikaner-Bastei</placeName>
                      <placeName type="variation">Do minicaner Pastey</placeName> 
                 
                      <noteGrp>
@@ -2436,7 +2436,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienkarntner-bastei" type="stre">
-                     <placeName type="main" key="vienKärntner-Bastei">(span) Kärntner-Bastei</placeName>
+                     <placeName type="main" key="vienKärntner-Bastei">Kärntner-Bastei</placeName>
                      <placeName type="variation">Kärner Pastey</placeName> 
                 
                      <noteGrp>
@@ -2445,7 +2445,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienkarntner-cordina" type="stre">
-                     <placeName type="main" key="vienKärntner-Cordina">(span) Kärntner-Cordina</placeName>
+                     <placeName type="main" key="vienKärntner-Cordina">Kärntner-Cordina</placeName>
                      <placeName type="variation">Kärner Cordina</placeName> 
                 
                      <noteGrp>
@@ -2454,7 +2454,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienlowel-bastei" type="stre">
-                     <placeName type="main" key="vienLöwel-Bastei">(span) Löwel-Bastei</placeName>
+                     <placeName type="main" key="vienLöwel-Bastei">Löwel-Bastei</placeName>
                      <placeName type="variation">Lewel Pastey</placeName> 
                 
                      <noteGrp>
@@ -2463,7 +2463,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienlowel-cordina" type="stre">
-                     <placeName type="main" key="vienLöwel-Cordina">(span) Löwel-Cordina</placeName>
+                     <placeName type="main" key="vienLöwel-Cordina">Löwel-Cordina</placeName>
                      <placeName type="variation">Lewel Cordina</placeName> 
                 
                      <noteGrp>
@@ -2472,7 +2472,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienmelker-bastei" type="stre">
-                     <placeName type="main" key="vienMelker-Bastei">(span) Melker-Bastei</placeName>
+                     <placeName type="main" key="vienMelker-Bastei">Melker-Bastei</placeName>
                      <placeName type="variation">Melcker Pastey</placeName> 
                 
                      <noteGrp>
@@ -2481,7 +2481,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienmonch-cordina" type="stre">
-                     <placeName type="main" key="vienMönch-Cordina">(span) Mönch-Cordina</placeName>
+                     <placeName type="main" key="vienMönch-Cordina">Mönch-Cordina</placeName>
                      <placeName type="variation">Münch Cordina</placeName> 
                 
                      <noteGrp>
@@ -2490,7 +2490,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienneuebastei" type="stre">
-                     <placeName type="main" key="vienNeueBastei">(span) Neue Bastei</placeName>
+                     <placeName type="main" key="vienNeueBastei">Neue Bastei</placeName>
                      <placeName type="variation">Neu Pastey</placeName> 
                 
                      <noteGrp>
@@ -2499,7 +2499,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienneueswerk" type="stre">
-                     <placeName type="main" key="vienNeuesWerk">(span) Neues Werk</placeName>
+                     <placeName type="main" key="vienNeuesWerk">Neues Werk</placeName>
                      <placeName type="variation">Neue Werck</placeName> 
                 
                      <noteGrp>
@@ -2508,7 +2508,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienstubentor-cordina" type="stre">
-                     <placeName type="main" key="vienStubentor-Cordina">(span) Stubentor-Cordina</placeName>
+                     <placeName type="main" key="vienStubentor-Cordina">Stubentor-Cordina</placeName>
                      <placeName type="variation">Stuben=Thor Cordina</placeName> 
                 
                      <noteGrp>
@@ -2517,7 +2517,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienwasserkunst-bastei" type="stre">
-                     <placeName type="main" key="vienWasserkunst-Bastei">(span) Wasserkunst-Bastei</placeName>
+                     <placeName type="main" key="vienWasserkunst-Bastei">Wasserkunst-Bastei</placeName>
                      <placeName type="variation">Wasserkunst Pastey</placeName> 
                 
                      <noteGrp>
@@ -2526,7 +2526,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienzwolfapostel" type="stre">
-                     <placeName type="main" key="vienZwölfApostel">(span) Zwölf Apostel</placeName>
+                     <placeName type="main" key="vienZwölfApostel">Zwölf Apostel</placeName>
                      <placeName type="variation">zwölff Aposteln</placeName> 
                 
                      <noteGrp>
@@ -2535,7 +2535,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="vienalterfleischmarckt" type="stre">
-                     <placeName type="main" key="vienAlterFleischmarckt">(span) alter Fleischmarckt</placeName>
+                     <placeName type="main" key="vienAlterFleischmarckt">alter Fleischmarckt</placeName>
                      <placeName type="variation">alten Fleisch marckt</placeName> 
                 
                      <noteGrp>
@@ -3002,7 +3002,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="mabr" type="vill">
-                     <placeName type="main" key="mabr">(span) Mariabrunn</placeName>
+                     <placeName type="main" key="mabr">Mariabrunn</placeName>
                      <placeName type="variation">Ma ria Brunn</placeName> 
                      <placeName type="variation">Marien= Brunn</placeName> 
                      <placeName type="variation">Marienbrunn</placeName> 
@@ -3014,7 +3014,7 @@
                      </noteGrp>
                   </place>
                   <place xml:id="maze" type="vill">
-                     <placeName type="main" key="maze">(span) Mariazell</placeName>
+                     <placeName type="main" key="maze">Mariazell</placeName>
                      <placeName type="variation">Maria Zell</placeName> 
                      <placeName type="variation">Marien=Zell</placeName> 
                 
