@@ -17618,67 +17618,6 @@
       ]
     },
     {
-      "key": "mabr",
-      "lemma": "Mariabrunn",
-      "TOTAL": 3,
-      "type": "vill",
-      "files": [
-        {
-          "file": "Abraham-Augustini_feuriges_Hertz.xml",
-          "count": 1
-        },
-        {
-          "file": "Abraham-Todten_Capelle.xml",
-          "count": 2
-        }
-      ],
-      "variations": [
-        "Ma ria Brunn",
-        "Marien= Brunn",
-        "Marienbrunn"
-      ]
-    },
-    {
-      "key": "maze",
-      "lemma": "Mariazell",
-      "TOTAL": 3,
-      "type": "vill",
-      "files": [
-        {
-          "file": "Abraham-Augustini_feuriges_Hertz.xml",
-          "count": 1
-        },
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        },
-        {
-          "file": "Abraham-Todten_Capelle.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "Maria Zell",
-        "Marien=Zell"
-      ]
-    },
-    {
-      "key": "loau",
-      "lemma": "niederösterreichisch Land",
-      "TOTAL": 3,
-      "type": "dist",
-      "files": [
-        {
-          "file": "Abraham-Todten_Bruderschaft.xml",
-          "count": 3
-        }
-      ],
-      "variations": [
-        "N Oe Lan den",
-        "N Oe Landen"
-      ]
-    },
-    {
       "key": "afri",
       "lemma": "Afrika",
       "TOTAL": 3,
@@ -17907,6 +17846,51 @@
       ]
     },
     {
+      "key": "mabr",
+      "lemma": "Mariabrunn",
+      "TOTAL": 3,
+      "type": "vill",
+      "files": [
+        {
+          "file": "Abraham-Augustini_feuriges_Hertz.xml",
+          "count": 1
+        },
+        {
+          "file": "Abraham-Todten_Capelle.xml",
+          "count": 2
+        }
+      ],
+      "variations": [
+        "Ma ria Brunn",
+        "Marien= Brunn",
+        "Marienbrunn"
+      ]
+    },
+    {
+      "key": "maze",
+      "lemma": "Mariazell",
+      "TOTAL": 3,
+      "type": "vill",
+      "files": [
+        {
+          "file": "Abraham-Augustini_feuriges_Hertz.xml",
+          "count": 1
+        },
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        },
+        {
+          "file": "Abraham-Todten_Capelle.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "Maria Zell",
+        "Marien=Zell"
+      ]
+    },
+    {
       "key": "neth",
       "lemma": "Niederlande",
       "TOTAL": 3,
@@ -18017,51 +18001,19 @@
       ]
     },
     {
-      "key": "vienArsenal-Cordina",
-      "lemma": "Arsenal-Cordina",
-      "TOTAL": 2,
-      "type": "stre",
+      "key": "loau",
+      "lemma": "niederösterreichisch Land",
+      "TOTAL": 3,
+      "type": "dist",
       "files": [
         {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 2
+          "file": "Abraham-Todten_Bruderschaft.xml",
+          "count": 3
         }
       ],
       "variations": [
-        "Ar senal Cordina",
-        "Arsenal Cordina"
-      ]
-    },
-    {
-      "key": "vienElend-Bastei",
-      "lemma": "Elend-Bastei",
-      "TOTAL": 2,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 2
-        }
-      ],
-      "variations": [
-        "Elend Pastey",
-        "Elend=Pastey"
-      ]
-    },
-    {
-      "key": "vienSchotten-Cordina",
-      "lemma": "Schotten-Cordina",
-      "TOTAL": 2,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 2
-        }
-      ],
-      "variations": [
-        "Schotten Cor dina",
-        "Schotten Cordina"
+        "N Oe Lan den",
+        "N Oe Landen"
       ]
     },
     {
@@ -18097,6 +18049,22 @@
       "variations": [
         "Ara gonien",
         "Arago nia"
+      ]
+    },
+    {
+      "key": "vienArsenal-Cordina",
+      "lemma": "Arsenal-Cordina",
+      "TOTAL": 2,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 2
+        }
+      ],
+      "variations": [
+        "Ar senal Cordina",
+        "Arsenal Cordina"
       ]
     },
     {
@@ -18198,6 +18166,22 @@
       "variations": [
         "Ca lecuth",
         "Callecuth"
+      ]
+    },
+    {
+      "key": "vienElend-Bastei",
+      "lemma": "Elend-Bastei",
+      "TOTAL": 2,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 2
+        }
+      ],
+      "variations": [
+        "Elend Pastey",
+        "Elend=Pastey"
       ]
     },
     {
@@ -18581,6 +18565,22 @@
       ]
     },
     {
+      "key": "vienSchotten-Cordina",
+      "lemma": "Schotten-Cordina",
+      "TOTAL": 2,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 2
+        }
+      ],
+      "variations": [
+        "Schotten Cor dina",
+        "Schotten Cordina"
+      ]
+    },
+    {
       "key": "scot",
       "lemma": "Schottland",
       "TOTAL": 2,
@@ -18869,306 +18869,6 @@
       ]
     },
     {
-      "key": "vienStockimEisen",
-      "lemma": "Stock im Eisen",
-      "TOTAL": 1,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "Stock in Eysen"
-      ]
-    },
-    {
-      "key": "vienAugustiner-Cordina",
-      "lemma": "Augustiner-Cordina",
-      "TOTAL": 1,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "Augustiner Cordina"
-      ]
-    },
-    {
-      "key": "vienBiber-Cordina",
-      "lemma": "Biber-Cordina",
-      "TOTAL": 1,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "Piber Cordina"
-      ]
-    },
-    {
-      "key": "vienBraun-Bastei",
-      "lemma": "Braun-Bastei",
-      "TOTAL": 1,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "Praun Pastey"
-      ]
-    },
-    {
-      "key": "vienBraun-Cordina",
-      "lemma": "Braun-Cordina",
-      "TOTAL": 1,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "Praun Cordi na"
-      ]
-    },
-    {
-      "key": "vienBurg-Bastei",
-      "lemma": "Burg-Bastei",
-      "TOTAL": 1,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "Burck Pastey"
-      ]
-    },
-    {
-      "key": "vienBurg-Cordina",
-      "lemma": "Burg-Cordina",
-      "TOTAL": 1,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "Burck Cordina"
-      ]
-    },
-    {
-      "key": "vienDominikaner-Bastei",
-      "lemma": "Dominikaner-Bastei",
-      "TOTAL": 1,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "Do minicaner Pastey"
-      ]
-    },
-    {
-      "key": "vienKärntner-Bastei",
-      "lemma": "Kärntner-Bastei",
-      "TOTAL": 1,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "Kärner Pastey"
-      ]
-    },
-    {
-      "key": "vienKärntner-Cordina",
-      "lemma": "Kärntner-Cordina",
-      "TOTAL": 1,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "Kärner Cordina"
-      ]
-    },
-    {
-      "key": "vienLöwel-Bastei",
-      "lemma": "Löwel-Bastei",
-      "TOTAL": 1,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "Lewel Pastey"
-      ]
-    },
-    {
-      "key": "vienLöwel-Cordina",
-      "lemma": "Löwel-Cordina",
-      "TOTAL": 1,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "Lewel Cordina"
-      ]
-    },
-    {
-      "key": "vienMelker-Bastei",
-      "lemma": "Melker-Bastei",
-      "TOTAL": 1,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "Melcker Pastey"
-      ]
-    },
-    {
-      "key": "vienMönch-Cordina",
-      "lemma": "Mönch-Cordina",
-      "TOTAL": 1,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "Münch Cordina"
-      ]
-    },
-    {
-      "key": "vienNeueBastei",
-      "lemma": "Neue Bastei",
-      "TOTAL": 1,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "Neu Pastey"
-      ]
-    },
-    {
-      "key": "vienNeuesWerk",
-      "lemma": "Neues Werk",
-      "TOTAL": 1,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "Neue Werck"
-      ]
-    },
-    {
-      "key": "vienStubentor-Cordina",
-      "lemma": "Stubentor-Cordina",
-      "TOTAL": 1,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "Stuben=Thor Cordina"
-      ]
-    },
-    {
-      "key": "vienWasserkunst-Bastei",
-      "lemma": "Wasserkunst-Bastei",
-      "TOTAL": 1,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "Wasserkunst Pastey"
-      ]
-    },
-    {
-      "key": "vienZwölfApostel",
-      "lemma": "Zwölf Apostel",
-      "TOTAL": 1,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "zwölff Aposteln"
-      ]
-    },
-    {
-      "key": "vienAlterFleischmarckt",
-      "lemma": "alter Fleischmarckt",
-      "TOTAL": 1,
-      "type": "stre",
-      "files": [
-        {
-          "file": "Abraham-Mercks_Wien.xml",
-          "count": 1
-        }
-      ],
-      "variations": [
-        "alten Fleisch marckt"
-      ]
-    },
-    {
       "key": "ach",
       "lemma": "Ach",
       "TOTAL": 1,
@@ -19256,6 +18956,21 @@
       ],
       "variations": [
         "Assyrien"
+      ]
+    },
+    {
+      "key": "vienAugustiner-Cordina",
+      "lemma": "Augustiner-Cordina",
+      "TOTAL": 1,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "Augustiner Cordina"
       ]
     },
     {
@@ -19379,6 +19094,21 @@
       ]
     },
     {
+      "key": "vienBiber-Cordina",
+      "lemma": "Biber-Cordina",
+      "TOTAL": 1,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "Piber Cordina"
+      ]
+    },
+    {
       "key": "byth",
       "lemma": "Bithynien",
       "TOTAL": 1,
@@ -19469,6 +19199,36 @@
       ]
     },
     {
+      "key": "vienBraun-Bastei",
+      "lemma": "Braun-Bastei",
+      "TOTAL": 1,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "Praun Pastey"
+      ]
+    },
+    {
+      "key": "vienBraun-Cordina",
+      "lemma": "Braun-Cordina",
+      "TOTAL": 1,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "Praun Cordi na"
+      ]
+    },
+    {
       "key": "bred",
       "lemma": "Breda",
       "TOTAL": 1,
@@ -19556,6 +19316,36 @@
       ],
       "variations": [
         "Brüssel"
+      ]
+    },
+    {
+      "key": "vienBurg-Bastei",
+      "lemma": "Burg-Bastei",
+      "TOTAL": 1,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "Burck Pastey"
+      ]
+    },
+    {
+      "key": "vienBurg-Cordina",
+      "lemma": "Burg-Cordina",
+      "TOTAL": 1,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "Burck Cordina"
       ]
     },
     {
@@ -19721,6 +19511,21 @@
       ],
       "variations": [
         "Diezberg"
+      ]
+    },
+    {
+      "key": "vienDominikaner-Bastei",
+      "lemma": "Dominikaner-Bastei",
+      "TOTAL": 1,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "Do minicaner Pastey"
       ]
     },
     {
@@ -20564,6 +20369,36 @@
       ]
     },
     {
+      "key": "vienKärntner-Bastei",
+      "lemma": "Kärntner-Bastei",
+      "TOTAL": 1,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "Kärner Pastey"
+      ]
+    },
+    {
+      "key": "vienKärntner-Cordina",
+      "lemma": "Kärntner-Cordina",
+      "TOTAL": 1,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "Kärner Cordina"
+      ]
+    },
+    {
       "key": "vienKärntnertor",
       "lemma": "Kärntnertor",
       "TOTAL": 1,
@@ -20789,6 +20624,36 @@
       ]
     },
     {
+      "key": "vienLöwel-Bastei",
+      "lemma": "Löwel-Bastei",
+      "TOTAL": 1,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "Lewel Pastey"
+      ]
+    },
+    {
+      "key": "vienLöwel-Cordina",
+      "lemma": "Löwel-Cordina",
+      "TOTAL": 1,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "Lewel Cordina"
+      ]
+    },
+    {
       "key": "madr",
       "lemma": "Madrid",
       "TOTAL": 1,
@@ -20879,6 +20744,21 @@
       ]
     },
     {
+      "key": "vienMelker-Bastei",
+      "lemma": "Melker-Bastei",
+      "TOTAL": 1,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "Melcker Pastey"
+      ]
+    },
+    {
       "key": "mess",
       "lemma": "Messina",
       "TOTAL": 1,
@@ -20936,6 +20816,21 @@
       ],
       "variations": [
         "Moscau"
+      ]
+    },
+    {
+      "key": "vienMönch-Cordina",
+      "lemma": "Mönch-Cordina",
+      "TOTAL": 1,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "Münch Cordina"
       ]
     },
     {
@@ -21011,6 +20906,36 @@
       ],
       "variations": [
         "Nazareth"
+      ]
+    },
+    {
+      "key": "vienNeueBastei",
+      "lemma": "Neue Bastei",
+      "TOTAL": 1,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "Neu Pastey"
+      ]
+    },
+    {
+      "key": "vienNeuesWerk",
+      "lemma": "Neues Werk",
+      "TOTAL": 1,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "Neue Werck"
       ]
     },
     {
@@ -21824,6 +21749,21 @@
       ]
     },
     {
+      "key": "vienStockimEisen",
+      "lemma": "Stock im Eisen",
+      "TOTAL": 1,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "Stock in Eysen"
+      ]
+    },
+    {
       "key": "strb",
       "lemma": "Straubing",
       "TOTAL": 1,
@@ -21881,6 +21821,21 @@
       ],
       "variations": [
         "Stuben=Thor"
+      ]
+    },
+    {
+      "key": "vienStubentor-Cordina",
+      "lemma": "Stubentor-Cordina",
+      "TOTAL": 1,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "Stuben=Thor Cordina"
       ]
     },
     {
@@ -22094,6 +22049,21 @@
       ]
     },
     {
+      "key": "vienWasserkunst-Bastei",
+      "lemma": "Wasserkunst-Bastei",
+      "TOTAL": 1,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "Wasserkunst Pastey"
+      ]
+    },
+    {
       "key": "vienWeidenburg",
       "lemma": "Weidenburg",
       "TOTAL": 1,
@@ -22169,6 +22139,21 @@
       ]
     },
     {
+      "key": "vienZwölfApostel",
+      "lemma": "Zwölf Apostel",
+      "TOTAL": 1,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "zwölff Aposteln"
+      ]
+    },
+    {
       "key": "cypr",
       "lemma": "Zypern",
       "TOTAL": 1,
@@ -22181,6 +22166,21 @@
       ],
       "variations": [
         "Cypern"
+      ]
+    },
+    {
+      "key": "vienAlterFleischmarckt",
+      "lemma": "alter Fleischmarckt",
+      "TOTAL": 1,
+      "type": "stre",
+      "files": [
+        {
+          "file": "Abraham-Mercks_Wien.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "alten Fleisch marckt"
       ]
     },
     {

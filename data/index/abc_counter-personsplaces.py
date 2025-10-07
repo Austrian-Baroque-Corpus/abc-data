@@ -42,7 +42,7 @@ from acdh_tei_pyutils.tei import TeiReader
 # CONFIGURATION
 # ----------------------------------------------------------------------
 
-XML_DIR = Path("abc-data/data/editions")   # folder containing the TEI-XML files
+XML_DIR = Path("data/editions")   # folder containing the TEI-XML files
 GLOB    = "*.xml"         # pattern for TEI files inside XML_DIR
 
 # ----------------------------------------------------------------------
@@ -289,7 +289,7 @@ def main():
     out = {"persons": persons_records, "places": places_records}
 
     # Write JSON to file
-    out_path = Path("abc-data/data/index/output/abc_register-personsplaces.json")
+    out_path = Path("data/index/output/abacus_index-personsplaces.json")
     with out_path.open("w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
 

@@ -31,12 +31,12 @@ from slugify import slugify
 # CONFIGURATION
 # ----------------------------------------------------------------------
 
-INPUT_JSON   = Path("abc-data/data/index/output/abc_register-personsplaces.json")
-TEMPLATES_DIR = Path("abc-data/data/index/templates")
+INPUT_JSON   = Path("data/index/output/abacus_index-personsplaces.json")
+TEMPLATES_DIR = Path("data/index/templates")
 PERSONS_TPL    = "persons.xml.jinja"
 PLACES_TPL     = "places.xml.jinja"
-OUT_PERSONS = Path("abc-data/data/index/output/abc_register_persons.xml")
-OUT_PLACES  = Path("abc-data/data/index/output/abc_register_places.xml")
+OUT_PERSONS = Path("data/index/output/abacus-index_persnames.xml")
+OUT_PLACES  = Path("data/index/output/abacus-index_placenames.xml")
 
 # ----------------------------------------------------------------------
 # HELPERS
