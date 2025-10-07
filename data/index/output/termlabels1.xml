@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<termLib>
+    <set xml:lang="de">
+        <terms key="placeType">
+            <term key="stre">Straßen und Plätze in Wien</term>
+            <term key="coun">Länder</term>
+            <term key="rive">Flüsse</term>
+            <term key="city">Städte</term>
+            <term key="sea">Meere</term>
+            <term key="lake">Seen</term>
+            <term key="undefined">Verschiedenes</term>
+            <term key="sett">Siedlungen</term>
+            <term key="cont">Kontinente</term>
+            <term key="vill">Dörfer</term>
+            <term key="subu">Stadtteile</term>
+            <term key="moun">Berge</term>
+            <term key="dist">Regionen</term>
+            <term key="gen:waterbody">Gewässer</term>
+            <term key="gen:region">Regionen, Länder und Kontinente</term>
+            <term key="gen:settlement">Städte und Dörfer</term>
+        </terms>
+        <terms key="persType">
+            <term key="hist">Historisch</term>
+            <term key="bibl">Biblisch</term>
+            <term key="myth">Mythologisch</term>
+            <term key="undefined">Verschiedenes</term>
+        </terms>
+        <terms key="posType">
+            <term key="postax:stdstts">Stuttgart-Tübingen-TagSet</term>
+            <term key="postax:cf1">Kontrahierte Formen I</term>
+            <term key="postax:cf2">Kontrahierte Formen II</term>
+        </terms>
+        <terms key="posSubtype">
+            <term key="postax:advc">Adverb mit Klitikon</term>
+            <term key="postax:conjc">Konjunktion  mit Klitikon</term>
+            <term key="postax:nomc">Nomen mit Klitikon</term>
+            <term key="postax:pronc">Pronomen mit Klitikon</term>
+            <term key="postax:verbc">Verb mit Klitikon</term>
+        </terms>
+    </set>
+</termLib>
