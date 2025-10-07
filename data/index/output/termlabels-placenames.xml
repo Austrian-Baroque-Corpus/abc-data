@@ -1,0 +1,45 @@
+<termLib>
+    <set xml:lang="de">
+        <terms key="placeName">
+            <term key="undefined">unbekannt</term>
+            <term key="loau">Niederösterreich</term>
+            <term key="gali">Galiläa</term>
+            <term key="wels">Welschland</term>
+            <term key="swis">Schweitzerland</term>
+            <term key="mabr">Mariabrunn</term>
+            <term key="maze">Mariazell</term>
+            <term key="prug">Bruck an der Leitha</term>
+            <term key="wrNe">Wiener Neustadt</term>
+            <term key="galiM">Galiläisches Meer</term>
+            <term key="nijm">Nijmegen</term>
+            <term key="ulm">Ulm</term>
+            <term key="taxa">Taxa</term>
+            <!-- Straßennamen -->
+            <term key="vienStockimEisen">Stock im Eisen</term>
+            <term key="vienArsenal-Cordina">Arsenal-Cordina</term>
+            <term key="vienAugustiner-Cordina">Augustiner-Cordina</term>
+            <term key="vienBiber-Cordina">Biber-Cordina</term>
+            <term key="vienBraun-Bastei">Braun-Bastei</term>
+            <term key="vienBraun-Cordina">Braun-Cordina</term>
+            <term key="vienBurg-Bastei">Burg-Bastei</term>
+            <term key="vienBurg-Cordina">Burg-Cordina</term>
+            <term key="vienDominikaner-Bastei">Dominikaner-Bastei</term>
+            <term key="vienElend-Bastei">Elend-Bastei</term>
+            <term key="vienKärntner-Bastei">Kärntner-Bastei</term>
+            <term key="vienKärntner-Cordina">Kärntner-Cordina</term>
+            <term key="vienLöwel-Bastei">Löwel-Bastei</term>
+            <term key="vienLöwel-Cordina">Löwel-Cordina</term>
+            <term key="vienMelker-Bastei">Melker-Bastei</term>
+            <term key="vienMönch-Cordina">Mönch-Cordina</term>
+            <term key="vienNeueBastei">Neue Bastei</term>
+            <term key="vienNeuesWerk">Neues Werk</term>
+            <term key="vienSchotten-Cordina">Schotten-Cordina</term>
+            <term key="vienStubentor-Cordina">Stubentor-Cordina</term>
+            <term key="vienWasserkunst-Bastei">Wasserkunst-Bastei</term>
+            <term key="vienZwölfApostel">Zwölf Apostel</term>
+            <term key="vienAlterFleischmarckt">Alter Fleischmarckt</term>
+            <term key="vienNeuerMarkt">Neuer Markt</term>
+            
+        </terms>
+    </set>
+</termLib>
