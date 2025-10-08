@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="schema/abacus.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/abacus" xml:id="Abraham-Augustini_feuriges_Hertz.xml" next="https://id.acdh.oeaw.ac.at/abacus/Abraham-Loesch_Wienn.xml">
-<teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
     <fileDesc>
         <titleStmt>
             <title>Augustini Feuriges Hertz, digitale Ausgabe</title>
@@ -36,7 +36,7 @@
             <pubPlace>Wien</pubPlace>
             <date when="2015">2015</date>
             <availability status="free">
-                <licence target="http://creativecommons.org/licenses/by-nc/3.0/"/>
+                <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
             <idno type="cr-xq-mets">abacus.9</idno>
         </publicationStmt>
@@ -128,7 +128,8 @@
             </keywords>
         </textClass>
     </profileDesc>
-</teiHeader><text ana="#prose" type="book">
+</teiHeader>
+    <text ana="#prose" type="book">
         <front>
             <pb facs="Abraham-Augustini_feuriges_Hertz_a0001.jpg" n="v. Umschlag recto" xml:id="AFH_a0001"/>
             <pb facs="Abraham-Augustini_feuriges_Hertz_a0002.jpg" n="v. Umschlag verso" xml:id="AFH_a0002"/>
@@ -259,7 +260,9 @@
                             <seg type="whitespace" xml:space="preserve"> </seg>
                             <pc type="internal" xml:id="AFH_d1e207">/</pc>
                             <seg type="whitespace" xml:space="preserve"> </seg>
-                            <w lemma="etc" type="FM" xml:id="AFH_d1e212"><g ref="#tironian-et">r</g>c</w><pc type="final" xml:id="AFH_d1e214">.</pc>
+                            <w lemma="etc" type="FM" xml:id="AFH_d1e212">
+                                <g ref="#tironian-et">r</g>c</w>
+                            <pc type="final" xml:id="AFH_d1e214">.</pc>
                         </seg>
                     </titlePart>
                 </docTitle>
@@ -363,7 +366,9 @@
         <body>
             <pb facs="Abraham-Augustini_feuriges_Hertz_n0005.jpg" n="S. 5, Abb." xml:id="AFH_n0005"/>
             <fw type="header">
-                <fw n="5" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(5)<seg type="ornament">✾</seg></fw>
+                <fw n="5" place="top_center" type="pageNum">
+                    <seg type="ornament">✾</seg>(5)<seg type="ornament">✾</seg>
+                </fw>
             </fw>
             <lb rend="line"/>
             <div n="Cie̅t extincta tumultum." type="chapter">
@@ -436,7 +441,8 @@
                                     <pc type="final" xml:id="AFH_d1e493">.</pc>
                                 </seg>
                             </foreign>
-                        <seg type="whitespace" xml:space="preserve"> </seg></quote>
+                        <seg type="whitespace" xml:space="preserve"> </seg>
+                        </quote>
                         
                         <bibl>
                             <foreign xml:lang="la">
@@ -552,11 +558,18 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="zumalen" type="ADV" xml:id="AFH_d1e716">zumahlen</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="solch" type="PDS" xml:id="AFH_d1e720">sol<lb break="no" type="d"/><fw type="footer">
+                    <w lemma="solch" type="PDS" xml:id="AFH_d1e720">sol<lb break="no" type="d"/>
+                        <fw type="footer">
                         <fw place="bot_center" type="pageNum">A 3</fw>
-                    </fw><fw place="bot_right" type="catch">ches</fw><pb facs="Abraham-Augustini_feuriges_Hertz_n0006.jpg" n="S. 6" xml:id="AFH_n0006"/><fw type="header">
-                        <fw n="6" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(6)<seg type="ornament">✾</seg></fw>
-                    </fw><lb rend="line"/>ches</w>
+                    </fw>
+                        <fw place="bot_right" type="catch">ches</fw>
+                        <pb facs="Abraham-Augustini_feuriges_Hertz_n0006.jpg" n="S. 6" xml:id="AFH_n0006"/>
+                        <fw type="header">
+                        <fw n="6" place="top_center" type="pageNum">
+                                <seg type="ornament">✾</seg>(6)<seg type="ornament">✾</seg>
+                            </fw>
+                    </fw>
+                        <lb rend="line"/>ches</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="von" type="APPR" xml:id="AFH_d1e740">von</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -944,7 +957,9 @@
                     <fw place="bot_right" type="catch">solcher</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0007.jpg" n="S. 7" xml:id="AFH_n0007"/>
                     <fw type="header">
-                        <fw n="7" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(7)<seg type="ornament">✾</seg></fw>
+                        <fw n="7" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(7)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="solch" type="PIAT" xml:id="AFH_d1e1564">solcher</w>
@@ -1380,7 +1395,9 @@
                 <fw place="bot_right" type="catch">Nach=</fw>
                 <pb facs="Abraham-Augustini_feuriges_Hertz_n0008.jpg" n="S. 8" xml:id="AFH_n0008"/>
                 <fw type="header">
-                    <fw n="8" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(8)<seg type="ornament">✾</seg></fw>
+                    <fw n="8" place="top_center" type="pageNum">
+                        <seg type="ornament">✾</seg>(8)<seg type="ornament">✾</seg>
+                    </fw>
                 </fw>
                 <lb rend="line"/>
                 <p rend="indent">
@@ -1619,7 +1636,9 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e2933">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="etc" type="FM" xml:id="AFH_d1e2938"><g ref="#tironian-et">r</g>c</w><pc type="final" xml:id="AFH_d1e2940">.</pc>
+                    <w lemma="etc" type="FM" xml:id="AFH_d1e2938">
+                        <g ref="#tironian-et">r</g>c</w>
+                    <pc type="final" xml:id="AFH_d1e2940">.</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="wie" type="KOUS" xml:id="AFH_d1e2944">Wie</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -1850,7 +1869,9 @@
                     <fw place="bot_right" type="catch">sich</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0009.jpg" n="S. 9" xml:id="AFH_n0009"/>
                     <fw type="header">
-                        <fw n="9" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(9)<seg type="ornament">✾</seg></fw>
+                        <fw n="9" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(9)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="sich" type="PRF" xml:id="AFH_d1e3415">sich</w>
@@ -2246,7 +2267,9 @@
                     <fw place="bot_right" type="catch">Thier/</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0010.jpg" n="S. 10" xml:id="AFH_n0010"/>
                     <fw type="header">
-                        <fw n="10" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(10)<seg type="ornament">✾</seg></fw>
+                        <fw n="10" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(10)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="Tier" type="NN" xml:id="AFH_d1e4238">Thier</w>
@@ -2355,7 +2378,8 @@
                     <w lemma="heilig" type="ADJA" xml:id="AFH_d1e4442">H</w>
                     <pc type="internal" xml:id="AFH_d1e4444">.</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="Reliquie" type="NN" xml:id="AFH_d1e4450"><seg rend="antiqua">Reliqui</seg>en</w>
+                    <w lemma="Reliquie" type="NN" xml:id="AFH_d1e4450">
+                        <seg rend="antiqua">Reliqui</seg>en</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e4456">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -2703,9 +2727,15 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="und" type="KON" xml:id="AFH_d1e5164">vnd</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="Satan" type="NN" xml:id="AFH_d1e5168">Sa<lb break="no" type="d"/><fw place="bot_right" type="catch">than</fw><pb facs="Abraham-Augustini_feuriges_Hertz_n0011.jpg" n="S. 11" xml:id="AFH_n0011"/><fw type="header">
-                        <fw n="11" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(11)<seg type="ornament">✾</seg></fw>
-                    </fw><lb rend="line"/>than</w>
+                    <w lemma="Satan" type="NN" xml:id="AFH_d1e5168">Sa<lb break="no" type="d"/>
+                        <fw place="bot_right" type="catch">than</fw>
+                        <pb facs="Abraham-Augustini_feuriges_Hertz_n0011.jpg" n="S. 11" xml:id="AFH_n0011"/>
+                        <fw type="header">
+                        <fw n="11" place="top_center" type="pageNum">
+                                <seg type="ornament">✾</seg>(11)<seg type="ornament">✾</seg>
+                            </fw>
+                    </fw>
+                        <lb rend="line"/>than</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="selbst" type="ADV" xml:id="AFH_d1e5185">selbst</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -2846,7 +2876,9 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e5472">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="etc" type="FM" xml:id="AFH_d1e5477"><g ref="#tironian-et">r</g>c</w><pc type="final" xml:id="AFH_d1e5479">.</pc>
+                    <w lemma="etc" type="FM" xml:id="AFH_d1e5477">
+                        <g ref="#tironian-et">r</g>c</w>
+                    <pc type="final" xml:id="AFH_d1e5479">.</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="gut" type="ADJD" xml:id="AFH_d1e5483">Gut</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -3132,7 +3164,9 @@
             </div>
             <pb facs="Abraham-Augustini_feuriges_Hertz_n0012.jpg" n="S. 12, Abb." xml:id="AFH_n0012"/>
             <fw type="header">
-                <fw n="12" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(12)<seg type="ornament">✾</seg></fw>
+                <fw n="12" place="top_center" type="pageNum">
+                    <seg type="ornament">✾</seg>(12)<seg type="ornament">✾</seg>
+                </fw>
             </fw>
             <lb rend="line"/>
             <div n="Non nisi Spicula torquet." type="chapter">
@@ -3361,7 +3395,9 @@
                 <fw place="bot_right" type="catch">Nach=</fw>
                 <pb facs="Abraham-Augustini_feuriges_Hertz_n0013.jpg" n="S. 13" xml:id="AFH_n0013"/>
                 <fw type="header">
-                    <fw n="13" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(13)<seg type="ornament">✾</seg></fw>
+                    <fw n="13" place="top_center" type="pageNum">
+                        <seg type="ornament">✾</seg>(13)<seg type="ornament">✾</seg>
+                    </fw>
                 </fw>
                 <lb rend="line"/>
                 <p>
@@ -3786,7 +3822,9 @@
                     <fw place="bot_right" type="catch">aber</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0014.jpg" n="S. 14" xml:id="AFH_n0014"/>
                     <fw type="header">
-                        <fw n="14" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(14)<seg type="ornament">✾</seg></fw>
+                        <fw n="14" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(14)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="aber" type="KON" xml:id="AFH_d1e7351">aber</w>
@@ -4291,7 +4329,9 @@
                     <fw place="bot_right" type="catch">man</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0015.jpg" n="S. 15" xml:id="AFH_n0015"/>
                     <fw type="header">
-                        <fw n="15" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(15)<seg type="ornament">✾</seg></fw>
+                        <fw n="15" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(15)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="man" type="PIS" xml:id="AFH_d1e8392">man</w>
@@ -4406,7 +4446,8 @@
                     <lb/>
                     <w lemma="zwei" type="CARD" xml:id="AFH_d1e8620">zwey</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="Audienzzimmer" type="NN" xml:id="AFH_d1e8625"><seg rend="antiqua">Audienz-</seg>Zimmer</w>
+                    <w lemma="Audienzzimmer" type="NN" xml:id="AFH_d1e8625">
+                        <seg rend="antiqua">Audienz-</seg>Zimmer</w>
                     <pc type="final" xml:id="AFH_d1e8629">;</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="lassen" type="VVIMP" xml:id="AFH_d1e8633">laß</w>
@@ -4736,7 +4777,9 @@
                     <fw place="bot_right" type="catch">im</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0016.jpg" n="S. 16" xml:id="AFH_n0016"/>
                     <fw type="header">
-                        <fw n="16" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(16)<seg type="ornament">✾</seg></fw>
+                        <fw n="16" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(16)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="im" type="APPRART" xml:id="AFH_d1e9321">im</w>
@@ -5261,7 +5304,9 @@
                     <fw place="bot_right" type="catch">nächst</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0017.jpg" n="S. 17" xml:id="AFH_n0017"/>
                     <fw type="header">
-                        <fw n="17" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(17)<seg type="ornament">✾</seg></fw>
+                        <fw n="17" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(17)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="nahe" type="ADJD" xml:id="AFH_d1e10350">nächst</w>
@@ -5748,7 +5793,9 @@
                     <fw place="bot_right" type="catch">Still=</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0018.jpg" n="S. 18" xml:id="AFH_n0018"/>
                     <fw type="header">
-                        <fw n="18" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(18)<seg type="ornament">✾</seg></fw>
+                        <fw n="18" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(18)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <choice>
@@ -6210,7 +6257,9 @@
                     <fw place="bot_right" type="catch">Freund=</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0019.jpg" n="S. 19" xml:id="AFH_n0019"/>
                     <fw type="header">
-                        <fw n="19" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(19)<seg type="ornament">✾</seg></fw>
+                        <fw n="19" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(19)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="Freundschaft" type="NN" xml:id="AFH_d1e12318">Freundschafft</w>
@@ -6478,7 +6527,9 @@
             </fw>
             <pb facs="Abraham-Augustini_feuriges_Hertz_n0020.jpg" n="S. 20, Abb." xml:id="AFH_n0020"/>
             <fw type="header">
-                <fw n="20" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(20)<seg type="ornament">✾</seg></fw>
+                <fw n="20" place="top_center" type="pageNum">
+                    <seg type="ornament">✾</seg>(20)<seg type="ornament">✾</seg>
+                </fw>
             </fw>
             <lb rend="line"/>
             <div n="Prosperè Si prosperè." type="chapter">
@@ -6525,7 +6576,8 @@
                                     <pc type="final" xml:id="AFH_d1e12901">.</pc>
                                 </seg>
                             </foreign>
-                        <seg type="whitespace" xml:space="preserve"> </seg></quote>
+                        <seg type="whitespace" xml:space="preserve"> </seg>
+                        </quote>
                         
                         <lb/>
                         <bibl>
@@ -6677,7 +6729,9 @@
                     <fw place="bot_right" type="catch">Baaß</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0021.jpg" n="S. 21" xml:id="AFH_n0021"/>
                     <fw type="header">
-                        <fw n="21" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(21)<seg type="ornament">✾</seg></fw>
+                        <fw n="21" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(21)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="Base" type="NN" xml:id="AFH_d1e13181">Baaß</w>
@@ -6935,7 +6989,9 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e13700">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="etc" type="FM" xml:id="AFH_d1e13705"><g ref="#tironian-et">r</g>c</w><pc type="final" xml:id="AFH_d1e13707">.</pc>
+                    <w lemma="etc" type="FM" xml:id="AFH_d1e13705">
+                        <g ref="#tironian-et">r</g>c</w>
+                    <pc type="final" xml:id="AFH_d1e13707">.</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <lb/>
                     <bibl>
@@ -7160,7 +7216,9 @@
                     <fw place="bot_right" type="catch">den</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0022.jpg" n="S. 22" xml:id="AFH_n0022"/>
                     <fw type="header">
-                        <fw n="22" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(22)<seg type="ornament">✾</seg></fw>
+                        <fw n="22" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(22)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="d" type="ART" xml:id="AFH_d1e14169">den</w>
@@ -7646,9 +7704,15 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="es" type="PPER" xml:id="AFH_d1e15163">es</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="Herbstzeit" type="NN" xml:id="AFH_d1e15168">Herbst<lb break="no" type="d"/><fw place="bot_right" type="catch">zeit /</fw><pb facs="Abraham-Augustini_feuriges_Hertz_n0023.jpg" n="S. 23" xml:id="AFH_n0023"/><fw type="header">
-                        <fw n="23" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(23)<seg type="ornament">✾</seg></fw>
-                    </fw><lb rend="line"/>zeit</w>
+                    <w lemma="Herbstzeit" type="NN" xml:id="AFH_d1e15168">Herbst<lb break="no" type="d"/>
+                        <fw place="bot_right" type="catch">zeit /</fw>
+                        <pb facs="Abraham-Augustini_feuriges_Hertz_n0023.jpg" n="S. 23" xml:id="AFH_n0023"/>
+                        <fw type="header">
+                        <fw n="23" place="top_center" type="pageNum">
+                                <seg type="ornament">✾</seg>(23)<seg type="ornament">✾</seg>
+                            </fw>
+                    </fw>
+                        <lb rend="line"/>zeit</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e15184">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -8054,7 +8118,9 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e15999">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="etc" type="FM" xml:id="AFH_d1e16004"><g ref="#tironian-et">r</g>c</w><pc type="final" xml:id="AFH_d1e16006">.</pc>
+                    <w lemma="etc" type="FM" xml:id="AFH_d1e16004">
+                        <g ref="#tironian-et">r</g>c</w>
+                    <pc type="final" xml:id="AFH_d1e16006">.</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <lb/>
                     <w lemma="mein" type="PPOSAT" xml:id="AFH_d1e16012">Mein</w>
@@ -8147,11 +8213,18 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="Weile" type="NN" xml:id="AFH_d1e16192">Weil</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="leiden" type="VVINF" xml:id="AFH_d1e16196">ley<lb break="no" type="d"/><fw type="footer">
+                    <w lemma="leiden" type="VVINF" xml:id="AFH_d1e16196">ley<lb break="no" type="d"/>
+                        <fw type="footer">
                         <fw place="bot_center" type="pageNum">B 4</fw>
-                    </fw><fw place="bot_right" type="catch">den /</fw><pb facs="Abraham-Augustini_feuriges_Hertz_n0024.jpg" n="S. 24" xml:id="AFH_n0024"/><fw type="header">
-                        <fw n="24" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(24)<seg type="ornament">✾</seg></fw>
-                    </fw><lb rend="line"/>den</w>
+                    </fw>
+                        <fw place="bot_right" type="catch">den /</fw>
+                        <pb facs="Abraham-Augustini_feuriges_Hertz_n0024.jpg" n="S. 24" xml:id="AFH_n0024"/>
+                        <fw type="header">
+                        <fw n="24" place="top_center" type="pageNum">
+                                <seg type="ornament">✾</seg>(24)<seg type="ornament">✾</seg>
+                            </fw>
+                    </fw>
+                        <lb rend="line"/>den</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e16216">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -8644,7 +8717,9 @@
                     <fw place="bot_right" type="catch">der</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0025.jpg" n="S. 25" xml:id="AFH_n0025"/>
                     <fw type="header">
-                        <fw n="25" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(25)<seg type="ornament">✾</seg></fw>
+                        <fw n="25" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(25)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="d" type="ART" xml:id="AFH_d1e17228">der</w>
@@ -9164,11 +9239,18 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="und" type="KON" xml:id="AFH_d1e18260">vnd</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="Flamme" type="NN" xml:id="AFH_d1e18264">Flam<lb break="no" type="d"/><fw type="footer">
+                    <w lemma="Flamme" type="NN" xml:id="AFH_d1e18264">Flam<lb break="no" type="d"/>
+                        <fw type="footer">
                         <fw place="bot_center" type="pageNum">B 5</fw>
-                    </fw><fw place="bot_right" type="catch">men</fw><pb facs="Abraham-Augustini_feuriges_Hertz_n0026.jpg" n="S. 26" xml:id="AFH_n0026"/><fw type="header">
-                        <fw n="26" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(26)<seg type="ornament">✾</seg></fw>
-                    </fw><lb rend="line"/>men</w>
+                    </fw>
+                        <fw place="bot_right" type="catch">men</fw>
+                        <pb facs="Abraham-Augustini_feuriges_Hertz_n0026.jpg" n="S. 26" xml:id="AFH_n0026"/>
+                        <fw type="header">
+                        <fw n="26" place="top_center" type="pageNum">
+                                <seg type="ornament">✾</seg>(26)<seg type="ornament">✾</seg>
+                            </fw>
+                    </fw>
+                        <lb rend="line"/>men</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="liegen" type="VVINF" xml:id="AFH_d1e18284">ligen</w>
                     <pc type="final" xml:id="AFH_d1e18286">?</pc>
@@ -9713,7 +9795,9 @@
                     <fw place="bot_right" type="catch">dem</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0027.jpg" n="S. 27" xml:id="AFH_n0027"/>
                     <fw type="header">
-                        <fw n="27" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(27)<seg type="ornament">✾</seg></fw>
+                        <fw n="27" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(27)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="d" type="ART" xml:id="AFH_d1e19329">dem</w>
@@ -10128,7 +10212,9 @@
             </fw>
             <pb facs="Abraham-Augustini_feuriges_Hertz_n0028.jpg" n="S. 28, Abb." xml:id="AFH_n0028"/>
             <fw type="header">
-                <fw n="28" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(28)<seg type="ornament">✾</seg></fw>
+                <fw n="28" place="top_center" type="pageNum">
+                    <seg type="ornament">✾</seg>(28)<seg type="ornament">✾</seg>
+                </fw>
             </fw>
             <lb rend="line"/>
             <div n="Accipit &amp; reddit." type="chapter">
@@ -10218,7 +10304,8 @@
                                     <pc type="final" xml:id="AFH_d1e20314">.</pc>
                                 </seg>
                             </foreign>
-                        <seg type="whitespace" xml:space="preserve"> </seg></quote>
+                        <seg type="whitespace" xml:space="preserve"> </seg>
+                        </quote>
                         
                         <lb/>
                         <bibl>
@@ -10344,9 +10431,15 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="Erbarmung" type="NN" xml:id="AFH_d1e20554">Erbarmung</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="mitteilen" type="VVINF" xml:id="AFH_d1e20558">mit<lb break="no" type="d"/><fw place="bot_right" type="catch">theilen /</fw><pb facs="Abraham-Augustini_feuriges_Hertz_n0029.jpg" n="S. 29" xml:id="AFH_n0029"/><fw type="header">
-                        <fw n="29" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(29)<seg type="ornament">✾</seg></fw>
-                    </fw><lb rend="line"/>theilen</w>
+                    <w lemma="mitteilen" type="VVINF" xml:id="AFH_d1e20558">mit<lb break="no" type="d"/>
+                        <fw place="bot_right" type="catch">theilen /</fw>
+                        <pb facs="Abraham-Augustini_feuriges_Hertz_n0029.jpg" n="S. 29" xml:id="AFH_n0029"/>
+                        <fw type="header">
+                        <fw n="29" place="top_center" type="pageNum">
+                                <seg type="ornament">✾</seg>(29)<seg type="ornament">✾</seg>
+                            </fw>
+                    </fw>
+                        <lb rend="line"/>theilen</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e20575">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -10627,7 +10720,8 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="d" type="ART" xml:id="AFH_d1e21138">die</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="Totenretirade" ana="#oov" type="NN" xml:id="AFH_d1e21142">Todten<seg rend="antiqua">-Retirada</seg></w>
+                    <w lemma="Totenretirade" ana="#oov" type="NN" xml:id="AFH_d1e21142">Todten<seg rend="antiqua">-Retirada</seg>
+                    </w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="nehmen" type="VVPP" xml:id="AFH_d1e21149">genommen</w>
                     <pc type="final" xml:id="AFH_d1e21151">:</pc>
@@ -10751,7 +10845,9 @@
                     <fw place="bot_right" type="catch">zu ach=</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0030.jpg" n="S. 30" xml:id="AFH_n0030"/>
                     <fw type="header">
-                        <fw n="30" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(30)<seg type="ornament">✾</seg></fw>
+                        <fw n="30" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(30)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="zu" type="PTKZU" xml:id="AFH_d1e21403">zu</w>
@@ -11230,7 +11326,9 @@
                     <fw place="bot_right" type="catch">dem</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0031.jpg" n="S. 31" xml:id="AFH_n0031"/>
                     <fw type="header">
-                        <fw n="31" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(31)<seg type="ornament">✾</seg></fw>
+                        <fw n="31" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(31)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="d" type="ART" xml:id="AFH_d1e22378">dem</w>
@@ -11576,7 +11674,9 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e23074">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="etc" type="FM" xml:id="AFH_d1e23079"><g ref="#tironian-et">r</g>c</w><pc type="internal" xml:id="AFH_d1e23081">.</pc>
+                    <w lemma="etc" type="FM" xml:id="AFH_d1e23079">
+                        <g ref="#tironian-et">r</g>c</w>
+                    <pc type="internal" xml:id="AFH_d1e23081">.</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="alles" type="PIAT" xml:id="AFH_d1e23085">alles</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -11720,7 +11820,9 @@
                         </fw>
                         <pb facs="Abraham-Augustini_feuriges_Hertz_n0032.jpg" n="S. 32" xml:id="AFH_n0032"/>
                         <fw type="header">
-                            <fw n="32" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(32)<seg type="ornament">✾</seg></fw>
+                            <fw n="32" place="top_center" type="pageNum">
+                                <seg type="ornament">✾</seg>(32)<seg type="ornament">✾</seg>
+                            </fw>
                         </fw>
                         <lb rend="line"/>
                         <seg rend="antiqua">
@@ -12164,7 +12266,8 @@
                         </persName>
                         <seg type="whitespace" xml:space="preserve"> </seg>
                     </seg>
-                    <w lemma="registrieren" type="VVFIN" xml:id="AFH_d1e24251">regi<lb break="no" type="s"/><seg rend="antiqua">stri</seg>ret</w>
+                    <w lemma="registrieren" type="VVFIN" xml:id="AFH_d1e24251">regi<lb break="no" type="s"/>
+                        <seg rend="antiqua">stri</seg>ret</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e24262">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -12205,7 +12308,9 @@
                     <fw place="bot_right" type="catch">die</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0033.jpg" n="S. 33" xml:id="AFH_n0033"/>
                     <fw type="header">
-                        <fw n="33" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(33)<seg type="ornament">✾</seg></fw>
+                        <fw n="33" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(33)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="d" type="ART" xml:id="AFH_d1e24344">die</w>
@@ -12680,7 +12785,9 @@
                     <fw place="bot_right" type="catch">der</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0034.jpg" n="S. 34" xml:id="AFH_n0034"/>
                     <fw type="header">
-                        <fw n="34" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(34)<seg type="ornament">✾</seg></fw>
+                        <fw n="34" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(34)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="d" type="PRELS" xml:id="AFH_d1e25301">der</w>
@@ -13046,7 +13153,8 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="helfen" type="VVPP" xml:id="AFH_d1e26063">helffen</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="viktorisieren" type="VVINF" xml:id="AFH_d1e26069"><seg rend="antiqua">victorisi</seg>ren</w>
+                    <w lemma="viktorisieren" type="VVINF" xml:id="AFH_d1e26069">
+                        <seg rend="antiqua">victorisi</seg>ren</w>
                     <pc type="final" xml:id="AFH_d1e26073">.</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <lb/>
@@ -13105,7 +13213,9 @@
                     <fw place="bot_right" type="catch">dem</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0035.jpg" n="S. 35" xml:id="AFH_n0035"/>
                     <fw type="header">
-                        <fw n="35" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(35)<seg type="ornament">✾</seg></fw>
+                        <fw n="35" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(35)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="d" type="ART" xml:id="AFH_d1e26191">dem</w>
@@ -13536,7 +13646,9 @@
             </fw>
             <pb facs="Abraham-Augustini_feuriges_Hertz_n0036.jpg" n="S. 36, Abb." xml:id="AFH_n0036"/>
             <fw type="header">
-                <fw n="36" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(36)<seg type="ornament">✾</seg></fw>
+                <fw n="36" place="top_center" type="pageNum">
+                    <seg type="ornament">✾</seg>(36)<seg type="ornament">✾</seg>
+                </fw>
             </fw>
             <lb rend="line"/>
             <div n="Major conceditur, negatur minor." type="chapter">
@@ -13623,7 +13735,8 @@
                                     <pc type="final" xml:id="AFH_d1e27216">.</pc>
                                 </seg>
                             </foreign>
-                        <seg type="whitespace" xml:space="preserve"> </seg></quote>
+                        <seg type="whitespace" xml:space="preserve"> </seg>
+                        </quote>
                         
                         <bibl>
                             <foreign xml:lang="la">
@@ -13741,7 +13854,9 @@
                     <fw place="bot_right" type="catch">oder</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0037.jpg" n="S. 37" xml:id="AFH_n0037"/>
                     <fw type="header">
-                        <fw n="37" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(37)<seg type="ornament">✾</seg></fw>
+                        <fw n="37" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(37)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="oder" type="KON" xml:id="AFH_d1e27436">oder</w>
@@ -13866,7 +13981,8 @@
                     <lb/>
                     <w lemma="d" type="ART" xml:id="AFH_d1e27658">der</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="Sozietät" type="NN" xml:id="AFH_d1e27663"><seg rend="antiqua">Socie</seg>tät</w>
+                    <w lemma="Sozietät" type="NN" xml:id="AFH_d1e27663">
+                        <seg rend="antiqua">Socie</seg>tät</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <persName type="bibl" key="jesus">
                         <w lemma="Jesus" type="NE" xml:id="AFH_d1e27671">JEsu</w>
@@ -14209,7 +14325,9 @@
                     <fw place="bot_right" type="catch">letzlich</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0038.jpg" n="S. 38" xml:id="AFH_n0038"/>
                     <fw type="header">
-                        <fw n="38" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(38)<seg type="ornament">✾</seg></fw>
+                        <fw n="38" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(38)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="letztlich" type="ADV" xml:id="AFH_d1e28369">letzlich</w>
@@ -14502,7 +14620,8 @@
                     <w lemma="aus" type="APPR" xml:id="AFH_d1e28962">auß</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <lb/>
-                    <w lemma="mathematisch" type="ADJA" xml:id="AFH_d1e28969"><seg rend="antiqua">Mathemati</seg>scher</w>
+                    <w lemma="mathematisch" type="ADJA" xml:id="AFH_d1e28969">
+                        <seg rend="antiqua">Mathemati</seg>scher</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="Kunst" type="NN" xml:id="AFH_d1e28975">Kunst</w>
                     <pc type="final" xml:id="AFH_d1e28977">;</pc>
@@ -14684,7 +14803,9 @@
                     <fw place="bot_right" type="catch">zuvor /</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0039.jpg" n="S. 39" xml:id="AFH_n0039"/>
                     <fw type="header">
-                        <fw n="39" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(39)<seg type="ornament">✾</seg></fw>
+                        <fw n="39" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(39)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="zuvor" type="ADV" xml:id="AFH_d1e29341">zuvor</w>
@@ -15132,7 +15253,9 @@
                     <fw place="bot_right" type="catch">König</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0040.jpg" n="S. 40" xml:id="AFH_n0040"/>
                     <fw type="header">
-                        <fw n="40" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(40)<seg type="ornament">✾</seg></fw>
+                        <fw n="40" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(40)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="König" type="NN" xml:id="AFH_d1e30231">König</w>
@@ -15596,7 +15719,9 @@
                     <fw place="bot_right" type="catch">derent=</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0041.jpg" n="S. 41" xml:id="AFH_n0041"/>
                     <fw type="header">
-                        <fw n="41" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(41)<seg type="ornament">✾</seg></fw>
+                        <fw n="41" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(41)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="derenthalben" type="ADV" xml:id="AFH_d1e31180">derenthalben</w>
@@ -16071,7 +16196,9 @@
                     <fw place="bot_right" type="catch">doch</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0042.jpg" n="S. 42" xml:id="AFH_n0042"/>
                     <fw type="header">
-                        <fw n="42" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(42)<seg type="ornament">✾</seg></fw>
+                        <fw n="42" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(42)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="doch" type="ADV" xml:id="AFH_d1e32128">doch</w>
@@ -16539,7 +16666,9 @@
                     <fw place="bot_right" type="catch">aber</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0043.jpg" n="S. 43" xml:id="AFH_n0043"/>
                     <fw type="header">
-                        <fw n="43" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(43)<seg type="ornament">✾</seg></fw>
+                        <fw n="43" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(43)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="aber" type="ADV" xml:id="AFH_d1e33068">aber</w>
@@ -16894,7 +17023,8 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="d" type="ART" xml:id="AFH_d1e33787">der</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="alexandrinisch" type="ADJA" xml:id="AFH_d1e33792"><seg rend="antiqua">Alexandrini</seg>sche</w>
+                    <w lemma="alexandrinisch" type="ADJA" xml:id="AFH_d1e33792">
+                        <seg rend="antiqua">Alexandrini</seg>sche</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <persName type="hist" key="macarius">
                         <seg rend="antiqua">
@@ -16986,9 +17116,15 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="und" type="KON" xml:id="AFH_d1e33984">vnd</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="denken" type="VVPP" xml:id="AFH_d1e33988">ge<lb break="no" type="d"/><fw place="bot_right" type="catch">dacht /</fw><pb facs="Abraham-Augustini_feuriges_Hertz_n0044.jpg" n="S. 44" xml:id="AFH_n0044"/><fw type="header">
-                        <fw n="44" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(44)<seg type="ornament">✾</seg></fw>
-                    </fw><lb rend="line"/>dacht</w>
+                    <w lemma="denken" type="VVPP" xml:id="AFH_d1e33988">ge<lb break="no" type="d"/>
+                        <fw place="bot_right" type="catch">dacht /</fw>
+                        <pb facs="Abraham-Augustini_feuriges_Hertz_n0044.jpg" n="S. 44" xml:id="AFH_n0044"/>
+                        <fw type="header">
+                        <fw n="44" place="top_center" type="pageNum">
+                                <seg type="ornament">✾</seg>(44)<seg type="ornament">✾</seg>
+                            </fw>
+                    </fw>
+                        <lb rend="line"/>dacht</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e34004">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -17072,7 +17208,8 @@
                     <w lemma="d" type="ART" xml:id="AFH_d1e34162">den</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <lb/>
-                    <w lemma="skythisch" type="ADJA" xml:id="AFH_d1e34169"><seg rend="antiqua">Sciti</seg>schen</w>
+                    <w lemma="skythisch" type="ADJA" xml:id="AFH_d1e34169">
+                        <seg rend="antiqua">Sciti</seg>schen</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="Feld" type="NN" xml:id="AFH_d1e34175">Feldern</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -17350,7 +17487,9 @@
             </fw>
             <pb facs="Abraham-Augustini_feuriges_Hertz_n0045.jpg" n="S. 45, Abb." xml:id="AFH_n0045"/>
             <fw type="header">
-                <fw n="45" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(45)<seg type="ornament">✾</seg></fw>
+                <fw n="45" place="top_center" type="pageNum">
+                    <seg type="ornament">✾</seg>(45)<seg type="ornament">✾</seg>
+                </fw>
             </fw>
             <lb rend="line"/>
             <div n="Pauci Electi." type="chapter">
@@ -17396,7 +17535,8 @@
                                     <pc type="final" xml:id="AFH_d1e34782">.</pc>
                                 </seg>
                             </foreign>
-                        <seg type="whitespace" xml:space="preserve"> </seg></quote>
+                        <seg type="whitespace" xml:space="preserve"> </seg>
+                        </quote>
                         
                         <bibl>
                             <foreign xml:lang="la">
@@ -17545,7 +17685,9 @@
                 <fw place="bot_right" type="catch">Freund</fw>
                 <pb facs="Abraham-Augustini_feuriges_Hertz_n0046.jpg" n="S. 46" xml:id="AFH_n0046"/>
                 <fw type="header">
-                    <fw n="45" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(46)<seg type="ornament">✾</seg></fw>
+                    <fw n="45" place="top_center" type="pageNum">
+                        <seg type="ornament">✾</seg>(46)<seg type="ornament">✾</seg>
+                    </fw>
                 </fw>
                 <lb rend="line"/>
                 <p rend="indent">
@@ -18039,7 +18181,9 @@
                     <fw place="bot_right" type="catch">dann</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0047.jpg" n="S. 47" xml:id="AFH_n0047"/>
                     <fw type="header">
-                        <fw n="47" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(47)<seg type="ornament">✾</seg></fw>
+                        <fw n="47" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(47)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="sodann" type="ADV" xml:id="AFH_d1e36079">dann</w>
@@ -18496,7 +18640,9 @@
                     <fw place="bot_right" type="catch">Freund /</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0048.jpg" n="S. 48" xml:id="AFH_n0048"/>
                     <fw type="header">
-                        <fw n="48" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(48)<seg type="ornament">✾</seg></fw>
+                        <fw n="48" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(48)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="Freund" type="NN" xml:id="AFH_d1e37042">Freund</w>
@@ -18659,7 +18805,9 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e37370">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="etc" type="FM" xml:id="AFH_d1e37375"><g ref="#tironian-et">r</g>c</w><pc type="final" xml:id="AFH_d1e37377">.</pc>
+                    <w lemma="etc" type="FM" xml:id="AFH_d1e37375">
+                        <g ref="#tironian-et">r</g>c</w>
+                    <pc type="final" xml:id="AFH_d1e37377">.</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="aber" type="KON" xml:id="AFH_d1e37381">Aber</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -18710,7 +18858,9 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e37485">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="etc" type="FM" xml:id="AFH_d1e37490"><g ref="#tironian-et">r</g>c</w><pc type="final" xml:id="AFH_d1e37492">.</pc>
+                    <w lemma="etc" type="FM" xml:id="AFH_d1e37490">
+                        <g ref="#tironian-et">r</g>c</w>
+                    <pc type="final" xml:id="AFH_d1e37492">.</pc>
                     <foreign xml:lang="la">
                         <seg rend="antiqua">
                             <w type="FM" xml:id="AFH_d1e37496" lemma="turba">Turba</w>
@@ -18999,7 +19149,9 @@
                     <fw place="bot_right" type="catch">übler</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0049.jpg" n="S. 49" xml:id="AFH_n0049"/>
                     <fw type="header">
-                        <fw n="49" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(49)<seg type="ornament">✾</seg></fw>
+                        <fw n="49" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(49)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="übel" type="ADJA" xml:id="AFH_d1e38078">übler</w>
@@ -19532,7 +19684,9 @@
                     <fw place="bot_right" type="catch">es</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0050.jpg" n="S. 50" xml:id="AFH_n0050"/>
                     <fw type="header">
-                        <fw n="50" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(50)<seg type="ornament">✾</seg></fw>
+                        <fw n="50" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(50)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="es" type="PPER" xml:id="AFH_d1e39150">es</w>
@@ -20039,7 +20193,9 @@
                     <fw place="bot_right" type="catch">gesteckt /</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0051.jpg" n="S. 51" xml:id="AFH_n0051"/>
                     <fw type="header">
-                        <fw n="51" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(51)<seg type="ornament">✾</seg></fw>
+                        <fw n="51" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(51)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="stecken" type="VVPP" xml:id="AFH_d1e40181">gesteckt</w>
@@ -20566,7 +20722,9 @@
                     <fw place="bot_right" type="catch">von</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0052.jpg" n="S. 52" xml:id="AFH_n0052"/>
                     <fw type="header">
-                        <fw n="52" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(52)<seg type="ornament">✾</seg></fw>
+                        <fw n="52" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(52)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="von" type="APPR" xml:id="AFH_d1e41240">von</w>
@@ -20856,7 +21014,9 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e41827">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="etc" type="FM" xml:id="AFH_d1e41832"><g ref="#tironian-et">r</g>c</w><pc type="final" xml:id="AFH_d1e41834">.</pc>
+                    <w lemma="etc" type="FM" xml:id="AFH_d1e41832">
+                        <g ref="#tironian-et">r</g>c</w>
+                    <pc type="final" xml:id="AFH_d1e41834">.</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="so" type="ADV" xml:id="AFH_d1e41838">So</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -20996,7 +21156,9 @@
             <fw place="bot_right" type="catch">Luemus,</fw>
             <pb facs="Abraham-Augustini_feuriges_Hertz_n0053.jpg" n="S. 53, Abb." xml:id="AFH_n0053"/>
             <fw type="header">
-                <fw n="53" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(53)<seg type="ornament">✾</seg></fw>
+                <fw n="53" place="top_center" type="pageNum">
+                    <seg type="ornament">✾</seg>(53)<seg type="ornament">✾</seg>
+                </fw>
             </fw>
             <lb rend="line"/>
             <div n="Luemus, si non abluemus." type="chapter">
@@ -21092,7 +21254,8 @@
                                     <pc type="final" xml:id="AFH_d1e42291">.</pc>
                                 </seg>
                             </foreign>
-                        <seg type="whitespace" xml:space="preserve"> </seg></quote>
+                        <seg type="whitespace" xml:space="preserve"> </seg>
+                        </quote>
                         
                         <bibl>
                             <foreign xml:lang="la">
@@ -21198,7 +21361,9 @@
                     <fw place="bot_right" type="catch">Welt</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0054.jpg" n="S. 54" xml:id="AFH_n0054"/>
                     <fw type="header">
-                        <fw n="54" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(54)<seg type="ornament">✾</seg></fw>
+                        <fw n="54" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(54)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="Welt" type="NN" xml:id="AFH_d1e42498">Welt</w>
@@ -21638,7 +21803,9 @@
                 <fw place="bot_right" type="catch">Ein</fw>
                 <pb facs="Abraham-Augustini_feuriges_Hertz_n0055.jpg" n="S. 55" xml:id="AFH_n0055"/>
                 <fw type="header">
-                    <fw n="55" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(55)<seg type="ornament">✾</seg></fw>
+                    <fw n="55" place="top_center" type="pageNum">
+                        <seg type="ornament">✾</seg>(55)<seg type="ornament">✾</seg>
+                    </fw>
                 </fw>
                 <lb rend="line"/>
                 <p rend="indent">
@@ -21836,7 +22003,8 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="Himmel" type="NN" xml:id="AFH_d1e43752">Himmel</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="disputieren" type="VVFIN" xml:id="AFH_d1e43757"><seg rend="antiqua">disputie</seg>rten</w>
+                    <w lemma="disputieren" type="VVFIN" xml:id="AFH_d1e43757">
+                        <seg rend="antiqua">disputie</seg>rten</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e43764">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -22133,7 +22301,9 @@
                 </fw>
                 <pb facs="Abraham-Augustini_feuriges_Hertz_n0056.jpg" n="S. 56" xml:id="AFH_n0056"/>
                 <fw type="header">
-                    <fw n="56" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(56)<seg type="ornament">✾</seg></fw>
+                    <fw n="56" place="top_center" type="pageNum">
+                        <seg type="ornament">✾</seg>(56)<seg type="ornament">✾</seg>
+                    </fw>
                 </fw>
                 <lb rend="line"/>
                 <p rend="indent">
@@ -22585,7 +22755,9 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="werden" type="VAFIN" xml:id="AFH_d1e45263">wird</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="registrieren" type="VVPP" xml:id="AFH_d1e45269"><seg rend="antiqua">registri</seg><lb break="no" type="s"/>ret</w>
+                    <w lemma="registrieren" type="VVPP" xml:id="AFH_d1e45269">
+                        <seg rend="antiqua">registri</seg>
+                        <lb break="no" type="s"/>ret</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e45276">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -22612,7 +22784,9 @@
                     <fw place="bot_right" type="catch">ein</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0057.jpg" n="S. 57" xml:id="AFH_n0057"/>
                     <fw type="header">
-                        <fw n="57" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(57)<seg type="ornament">✾</seg></fw>
+                        <fw n="57" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(57)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="ein" type="ART" xml:id="AFH_d1e45324">ein</w>
@@ -23068,7 +23242,9 @@
                     <fw place="bot_right" type="catch">vnd</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0058.jpg" n="S. 58" xml:id="AFH_n0058"/>
                     <fw type="header">
-                        <fw n="58" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(58)<seg type="ornament">✾</seg></fw>
+                        <fw n="58" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(58)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="und" type="KON" xml:id="AFH_d1e46256">vnd</w>
@@ -23553,7 +23729,9 @@
                     <fw place="bot_right" type="catch">vnd</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0059.jpg" n="S. 59" xml:id="AFH_n0059"/>
                     <fw type="header">
-                        <fw n="59" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(59)<seg type="ornament">✾</seg></fw>
+                        <fw n="59" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(59)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="und" type="KON" xml:id="AFH_d1e47237">vnd</w>
@@ -24050,7 +24228,9 @@
             </div>
             <pb facs="Abraham-Augustini_feuriges_Hertz_n0060.jpg" n="S. 60, Abb." xml:id="AFH_n0060"/>
             <fw type="header">
-                <fw n="60" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(60)<seg type="ornament">✾</seg></fw>
+                <fw n="60" place="top_center" type="pageNum">
+                    <seg type="ornament">✾</seg>(60)<seg type="ornament">✾</seg>
+                </fw>
             </fw>
             <lb rend="line"/>
             <div n="Manet altâ mente repôstum." type="chapter">
@@ -24141,7 +24321,8 @@
                                     <pc type="comma" xml:id="AFH_d1e48371">,</pc>
                                 </seg>
                             </foreign>
-                        <seg type="whitespace" xml:space="preserve"> </seg></quote>
+                        <seg type="whitespace" xml:space="preserve"> </seg>
+                        </quote>
                         
                         <bibl>
                             <foreign xml:lang="la">
@@ -24292,7 +24473,9 @@
                 <fw place="bot_right" type="catch">Wie</fw>
                 <pb facs="Abraham-Augustini_feuriges_Hertz_n0061.jpg" n="S. 61" xml:id="AFH_n0061"/>
                 <fw type="header">
-                    <fw n="61" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(61)<seg type="ornament">✾</seg></fw>
+                    <fw n="61" place="top_center" type="pageNum">
+                        <seg type="ornament">✾</seg>(61)<seg type="ornament">✾</seg>
+                    </fw>
                 </fw>
                 <lb rend="line"/>
                 <p>
@@ -24777,7 +24960,9 @@
                     <fw place="bot_right" type="catch">den</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0062.jpg" n="S. 62" xml:id="AFH_n0062"/>
                     <fw type="header">
-                        <fw n="62" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(62)<seg type="ornament">✾</seg></fw>
+                        <fw n="62" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(62)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="d" type="ART" xml:id="AFH_d1e49619">den</w>
@@ -25248,7 +25433,9 @@
                     </fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0063.jpg" n="S. 63" xml:id="AFH_n0063"/>
                     <fw type="header">
-                        <fw n="63" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(63)<seg type="ornament">✾</seg></fw>
+                        <fw n="63" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(63)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <persName type="hist" key="pius">
@@ -25769,7 +25956,9 @@
                     <fw place="bot_right" type="catch">daß</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0064.jpg" n="S. 64" xml:id="AFH_n0064"/>
                     <fw type="header">
-                        <fw n="64" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(64)<seg type="ornament">✾</seg></fw>
+                        <fw n="64" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(64)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="dass" type="KOUS" xml:id="AFH_d1e51629">daß</w>
@@ -26233,7 +26422,8 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="Kälte" type="NN" xml:id="AFH_d1e52593">Kälte</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="defendieren" ana="#oov" type="VVPP" xml:id="AFH_d1e52598"><seg rend="antiqua">defendi</seg>rt</w>
+                    <w lemma="defendieren" ana="#oov" type="VVPP" xml:id="AFH_d1e52598">
+                        <seg rend="antiqua">defendi</seg>rt</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e52605">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -26241,7 +26431,9 @@
                     <fw place="bot_right" type="catch">der</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0065.jpg" n="S. 65" xml:id="AFH_n0065"/>
                     <fw type="header">
-                        <fw n="65" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(65)<seg type="ornament">✾</seg></fw>
+                        <fw n="65" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(65)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="d" type="ART" xml:id="AFH_d1e52619">der</w>
@@ -26799,7 +26991,9 @@
                     <fw place="bot_right" type="catch">Wittiben /</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0066.jpg" n="S. 66" xml:id="AFH_n0066"/>
                     <fw type="header">
-                        <fw n="66" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(66)<seg type="ornament">✾</seg></fw>
+                        <fw n="66" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(66)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="Witwe" type="NN" xml:id="AFH_d1e53693">Wittiben</w>
@@ -27241,7 +27435,8 @@
                     <w lemma="unser" type="PPOSAT" xml:id="AFH_d1e54606">unserer</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <lb/>
-                    <w lemma="reformieren" type="ADJA" xml:id="AFH_d1e54612"><seg rend="antiqua">reformi</seg>rten</w>
+                    <w lemma="reformieren" type="ADJA" xml:id="AFH_d1e54612">
+                        <seg rend="antiqua">reformi</seg>rten</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="Religion" type="NN" xml:id="AFH_d1e54618">Religion</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -27295,7 +27490,9 @@
                     <fw place="bot_right" type="catch">Chor /</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0067.jpg" n="S. 67" xml:id="AFH_n0067"/>
                     <fw type="header">
-                        <fw n="67" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(67)<seg type="ornament">✾</seg></fw>
+                        <fw n="67" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(67)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="Chor" type="NN" xml:id="AFH_d1e54730">Chor</w>
@@ -27555,7 +27752,9 @@
             </fw>
             <pb facs="Abraham-Augustini_feuriges_Hertz_n0068.jpg" n="S. 68, Abb." xml:id="AFH_n0068"/>
             <fw type="header">
-                <fw n="68" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(68)<seg type="ornament">✾</seg></fw>
+                <fw n="68" place="top_center" type="pageNum">
+                    <seg type="ornament">✾</seg>(68)<seg type="ornament">✾</seg>
+                </fw>
             </fw>
             <lb rend="line"/>
             <div n="Solvendo salvabimur omnes." type="chapter">
@@ -27645,7 +27844,8 @@
                                     <pc type="final" xml:id="AFH_d1e55413">.</pc>
                                 </seg>
                             </foreign>
-                        <seg type="whitespace" xml:space="preserve"> </seg></quote>
+                        <seg type="whitespace" xml:space="preserve"> </seg>
+                        </quote>
                         
                         <bibl>
                             <foreign xml:lang="la">
@@ -27769,7 +27969,9 @@
                     <fw place="bot_right" type="catch">von</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0069.jpg" n="S. 69" xml:id="AFH_n0069"/>
                     <fw type="header">
-                        <fw n="69" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(69)<seg type="ornament">✾</seg></fw>
+                        <fw n="69" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(69)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="von" type="APPR" xml:id="AFH_d1e55651">von</w>
@@ -28246,7 +28448,9 @@
                     <fw place="bot_right" type="catch">aber</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0070.jpg" n="S. 70" xml:id="AFH_n0070"/>
                     <fw type="header">
-                        <fw n="70" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(70)<seg type="ornament">✾</seg></fw>
+                        <fw n="70" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(70)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="aber" type="ADV" xml:id="AFH_d1e56589">aber</w>
@@ -28528,7 +28732,8 @@
                     <w lemma="bar" type="ADJD" xml:id="AFH_d1e57170">baar</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <lb/>
-                    <w lemma="contentieren" type="VVPP" xml:id="AFH_d1e57176"><seg rend="antiqua">contenti</seg>ret</w>
+                    <w lemma="contentieren" type="VVPP" xml:id="AFH_d1e57176">
+                        <seg rend="antiqua">contenti</seg>ret</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e57183">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -28655,7 +28860,9 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e57428">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="etc" type="FM" xml:id="AFH_d1e57433"><g ref="#tironian-et">r</g>c</w><pc type="final" xml:id="AFH_d1e57435">.</pc>
+                    <w lemma="etc" type="FM" xml:id="AFH_d1e57433">
+                        <g ref="#tironian-et">r</g>c</w>
+                    <pc type="final" xml:id="AFH_d1e57435">.</pc>
                     <bibl>
                         <foreign xml:lang="la">
                             <seg rend="antiqua">
@@ -28726,7 +28933,9 @@
                     <fw place="bot_right" type="catch">von</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0071.jpg" n="S. 71" xml:id="AFH_n0071"/>
                     <fw type="header">
-                        <fw n="71" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(71)<seg type="ornament">✾</seg></fw>
+                        <fw n="71" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(71)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="von" type="APPR" xml:id="AFH_d1e57577">von</w>
@@ -28741,7 +28950,8 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="er" type="PPER" xml:id="AFH_d1e57598">ihn</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="contentieren" type="VVINF" xml:id="AFH_d1e57603"><seg rend="antiqua">contenti</seg>ren</w>
+                    <w lemma="contentieren" type="VVINF" xml:id="AFH_d1e57603">
+                        <seg rend="antiqua">contenti</seg>ren</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e57609">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -29062,7 +29272,9 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e58264">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="etc" type="FM" xml:id="AFH_d1e58269"><g ref="#tironian-et">r</g>c</w><pc type="internal" xml:id="AFH_d1e58271">.</pc>
+                    <w lemma="etc" type="FM" xml:id="AFH_d1e58269">
+                        <g ref="#tironian-et">r</g>c</w>
+                    <pc type="internal" xml:id="AFH_d1e58271">.</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="aber" type="KON" xml:id="AFH_d1e58275">aber</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -29217,7 +29429,9 @@
                 <fw place="bot_right" type="catch">Der</fw>
                 <pb facs="Abraham-Augustini_feuriges_Hertz_n0072.jpg" n="S. 72" xml:id="AFH_n0072"/>
                 <fw type="header">
-                    <fw n="72" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(72)<seg type="ornament">✾</seg></fw>
+                    <fw n="72" place="top_center" type="pageNum">
+                        <seg type="ornament">✾</seg>(72)<seg type="ornament">✾</seg>
+                    </fw>
                 </fw>
                 <lb rend="line"/>
                 <p rend="indent">
@@ -29695,9 +29909,15 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e59539">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="d" type="PRELAT" xml:id="AFH_d1e59543">des<lb break="no" type="d"/><fw place="bot_right" type="catch">sen</fw><pb facs="Abraham-Augustini_feuriges_Hertz_n0073.jpg" n="S. 73" xml:id="AFH_n0073"/><fw type="header">
-                        <fw n="73" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(73)<seg type="ornament">✾</seg></fw>
-                    </fw><lb rend="line"/>sen</w>
+                    <w lemma="d" type="PRELAT" xml:id="AFH_d1e59543">des<lb break="no" type="d"/>
+                        <fw place="bot_right" type="catch">sen</fw>
+                        <pb facs="Abraham-Augustini_feuriges_Hertz_n0073.jpg" n="S. 73" xml:id="AFH_n0073"/>
+                        <fw type="header">
+                        <fw n="73" place="top_center" type="pageNum">
+                                <seg type="ornament">✾</seg>(73)<seg type="ornament">✾</seg>
+                            </fw>
+                    </fw>
+                        <lb rend="line"/>sen</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="Abriss" type="NN" xml:id="AFH_d1e59560">Abriß</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -30161,11 +30381,18 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="Geld" type="NN" xml:id="AFH_d1e60496">Geld</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="finden" type="VVINF" xml:id="AFH_d1e60500">fin<lb break="no" type="d"/><fw type="footer">
+                    <w lemma="finden" type="VVINF" xml:id="AFH_d1e60500">fin<lb break="no" type="d"/>
+                        <fw type="footer">
                         <fw place="bot_center" type="pageNum">E 5</fw>
-                    </fw><fw place="bot_right" type="catch">den /</fw><pb facs="Abraham-Augustini_feuriges_Hertz_n0074.jpg" n="S. 74" xml:id="AFH_n0074"/><fw type="header">
-                        <fw n="74" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(74)<seg type="ornament">✾</seg></fw>
-                    </fw><lb rend="line"/>den</w>
+                    </fw>
+                        <fw place="bot_right" type="catch">den /</fw>
+                        <pb facs="Abraham-Augustini_feuriges_Hertz_n0074.jpg" n="S. 74" xml:id="AFH_n0074"/>
+                        <fw type="header">
+                        <fw n="74" place="top_center" type="pageNum">
+                                <seg type="ornament">✾</seg>(74)<seg type="ornament">✾</seg>
+                            </fw>
+                    </fw>
+                        <lb rend="line"/>den</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e60520">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -30646,7 +30873,9 @@
                 <fw place="bot_right" type="catch">Deß</fw>
                 <pb facs="Abraham-Augustini_feuriges_Hertz_n0075.jpg" n="S. 75" xml:id="AFH_n0075"/>
                 <fw type="header">
-                    <fw n="75" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(75)<seg type="ornament">✾</seg></fw>
+                    <fw n="75" place="top_center" type="pageNum">
+                        <seg type="ornament">✾</seg>(75)<seg type="ornament">✾</seg>
+                    </fw>
                 </fw>
                 <lb rend="line"/>
                 <p>
@@ -30847,7 +31076,9 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e61881">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="etc" type="FM" xml:id="AFH_d1e61886"><g ref="#tironian-et">r</g>c</w><pc type="final" xml:id="AFH_d1e61888">.</pc>
+                    <w lemma="etc" type="FM" xml:id="AFH_d1e61886">
+                        <g ref="#tironian-et">r</g>c</w>
+                    <pc type="final" xml:id="AFH_d1e61888">.</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="oh" type="ITJ" xml:id="AFH_d1e61892">O</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -30914,7 +31145,8 @@
                         <pc type="internal" xml:id="AFH_d1e62018">.</pc>
                     </seg>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="Augustiner" type="NN" xml:id="AFH_d1e62024"><seg rend="antiqua">Augustin</seg>ern</w>
+                    <w lemma="Augustiner" type="NN" xml:id="AFH_d1e62024">
+                        <seg rend="antiqua">Augustin</seg>ern</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e62030">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -31062,7 +31294,9 @@
             </fw>
             <pb facs="Abraham-Augustini_feuriges_Hertz_n0076.jpg" n="S. 76, Abb." xml:id="AFH_n0076"/>
             <fw type="header">
-                <fw n="76" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(76)<seg type="ornament">✾</seg></fw>
+                <fw n="76" place="top_center" type="pageNum">
+                    <seg type="ornament">✾</seg>(76)<seg type="ornament">✾</seg>
+                </fw>
             </fw>
             <lb rend="line"/>
             <div n="Ostium pandit Hostia." type="chapter">
@@ -31143,7 +31377,8 @@
                                     <pc type="final" xml:id="AFH_d1e62450">.</pc>
                                 </seg>
                             </foreign>
-                        <seg type="whitespace" xml:space="preserve"> </seg></quote>
+                        <seg type="whitespace" xml:space="preserve"> </seg>
+                        </quote>
                         
                         <bibl>
                             <foreign xml:lang="la">
@@ -31327,7 +31562,9 @@
                 <fw place="bot_right" type="catch">Dazu=</fw>
                 <pb facs="Abraham-Augustini_feuriges_Hertz_n0077.jpg" n="S. 77" xml:id="AFH_n0077"/>
                 <fw type="header">
-                    <fw n="77" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(77)<seg type="ornament">✾</seg></fw>
+                    <fw n="77" place="top_center" type="pageNum">
+                        <seg type="ornament">✾</seg>(77)<seg type="ornament">✾</seg>
+                    </fw>
                 </fw>
                 <lb rend="line"/>
                 <p>
@@ -31660,7 +31897,9 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e63475">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="etc" type="FM" xml:id="AFH_d1e63480"><g ref="#tironian-et">r</g>c</w><pc type="final" xml:id="AFH_d1e63482">.</pc>
+                    <w lemma="etc" type="FM" xml:id="AFH_d1e63480">
+                        <g ref="#tironian-et">r</g>c</w>
+                    <pc type="final" xml:id="AFH_d1e63482">.</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="denn" type="ADV" xml:id="AFH_d1e63487">Dann</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -31806,7 +32045,9 @@
                     <fw place="bot_right" type="catch">dises</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0078.jpg" n="S. 78" xml:id="AFH_n0078"/>
                     <fw type="header">
-                        <fw n="78" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(78)<seg type="ornament">✾</seg></fw>
+                        <fw n="78" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(78)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="diese" type="PDAT" xml:id="AFH_d1e63788">dises</w>
@@ -32087,7 +32328,9 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e64356">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="etc" type="FM" xml:id="AFH_d1e64361"><g ref="#tironian-et">r</g>c</w><pc type="final" xml:id="AFH_d1e64363">.</pc>
+                    <w lemma="etc" type="FM" xml:id="AFH_d1e64361">
+                        <g ref="#tironian-et">r</g>c</w>
+                    <pc type="final" xml:id="AFH_d1e64363">.</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <lb/>
                     <w lemma="aber" type="KON" xml:id="AFH_d1e64369">Aber</w>
@@ -32249,7 +32492,9 @@
                     <fw place="bot_right" type="catch">baar</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0079.jpg" n="S. 79" xml:id="AFH_n0079"/>
                     <fw type="header">
-                        <fw n="79" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(79)<seg type="ornament">✾</seg></fw>
+                        <fw n="79" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(79)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="Paar" type="NN" xml:id="AFH_d1e64682">baar</w>
@@ -32317,7 +32562,8 @@
                         <pc type="internal" xml:id="AFH_d1e64806">.</pc>
                     </seg>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="Jesuit" type="NN" xml:id="AFH_d1e64811"><seg rend="antiqua">Jesuit</seg>ern</w>
+                    <w lemma="Jesuit" type="NN" xml:id="AFH_d1e64811">
+                        <seg rend="antiqua">Jesuit</seg>ern</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e64818">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -32737,7 +32983,9 @@
                     <fw place="bot_right" type="catch">ligen /</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0080.jpg" n="S. 80" xml:id="AFH_n0080"/>
                     <fw type="header">
-                        <fw n="80" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(80)<seg type="ornament">✾</seg></fw>
+                        <fw n="80" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(80)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <choice>
@@ -33210,7 +33458,9 @@
                     <fw place="bot_right" type="catch">Kraut=</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0081.jpg" n="S. 81" xml:id="AFH_n0081"/>
                     <fw type="header">
-                        <fw n="81" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(81)<seg type="ornament">✾</seg></fw>
+                        <fw n="81" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(81)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="Krauttopf" type="NN" xml:id="AFH_d1e66630">Kraut=Topff</w>
@@ -33655,11 +33905,18 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="heilig" type="ADJA" xml:id="AFH_d1e67551">heiligistes</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="Opfer" type="NN" xml:id="AFH_d1e67555">Opf<lb break="no" type="d"/><fw type="footer">
+                    <w lemma="Opfer" type="NN" xml:id="AFH_d1e67555">Opf<lb break="no" type="d"/>
+                        <fw type="footer">
                         <fw place="bot_center" type="pageNum">F</fw>
-                    </fw><fw place="bot_right" type="catch">fer</fw><pb facs="Abraham-Augustini_feuriges_Hertz_n0082.jpg" n="S. 82" xml:id="AFH_n0082"/><fw type="header">
-                        <fw n="82" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(82)<seg type="ornament">✾</seg></fw>
-                    </fw><lb rend="line"/>fer</w>
+                    </fw>
+                        <fw place="bot_right" type="catch">fer</fw>
+                        <pb facs="Abraham-Augustini_feuriges_Hertz_n0082.jpg" n="S. 82" xml:id="AFH_n0082"/>
+                        <fw type="header">
+                        <fw n="82" place="top_center" type="pageNum">
+                                <seg type="ornament">✾</seg>(82)<seg type="ornament">✾</seg>
+                            </fw>
+                    </fw>
+                        <lb rend="line"/>fer</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="für" type="APPR" xml:id="AFH_d1e67575">für</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -34118,7 +34375,9 @@
                 <fw place="bot_right" type="catch">Es</fw>
                 <pb facs="Abraham-Augustini_feuriges_Hertz_n0083.jpg" n="S. 83" xml:id="AFH_n0083"/>
                 <fw type="header">
-                    <fw n="83" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(83)<seg type="ornament">✾</seg></fw>
+                    <fw n="83" place="top_center" type="pageNum">
+                        <seg type="ornament">✾</seg>(83)<seg type="ornament">✾</seg>
+                    </fw>
                 </fw>
                 <lb rend="line"/>
                 <p rend="indent">
@@ -34629,7 +34888,9 @@
             </fw>
             <pb facs="Abraham-Augustini_feuriges_Hertz_n0084.jpg" n="S. 84, Abb." xml:id="AFH_n0084"/>
             <fw type="header">
-                <fw n="84" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(84)<seg type="ornament">✾</seg></fw>
+                <fw n="84" place="top_center" type="pageNum">
+                    <seg type="ornament">✾</seg>(84)<seg type="ornament">✾</seg>
+                </fw>
             </fw>
             <lb rend="line"/>
             <div n="Gaudent proximiora magis." type="chapter">
@@ -34766,7 +35027,8 @@
                                     <pc type="final" xml:id="AFH_d1e69801">.</pc>
                                 </seg>
                             </foreign>
-                        <seg type="whitespace" xml:space="preserve"> </seg></quote>
+                        <seg type="whitespace" xml:space="preserve"> </seg>
+                        </quote>
                         
                         <bibl>
                             <foreign xml:lang="la">
@@ -34846,9 +35108,15 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e69940">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="mein" type="PPOSAT" xml:id="AFH_d1e69944">mei<lb break="no" type="d"/><fw place="bot_right" type="catch">nen</fw><pb facs="Abraham-Augustini_feuriges_Hertz_n0085.jpg" n="S. 85" xml:id="AFH_n0085"/><fw type="header">
-                        <fw n="85" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(85)<seg type="ornament">✾</seg></fw>
-                    </fw><lb rend="line"/>nen</w>
+                    <w lemma="mein" type="PPOSAT" xml:id="AFH_d1e69944">mei<lb break="no" type="d"/>
+                        <fw place="bot_right" type="catch">nen</fw>
+                        <pb facs="Abraham-Augustini_feuriges_Hertz_n0085.jpg" n="S. 85" xml:id="AFH_n0085"/>
+                        <fw type="header">
+                        <fw n="85" place="top_center" type="pageNum">
+                                <seg type="ornament">✾</seg>(85)<seg type="ornament">✾</seg>
+                            </fw>
+                    </fw>
+                        <lb rend="line"/>nen</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="Bruder" type="NN" xml:id="AFH_d1e69961">Brüdern</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -35265,11 +35533,18 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="sogar" type="ADV" xml:id="AFH_d1e70819">gar</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="haben" type="VAFIN" xml:id="AFH_d1e70823">ha<lb break="no" type="d"/><fw type="footer">
+                    <w lemma="haben" type="VAFIN" xml:id="AFH_d1e70823">ha<lb break="no" type="d"/>
+                        <fw type="footer">
                         <fw place="bot_center" type="pageNum">F 3</fw>
-                    </fw><fw place="bot_right" type="catch">ben</fw><pb facs="Abraham-Augustini_feuriges_Hertz_n0086.jpg" n="S. 86" xml:id="AFH_n0086"/><fw type="header">
-                        <fw n="86" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(86)<seg type="ornament">✾</seg></fw>
-                    </fw><lb rend="line"/>ben</w>
+                    </fw>
+                        <fw place="bot_right" type="catch">ben</fw>
+                        <pb facs="Abraham-Augustini_feuriges_Hertz_n0086.jpg" n="S. 86" xml:id="AFH_n0086"/>
+                        <fw type="header">
+                        <fw n="86" place="top_center" type="pageNum">
+                                <seg type="ornament">✾</seg>(86)<seg type="ornament">✾</seg>
+                            </fw>
+                    </fw>
+                        <lb rend="line"/>ben</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="sie" type="PRF" xml:id="AFH_d1e70843">sich</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -35730,7 +36005,9 @@
                     <fw place="bot_right" type="catch">Nach=</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0087.jpg" n="S. 87" xml:id="AFH_n0087"/>
                     <fw type="header">
-                        <fw n="87" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(87)<seg type="ornament">✾</seg></fw>
+                        <fw n="87" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(87)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="nachdem" type="KOUS" xml:id="AFH_d1e71817">Nachdeme</w>
@@ -36230,7 +36507,9 @@
                     <fw place="bot_right" type="catch">stunde</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0088.jpg" n="S. 88" xml:id="AFH_n0088"/>
                     <fw type="header">
-                        <fw n="88" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(88)<seg type="ornament">✾</seg></fw>
+                        <fw n="88" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(88)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="stehen" type="VVFIN" xml:id="AFH_d1e72851">stunde</w>
@@ -36726,7 +37005,9 @@
                     <fw place="bot_right" type="catch">alles</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0089.jpg" n="S. 89" xml:id="AFH_n0089"/>
                     <fw type="header">
-                        <fw n="89" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(89)<seg type="ornament">✾</seg></fw>
+                        <fw n="89" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(89)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="alles" type="PIS" xml:id="AFH_d1e73871">alles</w>
@@ -37218,7 +37499,9 @@
                     <fw place="bot_right" type="catch">hat</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0090.jpg" n="S. 90" xml:id="AFH_n0090"/>
                     <fw type="header">
-                        <fw n="90" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(90)<seg type="ornament">✾</seg></fw>
+                        <fw n="90" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(90)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="haben" type="VAFIN" xml:id="AFH_d1e74856">hat</w>
@@ -37676,7 +37959,9 @@
                     <fw place="bot_right" type="catch">nicht</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0091.jpg" n="S. 91" xml:id="AFH_n0091"/>
                     <fw type="header">
-                        <fw n="91" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(91)<seg type="ornament">✾</seg></fw>
+                        <fw n="91" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(91)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="nicht" type="PTKNEG" xml:id="AFH_d1e75806">nicht</w>
@@ -37844,7 +38129,8 @@
                     <lb/>
                     <w lemma="Himmel" type="NN" xml:id="AFH_d1e76132">Himmel</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="supplizieren" type="VVPP" xml:id="AFH_d1e76138"><seg rend="antiqua">supplici</seg>ert</w>
+                    <w lemma="supplizieren" type="VVPP" xml:id="AFH_d1e76138">
+                        <seg rend="antiqua">supplici</seg>ert</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e76144">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -38061,7 +38347,8 @@
                     <lb/>
                     <w lemma="Bruder" type="NN" xml:id="AFH_d1e76576">Bruder</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="rekommandieren" type="VVPP" xml:id="AFH_d1e76581"><seg rend="antiqua">recommendi</seg>rt</w>
+                    <w lemma="rekommandieren" type="VVPP" xml:id="AFH_d1e76581">
+                        <seg rend="antiqua">recommendi</seg>rt</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e76588">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -38127,7 +38414,9 @@
                     <fw place="bot_right" type="catch">Göttli=</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0092.jpg" n="S. 92" xml:id="AFH_n0092"/>
                     <fw type="header">
-                        <fw n="92" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(92)<seg type="ornament">✾</seg></fw>
+                        <fw n="92" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(92)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="göttlich" type="ADJA" xml:id="AFH_d1e76714">Göttlichen</w>
@@ -38348,7 +38637,9 @@
             </fw>
             <pb facs="Abraham-Augustini_feuriges_Hertz_n0093.jpg" n="S. 93, Abb." xml:id="AFH_n0093"/>
             <fw type="header">
-                <fw n="93" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(93)<seg type="ornament">✾</seg></fw>
+                <fw n="93" place="top_center" type="pageNum">
+                    <seg type="ornament">✾</seg>(93)<seg type="ornament">✾</seg>
+                </fw>
             </fw>
             <lb rend="line"/>
             <div n="Cedunt candida nigris." type="chapter">
@@ -38412,7 +38703,8 @@
                                     <pc type="final" xml:id="AFH_d1e77266">.</pc>
                                 </seg>
                             </foreign>
-                        <seg type="whitespace" xml:space="preserve"> </seg></quote>
+                        <seg type="whitespace" xml:space="preserve"> </seg>
+                        </quote>
                         
                         <bibl>
                             <foreign xml:lang="la">
@@ -38511,7 +38803,9 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e77458">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="etc" type="FM" xml:id="AFH_d1e77463"><g ref="#tironian-et">r</g>c</w><pc type="final" xml:id="AFH_d1e77465">.</pc>
+                    <w lemma="etc" type="FM" xml:id="AFH_d1e77463">
+                        <g ref="#tironian-et">r</g>c</w>
+                    <pc type="final" xml:id="AFH_d1e77465">.</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <bibl>
                         <foreign xml:lang="la">
@@ -38556,7 +38850,9 @@
                     <fw place="bot_right" type="catch">der</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0094.jpg" n="S. 94" xml:id="AFH_n0094"/>
                     <fw type="header">
-                        <fw n="94" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(94)<seg type="ornament">✾</seg></fw>
+                        <fw n="94" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(94)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="d" type="ART" xml:id="AFH_d1e77546">der</w>
@@ -38694,7 +38990,9 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e77803">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="etc" type="FM" xml:id="AFH_d1e77808"><g ref="#tironian-et">r</g>c</w><pc type="final" xml:id="AFH_d1e77810">.</pc>
+                    <w lemma="etc" type="FM" xml:id="AFH_d1e77808">
+                        <g ref="#tironian-et">r</g>c</w>
+                    <pc type="final" xml:id="AFH_d1e77810">.</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <bibl>
                         <foreign xml:lang="la">
@@ -39022,7 +39320,9 @@
                     <fw place="bot_right" type="catch">Nacht</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0095.jpg" n="S. 95" xml:id="AFH_n0095"/>
                     <fw type="header">
-                        <fw n="95" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(95)<seg type="ornament">✾</seg></fw>
+                        <fw n="95" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(95)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="Nacht" type="NN" xml:id="AFH_d1e78485">Nacht</w>
@@ -39495,7 +39795,9 @@
                     <fw place="bot_right" type="catch">gelegt /</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0096.jpg" n="S. 96" xml:id="AFH_n0096"/>
                     <fw type="header">
-                        <fw n="96" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(96)<seg type="ornament">✾</seg></fw>
+                        <fw n="96" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(96)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="legen" type="VVPP" xml:id="AFH_d1e79448">gelegt</w>
@@ -40009,7 +40311,9 @@
                     <fw place="bot_right" type="catch">weit</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0097.jpg" n="S. 97" xml:id="AFH_n0097"/>
                     <fw type="header">
-                        <fw n="97" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(97)<seg type="ornament">✾</seg></fw>
+                        <fw n="97" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(97)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="weit" type="ADV" xml:id="AFH_d1e80485">weit</w>
@@ -40373,7 +40677,9 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="und" type="KON" xml:id="AFH_d1e81225">vnd</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="Konterfei" type="NN" xml:id="AFH_d1e81231"><seg rend="antiqua">Contrafe</seg><lb break="no" type="s"/>ten</w>
+                    <w lemma="Konterfei" type="NN" xml:id="AFH_d1e81231">
+                        <seg rend="antiqua">Contrafe</seg>
+                        <lb break="no" type="s"/>ten</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="hängen" type="VVFIN" xml:id="AFH_d1e81238">hangten</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -40521,7 +40827,9 @@
                     <fw place="bot_right" type="catch">Zettel /</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0098.jpg" n="S. 98" xml:id="AFH_n0098"/>
                     <fw type="header">
-                        <fw n="98" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(98)<seg type="ornament">✾</seg></fw>
+                        <fw n="98" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(98)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="Zettel" type="NN" xml:id="AFH_d1e81536">Zettel</w>
@@ -40999,7 +41307,9 @@
                     <fw place="bot_right" type="catch">Mitwür=</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0099.jpg" n="S. 99" xml:id="AFH_n0099"/>
                     <fw type="header">
-                        <fw n="99" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(99)<seg type="ornament">✾</seg></fw>
+                        <fw n="99" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(99)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="Mitwirkung" type="NN" xml:id="AFH_d1e82513">Mitwürckung</w>
@@ -41452,7 +41762,9 @@
                     <fw place="bot_right" type="catch">ihnen</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0100.jpg" n="S. 100" xml:id="AFH_n0100"/>
                     <fw type="header">
-                        <fw n="100" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(100)<seg type="ornament">✾</seg></fw>
+                        <fw n="100" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(100)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="sie" type="PPER" xml:id="AFH_d1e83421">ihnen</w>
@@ -41468,7 +41780,9 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <pc type="internal" xml:id="AFH_d1e83440">/</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="etc" type="FM" xml:id="AFH_d1e83445"><g ref="#tironian-et">r</g>c</w><pc type="final" xml:id="AFH_d1e83447">.</pc>
+                    <w lemma="etc" type="FM" xml:id="AFH_d1e83445">
+                        <g ref="#tironian-et">r</g>c</w>
+                    <pc type="final" xml:id="AFH_d1e83447">.</pc>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="sehen" type="VVIMP" xml:id="AFH_d1e83452">Sihe</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -41928,9 +42242,15 @@
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="kein" type="PIAT" xml:id="AFH_d1e84389">kein</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
-                    <w lemma="Unglück" type="NN" xml:id="AFH_d1e84393">Un<lb break="no" type="d"/><fw place="bot_right" type="catch">glück</fw><pb facs="Abraham-Augustini_feuriges_Hertz_n0101.jpg" n="S. 101" xml:id="AFH_n0101"/><fw type="header">
-                        <fw n="101" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(101)<seg type="ornament">✾</seg></fw>
-                    </fw><lb rend="line"/>glück</w>
+                    <w lemma="Unglück" type="NN" xml:id="AFH_d1e84393">Un<lb break="no" type="d"/>
+                        <fw place="bot_right" type="catch">glück</fw>
+                        <pb facs="Abraham-Augustini_feuriges_Hertz_n0101.jpg" n="S. 101" xml:id="AFH_n0101"/>
+                        <fw type="header">
+                        <fw n="101" place="top_center" type="pageNum">
+                                <seg type="ornament">✾</seg>(101)<seg type="ornament">✾</seg>
+                            </fw>
+                    </fw>
+                        <lb rend="line"/>glück</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <w lemma="zu" type="PTKZU" xml:id="AFH_d1e84410">zu</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
@@ -42429,7 +42749,9 @@
                     <fw place="bot_right" type="catch">Hauß /</fw>
                     <pb facs="Abraham-Augustini_feuriges_Hertz_n0102.jpg" n="S. 102" xml:id="AFH_n0102"/>
                     <fw type="header">
-                        <fw n="102" place="top_center" type="pageNum"><seg type="ornament">✾</seg>(102)<seg type="ornament">✾</seg></fw>
+                        <fw n="102" place="top_center" type="pageNum">
+                            <seg type="ornament">✾</seg>(102)<seg type="ornament">✾</seg>
+                        </fw>
                     </fw>
                     <lb rend="line"/>
                     <w lemma="Haus" type="NN" xml:id="AFH_d1e85406">Hauß</w>
@@ -42630,7 +42952,8 @@
                     <w lemma="Erde" type="NN" xml:id="AFH_d1e85812">Erd</w>
                     <seg type="whitespace" xml:space="preserve"> </seg>
                     <lb/>
-                    <w lemma="patronicieren" ana="#oov" type="VVFIN" xml:id="AFH_d1e85818"><seg rend="antiqua">patrocini</seg>re</w>
+                    <w lemma="patronicieren" ana="#oov" type="VVFIN" xml:id="AFH_d1e85818">
+                        <seg rend="antiqua">patrocini</seg>re</w>
                     <pc type="final" xml:id="AFH_d1e85822">.</pc>
                 </p>
                 <p>
@@ -42687,4 +43010,5 @@
             <pb facs="Abraham-Augustini_feuriges_Hertz_u0003.jpg" n="h. Umschlag recto" xml:id="AFH_u0003"/>
             <pb facs="Abraham-Augustini_feuriges_Hertz_u0004.jpg" n="h. Umschlag verso" xml:id="AFH_u0004"/>
         </back>
-    </text></TEI>
+    </text>
+</TEI>
