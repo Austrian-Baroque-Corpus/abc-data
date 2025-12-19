@@ -1,0 +1,776 @@
+<sru:scanResponse xmlns:fcs="http://clarin.eu/fcs/1.0" xmlns:sru="http://www.loc.gov/zing/srw/">
+    <sru:version>1.2</sru:version>
+    <sru:terms>
+        <sru:term>
+            <sru:value>abacus.7_toc</sru:value>
+            <sru:displayTerm>Todten Bruderschaft</sru:displayTerm>
+            <sru:extraTermData>
+                <cr:type xmlns:cr="http://aac.ac.at/content_repository">resource</cr:type>
+                <fcsm:countTerms xmlns:fcsm="http://clarin.eu/fcs/1.0">8</fcsm:countTerms>
+                <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">1</fcsm:position>
+                <sru:terms>
+                    <sru:term>
+                        <sru:value>abacus.7.d1e5</sru:value>
+                        <sru:displayTerm>Titelei</sru:displayTerm>
+                        <sru:extraTermData>
+                            <cr:type xmlns:cr="http://aac.ac.at/content_repository">front</cr:type>
+                            <fcsm:countTerms xmlns:fcsm="http://clarin.eu/fcs/1.0">10</fcsm:countTerms>
+                            <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">1</fcsm:position>
+                            <sru:terms>
+                                <sru:term>
+                                    <sru:value>abacus.7_1</sru:value>
+                                    <sru:displayTerm>v. Umschlag recto</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">1</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_2</sru:value>
+                                    <sru:displayTerm>v. Umschlag verso</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">2</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_3</sru:value>
+                                    <sru:displayTerm>v. fliegendes Vorsatzblatt recto</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">3</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_4</sru:value>
+                                    <sru:displayTerm>v. fliegendes Vorsatzblatt verso</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">4</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_5</sru:value>
+                                    <sru:displayTerm>Leerseite</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">5</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_6</sru:value>
+                                    <sru:displayTerm>Leerseite</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">6</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_7</sru:value>
+                                    <sru:displayTerm>Abb. vor Titel recto</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">7</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_8</sru:value>
+                                    <sru:displayTerm>Leerseite</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">8</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_9</sru:value>
+                                    <sru:displayTerm>Titel recto</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">9</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7.d1e391</sru:value>
+                                    <sru:displayTerm>Widmung</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">dedication</cr:type>
+                                        <fcsm:countTerms xmlns:fcsm="http://clarin.eu/fcs/1.0">3</fcsm:countTerms>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">10</fcsm:position>
+                                        <sru:terms>
+                                            <sru:term>
+                                                <sru:value>abacus.7_10</sru:value>
+                                                <sru:displayTerm>Titel verso, Widmung [S. 1]</sru:displayTerm>
+                                                <sru:extraTermData>
+                                                    <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                                    <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">1</fcsm:position>
+                                                </sru:extraTermData>
+                                            </sru:term>
+                                            <sru:term>
+                                                <sru:value>abacus.7_11</sru:value>
+                                                <sru:displayTerm>Widmung [S. 2]</sru:displayTerm>
+                                                <sru:extraTermData>
+                                                    <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                                    <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">2</fcsm:position>
+                                                </sru:extraTermData>
+                                            </sru:term>
+                                            <sru:term>
+                                                <sru:value>abacus.7_12</sru:value>
+                                                <sru:displayTerm>Widmung [S. 3]</sru:displayTerm>
+                                                <sru:extraTermData>
+                                                    <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                                    <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">3</fcsm:position>
+                                                </sru:extraTermData>
+                                            </sru:term>
+                                        </sru:terms>
+                                    </sru:extraTermData>
+                                </sru:term>
+                            </sru:terms>
+                        </sru:extraTermData>
+                    </sru:term>
+                    <sru:term>
+                        <sru:value>abacus.7.d1e2289</sru:value>
+                        <sru:displayTerm>Omnes morimur</sru:displayTerm>
+                        <sru:extraTermData>
+                            <cr:type xmlns:cr="http://aac.ac.at/content_repository">chapter</cr:type>
+                            <fcsm:countTerms xmlns:fcsm="http://clarin.eu/fcs/1.0">9</fcsm:countTerms>
+                            <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">2</fcsm:position>
+                            <sru:terms>
+                                <sru:term>
+                                    <sru:value>abacus.7_13</sru:value>
+                                    <sru:displayTerm> 1</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">1</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_14</sru:value>
+                                    <sru:displayTerm> 2</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">2</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_15</sru:value>
+                                    <sru:displayTerm> 3</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">3</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_16</sru:value>
+                                    <sru:displayTerm> 4</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">4</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_17</sru:value>
+                                    <sru:displayTerm> 5</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">5</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_18</sru:value>
+                                    <sru:displayTerm> 6</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">6</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_19</sru:value>
+                                    <sru:displayTerm> 7</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">7</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_20</sru:value>
+                                    <sru:displayTerm> 8</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">8</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_21</sru:value>
+                                    <sru:displayTerm> 9</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">9</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                            </sru:terms>
+                        </sru:extraTermData>
+                    </sru:term>
+                    <sru:term>
+                        <sru:value>abacus.7.d1e10084</sru:value>
+                        <sru:displayTerm>Tod | Junge und Schöne</sru:displayTerm>
+                        <sru:extraTermData>
+                            <cr:type xmlns:cr="http://aac.ac.at/content_repository">chapter</cr:type>
+                            <fcsm:countTerms xmlns:fcsm="http://clarin.eu/fcs/1.0">7</fcsm:countTerms>
+                            <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">3</fcsm:position>
+                            <sru:terms>
+                                <sru:term>
+                                    <sru:value>abacus.7_21</sru:value>
+                                    <sru:displayTerm> 9</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">1</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_22</sru:value>
+                                    <sru:displayTerm> 10</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">2</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_23</sru:value>
+                                    <sru:displayTerm> 11</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">3</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_24</sru:value>
+                                    <sru:displayTerm> 12</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">4</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_25</sru:value>
+                                    <sru:displayTerm> 13</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">5</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_26</sru:value>
+                                    <sru:displayTerm> 14</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">6</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_27</sru:value>
+                                    <sru:displayTerm> 15</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">7</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                            </sru:terms>
+                        </sru:extraTermData>
+                    </sru:term>
+                    <sru:term>
+                        <sru:value>abacus.7.d1e15874</sru:value>
+                        <sru:displayTerm>Tod | Alte und Betagte</sru:displayTerm>
+                        <sru:extraTermData>
+                            <cr:type xmlns:cr="http://aac.ac.at/content_repository">chapter</cr:type>
+                            <fcsm:countTerms xmlns:fcsm="http://clarin.eu/fcs/1.0">7</fcsm:countTerms>
+                            <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">4</fcsm:position>
+                            <sru:terms>
+                                <sru:term>
+                                    <sru:value>abacus.7_27</sru:value>
+                                    <sru:displayTerm> 15</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">1</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_28</sru:value>
+                                    <sru:displayTerm> 16</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">2</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_29</sru:value>
+                                    <sru:displayTerm> 17</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">3</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_30</sru:value>
+                                    <sru:displayTerm> 18</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">4</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_31</sru:value>
+                                    <sru:displayTerm> 19</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">5</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_32</sru:value>
+                                    <sru:displayTerm> 20</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">6</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_33</sru:value>
+                                    <sru:displayTerm> 21</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">7</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                            </sru:terms>
+                        </sru:extraTermData>
+                    </sru:term>
+                    <sru:term>
+                        <sru:value>abacus.7.d1e21660</sru:value>
+                        <sru:displayTerm>Tod | Vornehme und Reiche</sru:displayTerm>
+                        <sru:extraTermData>
+                            <cr:type xmlns:cr="http://aac.ac.at/content_repository">chapter</cr:type>
+                            <fcsm:countTerms xmlns:fcsm="http://clarin.eu/fcs/1.0">9</fcsm:countTerms>
+                            <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">5</fcsm:position>
+                            <sru:terms>
+                                <sru:term>
+                                    <sru:value>abacus.7_33</sru:value>
+                                    <sru:displayTerm> 21</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">1</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_34</sru:value>
+                                    <sru:displayTerm> 22</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">2</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_35</sru:value>
+                                    <sru:displayTerm> 23</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">3</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_36</sru:value>
+                                    <sru:displayTerm> 24</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">4</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_37</sru:value>
+                                    <sru:displayTerm> 25</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">5</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_38</sru:value>
+                                    <sru:displayTerm> 26</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">6</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_39</sru:value>
+                                    <sru:displayTerm> 27</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">7</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_40</sru:value>
+                                    <sru:displayTerm> 28</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">8</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_41</sru:value>
+                                    <sru:displayTerm> 29</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">9</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                            </sru:terms>
+                        </sru:extraTermData>
+                    </sru:term>
+                    <sru:term>
+                        <sru:value>abacus.7.d1e29718</sru:value>
+                        <sru:displayTerm>Tod | Gelehrte und Berühmte</sru:displayTerm>
+                        <sru:extraTermData>
+                            <cr:type xmlns:cr="http://aac.ac.at/content_repository">chapter</cr:type>
+                            <fcsm:countTerms xmlns:fcsm="http://clarin.eu/fcs/1.0">9</fcsm:countTerms>
+                            <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">6</fcsm:position>
+                            <sru:terms>
+                                <sru:term>
+                                    <sru:value>abacus.7_42</sru:value>
+                                    <sru:displayTerm> 30</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">1</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_43</sru:value>
+                                    <sru:displayTerm> 31</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">2</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_44</sru:value>
+                                    <sru:displayTerm> 32</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">3</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_45</sru:value>
+                                    <sru:displayTerm> 33</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">4</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_46</sru:value>
+                                    <sru:displayTerm> 34</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">5</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_47</sru:value>
+                                    <sru:displayTerm> 35</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">6</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_48</sru:value>
+                                    <sru:displayTerm> 36</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">7</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_49</sru:value>
+                                    <sru:displayTerm> 37</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">8</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_50</sru:value>
+                                    <sru:displayTerm> 38</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">9</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                            </sru:terms>
+                        </sru:extraTermData>
+                    </sru:term>
+                    <sru:term>
+                        <sru:value>abacus.7.d1e37729</sru:value>
+                        <sru:displayTerm>Tod | Geistliche und Gott Geweihte</sru:displayTerm>
+                        <sru:extraTermData>
+                            <cr:type xmlns:cr="http://aac.ac.at/content_repository">chapter</cr:type>
+                            <fcsm:countTerms xmlns:fcsm="http://clarin.eu/fcs/1.0">11</fcsm:countTerms>
+                            <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">7</fcsm:position>
+                            <sru:terms>
+                                <sru:term>
+                                    <sru:value>abacus.7_50</sru:value>
+                                    <sru:displayTerm> 38</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">1</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_51</sru:value>
+                                    <sru:displayTerm> 39</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">2</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_52</sru:value>
+                                    <sru:displayTerm> 40</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">3</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_53</sru:value>
+                                    <sru:displayTerm> 41</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">4</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_54</sru:value>
+                                    <sru:displayTerm> 42</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">5</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_55</sru:value>
+                                    <sru:displayTerm> 43</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">6</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_56</sru:value>
+                                    <sru:displayTerm> 44</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">7</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_57</sru:value>
+                                    <sru:displayTerm> 45</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">8</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_58</sru:value>
+                                    <sru:displayTerm> 46</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">9</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_59</sru:value>
+                                    <sru:displayTerm> 47</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">10</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_60</sru:value>
+                                    <sru:displayTerm> 48</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">11</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                            </sru:terms>
+                        </sru:extraTermData>
+                    </sru:term>
+                    <sru:term>
+                        <sru:value>abacus.7.d1e46478</sru:value>
+                        <sru:displayTerm>Anhang</sru:displayTerm>
+                        <sru:extraTermData>
+                            <cr:type xmlns:cr="http://aac.ac.at/content_repository">back</cr:type>
+                            <fcsm:countTerms xmlns:fcsm="http://clarin.eu/fcs/1.0">9</fcsm:countTerms>
+                            <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">8</fcsm:position>
+                            <sru:terms>
+                                <sru:term>
+                                    <sru:value>abacus.7.d1e46480</sru:value>
+                                    <sru:displayTerm>Verzeichnis verstorbener Mitglieder</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">index</cr:type>
+                                        <fcsm:countTerms xmlns:fcsm="http://clarin.eu/fcs/1.0">8</fcsm:countTerms>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">1</fcsm:position>
+                                        <sru:terms>
+                                            <sru:term>
+                                                <sru:value>abacus.7_61</sru:value>
+                                                <sru:displayTerm>Register [S. 1]</sru:displayTerm>
+                                                <sru:extraTermData>
+                                                    <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                                    <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">1</fcsm:position>
+                                                </sru:extraTermData>
+                                            </sru:term>
+                                            <sru:term>
+                                                <sru:value>abacus.7_62</sru:value>
+                                                <sru:displayTerm>Register [S. 2]</sru:displayTerm>
+                                                <sru:extraTermData>
+                                                    <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                                    <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">2</fcsm:position>
+                                                </sru:extraTermData>
+                                            </sru:term>
+                                            <sru:term>
+                                                <sru:value>abacus.7_63</sru:value>
+                                                <sru:displayTerm>Register [S. 3]</sru:displayTerm>
+                                                <sru:extraTermData>
+                                                    <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                                    <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">3</fcsm:position>
+                                                </sru:extraTermData>
+                                            </sru:term>
+                                            <sru:term>
+                                                <sru:value>abacus.7_64</sru:value>
+                                                <sru:displayTerm>Register [S. 4]</sru:displayTerm>
+                                                <sru:extraTermData>
+                                                    <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                                    <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">4</fcsm:position>
+                                                </sru:extraTermData>
+                                            </sru:term>
+                                            <sru:term>
+                                                <sru:value>abacus.7_65</sru:value>
+                                                <sru:displayTerm>Register [S. 5]</sru:displayTerm>
+                                                <sru:extraTermData>
+                                                    <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                                    <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">5</fcsm:position>
+                                                </sru:extraTermData>
+                                            </sru:term>
+                                            <sru:term>
+                                                <sru:value>abacus.7_66</sru:value>
+                                                <sru:displayTerm>Register [S. 6]</sru:displayTerm>
+                                                <sru:extraTermData>
+                                                    <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                                    <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">6</fcsm:position>
+                                                </sru:extraTermData>
+                                            </sru:term>
+                                            <sru:term>
+                                                <sru:value>abacus.7_67</sru:value>
+                                                <sru:displayTerm>Register [S. 7]</sru:displayTerm>
+                                                <sru:extraTermData>
+                                                    <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                                    <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">7</fcsm:position>
+                                                </sru:extraTermData>
+                                            </sru:term>
+                                            <sru:term>
+                                                <sru:value>abacus.7_68</sru:value>
+                                                <sru:displayTerm>Register [S. 8]</sru:displayTerm>
+                                                <sru:extraTermData>
+                                                    <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                                    <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">8</fcsm:position>
+                                                </sru:extraTermData>
+                                            </sru:term>
+                                        </sru:terms>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_69</sru:value>
+                                    <sru:displayTerm>Leerseite</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">2</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_70</sru:value>
+                                    <sru:displayTerm>Leerseite</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">3</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_71</sru:value>
+                                    <sru:displayTerm>Leerseite</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">4</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_72</sru:value>
+                                    <sru:displayTerm>Leerseite</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">5</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_73</sru:value>
+                                    <sru:displayTerm>h. fliegendes Vorsatzblatt recto</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">6</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_74</sru:value>
+                                    <sru:displayTerm>h. fliegendes Vorsatzblatt verso</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">7</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_75</sru:value>
+                                    <sru:displayTerm>h. Umschlag recto</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">8</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                                <sru:term>
+                                    <sru:value>abacus.7_76</sru:value>
+                                    <sru:displayTerm>h. Umschlag verso</sru:displayTerm>
+                                    <sru:extraTermData>
+                                        <cr:type xmlns:cr="http://aac.ac.at/content_repository">resourcefragment</cr:type>
+                                        <fcsm:position xmlns:fcsm="http://clarin.eu/fcs/1.0">9</fcsm:position>
+                                    </sru:extraTermData>
+                                </sru:term>
+                            </sru:terms>
+                        </sru:extraTermData>
+                    </sru:term>
+                </sru:terms>
+            </sru:extraTermData>
+        </sru:term>
+    </sru:terms>
+    <sru:extraResponseData>
+        <fcsm:countTerms xmlns:fcsm="http://clarin.eu/fcs/1.0" level="top">1</fcsm:countTerms>
+        <fcsm:countTerms xmlns:fcsm="http://clarin.eu/fcs/1.0" level="total">91</fcsm:countTerms>
+    </sru:extraResponseData>
+    <sru:echoedScanRequest>
+        <sru:scanClause>fcs.toc</sru:scanClause>
+        <sru:maximumTerms>800</sru:maximumTerms>
+        <fcs:x-context>abacus.7</fcs:x-context>
+        <fcs:x-filter/>
+    </sru:echoedScanRequest>
+</sru:scanResponse>
