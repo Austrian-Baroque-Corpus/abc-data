@@ -1079,10 +1079,8 @@
             </div>
          </div>
          <fw place="bot_right" type="catch">Ver=</fw>
+         <pb facs="Abraham-Todten_Bruderschaft_s0001.jpg" n="Register [S. 1]" xml:id="TB_s0001"/>
       </body>
-      <pb facs="Abraham-Todten_Bruderschaft_s0001.jpg"
-           n="Register [S. 1]"
-           xml:id="TB_s0001"/>
       <back>
          <lb rend="line_high"/>
          <div n="Verzeichnis verstorbener Mitglieder" type="index">

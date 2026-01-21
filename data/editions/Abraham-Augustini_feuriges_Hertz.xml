@@ -860,11 +860,9 @@
                </seg>
             </p>
             <milestone type="separator" unit="undetermined"/>
+            <pb facs="Abraham-Augustini_feuriges_Hertz_u0001.jpg" n="h. fliegendes Vorsatzblatt recto" xml:id="AFH_u0001"/>
          </div>
-      </body>
-      <pb facs="Abraham-Augustini_feuriges_Hertz_u0001.jpg"
-           n="h. fliegendes Vorsatzblatt recto"
-           xml:id="AFH_u0001"/>
+      </body>   
       <back>
          <pb facs="Abraham-Augustini_feuriges_Hertz_u0002.jpg"
               n="h. fliegendes Vorsatzblatt verso"

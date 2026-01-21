@@ -570,11 +570,9 @@
                   <seg xml:space="preserve" rend="antiqua"><w type="FM" xml:id="LW_d1e112815" lemma="requies">Requiem</w> <w type="FM" xml:id="LW_d1e112819" lemma="aeternus">æternam</w> <w type="FM" xml:id="LW_d1e112823" lemma="dono">dona</w> <w type="FM" xml:id="LW_d1e112827" lemma="is">eis</w> <lb/><w type="FM" xml:id="LW_d1e112832" lemma="dominus">Domine</w> <w lemma="et" type="FM" xml:id="LW_d1e112837">&amp;</w> <w type="FM" xml:id="LW_d1e112841" lemma="lux">lux</w> <w type="FM" xml:id="LW_d1e112845" lemma="perpetuus">perpetua</w> <lb/><w type="FM" xml:id="LW_d1e112850" lemma="luceo">luceat</w> <w type="FM" xml:id="LW_d1e112854" lemma="is">eis</w><pc type="final" xml:id="LW_d1e112856">.</pc></seg>
                </foreign>
             </p>
+            <pb facs="Abraham-Loesch_Wienn_u0001.jpg" n="Leerseite" xml:id="LW_u0001"/>
          </div>
       </body>
-      <pb facs="Abraham-Loesch_Wienn_u0001.jpg"
-           n="Leerseite"
-           xml:id="LW_u0001"/>
       <back>
          <pb facs="Abraham-Loesch_Wienn_u0002.jpg"
               n="Leerseite"

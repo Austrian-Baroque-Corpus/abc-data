@@ -1660,10 +1660,8 @@
             <fw place="bot_center" type="pageNum">B b 5</fw>
          </fw>
          <fw place="bot_right" type="catch">Regi=</fw>
+         <pb facs="Abraham-Mercks_Wienn_n0394.jpg" n="Register [S. 1]" xml:id="MW_n0394"/>
       </body>
-      <pb facs="Abraham-Mercks_Wienn_n0394.jpg"
-           n="Register [S. 1]"
-           xml:id="MW_n0394"/>
       <back>
          <fw type="header">
             <fw place="top_center">Register.</fw>
