@@ -112,7 +112,8 @@
                   </person>
                   <person xml:id="ijob" role="bibl">
                      <persName type="main" key="ijob">Ijob</persName>
-<persName type="reg">Hiob (Job)</persName>                     <persName type="variation">Hiob</persName> 
+                     <persName type="reg">Hiob (Job)</persName>
+                     <persName type="variation">Hiob</persName> 
                      <persName type="variation">Job</persName> 
                      <persName type="variation">Jobs</persName> 
                 
@@ -233,7 +234,8 @@
                   </person>
                   <person xml:id="lucas" role="bibl">
                      <persName type="main" key="lucas">Lucas</persName>
-<persName type="reg">Lucas (Lukas)</persName>                     <persName type="variation">Luc</persName> 
+                     <persName type="reg">Lucas (Lukas)</persName>
+                     <persName type="variation">Luc</persName> 
                      <persName type="variation">Lucas</persName> 
                 
                      <noteGrp>
@@ -311,7 +313,8 @@
                   </person>
                   <person xml:id="absalon" role="bibl">
                      <persName type="main" key="absalon">Absalon</persName>
-<persName type="reg">Absalon (Absolon)</persName>                     <persName type="variation">Ab salon</persName> 
+                     <persName type="reg">Absalon (Absolon)</persName>
+                     <persName type="variation">Ab salon</persName> 
                      <persName type="variation">Ab solon</persName> 
                      <persName type="variation">Absalon</persName> 
                      <persName type="variation">Absalons</persName> 
@@ -329,7 +332,8 @@
                   </person>
                   <person xml:id="jesaja" role="bibl">
                      <persName type="main" key="jesaja">Jesaja</persName>
-<persName type="reg">Jesaja (Jesajas)</persName>                     <persName type="variation">Es</persName> 
+                     <persName type="reg">Jesaja (Jesajas)</persName>
+                     <persName type="variation">Es</persName> 
                      <persName type="variation">Esa</persName> 
                      <persName type="variation">Esaia</persName> 
                      <persName type="variation">Esaias</persName> 
@@ -407,7 +411,8 @@
                   </person>
                   <person xml:id="jonas" role="bibl">
                      <persName type="main" key="jonas">Jonas</persName>
-<persName type="reg">Jonas (Jona)</persName>                     <persName type="variation">Jo nam</persName> 
+                     <persName type="reg">Jonas (Jona)</persName>
+                     <persName type="variation">Jo nam</persName> 
                      <persName type="variation">Jo nas</persName> 
                      <persName type="variation">Jon</persName> 
                      <persName type="variation">Jona</persName> 
@@ -439,7 +444,8 @@
                   </person>
                   <person xml:id="jeremia" role="bibl">
                      <persName type="main" key="jeremia">Jeremias</persName>
-<persName type="reg">Jeremia (Jeremias)</persName>                     <persName type="variation">Jere mia</persName> 
+                     <persName type="reg">Jeremia (Jeremias)</persName>
+                     <persName type="variation">Jere mia</persName> 
                      <persName type="variation">Jere mias</persName> 
                      <persName type="variation">Jerem</persName> 
                      <persName type="variation">Jeremiam</persName> 
@@ -494,7 +500,8 @@
                   </person>
                   <person xml:id="judas" role="bibl">
                      <persName type="main" key="judas">Judas</persName>
-<persName type="reg">Judas (Judas Iskariot)</persName>                     <persName type="variation">Ju das</persName> 
+                     <persName type="reg">Judas (Judas Iskariot)</persName>
+                     <persName type="variation">Ju das</persName> 
                      <persName type="variation">Juda</persName> 
                      <persName type="variation">Judas</persName> 
                      <persName type="variation">Judas Isca rioth</persName> 
@@ -509,7 +516,8 @@
                   </person>
                   <person xml:id="cain" role="bibl">
                      <persName type="main" key="cain">Kain</persName>
-<persName type="reg">Cain (Kain)</persName>                     <persName type="variation">Cain</persName> 
+                     <persName type="reg">Cain (Kain)</persName>
+                     <persName type="variation">Cain</persName> 
                      <persName type="variation">Chan</persName> 
                 
                      <noteGrp>
@@ -660,7 +668,8 @@
                   </person>
                   <person xml:id="marcus" role="bibl">
                      <persName type="main" key="marcus">Markus</persName>
-<persName type="reg">Marcus (Markus)</persName>                     <persName type="variation">Marc</persName> 
+                     <persName type="reg">Marcus (Markus)</persName>
+                     <persName type="variation">Marc</persName> 
                      <persName type="variation">Marco</persName> 
                 
                      <noteGrp>
@@ -774,7 +783,8 @@
                   </person>
                   <person xml:id="enoch" role="bibl">
                      <persName type="main" key="enoch">Enoch</persName>
-<persName type="reg">Enoch (Enosch)</persName>                     <persName type="variation">Enoch</persName> 
+                     <persName type="reg">Enoch (Enosch)</persName>
+                     <persName type="variation">Enoch</persName> 
                      <persName type="variation">Enos</persName> 
                 
                      <noteGrp>
@@ -785,7 +795,8 @@
                   </person>
                   <person xml:id="habacuc" role="bibl">
                      <persName type="main" key="habacuc">Habacuc</persName>
-<persName type="reg">Habakuk (Habacuc)</persName>                     <persName type="variation">Habacuc</persName> 
+                     <persName type="reg">Habakuk (Habacuc)</persName>
+                     <persName type="variation">Habacuc</persName> 
                      <persName type="variation">Habacucs</persName> 
                 
                      <noteGrp>
@@ -797,7 +808,8 @@
                   </person>
                   <person xml:id="johannesdtaufer" role="bibl">
                      <persName type="main" key="johannesdTäufer">Johannes d Täufer</persName>
-<persName type="reg">Johannes der Täufer (Joannes Baptista)</persName>                     <persName type="variation">Joannes Baptista</persName> 
+                     <persName type="reg">Johannes der Täufer (Joannes Baptista)</persName>
+                     <persName type="variation">Joannes Baptista</persName> 
                      <persName type="variation">Joannes der Tauffer</persName> 
                      <persName type="variation">Johanni dem Täuffer</persName> 
                 
@@ -853,7 +865,8 @@
                   </person>
                   <person xml:id="assuerus" role="bibl">
                      <persName type="main" key="assuerus">Asuerus</persName>
-<persName type="reg">Asverus</persName>                     <persName type="variation">Assueri</persName> 
+                     <persName type="reg">Asverus</persName>
+                     <persName type="variation">Assueri</persName> 
                      <persName type="variation">Aßveri</persName> 
                      <persName type="variation">Aßvero</persName> 
                 
@@ -874,7 +887,8 @@
                   </person>
                   <person xml:id="datan" role="bibl">
                      <persName type="main" key="datan">Dathan</persName>
-<persName type="reg">Datan</persName>                     <persName type="variation">Datan</persName> 
+                     <persName type="reg">Datan</persName>
+                     <persName type="variation">Datan</persName> 
                      <persName type="variation">Dathan</persName> 
                      <persName type="variation">Dothan</persName> 
                 
@@ -1017,7 +1031,8 @@
                   </person>
                   <person xml:id="tobit" role="bibl">
                      <persName type="main" key="tobit">Tobit</persName>
-<persName type="reg">Tobit</persName>                     <persName type="variation">Tob</persName> 
+                     <persName type="reg">Tobit</persName>
+                     <persName type="variation">Tob</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Loesch_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Loesch_Wienn.xml</note>
@@ -1797,7 +1812,8 @@
                   </person>
                   <person xml:id="simeon1" role="bibl">
                      <persName type="main" key="simeon1">Simeon</persName>
-<persName type="reg">Simeon</persName>                     <persName type="variation">Simeonis</persName> 
+                     <persName type="reg">Simeon</persName>
+                     <persName type="variation">Simeonis</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -1815,7 +1831,8 @@
                   </person>
                   <person xml:id="thecuitis" role="bibl">
                      <persName type="main" key="thecuitis">Thematitis</persName>
-<persName type="reg">Thecuitis</persName>                     <persName type="variation">Thematitis</persName> 
+                     <persName type="reg">Thecuitis</persName>
+                     <persName type="variation">Thematitis</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -1955,7 +1972,8 @@
                   </person>
                   <person xml:id="croesus" role="hist">
                      <persName type="main" key="croesus">Croesus</persName>
-<persName type="reg">Crösus (Krösus)</persName>                     <persName type="variation">Croesi</persName> 
+                     <persName type="reg">Crösus (Krösus)</persName>
+                     <persName type="variation">Croesi</persName> 
                      <persName type="variation">Crösi</persName> 
                      <persName type="variation">Crœsi</persName> 
                      <persName type="variation">Crœsum</persName> 
@@ -2021,7 +2039,8 @@
                   </person>
                   <person xml:id="alexandermagnus" role="hist">
                      <persName type="main" key="alexanderMagnus">Alexander Magnus</persName>
-<persName type="reg">Alexander Magnus (Alexander der Große)</persName>                     <persName type="variation">Alexander M</persName> 
+                     <persName type="reg">Alexander Magnus (Alexander der Große)</persName>
+                     <persName type="variation">Alexander M</persName> 
                      <persName type="variation">Alexander Magnus</persName> 
                      <persName type="variation">Alexander der Grosse</persName> 
                      <persName type="variation">Alexandri M</persName> 
@@ -2074,7 +2093,8 @@
                   </person>
                   <person xml:id="monica" role="hist">
                      <persName type="main" key="monica">Monica</persName>
-<persName type="reg">Monica (Monika)</persName>                     <persName type="variation">Monica</persName> 
+                     <persName type="reg">Monica (Monika)</persName>
+                     <persName type="variation">Monica</persName> 
                      <persName type="variation">Monicä</persName> 
                      <persName type="variation">Monicæ</persName> 
                 
@@ -2126,7 +2146,8 @@
                   </person>
                   <person xml:id="juliuscasar" role="hist">
                      <persName type="main" key="juliusCäsar">Cäsar dictator</persName>
-<persName type="reg">Julius Cäsar</persName>                     <persName type="variation">Cæsar</persName> 
+                     <persName type="reg">Julius Cäsar</persName>
+                     <persName type="variation">Cæsar</persName> 
                      <persName type="variation">Cæsaris Dictatoris</persName> 
                      <persName type="variation">Julius Cæsar</persName> 
                 
@@ -2200,7 +2221,8 @@
                   </person>
                   <person xml:id="ambrosius" role="hist">
                      <persName type="main" key="ambrosius">Ambrosius</persName>
-<persName type="reg">Ambrosius</persName>                     <persName type="variation">Amb</persName> 
+                     <persName type="reg">Ambrosius</persName>
+                     <persName type="variation">Amb</persName> 
                      <persName type="variation">Ambros</persName> 
                      <persName type="variation">Ambrosius</persName> 
                 
@@ -2212,7 +2234,8 @@
                   </person>
                   <person xml:id="cleopatra" role="hist">
                      <persName type="main" key="cleopatra">Cleopatra</persName>
-<persName type="reg">Cleopatra (Kleopatra)</persName>                     <persName type="variation">Cleopa tr</persName> 
+                     <persName type="reg">Cleopatra (Kleopatra)</persName>
+                     <persName type="variation">Cleopa tr</persName> 
                      <persName type="variation">Cleopatra</persName> 
                 
                      <noteGrp>
@@ -2377,7 +2400,8 @@
                   </person>
                   <person xml:id="baptistamanni" role="hist">
                      <persName type="main" key="baptistamanni"></persName>
-<persName type="reg">Johann Baptista Manni</persName>                
+                     <persName type="reg">Johann Baptista Manni</persName>
+                
                      <noteGrp>
                         <note type="mentions" target="Abraham-Loesch_Wienn.xml" n="3">3 Erwähnungen in der Datei Abraham-Loesch_Wienn.xml</note>
                         <note type="mentions" n="3">3 Erwähnungen gesamt</note>
@@ -2385,7 +2409,8 @@
                   </person>
                   <person xml:id="abrahamasanctaclara" role="hist">
                      <persName type="main" key="abrahamaSanctaClara">Abraham ā sanctus Clara</persName>
-<persName type="reg">Abrahamus a Sancta Clara</persName>                     <persName type="variation">Abrahami à Sanctâ Clarâ</persName> 
+                     <persName type="reg">Abrahamus a Sancta Clara</persName>
+                     <persName type="variation">Abrahami à Sanctâ Clarâ</persName> 
                      <persName type="variation">Abrahamo à S Clara</persName> 
                      <persName type="variation">Abrahamo à S Clarâ</persName> 
                 
@@ -2406,7 +2431,8 @@
                   </person>
                   <person xml:id="albrechtfreiherrvonzimmern" role="hist">
                      <persName type="main" key="albrechtFreiherrvonZimmern">Albrecht Freiherr von Zimmern</persName>
-<persName type="reg">Albrecht (Freiherr) von Zimmern</persName>                     <persName type="variation">Albrecht Freyherr von Zimmern</persName> 
+                     <persName type="reg">Albrecht (Freiherr) von Zimmern</persName>
+                     <persName type="variation">Albrecht Freyherr von Zimmern</persName> 
                      <persName type="variation">Albrecht von Zimmern</persName> 
                 
                      <noteGrp>
@@ -2425,7 +2451,8 @@
                   </person>
                   <person xml:id="baronius" role="hist">
                      <persName type="main" key="baronius">Baronius</persName>
-<persName type="reg">Baronius</persName>                     <persName type="variation">Baron</persName> 
+                     <persName type="reg">Baronius</persName>
+                     <persName type="variation">Baron</persName> 
                      <persName type="variation">Baronius</persName> 
                 
                      <noteGrp>
@@ -2458,7 +2485,8 @@
                   </person>
                   <person xml:id="chrysostomos" role="hist">
                      <persName type="main" key="chrysostomos">Chrysostomus</persName>
-<persName type="reg">Chrysostomos (Chrysostomus)</persName>                     <persName type="variation">Chrysost</persName> 
+                     <persName type="reg">Chrysostomos (Chrysostomus)</persName>
+                     <persName type="variation">Chrysost</persName> 
                      <persName type="variation">Chrysostomus</persName> 
                      <persName type="variation">Crysost</persName> 
                 
@@ -2580,7 +2608,8 @@
                   </person>
                   <person xml:id="alexanderiii" role="hist">
                      <persName type="main" key="alexanderIII">III</persName>
-<persName type="reg">Alexander III</persName>                     <persName type="variation">Alexander der dritte</persName> 
+                     <persName type="reg">Alexander III</persName>
+                     <persName type="variation">Alexander der dritte</persName> 
                      <persName type="variation">Alexandri III</persName> 
                      <persName type="variation">III</persName> 
                 
@@ -2634,7 +2663,8 @@
                   </person>
                   <person xml:id="nicephorus" role="hist">
                      <persName type="main" key="nicephorus">Nicephorus</persName>
-<persName type="reg">Nicephorus</persName>                     <persName type="variation">Ni cephori</persName> 
+                     <persName type="reg">Nicephorus</persName>
+                     <persName type="variation">Ni cephori</persName> 
                      <persName type="variation">Nicephorus</persName> 
                 
                      <noteGrp>
@@ -2764,7 +2794,8 @@
                   </person>
                   <person xml:id="rudolphcarlkhazzius" role="hist">
                      <persName type="main" key="rudolphCarlKhazzius">Rudolphus Carolus Kazius</persName>
-<persName type="reg">Rudolph Carl Khazzius</persName>                     <persName type="variation">Ru dolph Carl Khazzius</persName> 
+                     <persName type="reg">Rudolph Carl Khazzius</persName>
+                     <persName type="variation">Ru dolph Carl Khazzius</persName> 
                      <persName type="variation">Rudolphus Carolus Kazius</persName> 
                 
                      <noteGrp>
@@ -2775,7 +2806,8 @@
                   </person>
                   <person xml:id="sebastian" role="hist">
                      <persName type="main" key="sebastian">Sebastianus</persName>
-<persName type="reg">Sebastian(us)</persName>                     <persName type="variation">Sebastian</persName> 
+                     <persName type="reg">Sebastian(us)</persName>
+                     <persName type="variation">Sebastian</persName> 
                      <persName type="variation">Sebastiani</persName> 
                 
                      <noteGrp>
@@ -2797,7 +2829,8 @@
                   </person>
                   <person xml:id="vespasianus" role="hist">
                      <persName type="main" key="vespasianus">Vespasianus</persName>
-<persName type="reg">Vespasian(us)</persName>                     <persName type="variation">Vesp</persName> 
+                     <persName type="reg">Vespasian(us)</persName>
+                     <persName type="variation">Vesp</persName> 
                      <persName type="variation">Vespasiani</persName> 
                      <persName type="variation">Vespasianus</persName> 
                 
@@ -2809,7 +2842,8 @@
                   </person>
                   <person xml:id="abrahamdesanctaclara" role="hist">
                      <persName type="main" key="abrahamdeSanctaClara">Abraham de sanctus Clara</persName>
-<persName type="reg">Abraham de Sancta Clara</persName>                     <persName type="variation">Abraham de S Clara</persName> 
+                     <persName type="reg">Abraham de Sancta Clara</persName>
+                     <persName type="variation">Abraham de S Clara</persName> 
                      <persName type="variation">Abraham de Sancta Clara</persName> 
                 
                      <noteGrp>
@@ -2900,7 +2934,8 @@
                   </person>
                   <person xml:id="bajacetes" role="hist">
                      <persName type="main" key="bajacetes">Bajacetes</persName>
-<persName type="reg">Bajazetes (Bajazethes)</persName>                     <persName type="variation">Bajacetes</persName> 
+                     <persName type="reg">Bajazetes (Bajazethes)</persName>
+                     <persName type="variation">Bajacetes</persName> 
                      <persName type="variation">Bajazethes</persName> 
                 
                      <noteGrp>
@@ -3040,7 +3075,8 @@
                   </person>
                   <person xml:id="cuspinian" role="hist">
                      <persName type="main" key="cuspinian">Cuspinian</persName>
-<persName type="reg">Cuspinian</persName>                     <persName type="variation">Cuspin</persName> 
+                     <persName type="reg">Cuspinian</persName>
+                     <persName type="variation">Cuspin</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Loesch_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Loesch_Wienn.xml</note>
@@ -3237,7 +3273,8 @@
                   </person>
                   <person xml:id="ludovicushornikus" role="hist">
                      <persName type="main" key="ludovicusHörnikus">Ludovicus Hörnick</persName>
-<persName type="reg">Ludwig von Hörnigk</persName>                     <persName type="variation">Lu dovic Hernik</persName> 
+                     <persName type="reg">Ludwig von Hörnigk</persName>
+                     <persName type="variation">Lu dovic Hernik</persName> 
                      <persName type="variation">Ludovic Hörnik</persName> 
                 
                      <noteGrp>
@@ -3330,7 +3367,8 @@
                   </person>
                   <person xml:id="paulusddrei" role="hist">
                      <persName type="main" key="paulusddrei">Paulus d dritte</persName>
-<persName type="reg">Paulus III</persName>                     <persName type="variation">Paulus der Dritte</persName> 
+                     <persName type="reg">Paulus III</persName>
+                     <persName type="variation">Paulus der Dritte</persName> 
                      <persName type="variation">Paulus der dritte</persName> 
                 
                      <noteGrp>
@@ -3362,7 +3400,8 @@
                   </person>
                   <person xml:id="piusdfunf" role="hist">
                      <persName type="main" key="piusdfünf">Pius d fünfte</persName>
-<persName type="reg">Pius V</persName>                     <persName type="variation">Pio dem Fünfften</persName> 
+                     <persName type="reg">Pius V</persName>
+                     <persName type="variation">Pio dem Fünfften</persName> 
                      <persName type="variation">Pius der fünffte</persName> 
                 
                      <noteGrp>
@@ -3373,7 +3412,8 @@
                   </person>
                   <person xml:id="piusdvier" role="hist">
                      <persName type="main" key="piusdvier">Pius d vierte</persName>
-<persName type="reg">Pius IV</persName>                     <persName type="variation">Pius der Vierdte</persName> 
+                     <persName type="reg">Pius IV</persName>
+                     <persName type="variation">Pius der Vierdte</persName> 
                      <persName type="variation">Pius der vierdte</persName> 
                 
                      <noteGrp>
@@ -3430,7 +3470,8 @@
                   </person>
                   <person xml:id="simeon2" role="hist">
                      <persName type="main" key="simeon2">Simon</persName>
-<persName type="reg">Simeon</persName>                     <persName type="variation">Simeonis</persName> 
+                     <persName type="reg">Simeon</persName>
+                     <persName type="variation">Simeonis</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Loesch_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Loesch_Wienn.xml</note>
@@ -3450,7 +3491,8 @@
                   </person>
                   <person xml:id="suleyman" role="hist">
                      <persName type="main" key="süleyman">Süleyman</persName>
-<persName type="reg">Soliman</persName>                     <persName type="variation">Soli man</persName> 
+                     <persName type="reg">Soliman</persName>
+                     <persName type="variation">Soli man</persName> 
                      <persName type="variation">Soli mannus</persName> 
                 
                      <noteGrp>
@@ -3492,7 +3534,8 @@
                   </person>
                   <person xml:id="thomasangelus" role="hist">
                      <persName type="main" key="thomasAngelus">Thomas Ang</persName>
-<persName type="reg">Thomas Angelus</persName>                     <persName type="variation">Thomas Ang</persName> 
+                     <persName type="reg">Thomas Angelus</persName>
+                     <persName type="variation">Thomas Ang</persName> 
                      <persName type="variation">Thomas Angel</persName> 
                 
                      <noteGrp>
@@ -3544,7 +3587,8 @@
                   </person>
                   <person xml:id="balthasardiaz" role="hist">
                      <persName type="main" key="balthasardiaz"></persName>
-<persName type="reg">Balthasar Diaz</persName>                
+                     <persName type="reg">Balthasar Diaz</persName>
+                
                      <noteGrp>
                         <note type="mentions" target="Abraham-Loesch_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Loesch_Wienn.xml</note>
                         <note type="mentions" n="1">1 Erwähnungen gesamt</note>
@@ -3552,7 +3596,8 @@
                   </person>
                   <person xml:id="bonfinus" role="hist">
                      <persName type="main" key="bonfinus"></persName>
-<persName type="reg">Bonfin[?]</persName>                
+                     <persName type="reg">Bonfin[?]</persName>
+                
                      <noteGrp>
                         <note type="mentions" target="Abraham-Loesch_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Loesch_Wienn.xml</note>
                         <note type="mentions" n="1">1 Erwähnungen gesamt</note>
@@ -3560,7 +3605,8 @@
                   </person>
                   <person xml:id="johannechius" role="hist">
                      <persName type="main" key="johannechius"></persName>
-<persName type="reg">Johannes Echius</persName>                
+                     <persName type="reg">Johannes Echius</persName>
+                
                      <noteGrp>
                         <note type="mentions" target="Abraham-Loesch_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Loesch_Wienn.xml</note>
                         <note type="mentions" n="1">1 Erwähnungen gesamt</note>
@@ -3568,7 +3614,8 @@
                   </person>
                   <person xml:id="laym" role="hist">
                      <persName type="main" key="laym"></persName>
-<persName type="reg">Laym[?]</persName>                
+                     <persName type="reg">Laym[?]</persName>
+                
                      <noteGrp>
                         <note type="mentions" target="Abraham-Loesch_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Loesch_Wienn.xml</note>
                         <note type="mentions" n="1">1 Erwähnungen gesamt</note>
@@ -3576,7 +3623,8 @@
                   </person>
                   <person xml:id="octaviuspanzius" role="hist">
                      <persName type="main" key="octaviuspanzius"></persName>
-<persName type="reg">Octavius Panzius</persName>                
+                     <persName type="reg">Octavius Panzius</persName>
+                
                      <noteGrp>
                         <note type="mentions" target="Abraham-Loesch_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Loesch_Wienn.xml</note>
                         <note type="mentions" n="1">1 Erwähnungen gesamt</note>
@@ -3584,7 +3632,8 @@
                   </person>
                   <person xml:id="roa" role="hist">
                      <persName type="main" key="roa"></persName>
-<persName type="reg">Roa[?]</persName>                
+                     <persName type="reg">Roa[?]</persName>
+                
                      <noteGrp>
                         <note type="mentions" target="Abraham-Loesch_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Loesch_Wienn.xml</note>
                         <note type="mentions" n="1">1 Erwähnungen gesamt</note>
@@ -3592,7 +3641,8 @@
                   </person>
                   <person xml:id="achatiusasanctusalexius" role="hist">
                      <persName type="main" key="achatiusaSanctusAlexius">Achatius ā sanctus Alexius</persName>
-<persName type="reg">Achatius a Sancto Alexio</persName>                     <persName type="variation">Acha tius à S Alexio</persName> 
+                     <persName type="reg">Achatius a Sancto Alexio</persName>
+                     <persName type="variation">Acha tius à S Alexio</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -3628,7 +3678,8 @@
                   </person>
                   <person xml:id="adamusasanctacrux" role="hist">
                      <persName type="main" key="adamusaSanctacrux">Adamus ā sanctus crux</persName>
-<persName type="reg">Adamus a Sancta Cruce</persName>                     <persName type="variation">Ada mus à S Cruce</persName> 
+                     <persName type="reg">Adamus a Sancta Cruce</persName>
+                     <persName type="variation">Ada mus à S Cruce</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -3637,7 +3688,8 @@
                   </person>
                   <person xml:id="adrianusdander" role="hist">
                      <persName type="main" key="adrianusdander">Adrianus d ander</persName>
-<persName type="reg">Adrianus II</persName>                     <persName type="variation">Adrianus der Anderte</persName> 
+                     <persName type="reg">Adrianus II</persName>
+                     <persName type="variation">Adrianus der Anderte</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -3646,7 +3698,8 @@
                   </person>
                   <person xml:id="adrianusdvier" role="hist">
                      <persName type="main" key="adrianusdvier">Adrianus d vierte</persName>
-<persName type="reg">Adrianus IV</persName>                     <persName type="variation">Adrianus der Vierdte</persName> 
+                     <persName type="reg">Adrianus IV</persName>
+                     <persName type="variation">Adrianus der Vierdte</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -3664,7 +3717,8 @@
                   </person>
                   <person xml:id="aegidiusasanctusleopoldus" role="hist">
                      <persName type="main" key="aegidiusaSanctusLeopoldus">Aegidius ā sanctus Leopoldus</persName>
-<persName type="reg">Aegidius a Sancto Leopoldo</persName>                     <persName type="variation">Ægidius à S Leopoldo</persName> 
+                     <persName type="reg">Aegidius a Sancto Leopoldo</persName>
+                     <persName type="variation">Ægidius à S Leopoldo</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -3754,7 +3808,8 @@
                   </person>
                   <person xml:id="alexanderdi" role="hist">
                      <persName type="main" key="alexanderdI">Alexander d I</persName>
-<persName type="reg">Alexander I</persName>                     <persName type="variation">Alexander der I</persName> 
+                     <persName type="reg">Alexander I</persName>
+                     <persName type="variation">Alexander der I</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -3763,7 +3818,8 @@
                   </person>
                   <person xml:id="alexanderdsechs" role="hist">
                      <persName type="main" key="alexanderdsechs">Alexander d sechste</persName>
-<persName type="reg">Alexander VI</persName>                     <persName type="variation">Alexander der Sechste</persName> 
+                     <persName type="reg">Alexander VI</persName>
+                     <persName type="variation">Alexander der Sechste</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -3772,7 +3828,8 @@
                   </person>
                   <person xml:id="alexanderdvier" role="hist">
                      <persName type="main" key="alexanderdvier">Alexander d vierte</persName>
-<persName type="reg">Alexander IV</persName>                     <persName type="variation">Alexander der Vierdte</persName> 
+                     <persName type="reg">Alexander IV</persName>
+                     <persName type="variation">Alexander der Vierdte</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -3781,7 +3838,8 @@
                   </person>
                   <person xml:id="alexanderabsanctusmichael" role="hist">
                      <persName type="main" key="alexanderabSanctusMichael">Alexander ā sanctus Michael</persName>
-<persName type="reg">Alexander a Sancto Michaele</persName>                     <persName type="variation">Alexander â S Michaele</persName> 
+                     <persName type="reg">Alexander a Sancto Michaele</persName>
+                     <persName type="variation">Alexander â S Michaele</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -3970,7 +4028,8 @@
                   </person>
                   <person xml:id="annasusannaedelfrauvonpazzoaufherteneckgeborengreylinvonrosenstock" role="hist">
                      <persName type="main" key="annaSusannaedelFrauvonPazzoaufHerteneckgeborenGreylinvonRosenstock">Anna Susanna edel Frau von Pazzo auf Herteneck geboren Greylin von Rosenstock</persName>
-<persName type="reg">Anna Susanna Edle Frau von Pazzo auff Herteneck</persName>                     <persName type="variation">Anna Susan na Edle Frau von Pazzo auff Herteneck gebohrne Greylin von Rosenstock</persName> 
+                     <persName type="reg">Anna Susanna Edle Frau von Pazzo auff Herteneck</persName>
+                     <persName type="variation">Anna Susan na Edle Frau von Pazzo auff Herteneck gebohrne Greylin von Rosenstock</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -3988,7 +4047,8 @@
                   </person>
                   <person xml:id="annaasbartholomaus" role="hist">
                      <persName type="main" key="annaaSBartholomäus">Anna ā sanctus Bartholomäus</persName>
-<persName type="reg">Anna a Sancto Bartholomäo</persName>                     <persName type="variation">Anna â S Bartholomæo</persName> 
+                     <persName type="reg">Anna a Sancto Bartholomäo</persName>
+                     <persName type="variation">Anna â S Bartholomæo</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Loesch_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Loesch_Wienn.xml</note>
@@ -4024,7 +4084,8 @@
                   </person>
                   <person xml:id="anselmusasanctuschristophorus" role="hist">
                      <persName type="main" key="anselmusaSanctusChristophorus">Anselmus ā sanctus Christophorus</persName>
-<persName type="reg">Anselmus a Sancto Christophoro</persName>                     <persName type="variation">ANSELMO à S CHRISTOPHORO</persName> 
+                     <persName type="reg">Anselmus a Sancto Christophoro</persName>
+                     <persName type="variation">ANSELMO à S CHRISTOPHORO</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -4033,7 +4094,8 @@
                   </person>
                   <person xml:id="anselmusabsanctapelagia" role="hist">
                      <persName type="main" key="anselmusabSanctaPelagia">Anselmus ā sanctus Pelagia</persName>
-<persName type="reg">Anselmus a Sancta Pelagia</persName>                     <persName type="variation">Anselmus â S Pelagia</persName> 
+                     <persName type="reg">Anselmus a Sancta Pelagia</persName>
+                     <persName type="variation">Anselmus â S Pelagia</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -4105,7 +4167,8 @@
                   </person>
                   <person xml:id="antoniusabsanctusfranciscuslaicus" role="hist">
                      <persName type="main" key="antoniusabSanctusFranciscusLaicus">Antonius ā sanctus Franciscus Laicus</persName>
-<persName type="reg">Antonius a Sancto Francisco</persName>                     <persName type="variation">Antonius â S Francisco Laic</persName> 
+                     <persName type="reg">Antonius a Sancto Francisco</persName>
+                     <persName type="variation">Antonius â S Francisco Laic</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -4213,7 +4276,8 @@
                   </person>
                   <person xml:id="augustinusasanctamonica" role="hist">
                      <persName type="main" key="augustinusaSanctaMonica">Augustinus ā sanctus Monica</persName>
-<persName type="reg">Augustinus a Sancta Monica</persName>                     <persName type="variation">Augu gustinus à S Monica</persName> 
+                     <persName type="reg">Augustinus a Sancta Monica</persName>
+                     <persName type="variation">Augu gustinus à S Monica</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -4222,7 +4286,8 @@
                   </person>
                   <person xml:id="augustinusasanctanativitasbeatusmariavirgo" role="hist">
                      <persName type="main" key="augustinusaSanctanativitasbeatusMariavirgo">Augustinus ā sanctus nativitas beatus Maria virgo</persName>
-<persName type="reg">Augustinus a Sancta Nativitate B. M. V.</persName>                     <persName type="variation">Augu stinus à S Nativitate B M Virg</persName> 
+                     <persName type="reg">Augustinus a Sancta Nativitate B. M. V.</persName>
+                     <persName type="variation">Augu stinus à S Nativitate B M Virg</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -4249,7 +4314,8 @@
                   </person>
                   <person xml:id="aurelium" role="hist">
                      <persName type="main" key="aurelium">Aurelius</persName>
-<persName type="reg">Aurelius</persName>                     <persName type="variation">Aurel</persName> 
+                     <persName type="reg">Aurelius</persName>
+                     <persName type="variation">Aurel</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Augustini_feuriges_Hertz.xml" n="1">1 Erwähnung in der Datei Abraham-Augustini_feuriges_Hertz.xml</note>
@@ -4285,7 +4351,8 @@
                   </person>
                   <person xml:id="balthasarasanctuspaulus" role="hist">
                      <persName type="main" key="balthasaraSanctusPaulus">Balthasar ā sanctus Paulus</persName>
-<persName type="reg">Balthasar a Sancto Paulo</persName>                     <persName type="variation">Baltha sar à S Paulo</persName> 
+                     <persName type="reg">Balthasar a Sancto Paulo</persName>
+                     <persName type="variation">Baltha sar à S Paulo</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -4402,7 +4469,8 @@
                   </person>
                   <person xml:id="benedictaabhumilitaschristus" role="hist">
                      <persName type="main" key="benedictaabhumilitasChristus">Benedicta ab humilitas Christus</persName>
-<persName type="reg">Benedicta ab humilitate Christi</persName>                     <persName type="variation">Benedicta ab humilitate Christi</persName> 
+                     <persName type="reg">Benedicta ab humilitate Christi</persName>
+                     <persName type="variation">Benedicta ab humilitate Christi</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -4420,7 +4488,8 @@
                   </person>
                   <person xml:id="benedictusdvierzehn" role="hist">
                      <persName type="main" key="benedictusdvierzehn">Benedictus d vierzehn</persName>
-<persName type="reg">Benedictus XIV</persName>                     <persName type="variation">Benedictus der Vierzehende</persName> 
+                     <persName type="reg">Benedictus XIV</persName>
+                     <persName type="variation">Benedictus der Vierzehende</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -4483,7 +4552,8 @@
                   </person>
                   <person xml:id="biga" role="hist">
                      <persName type="main" key="biga">Biga</persName>
-<persName type="reg">Biga[?]</persName>                     <persName type="variation">Biga</persName> 
+                     <persName type="reg">Biga[?]</persName>
+                     <persName type="variation">Biga</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Augustini_feuriges_Hertz.xml" n="1">1 Erwähnung in der Datei Abraham-Augustini_feuriges_Hertz.xml</note>
@@ -4510,7 +4580,8 @@
                   </person>
                   <person xml:id="blos" role="hist">
                      <persName type="main" key="blos">Blos</persName>
-<persName type="reg">Blosius</persName>                     <persName type="variation">Blos</persName> 
+                     <persName type="reg">Blosius</persName>
+                     <persName type="variation">Blos</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Augustini_feuriges_Hertz.xml" n="1">1 Erwähnung in der Datei Abraham-Augustini_feuriges_Hertz.xml</note>
@@ -4546,7 +4617,8 @@
                   </person>
                   <person xml:id="bonifaciusdi" role="hist">
                      <persName type="main" key="bonifaciusdI">Bonifacius d I</persName>
-<persName type="reg">Bonifacius I</persName>                     <persName type="variation">Bonifacius der I</persName> 
+                     <persName type="reg">Bonifacius I</persName>
+                     <persName type="variation">Bonifacius der I</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -4555,7 +4627,8 @@
                   </person>
                   <person xml:id="bonifaciusdneun" role="hist">
                      <persName type="main" key="bonifaciusdneun">Bonifacius d neun</persName>
-<persName type="reg">Bonifacius IX</persName>                     <persName type="variation">Bonifacius der Neunte</persName> 
+                     <persName type="reg">Bonifacius IX</persName>
+                     <persName type="variation">Bonifacius der Neunte</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -4672,7 +4745,8 @@
                   </person>
                   <person xml:id="carlludwigdheiligromischreichgrafvonhofkirchen" role="hist">
                      <persName type="main" key="carlLudwigdheiligrömischReichGrafvonHofkirchen">Carl Ludwig d heilig römisch Reich Graf von Hofkirchen</persName>
-<persName type="reg">Carl Ludwig Reichsgraf von Hofkirchen</persName>                     <persName type="variation">Carl Ludwig deß Heil Röm Reichs Graff von Hoffkirchen</persName> 
+                     <persName type="reg">Carl Ludwig Reichsgraf von Hofkirchen</persName>
+                     <persName type="variation">Carl Ludwig deß Heil Röm Reichs Graff von Hoffkirchen</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -4699,7 +4773,8 @@
                   </person>
                   <person xml:id="carolusabassumptionebv" role="hist">
                      <persName type="main" key="carolusabAssumptioneBV">Carolus ab assumptio B V</persName>
-<persName type="reg">Carolus ab Assumptione B. V.</persName>                     <persName type="variation">Carolus ab Assumptione B V</persName> 
+                     <persName type="reg">Carolus ab Assumptione B. V.</persName>
+                     <persName type="variation">Carolus ab Assumptione B V</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -4708,7 +4783,8 @@
                   </person>
                   <person xml:id="carolusdfunf" role="hist">
                      <persName type="main" key="carolusdfünf">Carolus d fünfte</persName>
-<persName type="reg">Carolus V</persName>                     <persName type="variation">Carolus der Fünffte</persName> 
+                     <persName type="reg">Carolus V</persName>
+                     <persName type="variation">Carolus der Fünffte</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -4735,7 +4811,8 @@
                   </person>
                   <person xml:id="casparusabsanctusangelocustode" role="hist">
                      <persName type="main" key="casparusabSanctusAngeloCustode">Casparus ā sanctus Angelo Custode</persName>
-<persName type="reg">Casparus a Sancto Angelo</persName>                     <persName type="variation">Casparus â S Angelo Custode</persName> 
+                     <persName type="reg">Casparus a Sancto Angelo</persName>
+                     <persName type="variation">Casparus â S Angelo Custode</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -4744,7 +4821,8 @@
                   </person>
                   <person xml:id="casparusabsanctusjustinus" role="hist">
                      <persName type="main" key="casparusabSanctusJustinus">Casparus ā sanctus Justinus</persName>
-<persName type="reg">Casparus a Sancto Justino</persName>                     <persName type="variation">Casparus â S Justino</persName> 
+                     <persName type="reg">Casparus a Sancto Justino</persName>
+                     <persName type="variation">Casparus â S Justino</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -4753,7 +4831,8 @@
                   </person>
                   <person xml:id="cassianusabsanctuselisaus" role="hist">
                      <persName type="main" key="cassianusabSanctusElisäus">Cassianus ā sanctus Elisäus</persName>
-<persName type="reg">Cassianus a Sancto Elisäo</persName>                     <persName type="variation">Cassianus â S Elisæo</persName> 
+                     <persName type="reg">Cassianus a Sancto Elisäo</persName>
+                     <persName type="variation">Cassianus â S Elisæo</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -4852,7 +4931,8 @@
                   </person>
                   <person xml:id="christophorusignatiusedelherrvonquarientundraall" role="hist">
                      <persName type="main" key="christophorusIgnatiusedelHerrvonQuarientundRaall">Christophorus Ignatius edel Herr von Quarient und Raall</persName>
-<persName type="reg">Christophorus Ignatius Edler Herr von Quarient und Raall</persName>                     <persName type="variation">CHRISTOPHORO IGNATIO Edlen Herrn von Quarient und Raall</persName> 
+                     <persName type="reg">Christophorus Ignatius Edler Herr von Quarient und Raall</persName>
+                     <persName type="variation">CHRISTOPHORO IGNATIO Edlen Herrn von Quarient und Raall</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -4915,7 +4995,8 @@
                   </person>
                   <person xml:id="clemensi" role="hist">
                      <persName type="main" key="clemensI">Clemens I</persName>
-<persName type="reg">Clemens I</persName>                     <persName type="variation">Clemens I</persName> 
+                     <persName type="reg">Clemens I</persName>
+                     <persName type="variation">Clemens I</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -4924,7 +5005,8 @@
                   </person>
                   <person xml:id="clemensdsechs" role="hist">
                      <persName type="main" key="clemensdsechs">Clemens d sechste</persName>
-<persName type="reg">Clemens VI</persName>                     <persName type="variation">Clemens der Sechste</persName> 
+                     <persName type="reg">Clemens VI</persName>
+                     <persName type="variation">Clemens der Sechste</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -4933,7 +5015,8 @@
                   </person>
                   <person xml:id="clemensasanctuselzearius" role="hist">
                      <persName type="main" key="clemensaSanctusElzearius">Clemens ā sanctus Elzearius</persName>
-<persName type="reg">Clemens a Sancto Elzeario</persName>                     <persName type="variation">Cle mens à S Elzeario</persName> 
+                     <persName type="reg">Clemens a Sancto Elzeario</persName>
+                     <persName type="variation">Cle mens à S Elzeario</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -4978,7 +5061,8 @@
                   </person>
                   <person xml:id="conradbalthasardheiligromischreichgrafundherrvonstarenberg" role="hist">
                      <persName type="main" key="conradBalthasardheiligrömischReichGrafundHerrvonStarenberg">Conrad Balthasar d heilig römisch Reich Graf und Herr von Starenberg</persName>
-<persName type="reg">Conrad Balthasar Reichsgraf von Starenberg</persName>                     <persName type="variation">Conrad Balthasar deß Heil Röm Reichs Graff vnd Herr von Staren berg</persName> 
+                     <persName type="reg">Conrad Balthasar Reichsgraf von Starenberg</persName>
+                     <persName type="variation">Conrad Balthasar deß Heil Röm Reichs Graff vnd Herr von Staren berg</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -5104,7 +5188,8 @@
                   </person>
                   <person xml:id="coelius" role="hist">
                      <persName type="main" key="cœlius">Cœlius</persName>
-<persName type="reg">Cölius</persName>                     <persName type="variation">Cæli</persName> 
+                     <persName type="reg">Cölius</persName>
+                     <persName type="variation">Cæli</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -5275,7 +5360,8 @@
                   </person>
                   <person xml:id="eliasabsanctusjanuarius" role="hist">
                      <persName type="main" key="eliasabSanctusJanuarius">Elias ā sanctus Ianuarius</persName>
-<persName type="reg">Elias a Sancto Januario</persName>                     <persName type="variation">Elias â S Januario</persName> 
+                     <persName type="reg">Elias a Sancto Januario</persName>
+                     <persName type="variation">Elias â S Januario</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -5356,7 +5442,8 @@
                   </person>
                   <person xml:id="evabarbararechbergeringeborenbamblin" role="hist">
                      <persName type="main" key="evaBarbaraRechbergeringeborenBamblin">Eva Barbara Rechbergerin geboren Bamblin</persName>
-<persName type="reg">Eva Barbara Rechbergerin, geb. Bamblin</persName>                     <persName type="variation">Eva Bar bara Rechbergerin gebohrne Bamblin</persName> 
+                     <persName type="reg">Eva Barbara Rechbergerin, geb. Bamblin</persName>
+                     <persName type="variation">Eva Bar bara Rechbergerin gebohrne Bamblin</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -5410,7 +5497,8 @@
                   </person>
                   <person xml:id="felixddrei" role="hist">
                      <persName type="main" key="felixddrei">Felix d dritte</persName>
-<persName type="reg">Felix III</persName>                     <persName type="variation">Felix der dritte</persName> 
+                     <persName type="reg">Felix III</persName>
+                     <persName type="variation">Felix der dritte</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -5446,7 +5534,8 @@
                   </person>
                   <person xml:id="ferdinandusddrei" role="hist">
                      <persName type="main" key="ferdinandusddrei">Ferdinandus d drei</persName>
-<persName type="reg">Ferdinandus III</persName>                     <persName type="variation">Ferdinandi deß III</persName> 
+                     <persName type="reg">Ferdinandus III</persName>
+                     <persName type="variation">Ferdinandi deß III</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Augustini_feuriges_Hertz.xml" n="1">1 Erwähnung in der Datei Abraham-Augustini_feuriges_Hertz.xml</note>
@@ -5590,7 +5679,8 @@
                   </person>
                   <person xml:id="franzmaximiliandheiligromischreichgrafvonmollart" role="hist">
                      <persName type="main" key="franzMaximiliandheiligrömischReichGrafvonMollart">Franz Maximilian d heilig römisch Reich Graf von Mollart</persName>
-<persName type="reg">Franz Maximilian Reichsgraf von Mollart</persName>                     <persName type="variation">Frantz Maximilian deß Heil Röm Reichs Graff von Mollart</persName> 
+                     <persName type="reg">Franz Maximilian Reichsgraf von Mollart</persName>
+                     <persName type="variation">Frantz Maximilian deß Heil Röm Reichs Graff von Mollart</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -5644,7 +5734,8 @@
                   </person>
                   <person xml:id="fridericuspulcher" role="hist">
                      <persName type="main" key="fridericuspulcher">Fridericus pulcher</persName>
-<persName type="reg">Fridericus Pulcher</persName>                     <persName type="variation">Friderici Pulchri</persName> 
+                     <persName type="reg">Fridericus Pulcher</persName>
+                     <persName type="variation">Friderici Pulchri</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -5680,7 +5771,8 @@
                   </person>
                   <person xml:id="friedrichddrei" role="hist">
                      <persName type="main" key="friedrichddrei">Friedrich d dritte</persName>
-<persName type="reg">Friedrich III</persName>                     <persName type="variation">Friderich dem Dritten</persName> 
+                     <persName type="reg">Friedrich III</persName>
+                     <persName type="variation">Friderich dem Dritten</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Loesch_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Loesch_Wienn.xml</note>
@@ -5689,7 +5781,8 @@
                   </person>
                   <person xml:id="gabrielli" role="hist">
                      <persName type="main" key="gabrielli">Gabrielli</persName>
-<persName type="reg">Gabriellus</persName>                     <persName type="variation">Gabrielli</persName> 
+                     <persName type="reg">Gabriellus</persName>
+                     <persName type="variation">Gabrielli</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -5806,7 +5899,8 @@
                   </person>
                   <person xml:id="gratianusabsanctamaria" role="hist">
                      <persName type="main" key="gratianusabSanctaMaria">Gratianus ā sanctus Maria</persName>
-<persName type="reg">Gratianus a Sancta Maria</persName>                     <persName type="variation">Gratianus â S MARIA</persName> 
+                     <persName type="reg">Gratianus a Sancta Maria</persName>
+                     <persName type="variation">Gratianus â S MARIA</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -5824,7 +5918,8 @@
                   </person>
                   <person xml:id="gregoriusddreizehn" role="hist">
                      <persName type="main" key="gregoriusddreizehn">Gregorius d dreizehn</persName>
-<persName type="reg">Gregorius XIII</persName>                     <persName type="variation">Gregorius der dreyzehende</persName> 
+                     <persName type="reg">Gregorius XIII</persName>
+                     <persName type="variation">Gregorius der dreyzehende</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -5833,7 +5928,8 @@
                   </person>
                   <person xml:id="gregoriusdneun" role="hist">
                      <persName type="main" key="gregoriusdneun">Gregorius d neun</persName>
-<persName type="reg">Gregorius IX</persName>                     <persName type="variation">Gregorius der Neunte</persName> 
+                     <persName type="reg">Gregorius IX</persName>
+                     <persName type="variation">Gregorius der Neunte</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -5842,7 +5938,8 @@
                   </person>
                   <person xml:id="gregoriusdvier" role="hist">
                      <persName type="main" key="gregoriusdvier">Gregorius d vierte</persName>
-<persName type="reg">Gregorius IV</persName>                     <persName type="variation">Gregorius ver Vierdte</persName> 
+                     <persName type="reg">Gregorius IV</persName>
+                     <persName type="variation">Gregorius ver Vierdte</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -5851,7 +5948,8 @@
                   </person>
                   <person xml:id="gregoriusdvierzehn" role="hist">
                      <persName type="main" key="gregoriusdvierzehn">Gregorius d vierzehn</persName>
-<persName type="reg">Gregorius XIV</persName>                     <persName type="variation">Gregorius der vier zehende</persName> 
+                     <persName type="reg">Gregorius XIV</persName>
+                     <persName type="variation">Gregorius der vier zehende</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -5860,7 +5958,8 @@
                   </person>
                   <person xml:id="gregoriusasanctusjohannes" role="hist">
                      <persName type="main" key="gregoriusaSanctusJohannes">Gregorius ā sanctus Johannes</persName>
-<persName type="reg">Gregorius a Sancto Joanne</persName>                     <persName type="variation">Gregorius à S Joanne</persName> 
+                     <persName type="reg">Gregorius a Sancto Joanne</persName>
+                     <persName type="variation">Gregorius à S Joanne</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -5923,7 +6022,8 @@
                   </person>
                   <person xml:id="helenafreiinvonschwartzenhorngeborenvonveldtegg" role="hist">
                      <persName type="main" key="helenaFreiinvonSchwartzenhorngeborenvonVeldtegg">Helena Freiin von Schwartzenhorn geboren von Veldtegg</persName>
-<persName type="reg">Helena Freiin von Schwartzenhorn, geb. von Veldtegg</persName>                     <persName type="variation">Helena Freyin von Schwartzen=Horn geborne von Veld tegg</persName> 
+                     <persName type="reg">Helena Freiin von Schwartzenhorn, geb. von Veldtegg</persName>
+                     <persName type="variation">Helena Freyin von Schwartzen=Horn geborne von Veld tegg</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -5932,7 +6032,8 @@
                   </person>
                   <person xml:id="henricusabsanctaanna" role="hist">
                      <persName type="main" key="henricusabSanctaAnna">Henricus ā sanctus Anna</persName>
-<persName type="reg">Henricus a Sancta Anna</persName>                     <persName type="variation">Henricus â S Anna</persName> 
+                     <persName type="reg">Henricus a Sancta Anna</persName>
+                     <persName type="variation">Henricus â S Anna</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -5968,7 +6069,8 @@
                   </person>
                   <person xml:id="hermannoltaeus" role="hist">
                      <persName type="main" key="hermanNoltaeus">Herman Noltaeus</persName>
-<persName type="reg">Herman Noltäus</persName>                     <persName type="variation">Herman Noltæus</persName> 
+                     <persName type="reg">Herman Noltäus</persName>
+                     <persName type="variation">Herman Noltæus</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -5977,7 +6079,8 @@
                   </person>
                   <person xml:id="hi" role="hist">
                      <persName type="main" key="hi">Hi</persName>
-<persName type="reg">Hi[?]</persName>                     <persName type="variation">Hi</persName> 
+                     <persName type="reg">Hi[?]</persName>
+                     <persName type="variation">Hi</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Augustini_feuriges_Hertz.xml" n="1">1 Erwähnung in der Datei Abraham-Augustini_feuriges_Hertz.xml</note>
@@ -6040,7 +6143,8 @@
                   </person>
                   <person xml:id="hironymusjosephabsanctaanna" role="hist">
                      <persName type="main" key="hironymusJosephabSanctaAnna">Hironymus Joseph ā sanctus Anna</persName>
-<persName type="reg">Hironymus Joseph a Sancta Anna</persName>                     <persName type="variation">Hironymus Joseph â S Anna</persName> 
+                     <persName type="reg">Hironymus Joseph a Sancta Anna</persName>
+                     <persName type="variation">Hironymus Joseph â S Anna</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -6058,7 +6162,8 @@
                   </person>
                   <person xml:id="honoriusdander" role="hist">
                      <persName type="main" key="honoriusdander">Honorius d ander</persName>
-<persName type="reg">Honorius II</persName>                     <persName type="variation">Honorius der Anderte</persName> 
+                     <persName type="reg">Honorius II</persName>
+                     <persName type="variation">Honorius der Anderte</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -6067,7 +6172,8 @@
                   </person>
                   <person xml:id="honoriusddrei" role="hist">
                      <persName type="main" key="honoriusddrei">Honorius d dritte</persName>
-<persName type="reg">Honorius III</persName>                     <persName type="variation">Honorio dem dritten</persName> 
+                     <persName type="reg">Honorius III</persName>
+                     <persName type="variation">Honorio dem dritten</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -6121,7 +6227,8 @@
                   </person>
                   <person xml:id="aii" role="hist">
                      <persName type="main" key="aii">II</persName>
-<persName type="reg">Alexander II</persName>                     <persName type="variation">II</persName> 
+                     <persName type="reg">Alexander II</persName>
+                     <persName type="variation">II</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -6130,7 +6237,8 @@
                   </person>
                   <person xml:id="bii" role="hist">
                      <persName type="main" key="bii">II</persName>
-<persName type="reg">Bonifacius II</persName>                     <persName type="variation">II</persName> 
+                     <persName type="reg">Bonifacius II</persName>
+                     <persName type="variation">II</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -6139,7 +6247,8 @@
                   </person>
                   <person xml:id="cii" role="hist">
                      <persName type="main" key="cii">II</persName>
-<persName type="reg">Clemens II</persName>                     <persName type="variation">II</persName> 
+                     <persName type="reg">Clemens II</persName>
+                     <persName type="variation">II</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -6148,7 +6257,8 @@
                   </person>
                   <person xml:id="biii" role="hist">
                      <persName type="main" key="biii">III</persName>
-<persName type="reg">Bonifacius III</persName>                     <persName type="variation">III</persName> 
+                     <persName type="reg">Bonifacius III</persName>
+                     <persName type="variation">III</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -6157,7 +6267,8 @@
                   </person>
                   <person xml:id="ciii" role="hist">
                      <persName type="main" key="ciii">III</persName>
-<persName type="reg">Clemens III</persName>                     <persName type="variation">III</persName> 
+                     <persName type="reg">Clemens III</persName>
+                     <persName type="variation">III</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -6166,7 +6277,8 @@
                   </person>
                   <person xml:id="aiv" role="hist">
                      <persName type="main" key="aiv">IV</persName>
-<persName type="reg">Alexander IV</persName>                     <persName type="variation">IV</persName> 
+                     <persName type="reg">Alexander IV</persName>
+                     <persName type="variation">IV</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -6175,7 +6287,8 @@
                   </person>
                   <person xml:id="biv" role="hist">
                      <persName type="main" key="biv">IV</persName>
-<persName type="reg">Bonifacius IV</persName>                     <persName type="variation">IV</persName> 
+                     <persName type="reg">Bonifacius IV</persName>
+                     <persName type="variation">IV</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -6184,7 +6297,8 @@
                   </person>
                   <person xml:id="innocentiusi" role="hist">
                      <persName type="main" key="innocentiusI">Innocentius I</persName>
-<persName type="reg">Innocentius I</persName>                     <persName type="variation">Innocentius I</persName> 
+                     <persName type="reg">Innocentius I</persName>
+                     <persName type="variation">Innocentius I</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -6193,7 +6307,8 @@
                   </person>
                   <person xml:id="innocentiusddritt" role="hist">
                      <persName type="main" key="innocentiusddritt">Innocentius d dritte</persName>
-<persName type="reg">Innocentius III</persName>                     <persName type="variation">Innocenti der dritte</persName> 
+                     <persName type="reg">Innocentius III</persName>
+                     <persName type="variation">Innocenti der dritte</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Loesch_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Loesch_Wienn.xml</note>
@@ -6202,7 +6317,8 @@
                   </person>
                   <person xml:id="innocentiusdvier" role="hist">
                      <persName type="main" key="innocentiusdvier">Innocentius d vierte</persName>
-<persName type="reg">Innocentius IV</persName>                     <persName type="variation">Innocentius der Vierdte</persName> 
+                     <persName type="reg">Innocentius IV</persName>
+                     <persName type="variation">Innocentius der Vierdte</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -6265,7 +6381,8 @@
                   </person>
                   <person xml:id="jacobmont" role="hist">
                      <persName type="main" key="jacobMont">Jacob Montanus</persName>
-<persName type="reg">Jacobus Montanus</persName>                     <persName type="variation">Jacob Mont</persName> 
+                     <persName type="reg">Jacobus Montanus</persName>
+                     <persName type="variation">Jacob Mont</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Augustini_feuriges_Hertz.xml" n="1">1 Erwähnung in der Datei Abraham-Augustini_feuriges_Hertz.xml</note>
@@ -6337,7 +6454,8 @@
                   </person>
                   <person xml:id="jannic" role="hist">
                      <persName type="main" key="janNic">Jan Nic</persName>
-<persName type="reg">Jan. Nic.[?]</persName>                     <persName type="variation">Jan Nic</persName> 
+                     <persName type="reg">Jan. Nic.[?]</persName>
+                     <persName type="variation">Jan Nic</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Augustini_feuriges_Hertz.xml" n="1">1 Erwähnung in der Datei Abraham-Augustini_feuriges_Hertz.xml</note>
@@ -6499,7 +6617,8 @@
                   </person>
                   <person xml:id="johannignatiusspindlerfreiherrundedelherrzuwildenstein" role="hist">
                      <persName type="main" key="johannIgnatiusSpindlerFreiherrundedelHerrzuWildenstein">Johann Ignatius Spindler Freiherr und edel Herr zu Wildenstein</persName>
-<persName type="reg">Johann Ignatius Spindler Freyherr zu Wildenstein</persName>                     <persName type="variation">Jo hann Jgnatius Spindler Frey= vnd Edler Herr zu Wildenstein</persName> 
+                     <persName type="reg">Johann Ignatius Spindler Freyherr zu Wildenstein</persName>
+                     <persName type="variation">Jo hann Jgnatius Spindler Frey= vnd Edler Herr zu Wildenstein</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -6652,7 +6771,8 @@
                   </person>
                   <person xml:id="johannabayr-huberinvonhuebgeborenkresslinvongeraltenberg" role="hist">
                      <persName type="main" key="johannaBayr=HuberinvonHuebgeborenKreßlinvonGeraltenberg">Johanna Bayr=Huberin von Hueb geboren Kreßlin von Geraltenberg</persName>
-<persName type="reg">Johanna Bayr=Huberin von Hueb, geb. Kreßlin von Geraltenberg</persName>                     <persName type="variation">Johanna Bayr=Huberin von Hueb geborne Kreßlin von Geraltenberg</persName> 
+                     <persName type="reg">Johanna Bayr=Huberin von Hueb, geb. Kreßlin von Geraltenberg</persName>
+                     <persName type="variation">Johanna Bayr=Huberin von Hueb geborne Kreßlin von Geraltenberg</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -6805,7 +6925,8 @@
                   </person>
                   <person xml:id="johannesvolckhardusdheiligromischreichreichsgrafvonconzin" role="hist">
                      <persName type="main" key="johannesVolckhardusdheiligrömischReichReichsgrafvonConzin">Johannes Volckhardus d heilig römisch Reich Reichsgraf von Conzin</persName>
-<persName type="reg">Johannes Volckhardus Reichsgraf von Conzin</persName>                     <persName type="variation">JOANNI VOLCKHARDO Des Heil Röm Reichs Grafen von Conzin</persName> 
+                     <persName type="reg">Johannes Volckhardus Reichsgraf von Conzin</persName>
+                     <persName type="variation">JOANNI VOLCKHARDO Des Heil Röm Reichs Grafen von Conzin</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -6841,7 +6962,8 @@
                   </person>
                   <person xml:id="johannesdeus" role="hist">
                      <persName type="main" key="johannesdeus">Johannes deus</persName>
-<persName type="reg">Johannes de Deo</persName>                     <persName type="variation">Joanne Dei</persName> 
+                     <persName type="reg">Johannes de Deo</persName>
+                     <persName type="variation">Joanne Dei</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -6868,7 +6990,8 @@
                   </person>
                   <person xml:id="josephusabannuntiatiobeatusmariavirgo" role="hist">
                      <persName type="main" key="josephusabannuntiatiobeatusMariavirgo">Josephus ab annuntiatio beatus Maria virgo</persName>
-<persName type="reg">Josephus ab Annunciatione B. M. V.</persName>                     <persName type="variation">Jose phus ab Annunciatione B M V</persName> 
+                     <persName type="reg">Josephus ab Annunciatione B. M. V.</persName>
+                     <persName type="variation">Jose phus ab Annunciatione B M V</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -6976,7 +7099,8 @@
                   </person>
                   <person xml:id="ladislausasanctaperegrina" role="hist">
                      <persName type="main" key="ladislausaSanctaPeregrina">Ladislaus à sanctus Peregrina</persName>
-<persName type="reg">Ladislaus a Sancta Peregrina</persName>                     <persName type="variation">Ladis laus à S Peregrina</persName> 
+                     <persName type="reg">Ladislaus a Sancta Peregrina</persName>
+                     <persName type="variation">Ladis laus à S Peregrina</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -7156,7 +7280,8 @@
                   </person>
                   <person xml:id="luciusddrei" role="hist">
                      <persName type="main" key="luciusddrei">Lucius d dritte</persName>
-<persName type="reg">Lucius III</persName>                     <persName type="variation">Lucius der Drit te</persName> 
+                     <persName type="reg">Lucius III</persName>
+                     <persName type="variation">Lucius der Drit te</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -7354,7 +7479,8 @@
                   </person>
                   <person xml:id="mariaelisabethazorningeborenburingerin" role="hist">
                      <persName type="main" key="mariaElisabethaZorningeborenBüringerin">Maria Elisabetha Zornin geboren Büringerin</persName>
-<persName type="reg">Maria Elisabetha Zornin, geb. Büringerin</persName>                     <persName type="variation">Maria Elisabetha Zornin geborne Bü ringerin</persName> 
+                     <persName type="reg">Maria Elisabetha Zornin, geb. Büringerin</persName>
+                     <persName type="variation">Maria Elisabetha Zornin geborne Bü ringerin</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -7363,7 +7489,8 @@
                   </person>
                   <person xml:id="mariaeuphrosinaoesterreicheringeborenschmidin" role="hist">
                      <persName type="main" key="mariaEuphrosinaOesterreicheringeborenSchmidin">Maria Euphrosina Oesterreicherin geboren Schmidin</persName>
-<persName type="reg">Maria Euphrosina Oesterreicherin, geb. Schmidin</persName>                     <persName type="variation">Maria Euphrosina Oesterreicherin geborne Schmidin</persName> 
+                     <persName type="reg">Maria Euphrosina Oesterreicherin, geb. Schmidin</persName>
+                     <persName type="variation">Maria Euphrosina Oesterreicherin geborne Schmidin</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -7381,7 +7508,8 @@
                   </person>
                   <person xml:id="mariajulianapaulingeborenostermayrin" role="hist">
                      <persName type="main" key="mariaJulianaPaulingeborenOstermayrin">Maria Juliana Paulin geboren Ostermayrin</persName>
-<persName type="reg">Maria Juliana Paulin, geb. Ostermayrin</persName>                     <persName type="variation">Mauria Juliana Paulin geborne Oster mayrin</persName> 
+                     <persName type="reg">Maria Juliana Paulin, geb. Ostermayrin</persName>
+                     <persName type="variation">Mauria Juliana Paulin geborne Oster mayrin</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -7390,7 +7518,8 @@
                   </person>
                   <person xml:id="marialuciatittmanningeringeborenvonmangen" role="hist">
                      <persName type="main" key="mariaLuciaTittmanningeringeborenvonMangen">Maria Lucia Tittmanningerin geboren von Mangen</persName>
-<persName type="reg">Maria Lucia Tittmanningerin, geb. von Mangen</persName>                     <persName type="variation">Maria Lucia Tittmanningerin geborne von Mangen</persName> 
+                     <persName type="reg">Maria Lucia Tittmanningerin, geb. von Mangen</persName>
+                     <persName type="variation">Maria Lucia Tittmanningerin geborne von Mangen</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -7471,7 +7600,8 @@
                   </person>
                   <person xml:id="martiusturbo" role="hist">
                      <persName type="main" key="martiusTurbo">Martus Turbo</persName>
-<persName type="reg">Martius Turbo</persName>                     <persName type="variation">Mart Turbo</persName> 
+                     <persName type="reg">Martius Turbo</persName>
+                     <persName type="variation">Mart Turbo</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -7480,7 +7610,8 @@
                   </person>
                   <person xml:id="mathausabsanctusfranciscus" role="hist">
                      <persName type="main" key="mathäusabSanctusFranciscus">Mathäus ā sanctus Franciscus</persName>
-<persName type="reg">Mathäus a Sancto Francisco</persName>                     <persName type="variation">Mathæus â S Francisco</persName> 
+                     <persName type="reg">Mathäus a Sancto Francisco</persName>
+                     <persName type="variation">Mathæus â S Francisco</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -7579,7 +7710,8 @@
                   </person>
                   <person xml:id="maximilianusdander" role="hist">
                      <persName type="main" key="maximilianusdander">Maximilianus d ander</persName>
-<persName type="reg">Maximilianus II</persName>                     <persName type="variation">Maximilianus der Ander</persName> 
+                     <persName type="reg">Maximilianus II</persName>
+                     <persName type="variation">Maximilianus der Ander</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -7588,7 +7720,8 @@
                   </person>
                   <person xml:id="maximilianusderst" role="hist">
                      <persName type="main" key="maximilianusderst">Maximilianus d erste</persName>
-<persName type="reg">Maximilianus I</persName>                     <persName type="variation">Maximiliani deß Ersten</persName> 
+                     <persName type="reg">Maximilianus I</persName>
+                     <persName type="variation">Maximiliani deß Ersten</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -7615,7 +7748,8 @@
                   </person>
                   <person xml:id="maximinusabsanctussimonstock" role="hist">
                      <persName type="main" key="maximinusabSanctusSimonStock">Maximinus ā sanctus Simon Stock</persName>
-<persName type="reg">Maximinus a Sancto Simone Stock</persName>                     <persName type="variation">Maximinus â S Simone Stock</persName> 
+                     <persName type="reg">Maximinus a Sancto Simone Stock</persName>
+                     <persName type="variation">Maximinus â S Simone Stock</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -7678,7 +7812,8 @@
                   </person>
                   <person xml:id="michaelhoffman" role="hist">
                      <persName type="main" key="michaelhoffman">Michael Hoffman</persName>
-<persName type="reg">Michael Hoffman</persName>                     <persName type="variation">M Hoffman</persName> 
+                     <persName type="reg">Michael Hoffman</persName>
+                     <persName type="variation">M Hoffman</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -7750,7 +7885,8 @@
                   </person>
                   <person xml:id="nstockdejus" role="hist">
                      <persName type="main" key="nStockdejus">N Stockdejus</persName>
-<persName type="reg">N. Stockdejus</persName>                     <persName type="variation">N Stockdejus</persName> 
+                     <persName type="reg">N. Stockdejus</persName>
+                     <persName type="variation">N Stockdejus</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -7831,7 +7967,8 @@
                   </person>
                   <person xml:id="nicolausddrei" role="hist">
                      <persName type="main" key="nicolausddrei">Nicolaus d dritte</persName>
-<persName type="reg">Nicolaus III</persName>                     <persName type="variation">Nicolaus der Dritte</persName> 
+                     <persName type="reg">Nicolaus III</persName>
+                     <persName type="variation">Nicolaus der Dritte</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -8074,7 +8211,8 @@
                   </person>
                   <person xml:id="peterbonaventuraedelvoncrololantza" role="hist">
                      <persName type="main" key="peterBonaventuraedelvonCrololantza">Peter Bonaventura edel von Crololantza</persName>
-<persName type="reg">Peter Bonaventura Edler von Crololantza</persName>                     <persName type="variation">Peter Bonaventur Edlen von Cro lolantza</persName> 
+                     <persName type="reg">Peter Bonaventura Edler von Crololantza</persName>
+                     <persName type="variation">Peter Bonaventur Edlen von Cro lolantza</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -8290,7 +8428,8 @@
                   </person>
                   <person xml:id="quintindheiligromischreichgrafjorger" role="hist">
                      <persName type="main" key="quintindheiligrömischReichGrafJörger">Quintin d heilig römisch Reich Graf Jörger</persName>
-<persName type="reg">Quintin Reichsgraf Jörger</persName>                     <persName type="variation">Quintin deß Heil Röm Reichs Graff Jörger</persName> 
+                     <persName type="reg">Quintin Reichsgraf Jörger</persName>
+                     <persName type="variation">Quintin deß Heil Röm Reichs Graff Jörger</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -8317,7 +8456,8 @@
                   </person>
                   <person xml:id="richardusii" role="hist">
                      <persName type="main" key="richardusII">Richardus II</persName>
-<persName type="reg">Richardus II</persName>                     <persName type="variation">Richar dus II</persName> 
+                     <persName type="reg">Richardus II</persName>
+                     <persName type="variation">Richar dus II</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -8326,7 +8466,8 @@
                   </person>
                   <person xml:id="richardusasanctuspetrus" role="hist">
                      <persName type="main" key="richardusaSanctusPetrus">Richardus ā sanctus Petrus</persName>
-<persName type="reg">Richardus a Sancto Petro</persName>                     <persName type="variation">Richar dus à S Petro</persName> 
+                     <persName type="reg">Richardus a Sancto Petro</persName>
+                     <persName type="variation">Richar dus à S Petro</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -8398,7 +8539,8 @@
                   </person>
                   <person xml:id="rudolphdander" role="hist">
                      <persName type="main" key="rudolphdander">Rudolph d ander</persName>
-<persName type="reg">Rudolph II</persName>                     <persName type="variation">Rudolph deß An dern</persName> 
+                     <persName type="reg">Rudolph II</persName>
+                     <persName type="variation">Rudolph deß An dern</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -8407,7 +8549,8 @@
                   </person>
                   <person xml:id="rudolphusasanctaanna" role="hist">
                      <persName type="main" key="rudolphusaSanctaAnna">Rudolphus à sanctus Anna</persName>
-<persName type="reg">Rudolphus a Sancta Anna</persName>                     <persName type="variation">Rudol phus à S Anna</persName> 
+                     <persName type="reg">Rudolphus a Sancta Anna</persName>
+                     <persName type="variation">Rudol phus à S Anna</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -8452,7 +8595,8 @@
                   </person>
                   <person xml:id="sales" role="hist">
                      <persName type="main" key="sales">Sales</persName>
-<persName type="reg">Sales</persName>                     <persName type="variation">Sales</persName> 
+                     <persName type="reg">Sales</persName>
+                     <persName type="variation">Sales</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -8533,7 +8677,8 @@
                   </person>
                   <person xml:id="severinusasanctaregina" role="hist">
                      <persName type="main" key="severinusaSanctaRegina">Severinus à sanctus Regina</persName>
-<persName type="reg">Severinus a Sancta Regina</persName>                     <persName type="variation">Severi nus à S Regina</persName> 
+                     <persName type="reg">Severinus a Sancta Regina</persName>
+                     <persName type="variation">Severi nus à S Regina</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -8542,7 +8687,8 @@
                   </person>
                   <person xml:id="sidon" role="hist">
                      <persName type="main" key="sidon">Sidon</persName>
-<persName type="reg">Sidonius</persName>                     <persName type="variation">Sidon</persName> 
+                     <persName type="reg">Sidonius</persName>
+                     <persName type="variation">Sidon</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -8578,7 +8724,8 @@
                   </person>
                   <person xml:id="sixtussecundus" role="hist">
                      <persName type="main" key="sixtusSecundus">Sixtus Secundus</persName>
-<persName type="reg">Sixtus II</persName>                     <persName type="variation">Sixtus Secundus</persName> 
+                     <persName type="reg">Sixtus II</persName>
+                     <persName type="variation">Sixtus Secundus</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -8605,7 +8752,8 @@
                   </person>
                   <person xml:id="spiridionabsanctusserapio" role="hist">
                      <persName type="main" key="spiridionabSanctusSerapio">Spiridion ā sanctus Serapio</persName>
-<persName type="reg">Spiridion a Sancta Serapione</persName>                     <persName type="variation">Spiridion â S Serapione</persName> 
+                     <persName type="reg">Spiridion a Sancta Serapione</persName>
+                     <persName type="variation">Spiridion â S Serapione</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -8650,7 +8798,8 @@
                   </person>
                   <person xml:id="stephanussecundus" role="hist">
                      <persName type="main" key="stephanusSecundus">Stephanus Secundus</persName>
-<persName type="reg">Stephan II</persName>                     <persName type="variation">Stephanus Se cundus</persName> 
+                     <persName type="reg">Stephan II</persName>
+                     <persName type="variation">Stephanus Se cundus</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -8695,7 +8844,8 @@
                   </person>
                   <person xml:id="susannasabinahaiminvonheilingthalgeborenlerbmannin" role="hist">
                      <persName type="main" key="susannaSabinaHäiminvonHeilingthalgeborenLerbmannin">Susanna Sabina Häimin von Heilingthal geboren Lerbmannin</persName>
-<persName type="reg">Susanna Sabina Häimin von Heilingthal, geb. Lerbmannin</persName>                     <persName type="variation">Susanna Sa bina Häimin von Heiling=Thal geborne Lerbmannin</persName> 
+                     <persName type="reg">Susanna Sabina Häimin von Heilingthal, geb. Lerbmannin</persName>
+                     <persName type="variation">Susanna Sa bina Häimin von Heiling=Thal geborne Lerbmannin</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -8704,7 +8854,8 @@
                   </person>
                   <person xml:id="sylvesterdepetrasancta" role="hist">
                      <persName type="main" key="sylvesterdePetraSancta">Sylvester de Petra sanctus</persName>
-<persName type="reg">Sylvester de Petra Sancta</persName>                     <persName type="variation">Sylvester de Petra Sancta</persName> 
+                     <persName type="reg">Sylvester de Petra Sancta</persName>
+                     <persName type="variation">Sylvester de Petra Sancta</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Loesch_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Loesch_Wienn.xml</note>
@@ -8893,7 +9044,8 @@
                   </person>
                   <person xml:id="tom" role="hist">
                      <persName type="main" key="tom">Tom</persName>
-<persName type="reg">Tom.[?]</persName>                     <persName type="variation">Tom</persName> 
+                     <persName type="reg">Tom.[?]</persName>
+                     <persName type="variation">Tom</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Augustini_feuriges_Hertz.xml" n="1">1 Erwähnung in der Datei Abraham-Augustini_feuriges_Hertz.xml</note>
@@ -8929,7 +9081,8 @@
                   </person>
                   <person xml:id="urbanusseptimus" role="hist">
                      <persName type="main" key="urbanusSeptimus">Urbanus Septimus</persName>
-<persName type="reg">Urbanus VII</persName>                     <persName type="variation">Urbanus Septimus</persName> 
+                     <persName type="reg">Urbanus VII</persName>
+                     <persName type="variation">Urbanus Septimus</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -8938,7 +9091,8 @@
                   </person>
                   <person xml:id="urbandviii" role="hist">
                      <persName type="main" key="urbandVIII">Urbanus d VIII</persName>
-<persName type="reg">Urbanus VIII</persName>                     <persName type="variation">Urbani des VIII</persName> 
+                     <persName type="reg">Urbanus VIII</persName>
+                     <persName type="variation">Urbani des VIII</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -8956,7 +9110,8 @@
                   </person>
                   <person xml:id="av" role="hist">
                      <persName type="main" key="av">V</persName>
-<persName type="reg">Alexander V</persName>                     <persName type="variation">V</persName> 
+                     <persName type="reg">Alexander V</persName>
+                     <persName type="variation">V</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -8965,7 +9120,8 @@
                   </person>
                   <person xml:id="bv" role="hist">
                      <persName type="main" key="bv">V</persName>
-<persName type="reg">Bonifacius V</persName>                     <persName type="variation">V</persName> 
+                     <persName type="reg">Bonifacius V</persName>
+                     <persName type="variation">V</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -9001,7 +9157,8 @@
                   </person>
                   <person xml:id="valentinusasanctaelisabetha" role="hist">
                      <persName type="main" key="valentinusaSanctaElisabetha">Valentinus à sanctus Elisabetha</persName>
-<persName type="reg">Valentinus a Sancta Elisabetha</persName>                     <persName type="variation">Va lentinus à S Elisabetha</persName> 
+                     <persName type="reg">Valentinus a Sancta Elisabetha</persName>
+                     <persName type="variation">Va lentinus à S Elisabetha</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -9046,7 +9203,8 @@
                   </person>
                   <person xml:id="vatablus" role="hist">
                      <persName type="main" key="vatablus">Vatablo</persName>
-<persName type="reg">Vatablus</persName>                     <persName type="variation">Vatablo</persName> 
+                     <persName type="reg">Vatablus</persName>
+                     <persName type="variation">Vatablo</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -9082,7 +9240,8 @@
                   </person>
                   <person xml:id="victorddrei" role="hist">
                      <persName type="main" key="victorddrei">Victor d dritte</persName>
-<persName type="reg">Victor III</persName>                     <persName type="variation">Victor der Drit te</persName> 
+                     <persName type="reg">Victor III</persName>
+                     <persName type="variation">Victor der Drit te</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -9199,7 +9358,8 @@
                   </person>
                   <person xml:id="wenceslausasanctusaugustinus" role="hist">
                      <persName type="main" key="wenceslausaSanctusAugustinus">Wenceslaus ā sanctus Augustinus</persName>
-<persName type="reg">Wenceslaus a Sancto Augustino</persName>                     <persName type="variation">Wen ceslaus à S Augustino</persName> 
+                     <persName type="reg">Wenceslaus a Sancto Augustino</persName>
+                     <persName type="variation">Wen ceslaus à S Augustino</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
@@ -9217,7 +9377,8 @@
                   </person>
                   <person xml:id="wilhelmjohannantoniusdheiligromischreichgrafvondhaun" role="hist">
                      <persName type="main" key="wilhelmJohannAntoniusdheiligrömischReichGrafvonDhaun">Wilhelm Johann Antonius d heilig römisch Reich Graf von Dhaun</persName>
-<persName type="reg">Wilhelm Johann Antonius Reichsgraf von Dhaun</persName>                     <persName type="variation">Wilhelm Johann Antonius deß Heil Röm Reichs Graff von Dhaun</persName> 
+                     <persName type="reg">Wilhelm Johann Antonius Reichsgraf von Dhaun</persName>
+                     <persName type="variation">Wilhelm Johann Antonius deß Heil Röm Reichs Graff von Dhaun</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -9253,7 +9414,8 @@
                   </person>
                   <person xml:id="inx" role="hist">
                      <persName type="main" key="inx">X</persName>
-<persName type="reg">Innocentius X</persName>                     <persName type="variation">X</persName> 
+                     <persName type="reg">Innocentius X</persName>
+                     <persName type="variation">X</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -9262,7 +9424,8 @@
                   </person>
                   <person xml:id="inxi" role="hist">
                      <persName type="main" key="inxi">XI</persName>
-<persName type="reg">Innocentius XI</persName>                     <persName type="variation">XI</persName> 
+                     <persName type="reg">Innocentius XI</persName>
+                     <persName type="variation">XI</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -9271,7 +9434,8 @@
                   </person>
                   <person xml:id="inxii" role="hist">
                      <persName type="main" key="inxii">XII</persName>
-<persName type="reg">Innocentius XII</persName>                     <persName type="variation">XII</persName> 
+                     <persName type="reg">Innocentius XII</persName>
+                     <persName type="variation">XII</persName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>

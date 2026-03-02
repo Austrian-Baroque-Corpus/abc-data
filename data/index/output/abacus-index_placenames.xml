@@ -1094,7 +1094,8 @@
                   </place>
                   <place xml:id="wrne" type="city">
                      <placeName type="main" key="wrNe">wienerisch Wiener Neustadt</placeName>
-<placeName type="reg">Wiener Neustadt</placeName>                     <placeName type="variation">Wiennerischen Neustatt</placeName> 
+                     <placeName type="reg">Wiener Neustadt</placeName>
+                     <placeName type="variation">Wiennerischen Neustatt</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -1341,7 +1342,8 @@
                   </place>
                   <place xml:id="swis" type="coun">
                      <placeName type="main" key="swis">Schweizerland</placeName>
-<placeName type="reg">Schweitzerland</placeName>                     <placeName type="variation">Schwei tzerland</placeName> 
+                     <placeName type="reg">Schweitzerland</placeName>
+                     <placeName type="variation">Schwei tzerland</placeName> 
                      <placeName type="variation">Schweitzerland</placeName> 
                 
                      <noteGrp>
@@ -1352,7 +1354,8 @@
                   </place>
                   <place xml:id="wels" type="coun">
                      <placeName type="main" key="wels">Welschland</placeName>
-<placeName type="reg">Welschland</placeName>                     <placeName type="variation">Welschland</placeName> 
+                     <placeName type="reg">Welschland</placeName>
+                     <placeName type="variation">Welschland</placeName> 
                      <placeName type="variation">Wälschland</placeName> 
                 
                      <noteGrp>
@@ -1572,7 +1575,8 @@
                   </place>
                   <place xml:id="undefined" type="dist">
                      <placeName type="main" key="undefined">Reich</placeName>
-<placeName type="reg">unbekannt</placeName>                     <placeName type="variation">Reich</placeName> 
+                     <placeName type="reg">unbekannt</placeName>
+                     <placeName type="variation">Reich</placeName> 
                      <placeName type="variation">Reichsstatt</placeName> 
                 
                      <noteGrp>
@@ -1582,7 +1586,8 @@
                   </place>
                   <place xml:id="loau" type="dist">
                      <placeName type="main" key="loau">niederösterreichisch Land</placeName>
-<placeName type="reg">Niederösterreich</placeName>                     <placeName type="variation">N Oe Lan den</placeName> 
+                     <placeName type="reg">Niederösterreich</placeName>
+                     <placeName type="variation">N Oe Lan den</placeName> 
                      <placeName type="variation">N Oe Landen</placeName> 
                 
                      <noteGrp>
@@ -1726,7 +1731,8 @@
                   </place>
                   <place xml:id="gali" type="dist">
                      <placeName type="main" key="gali">Galiläa</placeName>
-<placeName type="reg">Galiläa</placeName>                     <placeName type="variation">Galilæa</placeName> 
+                     <placeName type="reg">Galiläa</placeName>
+                     <placeName type="variation">Galilæa</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -1891,7 +1897,8 @@
                   <head xml:lang="de">Seen</head>
                   <place xml:id="galim" type="lake">
                      <placeName type="main" key="galiM">galiläisch Meer schiffen</placeName>
-<placeName type="reg">Galiläisches Meer</placeName>                     <placeName type="variation">Galilæi sche Meer Schiffte</placeName> 
+                     <placeName type="reg">Galiläisches Meer</placeName>
+                     <placeName type="variation">Galilæi sche Meer Schiffte</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Loesch_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Loesch_Wienn.xml</note>
@@ -2267,7 +2274,8 @@
                   </place>
                   <place xml:id="nijm" type="sett">
                      <placeName type="main" key="nijm">Nijmegen | Nimmwegen</placeName>
-<placeName type="reg">Nijmegen</placeName>                     <placeName type="variation">Nimwegen</placeName> 
+                     <placeName type="reg">Nijmegen</placeName>
+                     <placeName type="variation">Nimwegen</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Capelle.xml</note>
@@ -2279,7 +2287,8 @@
                   <head xml:lang="de">Straßen und Plätze in Wien</head>
                   <place xml:id="vienneuermarkt" type="stre">
                      <placeName type="main" key="vienNeuerMarkt">Neuer Markt</placeName>
-<placeName type="reg">Neuer Markt</placeName>                     <placeName type="variation">Neuen marckt</placeName> 
+                     <placeName type="reg">Neuer Markt</placeName>
+                     <placeName type="variation">Neuen marckt</placeName> 
                      <placeName type="variation">neuen Marckt</placeName> 
                 
                      <noteGrp>
@@ -2301,7 +2310,8 @@
                   </place>
                   <place xml:id="vienarsenal-cordina" type="stre">
                      <placeName type="main" key="vienArsenal-Cordina">Arsenal-Cordina</placeName>
-<placeName type="reg">Arsenal-Cordina</placeName>                     <placeName type="variation">Ar senal Cordina</placeName> 
+                     <placeName type="reg">Arsenal-Cordina</placeName>
+                     <placeName type="variation">Ar senal Cordina</placeName> 
                      <placeName type="variation">Arsenal Cordina</placeName> 
                 
                      <noteGrp>
@@ -2322,7 +2332,8 @@
                   </place>
                   <place xml:id="vienelend-bastei" type="stre">
                      <placeName type="main" key="vienElend-Bastei">Elend-Bastei</placeName>
-<placeName type="reg">Elend-Bastei</placeName>                     <placeName type="variation">Elend Pastey</placeName> 
+                     <placeName type="reg">Elend-Bastei</placeName>
+                     <placeName type="variation">Elend Pastey</placeName> 
                      <placeName type="variation">Elend=Pastey</placeName> 
                 
                      <noteGrp>
@@ -2396,7 +2407,8 @@
                   </place>
                   <place xml:id="vienschotten-cordina" type="stre">
                      <placeName type="main" key="vienSchotten-Cordina">Schotten-Cordina</placeName>
-<placeName type="reg">Schotten-Cordina</placeName>                     <placeName type="variation">Schotten Cor dina</placeName> 
+                     <placeName type="reg">Schotten-Cordina</placeName>
+                     <placeName type="variation">Schotten Cor dina</placeName> 
                      <placeName type="variation">Schotten Cordina</placeName> 
                 
                      <noteGrp>
@@ -2406,7 +2418,8 @@
                   </place>
                   <place xml:id="vienaugustiner-cordina" type="stre">
                      <placeName type="main" key="vienAugustiner-Cordina">Augustiner-Cordina</placeName>
-<placeName type="reg">Augustiner-Cordina</placeName>                     <placeName type="variation">Augustiner Cordina</placeName> 
+                     <placeName type="reg">Augustiner-Cordina</placeName>
+                     <placeName type="variation">Augustiner Cordina</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -2415,7 +2428,8 @@
                   </place>
                   <place xml:id="vienbiber-cordina" type="stre">
                      <placeName type="main" key="vienBiber-Cordina">Biber-Cordina</placeName>
-<placeName type="reg">Biber-Cordina</placeName>                     <placeName type="variation">Piber Cordina</placeName> 
+                     <placeName type="reg">Biber-Cordina</placeName>
+                     <placeName type="variation">Piber Cordina</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -2451,7 +2465,8 @@
                   </place>
                   <place xml:id="vienbraun-bastei" type="stre">
                      <placeName type="main" key="vienBraun-Bastei">Braun-Bastei</placeName>
-<placeName type="reg">Braun-Bastei</placeName>                     <placeName type="variation">Praun Pastey</placeName> 
+                     <placeName type="reg">Braun-Bastei</placeName>
+                     <placeName type="variation">Praun Pastey</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -2460,7 +2475,8 @@
                   </place>
                   <place xml:id="vienbraun-cordina" type="stre">
                      <placeName type="main" key="vienBraun-Cordina">Braun-Cordina</placeName>
-<placeName type="reg">Braun-Cordina</placeName>                     <placeName type="variation">Praun Cordi na</placeName> 
+                     <placeName type="reg">Braun-Cordina</placeName>
+                     <placeName type="variation">Praun Cordi na</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -2478,7 +2494,8 @@
                   </place>
                   <place xml:id="vienburg-bastei" type="stre">
                      <placeName type="main" key="vienBurg-Bastei">Burg-Bastei</placeName>
-<placeName type="reg">Burg-Bastei</placeName>                     <placeName type="variation">Burck Pastey</placeName> 
+                     <placeName type="reg">Burg-Bastei</placeName>
+                     <placeName type="variation">Burck Pastey</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -2487,7 +2504,8 @@
                   </place>
                   <place xml:id="vienburg-cordina" type="stre">
                      <placeName type="main" key="vienBurg-Cordina">Burg-Cordina</placeName>
-<placeName type="reg">Burg-Cordina</placeName>                     <placeName type="variation">Burck Cordina</placeName> 
+                     <placeName type="reg">Burg-Cordina</placeName>
+                     <placeName type="variation">Burck Cordina</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -2514,7 +2532,8 @@
                   </place>
                   <place xml:id="viendominikaner-bastei" type="stre">
                      <placeName type="main" key="vienDominikaner-Bastei">Dominikaner-Bastei</placeName>
-<placeName type="reg">Dominikaner-Bastei</placeName>                     <placeName type="variation">Do minicaner Pastey</placeName> 
+                     <placeName type="reg">Dominikaner-Bastei</placeName>
+                     <placeName type="variation">Do minicaner Pastey</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -2694,7 +2713,8 @@
                   </place>
                   <place xml:id="vienkarntner-bastei" type="stre">
                      <placeName type="main" key="vienKärntner-Bastei">Kärntner-Bastei</placeName>
-<placeName type="reg">Kärntner-Bastei</placeName>                     <placeName type="variation">Kärner Pastey</placeName> 
+                     <placeName type="reg">Kärntner-Bastei</placeName>
+                     <placeName type="variation">Kärner Pastey</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -2703,7 +2723,8 @@
                   </place>
                   <place xml:id="vienkarntner-cordina" type="stre">
                      <placeName type="main" key="vienKärntner-Cordina">Kärntner-Cordina</placeName>
-<placeName type="reg">Kärntner-Cordina</placeName>                     <placeName type="variation">Kärner Cordina</placeName> 
+                     <placeName type="reg">Kärntner-Cordina</placeName>
+                     <placeName type="variation">Kärner Cordina</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -2739,7 +2760,8 @@
                   </place>
                   <place xml:id="vienlowel-bastei" type="stre">
                      <placeName type="main" key="vienLöwel-Bastei">Löwel-Bastei</placeName>
-<placeName type="reg">Löwel-Bastei</placeName>                     <placeName type="variation">Lewel Pastey</placeName> 
+                     <placeName type="reg">Löwel-Bastei</placeName>
+                     <placeName type="variation">Lewel Pastey</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -2748,7 +2770,8 @@
                   </place>
                   <place xml:id="vienlowel-cordina" type="stre">
                      <placeName type="main" key="vienLöwel-Cordina">Löwel-Cordina</placeName>
-<placeName type="reg">Löwel-Cordina</placeName>                     <placeName type="variation">Lewel Cordina</placeName> 
+                     <placeName type="reg">Löwel-Cordina</placeName>
+                     <placeName type="variation">Lewel Cordina</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -2757,7 +2780,8 @@
                   </place>
                   <place xml:id="vienmelker-bastei" type="stre">
                      <placeName type="main" key="vienMelker-Bastei">Melker-Bastei</placeName>
-<placeName type="reg">Melker-Bastei</placeName>                     <placeName type="variation">Melcker Pastey</placeName> 
+                     <placeName type="reg">Melker-Bastei</placeName>
+                     <placeName type="variation">Melcker Pastey</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -2766,7 +2790,8 @@
                   </place>
                   <place xml:id="vienmonch-cordina" type="stre">
                      <placeName type="main" key="vienMönch-Cordina">Mönch-Cordina</placeName>
-<placeName type="reg">Mönch-Cordina</placeName>                     <placeName type="variation">Münch Cordina</placeName> 
+                     <placeName type="reg">Mönch-Cordina</placeName>
+                     <placeName type="variation">Münch Cordina</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -2784,7 +2809,8 @@
                   </place>
                   <place xml:id="vienneuebastei" type="stre">
                      <placeName type="main" key="vienNeueBastei">Neue Bastei</placeName>
-<placeName type="reg">Neue Bastei</placeName>                     <placeName type="variation">Neu Pastey</placeName> 
+                     <placeName type="reg">Neue Bastei</placeName>
+                     <placeName type="variation">Neu Pastey</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -2793,7 +2819,8 @@
                   </place>
                   <place xml:id="vienneueswerk" type="stre">
                      <placeName type="main" key="vienNeuesWerk">Neues Werk</placeName>
-<placeName type="reg">Neues Werk</placeName>                     <placeName type="variation">Neue Werck</placeName> 
+                     <placeName type="reg">Neues Werk</placeName>
+                     <placeName type="variation">Neue Werck</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -2919,7 +2946,8 @@
                   </place>
                   <place xml:id="vienstockimeisen" type="stre">
                      <placeName type="main" key="vienStockimEisen">Stock im Eisen</placeName>
-<placeName type="reg">Stock im Eisen</placeName>                     <placeName type="variation">Stock in Eysen</placeName> 
+                     <placeName type="reg">Stock im Eisen</placeName>
+                     <placeName type="variation">Stock in Eysen</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -2946,7 +2974,8 @@
                   </place>
                   <place xml:id="vienstubentor-cordina" type="stre">
                      <placeName type="main" key="vienStubentor-Cordina">Stubentor-Cordina</placeName>
-<placeName type="reg">Stubentor-Cordina</placeName>                     <placeName type="variation">Stuben=Thor Cordina</placeName> 
+                     <placeName type="reg">Stubentor-Cordina</placeName>
+                     <placeName type="variation">Stuben=Thor Cordina</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -2973,7 +3002,8 @@
                   </place>
                   <place xml:id="vienwasserkunst-bastei" type="stre">
                      <placeName type="main" key="vienWasserkunst-Bastei">Wasserkunst-Bastei</placeName>
-<placeName type="reg">Wasserkunst-Bastei</placeName>                     <placeName type="variation">Wasserkunst Pastey</placeName> 
+                     <placeName type="reg">Wasserkunst-Bastei</placeName>
+                     <placeName type="variation">Wasserkunst Pastey</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -3000,7 +3030,8 @@
                   </place>
                   <place xml:id="vienzwolfapostel" type="stre">
                      <placeName type="main" key="vienZwölfApostel">Zwölf Apostel</placeName>
-<placeName type="reg">Zwölf Apostel</placeName>                     <placeName type="variation">zwölff Aposteln</placeName> 
+                     <placeName type="reg">Zwölf Apostel</placeName>
+                     <placeName type="variation">zwölff Aposteln</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -3009,7 +3040,8 @@
                   </place>
                   <place xml:id="vienalterfleischmarckt" type="stre">
                      <placeName type="main" key="vienAlterFleischmarckt">alter Fleischmarckt</placeName>
-<placeName type="reg">Alter Fleischmarckt</placeName>                     <placeName type="variation">alten Fleisch marckt</placeName> 
+                     <placeName type="reg">Alter Fleischmarckt</placeName>
+                     <placeName type="variation">alten Fleisch marckt</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Mercks_Wienn.xml</note>
@@ -3077,7 +3109,8 @@
                   </place>
                   <place xml:id="mabr" type="vill">
                      <placeName type="main" key="mabr">Mariabrunn</placeName>
-<placeName type="reg">Mariabrunn</placeName>                     <placeName type="variation">Ma ria Brunn</placeName> 
+                     <placeName type="reg">Mariabrunn</placeName>
+                     <placeName type="variation">Ma ria Brunn</placeName> 
                      <placeName type="variation">Marien= Brunn</placeName> 
                      <placeName type="variation">Marienbrunn</placeName> 
                 
@@ -3089,7 +3122,8 @@
                   </place>
                   <place xml:id="maze" type="vill">
                      <placeName type="main" key="maze">Mariazell</placeName>
-<placeName type="reg">Mariazell</placeName>                     <placeName type="variation">Maria Zell</placeName> 
+                     <placeName type="reg">Mariazell</placeName>
+                     <placeName type="variation">Maria Zell</placeName> 
                      <placeName type="variation">Marien=Zell</placeName> 
                 
                      <noteGrp>
@@ -3169,7 +3203,8 @@
                   </place>
                   <place xml:id="prug" type="vill">
                      <placeName type="main" key="prug">Bruck an d Leitha</placeName>
-<placeName type="reg">Bruck an der Leitha</placeName>                     <placeName type="variation">Prugg an der Leytha</placeName> 
+                     <placeName type="reg">Bruck an der Leitha</placeName>
+                     <placeName type="variation">Prugg an der Leytha</placeName> 
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="1">1 Erwähnung in der Datei Abraham-Todten_Bruderschaft.xml</note>
