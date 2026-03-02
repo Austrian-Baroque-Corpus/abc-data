@@ -69,11 +69,11 @@
         </textClass>
     </profileDesc>
 </teiHeader>
-   <text>
+   <text type="corpusIndex">
       <body>
-         <div type="index_places">
-            <listPlace xml:id="listplace">
+         <div type="corpusIndex">
                <listPlace type="city">
+                  <head xml:lang="de">Städte</head>
                   <place xml:id="vien" type="city">
                      <placeName type="main" key="vien">Wien</placeName>
                      <placeName type="variation">= Statt</placeName> 
@@ -1103,6 +1103,7 @@
                   </place>
                </listPlace>
                <listPlace type="cont">
+                  <head xml:lang="de">Kontinente</head>
                   <place xml:id="afri" type="cont">
                      <placeName type="main" key="afri">Afrika</placeName>
                      <placeName type="variation">Affrica</placeName> 
@@ -1136,6 +1137,7 @@
                   </place>
                </listPlace>
                <listPlace type="coun">
+                  <head xml:lang="de">Länder</head>
                   <place xml:id="aust" type="coun">
                      <placeName type="main" key="aust">Österreich</placeName>
                      <placeName type="variation">Land</placeName> 
@@ -1528,6 +1530,7 @@
                   </place>
                </listPlace>
                <listPlace type="dist">
+                  <head xml:lang="de">Regionen</head>
                   <place xml:id="swab" type="dist">
                      <placeName type="main" key="swab">Schwaben</placeName>
                      <placeName type="variation">Schwa ben</placeName> 
@@ -1885,6 +1888,7 @@
                   </place>
                </listPlace>
                <listPlace type="lake">
+                  <head xml:lang="de">Seen</head>
                   <place xml:id="galim" type="lake">
                      <placeName type="main" key="galiM">galiläisch Meer schiffen</placeName>
                      <placeName type="variation">Galilæi sche Meer Schiffte</placeName> 
@@ -1896,6 +1900,7 @@
                   </place>
                </listPlace>
                <listPlace type="moun">
+                  <head xml:lang="de">Berge</head>
                   <place xml:id="etna" type="moun">
                      <placeName type="main" key="etna">Ätna</placeName>
                      <placeName type="variation">Aetna</placeName> 
@@ -2082,6 +2087,7 @@
                   </place>
                </listPlace>
                <listPlace type="rive">
+                  <head xml:lang="de">Flüsse</head>
                   <place xml:id="danu" type="rive">
                      <placeName type="main" key="danu">Donau</placeName>
                      <placeName type="variation">Do nau</placeName> 
@@ -2218,6 +2224,7 @@
                   </place>
                </listPlace>
                <listPlace type="sea">
+                  <head xml:lang="de">Meere</head>
                   <place xml:id="dead" type="sea">
                      <placeName type="main" key="dead">Totes Meer</placeName>
                      <placeName type="variation">Ma re mortuum</placeName> 
@@ -2230,6 +2237,7 @@
                   </place>
                </listPlace>
                <listPlace type="sett">
+                  <head xml:lang="de">Siedlungen</head>
                   <place xml:id="lore" type="sett">
                      <placeName type="main" key="lore">Loretto</placeName>
                      <placeName type="variation">Loretto</placeName> 
@@ -2268,6 +2276,7 @@
                   </place>
                </listPlace>
                <listPlace type="stre">
+                  <head xml:lang="de">Straßen und Plätze in Wien</head>
                   <place xml:id="vienneuermarkt" type="stre">
                      <placeName type="main" key="vienNeuerMarkt">Neuer Markt</placeName>
                      <placeName type="variation">Neuen marckt</placeName> 
@@ -3009,6 +3018,7 @@
                   </place>
                </listPlace>
                <listPlace type="subu">
+                  <head xml:lang="de">Stadtteile</head>
                   <place xml:id="krem" type="subu">
                      <placeName type="main" key="krem">Kreml</placeName>
                      <placeName type="variation">Kremelin</placeName> 
@@ -3020,6 +3030,7 @@
                   </place>
                </listPlace>
                <listPlace type="vill">
+                  <head xml:lang="de">Dörfer</head>
                   <place xml:id="cape" type="vill">
                      <placeName type="main" key="cape">Kafarnaum</placeName>
                      <placeName type="variation">Caper naum</placeName> 
@@ -3418,7 +3429,6 @@
                      </noteGrp>
                   </place>
                </listPlace>
-            </listPlace>
          </div>
       </body>
    </text>

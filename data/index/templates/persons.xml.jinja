@@ -69,12 +69,13 @@
         </textClass>
     </profileDesc>
 </teiHeader>
-   <text>
+   <text type="corpusIndex">
       <body>
-         <div type="index_persons">
-            <listPerson xml:id="listperson">
+         <div type="corpusIndex">
+            {% set labels = {"bibl": "Biblisch", "hist": "Historisch", "myth": "Mythologisch", "undefined": "Verschiedenes", "unspecified": "Verschiedenes"} %}
             {% for g in groups %}
                <listPerson type="{{ g.type }}">
+                  <head xml:lang="de">{{ labels.get(g.type, g.type) }}</head>
                {% for x in g.objects %}
                   <person xml:id="{{ x.key2 }}" {% if x.type %}role="{{ x.type }}"{% endif %}>
                      <persName type="main" key="{{ x.key }}">{{ x.lemma }}</persName>
@@ -91,7 +92,6 @@
                {% endfor %}
                </listPerson>
             {% endfor %}
-            </listPerson>  
          </div>
       </body>
    </text>

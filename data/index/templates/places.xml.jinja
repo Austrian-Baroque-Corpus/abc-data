@@ -69,12 +69,13 @@
         </textClass>
     </profileDesc>
 </teiHeader>
-   <text>
+   <text type="corpusIndex">
       <body>
-         <div type="index_places">
-            <listPlace xml:id="listplace">
+         <div type="corpusIndex">
+            {% set labels = {"stre": "Straßen und Plätze in Wien", "coun": "Länder", "rive": "Flüsse", "city": "Städte", "sea": "Meere", "lake": "Seen", "sett": "Siedlungen", "cont": "Kontinente", "vill": "Dörfer", "subu": "Stadtteile", "moun": "Berge", "dist": "Regionen", "gen:waterbody": "Gewässer", "gen:region": "Regionen, Länder und Kontinente", "gen:settlement": "Städte und Dörfer", "undefined": "Verschiedenes", "unspecified": "Verschiedenes"} %}
             {% for g in groups %}
                <listPlace type="{{ g.type }}">
+                  <head xml:lang="de">{{ labels.get(g.type, g.type) }}</head>
                {% for x in g.objects %}
                   <place xml:id="{{ x.key2 }}" {% if x.type %}type="{{ x.type }}"{% endif %}>
                      <placeName type="main" key="{{ x.key }}">{{ x.lemma }}</placeName>
@@ -91,7 +92,6 @@
                {% endfor %}
                </listPlace>
             {% endfor %}
-            </listPlace>
          </div>
       </body>
    </text>

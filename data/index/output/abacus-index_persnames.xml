@@ -69,11 +69,11 @@
         </textClass>
     </profileDesc>
 </teiHeader>
-   <text>
+   <text type="corpusIndex">
       <body>
-         <div type="index_persons">
-            <listPerson xml:id="listperson">
+         <div type="corpusIndex">
                <listPerson type="bibl">
+                  <head xml:lang="de">Biblisch</head>
                   <person xml:id="jesus" role="bibl">
                      <persName type="main" key="jesus">Jesus</persName>
                      <persName type="variation">JE su</persName> 
@@ -1860,6 +1860,7 @@
                   </person>
                </listPerson>
                <listPerson type="hist">
+                  <head xml:lang="de">Historisch</head>
                   <person xml:id="augustinus" role="hist">
                      <persName type="main" key="augustinus">Augustinus</persName>
                      <persName type="variation">AUGUSTINI</persName> 
@@ -9360,6 +9361,7 @@
                   </person>
                </listPerson>
                <listPerson type="myth">
+                  <head xml:lang="de">Mythologisch</head>
                   <person xml:id="mars" role="myth">
                      <persName type="main" key="mars">Mars</persName>
                      <persName type="variation">Mars</persName> 
@@ -9718,7 +9720,6 @@
                      </noteGrp>
                   </person>
                </listPerson>
-            </listPerson>  
          </div>
       </body>
    </text>
