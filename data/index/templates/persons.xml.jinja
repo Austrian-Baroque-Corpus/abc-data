@@ -79,6 +79,7 @@
                {% for x in g.objects %}
                   <person xml:id="{{ x.key2 }}" {% if x.type %}role="{{ x.type }}"{% endif %}>
                      <persName type="main" key="{{ x.key }}">{{ x.lemma }}</persName>
+                     {% if x.label %}<persName type="reg">{{ x.label }}</persName>{% endif %}
                      {% for y in x.variations %}
                      <persName type="variation">{{ y }}</persName> 
                      {% endfor %}                

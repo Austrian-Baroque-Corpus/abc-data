@@ -34,6 +34,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 import re
 import json
+import xml.etree.ElementTree as ET
 
 import pandas as pd
 from acdh_tei_pyutils.tei import TeiReader
@@ -44,6 +45,223 @@ from acdh_tei_pyutils.tei import TeiReader
 
 XML_DIR = Path("data/editions")   # folder containing the TEI-XML files
 GLOB    = "*.xml"         # pattern for TEI files inside XML_DIR
+
+TERMLABELS_PERSONS = Path("data/index/output/termlabels-persnames.xml")
+TERMLABELS_PLACES  = Path("data/index/output/termlabels-placenames.xml")
+
+# ----------------------------------------------------------------------
+# FALLBACK LABEL DATA
+# Mirrors the content of the termlabels XML files above.
+# Used automatically when those files are not found.
+# ----------------------------------------------------------------------
+
+_FALLBACK_LABELS_PERSONS = {
+    "abrahamaSanctaClara": "Abrahamus a Sancta Clara",
+    "abrahamdeSanctaClara": "Abraham de Sancta Clara",
+    "absalon": "Absalon (Absolon)",
+    "achatiusaSanctusAlexius": "Achatius a Sancto Alexio",
+    "adamusaSanctacrux": "Adamus a Sancta Cruce",
+    "adrianusdander": "Adrianus II",
+    "adrianusdvier": "Adrianus IV",
+    "aegidiusaSanctusLeopoldus": "Aegidius a Sancto Leopoldo",
+    "albrechtFreiherrvonZimmern": "Albrecht (Freiherr) von Zimmern",
+    "alexanderIII": "Alexander III",
+    "alexanderMagnus": "Alexander Magnus (Alexander der Große)",
+    "alexanderabSanctusMichael": "Alexander a Sancto Michaele",
+    "alexanderdI": "Alexander I",
+    "alexanderdsechs": "Alexander VI",
+    "alexanderdvier": "Alexander IV",
+    "ambrosius": "Ambrosius",
+    "annaSusannaedelFrauvonPazzoaufHerteneckgeborenGreylinvonRosenstock": "Anna Susanna Edle Frau von Pazzo auff Herteneck",
+    "annaaSBartholomäus": "Anna a Sancto Bartholomäo",
+    "anselmusaSanctusChristophorus": "Anselmus a Sancto Christophoro",
+    "anselmusabSanctaPelagia": "Anselmus a Sancta Pelagia",
+    "antoniusabSanctusFranciscusLaicus": "Antonius a Sancto Francisco",
+    "assuerus": "Asverus",
+    "augustinusaSanctaMonica": "Augustinus a Sancta Monica",
+    "augustinusaSanctanativitasbeatusMariavirgo": "Augustinus a Sancta Nativitate B. M. V.",
+    "aurelium": "Aurelius",
+    "baronius": "Baronius",
+    "bajacetes": "Bajazetes (Bajazethes)",
+    "balthasardiaz": "Balthasar Diaz",
+    "balthasaraSanctusPaulus": "Balthasar a Sancto Paulo",
+    "baptistamanni": "Johann Baptista Manni",
+    "benedictaabhumilitasChristus": "Benedicta ab humilitate Christi",
+    "benedictusdvierzehn": "Benedictus XIV",
+    "biga": "Biga[?]",
+    "blos": "Blosius",
+    "bonfinus": "Bonfin[?]",
+    "bonifaciusdI": "Bonifacius I",
+    "bonifaciusdneun": "Bonifacius IX",
+    "cain": "Cain (Kain)",
+    "carlLudwigdheiligrömischReichGrafvonHofkirchen": "Carl Ludwig Reichsgraf von Hofkirchen",
+    "carolusabAssumptioneBV": "Carolus ab Assumptione B. V.",
+    "carolusdfünf": "Carolus V",
+    "casparusabSanctusAngeloCustode": "Casparus a Sancto Angelo",
+    "casparusabSanctusJustinus": "Casparus a Sancto Justino",
+    "cassianusabSanctusElisäus": "Cassianus a Sancto Elisäo",
+    "christophorusIgnatiusedelHerrvonQuarientundRaall": "Christophorus Ignatius Edler Herr von Quarient und Raall",
+    "chrysostomos": "Chrysostomos (Chrysostomus)",
+    "cœlius": "Cölius",
+    "cuspinian": "Cuspinian",
+    "clemensI": "Clemens I",
+    "clemensaSanctusElzearius": "Clemens a Sancto Elzeario",
+    "clemensdsechs": "Clemens VI",
+    "cleopatra": "Cleopatra (Kleopatra)",
+    "conradBalthasardheiligrömischReichGrafundHerrvonStarenberg": "Conrad Balthasar Reichsgraf von Starenberg",
+    "croesus": "Crösus (Krösus)",
+    "datan": "Datan",
+    "eliasabSanctusJanuarius": "Elias a Sancto Januario",
+    "evaBarbaraRechbergeringeborenBamblin": "Eva Barbara Rechbergerin, geb. Bamblin",
+    "enoch": "Enoch (Enosch)",
+    "felixddrei": "Felix III",
+    "ferdinandusddrei": "Ferdinandus III",
+    "franzMaximiliandheiligrömischReichGrafvonMollart": "Franz Maximilian Reichsgraf von Mollart",
+    "fridericuspulcher": "Fridericus Pulcher",
+    "friedrichddrei": "Friedrich III",
+    "gabrielli": "Gabriellus",
+    "gratianusabSanctaMaria": "Gratianus a Sancta Maria",
+    "gregoriusaSanctusJohannes": "Gregorius a Sancto Joanne",
+    "gregoriusddreizehn": "Gregorius XIII",
+    "gregoriusdneun": "Gregorius IX",
+    "gregoriusdvier": "Gregorius IV",
+    "gregoriusdvierzehn": "Gregorius XIV",
+    "habacuc": "Habakuk (Habacuc)",
+    "helenaFreiinvonSchwartzenhorngeborenvonVeldtegg": "Helena Freiin von Schwartzenhorn, geb. von Veldtegg",
+    "henricusabSanctaAnna": "Henricus a Sancta Anna",
+    "hermanNoltaeus": "Herman Noltäus",
+    "hi": "Hi[?]",
+    "hironymusJosephabSanctaAnna": "Hironymus Joseph a Sancta Anna",
+    "honoriusdander": "Honorius II",
+    "honoriusddrei": "Honorius III",
+    "aii": "Alexander II",
+    "bii": "Bonifacius II",
+    "cii": "Clemens II",
+    "biii": "Bonifacius III",
+    "ciii": "Clemens III",
+    "ijob": "Hiob (Job)",
+    "innocentiusI": "Innocentius I",
+    "innocentiusddritt": "Innocentius III",
+    "innocentiusdvier": "Innocentius IV",
+    "aiv": "Alexander IV",
+    "biv": "Bonifacius IV",
+    "jacobMont": "Jacobus Montanus",
+    "janNic": "Jan. Nic.[?]",
+    "jeremia": "Jeremia (Jeremias)",
+    "jesaja": "Jesaja (Jesajas)",
+    "johannaBayr=HuberinvonHuebgeborenKreßlinvonGeraltenberg": "Johanna Bayr=Huberin von Hueb, geb. Kreßlin von Geraltenberg",
+    "johannIgnatiusSpindlerFreiherrundedelHerrzuWildenstein": "Johann Ignatius Spindler Freyherr zu Wildenstein",
+    "johannechius": "Johannes Echius",
+    "johannesdTäufer": "Johannes der Täufer (Joannes Baptista)",
+    "johannesVolckhardusdheiligrömischReichReichsgrafvonConzin": "Johannes Volckhardus Reichsgraf von Conzin",
+    "johannesdeus": "Johannes de Deo",
+    "jonas": "Jonas (Jona)",
+    "josephusabannuntiatiobeatusMariavirgo": "Josephus ab Annunciatione B. M. V.",
+    "judas": "Judas (Judas Iskariot)",
+    "juliusCäsar": "Julius Cäsar",
+    "ladislausaSanctaPeregrina": "Ladislaus a Sancta Peregrina",
+    "laym": "Laym[?]",
+    "lucas": "Lucas (Lukas)",
+    "luciusddrei": "Lucius III",
+    "ludovicusHörnikus": "Ludwig von Hörnigk",
+    "marcus": "Marcus (Markus)",
+    "mariaElisabethaZorningeborenBüringerin": "Maria Elisabetha Zornin, geb. Büringerin",
+    "mariaEuphrosinaOesterreicheringeborenSchmidin": "Maria Euphrosina Oesterreicherin, geb. Schmidin",
+    "mariaJulianaPaulingeborenOstermayrin": "Maria Juliana Paulin, geb. Ostermayrin",
+    "mariaLuciaTittmanningeringeborenvonMangen": "Maria Lucia Tittmanningerin, geb. von Mangen",
+    "susannaSabinaHäiminvonHeilingthalgeborenLerbmannin": "Susanna Sabina Häimin von Heilingthal, geb. Lerbmannin",
+    "martiusTurbo": "Martius Turbo",
+    "mathäusabSanctusFranciscus": "Mathäus a Sancto Francisco",
+    "maximilianusdander": "Maximilianus II",
+    "maximilianusderst": "Maximilianus I",
+    "maximinusabSanctusSimonStock": "Maximinus a Sancto Simone Stock",
+    "michaelhoffman": "Michael Hoffman",
+    "monica": "Monica (Monika)",
+    "nStockdejus": "N. Stockdejus",
+    "nicephorus": "Nicephorus",
+    "nicolausddrei": "Nicolaus III",
+    "octaviuspanzius": "Octavius Panzius",
+    "paulusddrei": "Paulus III",
+    "peterBonaventuraedelvonCrololantza": "Peter Bonaventura Edler von Crololantza",
+    "piusdfünf": "Pius V",
+    "piusdvier": "Pius IV",
+    "quintindheiligrömischReichGrafJörger": "Quintin Reichsgraf Jörger",
+    "raphaelabSanctusMathäo": "Raphael a Sancto Mathäo",
+    "richardusII": "Richardus II",
+    "richardusaSanctusPetrus": "Richardus a Sancto Petro",
+    "roa": "Roa[?]",
+    "rudolphusaSanctaAnna": "Rudolphus a Sancta Anna",
+    "rudolphCarlKhazzius": "Rudolph Carl Khazzius",
+    "rudolphdander": "Rudolph II",
+    "sales": "Sales",
+    "sebastian": "Sebastian(us)",
+    "severinusaSanctaRegina": "Severinus a Sancta Regina",
+    "sidon": "Sidonius",
+    "simeon1": "Simeon",
+    "simeon2": "Simeon",
+    "sixtusSecundus": "Sixtus II",
+    "spiridionabSanctusSerapio": "Spiridion a Sancta Serapione",
+    "stephanusSecundus": "Stephan II",
+    "süleyman": "Soliman",
+    "sylvesterdePetraSancta": "Sylvester de Petra Sancta",
+    "thecuitis": "Thecuitis",
+    "thomasAngelus": "Thomas Angelus",
+    "tobit": "Tobit",
+    "tom": "Tom.[?]",
+    "urbandVIII": "Urbanus VIII",
+    "urbanusSeptimus": "Urbanus VII",
+    "av": "Alexander V",
+    "bv": "Bonifacius V",
+    "valentinusaSanctaElisabetha": "Valentinus a Sancta Elisabetha",
+    "vatablus": "Vatablus",
+    "vespasianus": "Vespasian(us)",
+    "victorddrei": "Victor III",
+    "wenceslausaSanctusAugustinus": "Wenceslaus a Sancto Augustino",
+    "wilhelmJohannAntoniusdheiligrömischReichGrafvonDhaun": "Wilhelm Johann Antonius Reichsgraf von Dhaun",
+    "inx": "Innocentius X",
+    "inxi": "Innocentius XI",
+    "inxii": "Innocentius XII",
+}
+
+_FALLBACK_LABELS_PLACES = {
+    "undefined": "unbekannt",
+    "loau": "Niederösterreich",
+    "gali": "Galiläa",
+    "wels": "Welschland",
+    "swis": "Schweitzerland",
+    "mabr": "Mariabrunn",
+    "maze": "Mariazell",
+    "prug": "Bruck an der Leitha",
+    "wrNe": "Wiener Neustadt",
+    "galiM": "Galiläisches Meer",
+    "nijm": "Nijmegen",
+    "ulm": "Ulm",
+    "taxa": "Taxa",
+    "vienStockimEisen": "Stock im Eisen",
+    "vienArsenal-Cordina": "Arsenal-Cordina",
+    "vienAugustiner-Cordina": "Augustiner-Cordina",
+    "vienBiber-Cordina": "Biber-Cordina",
+    "vienBraun-Bastei": "Braun-Bastei",
+    "vienBraun-Cordina": "Braun-Cordina",
+    "vienBurg-Bastei": "Burg-Bastei",
+    "vienBurg-Cordina": "Burg-Cordina",
+    "vienDominikaner-Bastei": "Dominikaner-Bastei",
+    "vienElend-Bastei": "Elend-Bastei",
+    "vienKärntner-Bastei": "Kärntner-Bastei",
+    "vienKärntner-Cordina": "Kärntner-Cordina",
+    "vienLöwel-Bastei": "Löwel-Bastei",
+    "vienLöwel-Cordina": "Löwel-Cordina",
+    "vienMelker-Bastei": "Melker-Bastei",
+    "vienMönch-Cordina": "Mönch-Cordina",
+    "vienNeueBastei": "Neue Bastei",
+    "vienNeuesWerk": "Neues Werk",
+    "vienSchotten-Cordina": "Schotten-Cordina",
+    "vienStubentor-Cordina": "Stubentor-Cordina",
+    "vienWasserkunst-Bastei": "Wasserkunst-Bastei",
+    "vienZwölfApostel": "Zwölf Apostel",
+    "vienAlterFleischmarckt": "Alter Fleischmarckt",
+    "vienNeuerMarkt": "Neuer Markt",
+}
 
 # ----------------------------------------------------------------------
 # HELPER FUNCTIONS
@@ -92,6 +310,24 @@ def surface_from_w(el) -> str:
     if not w_texts:
         return ""
     return collapse_spaces(" ".join([t for t in w_texts if t is not None]))
+
+def load_termlabels(path: Path, fallback: dict | None = None) -> dict:
+    """
+    Parse a termlabels XML file and return a dict mapping key -> label string.
+    Expected structure: <termLib><set><terms><term key="...">label</term>...
+    If the file does not exist, returns the fallback dict (or empty dict if none given).
+    """
+    if not path.exists():
+        if fallback is not None:
+            print(f"  {path} not found — using built-in fallback labels.")
+        return fallback.copy() if fallback else {}
+    root = ET.parse(path).getroot()
+    return {
+        term.get("key"): (term.text or "").strip()
+        for term in root.iter("term")
+        if term.get("key") and term.text
+    }
+
 
 def count_keys_in_file(xml_path: Path, tag: str):
     """
@@ -146,7 +382,8 @@ def assemble_records(
     per_file_counts,
     key_to_lemma,
     key_to_variations,
-    key_to_type=None  # dict for type strings (persons/places), or None to omit
+    key_to_type=None,   # dict for type strings (persons/places), or None to omit
+    key_to_label=None,  # dict for display labels from termlabels, or None to omit
 ):
     """
     Assemble collected data into JSON records for one entity type (persons/places).
@@ -157,11 +394,13 @@ def assemble_records(
         key_to_lemma: dict[key -> lemma string]
         key_to_variations: dict[key -> set of variation strings]
         key_to_type: dict[key -> type string] (optional; if provided, included in output)
+        key_to_label: dict[key -> label string] from termlabels (optional)
 
     Returns:
         List of dicts, each representing one entity with fields:
         - key
         - type        # included only if key_to_type is provided
+        - label       # included only if key_to_label is provided and key has a label
         - lemma
         - TOTAL
         - files (list of {"file", "count"} only for nonzero counts)
@@ -210,6 +449,12 @@ def assemble_records(
         if key_to_type is not None:
             rec["type"] = key_to_type.get(k, "")
 
+        # Include label if provided and present for this key
+        if key_to_label is not None:
+            label = key_to_label.get(k, "")
+            if label:
+                rec["label"] = label
+
         # Include only nonzero file counts
         files_list = [
             {"file": col, "count": int(row[col])}
@@ -229,6 +474,11 @@ def main():
     files = sorted(XML_DIR.glob(GLOB))
     if not files:
         raise SystemExit(f"No XML files found in {XML_DIR.resolve()} matching {GLOB}")
+
+    # Load termlabels (key -> display label); fall back to built-in dicts if files absent
+    labels_persons = load_termlabels(TERMLABELS_PERSONS, fallback=_FALLBACK_LABELS_PERSONS)
+    labels_places  = load_termlabels(TERMLABELS_PLACES,  fallback=_FALLBACK_LABELS_PLACES)
+    print(f"Loaded {len(labels_persons)} person labels, {len(labels_places)} place labels")
 
     # --- Collect data for persons ---
     per_file_counts_persons = {}
@@ -276,6 +526,7 @@ def main():
         key_to_lemma_persons,
         key_to_variations_persons,
         key_to_type=key_to_type_persons,
+        key_to_label=labels_persons,
     )
     places_records  = assemble_records(
         files,
@@ -283,6 +534,7 @@ def main():
         key_to_lemma_places,
         key_to_variations_places,
         key_to_type=key_to_type_places,
+        key_to_label=labels_places,
     )
 
     # Wrap in top-level dict

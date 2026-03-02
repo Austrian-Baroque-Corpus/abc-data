@@ -58,6 +58,7 @@ def normalize_records(records: list[dict]) -> list[dict]:
         out.append({
             "key": r.get("key", ""),
             "key2": slugify(r.get("key","")),
+            "label": r.get("label", ""),
             "lemma": r.get("lemma", ""),
             "variations": r.get("variations", []) or [],
             "files": r.get("files", []) or [],
