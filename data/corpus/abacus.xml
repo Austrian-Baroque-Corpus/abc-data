@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schema/abacus.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../schema/abacus.rnc" type="application/relax-ng-compact-syntax"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>ABaC:us - Austrian Baroque Corpus</title>
+				<title level="a">Corpus-Metadata und Index</title>
+				<title level="m">ABaC:us – Austrian Baroque Corpus</title>
 				<respStmt>
 					<resp>herausgegeben von</resp>
 					<name>
@@ -22,41 +23,62 @@
 					</name>
 				</respStmt>
 			</titleStmt>
+			<editionStmt>
+				<edition>Revidierte Neuauflage (2026)</edition>
+			</editionStmt>
 			<publicationStmt>
-				<publisher>Austrian Centre for Digital Humanities, Österreichische Akademie der
-					Wissenschaften</publisher>
-				<pubPlace>Wien</pubPlace>
-				<date when="2015">2015</date>
+				<publisher>Austrian Centre for Digital Humanities, Österreichische Akademie der Wissenschaften</publisher>
 				<address>
-					<addrLine>Sonnenfelsgasse 19</addrLine>
+					<addrLine>Bäckerstraße 13</addrLine>
 					<addrLine>1010 Wien</addrLine>
 				</address>
+				<pubPlace>Wien</pubPlace>
+				<date when="2026">2026</date>
 				<availability status="free">
 					<licence>http://creativecommons.org/licenses/by-nc-sa/3.0/</licence>
-					<p>Die Werke von ABaC:us sind auch als Rohdaten im TEI/XML-Format verfügbar.</p>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<p>Die Quellenangaben zu den einzelnen Texten finden sich im teiHeader des
-					jeweiligen TEI-Dokuments.</p>
+				<p>Digital erstellt. Die Quellenangaben zu den einzelnen Texten finden sich im teiHeader des jeweiligen TEI-Dokuments.</p>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<charDecl>
 				<char xml:id="tironian-et">
-					<charName>TIRONIAN SIGN ET (U+204A)</charName>
+					<unicodeProp value="TIRONIAN SIGN ET" name="Name"/>
 					<mapping>&#x204A;</mapping>
 				</char>
 			</charDecl>
 			<editorialDecl>
-				<p>
-					<interp xml:id="oov">Als oov (out of vocabulary) wurden jene Lemmata
-						gekennzeichnet, die in den verwendeten Referenzwerken
-						(Duden bzw. Deutsches Wörterbuch von Jacob und Wilhelm Grimm) keinen Eintrag
-						haben.</interp>
-					<interp xml:id="prose">Text (vorwiegend) in Prosa</interp>
-					<interp xml:id="verse">Text (vorwiegend) in Versen</interp>
-				</p>
+				<hyphenation>
+					<p>Silbentrennungen wurden im elektronischen Text zusammengeführt, sodass eine Suche uneingeschränkt möglich ist. Substantivkomposita mit Mittelstrichschreibung wie Schutz=Engel werden mit Istgleichzeichen dargestellt, weil es dem damaligen Druckbild am nächsten kommt. Für die Virgel wurde der Schrägstrich mit Spatien verwendet, vgl. etwa: Ein Teuffel / von dem sich ein jeder gern lasst holen.</p>
+				</hyphenation>
+				<normalization>
+					<p>Die Typografie des Originals wurde weitgehend beibehalten, d.h. u und v sowie i und j bleiben ebenso erhalten wie Kapitälchen, Initialen oder der Wechsel von Fraktur- und Antiquadruck beziehungsweise Fett- und Kursivdruck – ausgenommen sind Ligaturen, für die es keinen Unicode gibt. Das e über a, o und u wurde mit den Unicodes der entsprechenden Umlaute wiedergegeben (zB: &#252; für ü); auf eine Differenzierung von rundem s und Schaft-s wurde verzichtet. Längenstriche sind durch den Unicode U+305 repräsentiert, der dem jeweiligen Buchstaben nachgestellt ist. Abkürzungen im Text sind nicht aufgelöst, aber bei der Lemmatisierung berücksichtigt. Das tironische Et im Wortgruppenlexem et cetera ist – dem damaligen Druckbild entsprechend – als kursiviertes r dargestellt.</p>
+				</normalization>
+				<correction>
+					<p>Offensichtliche Textfehler wurden annotiert und mit einem Korrekturvorschlag versehen.</p>
+					
+					<p>Die Annotation betrifft erstens eindeutige Fehler des Setzers wie etwa ausgelassene Wörter (Aber bey dem unersättlichen Todt nichts frey statt Aber bey dem unersättlichen Todt ist nichts frey) oder ausgelassene Buchstaben mit oder ohne Spatium (Sillschweigen statt Stillschweigen) sowie überflüssige Buchstaben, wie sie in Blättter oder Schnittter vorkommen. Häufig ist auch die Verwechslung von Buchstaben (d.h. Pharoanischen statt Pharaonischen), besonders von „n“ und „u“: Gefängnnß statt Gefängnuß oder umgekehrt Gottseligeu statt Gottseligen. Weiters wurden fehlerhafte Wortgrenzen (nich tviel statt nicht viel) im Kommentar korrigiert. Ausgezeichnet und mit einer Berichtigung versehen wurden zweitens fehlerhafte Zahlenangaben bei Kapitelnummerierungen, Seitenpaginierungen und -verweisen, aber auch im Fließtext – ein Beispiel dafür wäre die Aussage: Seth war 112. Jahr alt und starb, bei der die Altersangabe auf 912. korrigiert werden musste. Auch die zahlreichen Bibelstellenangaben mit Kapitel- und Verszahlen wurden überprüft und gegebenenfalls korrigiert. Drittens haben wir inhaltliche Irrtümer mit einem Vorschlag richtiggestellt – so etwa den Verweis einer Vorrede der „Todten-Capelle“ auf das Werk Mercks Wienn, mit dem eigentlich nur Auff, auff, ihr Christen gemeint sein kann.</p>
+					
+					<p>Unter Berücksichtigung des historischen Sprach- und Schreibstandes ist grundsätzlich zu überlegen, wie tolerant HerausgeberInnen bei der Einschätzung von Fehlern sein sollen. Allein im Fall von „Mercks Wienn“ hat Werner Welzig bislang den Versuch unternommen, ein Register von Fehlern anzulegen (vgl. Deutsche Neudrucke, Reihe Barock, Band 31 1983, Nachwort S. 13*f.), das bei der Annotation vorliegender Online-Ausgabe in die Überlegungen mit einbezogen worden ist.</p>
+				</correction>
+				<segmentation>
+					<p>Für die Linguistische Basisannotation wurde zuerst der Zeichenstrom der Rohtexte in einem automatischen Verarbeitungsschritt auf Wortebene segmentiert. Historische Konventionen der Zusammen- und Getrenntschreibung erschweren die Tokenisierung und machen eine manuelle Nachbearbeitungen erforderlich (etwa bei Belegen wie <quote>Capellan Stell, Sonnen Uhr</quote> oder <quote>Galgen Vogel</quote> beziehungsweise kontrahierten Formen wie <quote>auffs</quote> oder <quote>wirdʼs</quote>, <quote>verachstu</quote> oder <quote>mustu</quote>).</p></segmentation>
+				<interpretation>
+					<p>In einem nächsten Verarbeitungsschritt wurde jedes einzelne Token mit Hilfe der Software TreeTagger automatisch einer morphosyntaktischen Wortklasse zugewiesen (Part-of-Speech Tagging). Als Klassifikationssystem wurde das 54-teilige Stuttgart-Tübingen-TagSet (STTS) herangezogen, das von der ABaC:us-Projektgruppe zur Annotation kontrahierter Formen mit neuen, kombinierten Kategorien (etwa KOUSPER für wanns oder obs bzw. VVFINPPER für beweists, gibts oder kommts) erweitert wurde.</p>
+					<p>Bei der Lemmatisierung wurde für jedes Token eine normalisierte Grundwortform angesetzt und der Duden sowie das Deutsche Wörterbuch von Jacob und Wilhelm Grimm als Referenzwerke herangezogen. Die mehr als 1000 im Untersuchungskorpus vorkommenden Wortformen, zu denen es in den beiden genannten Referenzwerken keinen entsprechenden Wörterbucheintrag gibt, werden auf eine naheliegende Grundform zurückgeführt und als sogenannte „Out-of-Vocabulary“-Words im Register eigens gelistet – Beispiele hierfür sind Lexeme wie vernunftselig, schlechtbeherzt, Tigergemüt, Butterkind oder Weltzärtling u.v.m. Zweifelsfälle – etwa Wortkreationen wie GehWeck=Silber (für Quecksilber) oder Doch=Toren (für Doktoren) wurden nach Gesichtspunkten der Handhabbarkeit bzw. der Nutzerbedürfnisse entschieden. Lateinische Wörter (FM) wurden ebenfalls lexikalisch identifiziert. Geht man in der Browseransicht mit dem Cursor auf ein einzelnes Wort, werden linguistische Informationen (Lemma und Wortart) angezeigt.</p>
+					<p>	
+						<interp xml:id="oov">Als oov (out of vocabulary) wurden jene Lemmata
+							gekennzeichnet, die in den verwendeten Referenzwerken
+							(Duden bzw. Deutsches Wörterbuch von Jacob und Wilhelm Grimm) keinen Eintrag
+							haben.</interp>
+						<interp xml:id="prose">Text (vorwiegend) in Prosa</interp>
+						<interp xml:id="verse">Text (vorwiegend) in Versen</interp>
+					</p>
+					<p>In den Texten wurden außerdem historische, biblische und mythologische Personennamen sowie Ortseigennamen annotiert und kategorisiert, die in der Edition als einzelne Register aufbereitet sind.</p>
+				</interpretation>
+				
 			</editorialDecl>
 			<classDecl>
 				<taxonomy xml:id="postags">
@@ -251,9 +273,6 @@
 						<category xml:id="PISPPER">
 							<catDesc>PISPPER</catDesc>
 						</category>
-						<category xml:id="PPER">
-							<catDesc>PPER</catDesc>
-						</category>
 						<category xml:id="PPERPPER">
 							<catDesc>PPERPPER </catDesc>
 						</category>
@@ -316,11 +335,11 @@
 			</classDecl>
 		</encodingDesc>
 	</teiHeader>
-	<xi:include href="Abraham-Augustini_feuriges_Hertz.xml" />
-	<xi:include href="Abraham-Loesch_Wienn.xml" />
-	<xi:include href="Abraham-Mercks_Wien.xml" />
-	<xi:include href="Abraham-Todten_Bruderschaft.xml" />
-	<xi:include href="Abraham-Todten_Capelle.xml" />
-	<xi:include href="abc_register_persons.xml" />
-	<xi:include href="abc_register_places.xml" />
+	<xi:include href="../editions/Abraham-Augustini_feuriges_Hertz.xml" />
+	<xi:include href="../editions/Abraham-Loesch_Wienn.xml" />
+	<xi:include href="../editions/Abraham-Mercks_Wienn.xml" />
+	<xi:include href="../editions/Abraham-Todten_Bruderschaft.xml" />
+	<xi:include href="../editions/Abraham-Todten_Capelle.xml" />
+	<xi:include href="../index/output/abacus-index_persnames.xml" />
+	<xi:include href="../index/output/abacus-index_placenames.xml" />
 </teiCorpus>
