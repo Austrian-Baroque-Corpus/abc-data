@@ -1,1243 +1,1468 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xmlns:rng="http://relaxng.org/ns/structure/1.0" n="abacus-odd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xmlns:rng="http://relaxng.org/ns/structure/1.0" n="abacus-odd" xmlns:s="http://purl.oclc.org/dsdl/schematron">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><name>Austrian Baroque Corpus</name>: TEI customization</title>
+                <title level="a">TEI-Anpassung</title>
+                <title level="m">ABaC:us – Austrian Baroque Corpus</title>
+                <author>
+                    <name xml:id="cr">Claudia Resch</name>
+                </author>
                 <editor>
                     <name xml:id="uc">Ulrike Czeitschner</name>
                 </editor>
                 <respStmt>
                     <name xml:id="ds">Daniel Schopper</name>
-                    <resp>ODD creation, generation of RNG and documentation</resp>
+                    <resp>ODD-Erstellung</resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <edition>Revidierte Neuauflage (2026)</edition>
+            </editionStmt>
             <publicationStmt>
                 <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
                 <address>
-                <addrLine>Sonnenfelsgasse 19</addrLine>
-                <addrLine>1010 Wien</addrLine>
-            </address>
+                    <addrLine>Bäckerstraße 13</addrLine>
+                    <addrLine>1010 Wien</addrLine>
+                </address>
                 <pubPlace>Wien</pubPlace>
-                <date when="2015">2015</date>
+                <date when="2026">2026</date>
             </publicationStmt>
             <notesStmt>
                 <note type="ns">http://acdh.oeaw.ac.at/abacus</note>
             </notesStmt>
             <sourceDesc>
-                <p>created on Thursday, 29th January 2015</p>
+                <p>Digital erstellt.</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
             <change when="2015-01-29" who="#ds" status="candidate">
-                <p>created; model based upon git commit 1c822b829cd2578f9437c9b99f23104c19a50061 with the following minor changes:</p>
+                <p>ODD generiert; Modell basierend auf GIT Commit 1C822B829CD2578F9437C9B99F23104C19A50061 mit folgenden kleinen Änderungen:</p>
                 <list>
-                    <item>converted all values of <att>ana</att> to pointers</item>
-                    <item>replaced value <val>line high</val> by <val>line_high</val> in all occurences of attribute <att>rend</att> in order to be treated as a single token, </item>
-                    <item>removed attribute <att>next</att> on <tag>w xml:id="d1e249213"</tag> in Abraham-Mercks_Wien.xml</item>
-                    <item>added required attribute <att>type</att> on <tag>pc xml:id="d1e20461"</tag> in Abrahm-Todten_Bruderschaft.xml</item>
-                    <item>added required attribute <att>type</att> on <tag>pc xml:id="d1e261873"</tag> in Abraham-Todten_Capelle.xml</item>
-                    <item>changed value of attribute <att>subtype</att> from <val>MISC</val> to <val>misc</val> in Abraham-Todten_Capelle.xml, line 65389.</item>
+                    <item>alle Werte von <att>ana</att> in Verweise umgewandelt</item>
+                    <item>den Wert <val>line high</val> durch <val>line_high</val> in allen Vorkommen des Attributs <att>rend</att> ersetzt, damit er als ein einzelnes Token behandelt wird, </item>
+                    <item>Attribut <att>next</att> an <tag>w xml:id="d1e249213"</tag> in Abraham-Mercks_Wien.xml entfernt</item>
+                    <item>erforderliches Attribut <att>type</att> an <tag>pc xml:id="d1e20461"</tag> in Abrahm-Todten_Bruderschaft.xml hinzugefügt</item>
+                    <item>erforderliches Attribut <att>type</att> an <tag>pc xml:id="d1e261873"</tag> in Abraham-Todten_Capelle.xml hinzugefügt</item>
+                    <item>Wert des Attributs <att>subtype</att> von <val>MISC</val> auf <val>misc</val> in Abraham-Todten_Capelle.xml, Zeile 65389, geändert.</item>
+                </list>
+            </change>
+            <change when="2025-11-26" who="#ds" status="released">
+                <p>einleitenden Abschnitt hinzugefügt</p>
+            </change>
+            <change when="2026-02-25" who="#ds" status="released">
+                <list>
+                    <item>Dokumentation auf Detusch übersetzt</item>
+                    <item>Kopie der Deklarationen der Elemente <gi>xi:include</gi>, <gi>xi:fallback</gi> und macro.anyThing entfernt</item>
+                    <item>@type="whitespace" auf <gi>seg</gi> entfernt</item>
+                    <item>div/@type-Werte: trailing blank in @value entfernt</item>
+                    <item>Einbindung der Elemente des gaiji-Moduls zu whitelist geändert (die meisten der ausgeschlossenen Elemente sind in der aktuellen TEI-Version nicht mehr vorhanden)</item>
+                    <item>Attribute im xml-namespace global erlaubt</item>
                 </list>
             </change>
         </revisionDesc>
     </teiHeader>
     <text>
-       <!-- <front>
-            <divGen type="toc"/>
-        </front>-->
         <body>
-            <p>This TEI customization describes the schema used for texts of the Austrian Baroque Corpus ABaC:us.</p>
-            <schemaSpec ident="abacus" docLang="en" prefix="tei_" xml:lang="en" start="TEI teiCorpus">
-                <moduleRef key="core"
-                    except="abbr add analytic biblScope binaryObject cb citedRange del desc distinct divGen emph expan gb gloss graphic headItem headLabel hi index listBibl measureGrp media meeting mentioned num q relatedItem said soCalled sp speaker stage street textLang time unclear editor email label postCode postBox"/>
-                <moduleRef key="corpus" except=""/>
-                <moduleRef key="tei" except=""/>
-                <moduleRef key="header" except="abstract appInfo application authority biblFull cRefPattern calendar calendarDesc catDesc category catRef revisionDesc revisionDesc listChange change classCode classDecl creation docEdition geoDecl handNote listPrefixDef refState prefixDef principal punctuation quotation refsDecl"/>
-                <moduleRef key="textstructure"
-                    except="argument closer dateline div1 div2 div3 div4 div5 div6 div7 floatingText group opener postscript salute signed trailer"/>
-                <moduleRef key="gaiji" except="glyph glyphName localName unicodeName"/>
-                <moduleRef key="transcr"
-                    except="addSpan am damage damageSpan delSpan ex facsimile handNotes handShift line listTranspose metamark mod redo restore retrace sourceDoc space subst substJoin surface surfaceGrp surplus transpose undo zone"/>
-                <moduleRef key="analysis" except="c cl m phr s span spanGrp"/>
-                <moduleRef key="msdescription"
-                    except="accMat acquisition additions adminInfo altIdentifier binding bindingDesc catchwords collation colophon condition custEvent custodialHist decoDesc decoNote depth dim dimensions explicit filiation finalRubric foliation handDesc height heraldry history incipit layout layoutDesc locus locusGrp material msContents msItem msItemStruct msName msPart musicNotation objectDesc objectType origDate origPlace origin physDesc provenance recordHist rubric scriptDesc seal sealDesc secFol signatures source stamp summary support supportDesc typeDesc watermark width"/>
-                <moduleRef key="figures" except="notatedMusic figDesc formula"/>
-                <moduleRef key="namesdates"
-                    except="addName affiliation age birth bloc climate country death district education event faith floruit forename genName geo geogFeat geogName langKnowledge langKnown listEvent listNym listOrg listPerson listPlace listRelation location nameLink nationality nym occupation offset org orgName person personGrp place population region relation residence roleName sex socecStatus state surname terrain trait"/>
-                <moduleRef key="linking"
-                    except="ab alt altGrp anchor join joinGrp link linkGrp timeline when"/>
-                
-                
-                <!-- Attributklassen-->
-                <classSpec ident="att.ascribed" module="tei" mode="change" type="atts">
-                    <attList>
-                        <attDef ident="who" mode="delete"/>
-                    </attList>
-                </classSpec>
-                <classSpec ident="att.cReferencing" module="tei" mode="change" type="atts">
-                    <attList>
-                        <attDef ident="cRef" mode="delete"/>
-                    </attList>
-                </classSpec>
-                <classSpec type="atts" ident="att.citing" mode="delete"/>
-                <classSpec type="atts" ident="att.combinable" mode="delete"/>
-                <classSpec type="atts" ident="att.coordinated" mode="delete"/>
-                <classSpec type="atts" ident="att.damaged" mode="delete"/>
-                
-                <!-- Elemente -->
-                <elementSpec ident="text" mode="change">
-                    <attList>
-                        <attDef ident="ana" mode="change" usage="req">
-                            <valList mode="replace" type="closed">
-                                <valItem ident="#prose">
-                                    <desc>declares that the element it is attached to is (mainly) written in prose</desc>
-                                </valItem>
-                            </valList>
-                        </attDef>
-                        <attDef ident="type" mode="change" usage="req">
-                            <valList mode="replace" type="closed">
-                                <valItem ident="book">
-                                    <desc>declares that this text is conceptualised as a book (including empty pages etc.)</desc>
-                                </valItem>
-                            </valList>
-                        </attDef>
-                    </attList>
-                </elementSpec>
-                <elementSpec ident="lg" mode="change">
-                    <attList>
-                        <attDef ident="ana" mode="change" usage="opt">
-                            <valList mode="replace" type="closed">
-                                <valItem ident="#verse">
-                                    <desc>declares that the element it is attached to is written in verse</desc>
-                                </valItem>
-                            </valList>
-                        </attDef>
-                    </attList>
-                </elementSpec>
-                <elementSpec ident="epigraph" mode="change">
-                    <attList>
-                        <attDef ident="ana" mode="change" usage="opt">
-                            <valList mode="replace" type="closed">
-                                <valItem ident="#verse">
-                                    <desc>declares that the element it is attached to is written in verse</desc>
-                                </valItem>
-                            </valList>
-                        </attDef>
-                    </attList>
-                </elementSpec>
-                <elementSpec ident="div" module="textstructure" mode="change">
-                    <attList>
-                        <attDef ident="n" mode="change">
-                            <desc>Provides a modernized title of the division it is attached to, which is displayed in automatically generated table of contents.</desc>
-                        </attDef>
-                        <attDef ident="ana" mode="change" usage="opt">
-                            <valList mode="replace" type="closed">
-                                <valItem ident="#verse">
-                                    <desc>declares that the element it is attached to is written in verse</desc>
-                                </valItem>
-                            </valList>
-                        </attDef>
-                        <attDef ident="change" mode="delete"/>
-                        <attDef ident="copyOf" mode="delete"/>
-                        <attDef ident="corresp" mode="delete"/>
-                        <attDef ident="decls" mode="delete"/>
-                        <attDef ident="exclude" mode="delete"/>
-                        <attDef ident="facs" mode="delete"/>
-                        <attDef ident="met" mode="delete"/>
-                        <attDef ident="next" mode="delete"/>
-                        <attDef ident="org" mode="delete"/>
-                        <attDef ident="part" mode="delete"/>
-                        <attDef ident="prev" mode="delete"/>
-                        <attDef ident="real" mode="delete"/>
-                        <attDef ident="rend" mode="delete"/>
-                        <attDef ident="rendition" mode="delete"/>
-                        <attDef ident="rhyme" mode="delete"/>
-                        <attDef ident="sameAs" mode="delete"/>
-                        <attDef ident="sample" mode="delete"/>
-                        <attDef ident="select" mode="delete"/>
-                        <attDef ident="style" mode="delete"/>
-                        <attDef ident="subtype" mode="delete"/>
-                        <attDef ident="synch" mode="delete"/>
-                        <attDef ident="xml:base" mode="delete"/>
-                        <attDef ident="xml:id" mode="delete"/>
-                        <attDef ident="xml:lang" mode="delete"/>
-                        <attDef ident="xml:space" mode="delete"/>
-                        <attDef ident="type" mode="change">
-                            <desc>Provides a simple typology for selected kinds of divisions.
-                                Allowed values are preface, dedication, chapter and index.</desc>
-                            <valList type="closed" mode="replace">
-                                <valItem ident="preface"/>
-                                <valItem ident=" dedication"/>
-                                <valItem ident=" chapter"/>
-                                <valItem ident=" imprint"/>
-                                <valItem ident=" index"/>
-                            </valList>
-                        </attDef>
-                    </attList>
-                </elementSpec>
-                
-                <elementSpec ident="lb" module="core" mode="change">
-                    <attList>
-                        <attDef ident="ana" mode="delete"/>
-                        <attDef ident="change" mode="delete"/>
-                        <attDef ident="copyOf" mode="delete"/>
-                        <attDef ident="corresp" mode="delete"/>
-                        <attDef ident="ed" mode="delete"/>
-                        <attDef ident="edRef" mode="delete"/>
-                        <attDef ident="exclude" mode="delete"/>
-                        <attDef ident="facs" mode="delete"/>
-                        <attDef ident="n" mode="delete"/>
-                        <attDef ident="next" mode="delete"/>
-                        <attDef ident="prev" mode="delete"/>
-                        <attDef ident="rendition" mode="delete"/>
-                        <attDef ident="sameAs" mode="delete"/>
-                        <attDef ident="select" mode="delete"/>
-                        <attDef ident="spanTo" mode="delete"/>
-                        <attDef ident="style" mode="delete"/>
-                        <attDef ident="subtype" mode="delete"/>
-                        <attDef ident="synch" mode="delete"/>
-                        <attDef ident="xml:base" mode="delete"/>
-                        <attDef ident="xml:id" mode="delete"/>
-                        <attDef ident="xml:lang" mode="delete"/>
-                        <attDef ident="xml:space" mode="delete"/>
-                        <attDef ident="type" mode="change">
-                            <desc>Documents the presence of a single hyphen ("s") or a double hyphen
-                                ("d") in the text source.</desc>
-                            <valList type="closed" mode="replace">
-                                <valItem ident="s">
-                                    <desc>single hyphen</desc>
-                                </valItem>
-                                <valItem ident=" d">
-                                    <desc>double hyphen</desc>
-                                </valItem>
-                            </valList>
-                        </attDef>
-                        <attDef ident="rend" mode="change">
-                            <desc>Indicates a slim ("line") or a bold horizontal ("line_high")
-                                ornament.</desc>
-                            <valList type="closed" mode="replace">
-                                <valItem ident="line"/>
-                                <valItem ident="line_high"/>
-                            </valList>
-                        </attDef>
-                    </attList>
-                </elementSpec>
-                
-                <elementSpec ident="milestone" mode="change" module="core">
-                    <desc>used to mark up a separator of any kind.</desc>
-                    <attList>
-                        <attDef ident="type" mode="replace">
-                            <valList type="closed">
-                                <valItem ident="separator"/>
-                            </valList>
-                        </attDef>
-                        <attDef ident="unit" mode="replace">
-                            <valList type="closed">
-                                <valItem ident="undetermined"/>
-                            </valList>
-                        </attDef>
-                    </attList>
-                </elementSpec>
-                <elementSpec ident="g" module="gaiji" mode="change">
-                    <attList>
-                        <attDef ident="ana" mode="delete"/>
-                        <attDef ident="change" mode="delete"/>
-                        <attDef ident="copyOf" mode="delete"/>
-                        <attDef ident="corresp" mode="delete"/>
-                        <attDef ident="exclude" mode="delete"/>
-                        <attDef ident="facs" mode="delete"/>
-                        <attDef ident="n" mode="delete"/>
-                        <attDef ident="next" mode="delete"/>
-                        <attDef ident="prev" mode="delete"/>
-                        <attDef ident="rend" mode="delete"/>
-                        <attDef ident="rendition" mode="delete"/>
-                        <attDef ident="sameAs" mode="delete"/>
-                        <attDef ident="select" mode="delete"/>
-                        <attDef ident="style" mode="delete"/>
-                        <attDef ident="subtype" mode="delete"/>
-                        <attDef ident="synch" mode="delete"/>
-                        <attDef ident="type" mode="delete"/>
-                        <attDef ident="xml:base" mode="delete"/>
-                        <attDef ident="xml:id" mode="delete"/>
-                        <attDef ident="xml:lang" mode="delete"/>
-                        <attDef ident="xml:space" mode="delete"/>
-                        <attDef ident="ref" mode="change" usage="req">
-                            <valList type="closed" mode="replace">
-                                <valItem ident="#tironian-et">
-                                    <desc>used to represent the Unicode character 'TIRONIAN SIGN ET' (U+204A)</desc>
-                                </valItem>
-                                <valItem ident="#footerDots"/>
-                                <valItem ident="#bracketsGM"/>
-                                <valItem ident="#bracketsMW"/>
-                                <valItem ident="#bracketsTC"/>
-                            </valList>
-                        </attDef>
-                    </attList>
-                </elementSpec>
-                <elementSpec ident="persName" module="namesdates" mode="change">
-                    <attList>
-                        <attDef ident="ana" mode="delete"/>
-                        <attDef ident="atLeast" mode="delete"/>
-                        <attDef ident="atMost" mode="delete"/>
-                        <attDef ident="calendar" mode="delete"/>
-                        <attDef ident="cert" mode="delete"/>
-                        <attDef ident="change" mode="delete"/>
-                        <attDef ident="confidence" mode="delete"/>
-                        <attDef ident="copyOf" mode="delete"/>
-                        <attDef ident="corresp" mode="delete"/>
-                        <attDef ident="datingMethod" mode="delete"/>
-                        <attDef ident="datingPoint" mode="delete"/>
-                        <attDef ident="evidence" mode="delete"/>
-                        <attDef ident="exclude" mode="delete"/>
-                        <attDef ident="extent" mode="delete"/>
-                        <attDef ident="facs" mode="delete"/>
-                        <attDef ident="from" mode="delete"/>
-                        <attDef ident="from-custom" mode="delete"/>
-                        <attDef ident="from-iso" mode="delete"/>
-                        <attDef ident="full" mode="delete"/>
-                        <attDef ident="instant" mode="delete"/>
-                        <attDef ident="max" mode="delete"/>
-                        <attDef ident="min" mode="delete"/>
-                        <attDef ident="n" mode="delete"/>
-                        <attDef ident="next" mode="delete"/>
-                        <attDef ident="notAfter" mode="delete"/>
-                        <attDef ident="notAfter-custom" mode="delete"/>
-                        <attDef ident="notAfter-iso" mode="delete"/>
-                        <attDef ident="notBefore" mode="delete"/>
-                        <attDef ident="notBefore-custom" mode="delete"/>
-                        <attDef ident="notBefore-iso" mode="delete"/>
-                        <attDef ident="nymRef" mode="delete"/>
-                        <attDef ident="period" mode="delete"/>
-                        <attDef ident="precision" mode="delete"/>
-                        <attDef ident="prev" mode="delete"/>
-                        <attDef ident="quantity" mode="delete"/>
-                        <attDef ident="ref" mode="delete"/>
-                        <attDef ident="rend" mode="delete"/>
-                        <attDef ident="rendition" mode="delete"/>
-                        <attDef ident="resp" mode="delete"/>
-                        <attDef ident="role" mode="delete"/>
-                        <attDef ident="sameAs" mode="delete"/>
-                        <attDef ident="scope" mode="delete"/>
-                        <attDef ident="select" mode="delete"/>
-                        <attDef ident="sort" mode="delete"/>
-                        <attDef ident="source" mode="delete"/>
-                        <attDef ident="style" mode="delete"/>
-                        <attDef ident="subtype" mode="delete"/>
-                        <attDef ident="synch" mode="delete"/>
-                        <attDef ident="to" mode="delete"/>
-                        <attDef ident="to-custom" mode="delete"/>
-                        <attDef ident="to-iso" mode="delete"/>
-                        <attDef ident="unit" mode="delete"/>
-                        <attDef ident="when" mode="delete"/>
-                        <attDef ident="when-custom" mode="delete"/>
-                        <attDef ident="when-iso" mode="delete"/>
-                        <attDef ident="xml:base" mode="delete"/>
-                        <attDef ident="xml:id" mode="delete"/>
-                        <attDef ident="xml:lang" mode="delete"/>
-                        <attDef ident="xml:space" mode="delete"/>
-                        <attDef ident="type" mode="change" usage="req">
-                            <desc>Characeterizes the name as historical ("hist"), biblical ("bibl"),
-                                mythological ("myth") or undefined/unknown.</desc>
-                            <valList type="closed" mode="replace">
-                                <valItem ident="hist"/>
-                                <valItem ident="bibl"/>
-                                <valItem ident="undefined"/>
-                                <valItem ident="myth"/>
-                            </valList>
-                        </attDef>
-                    </attList>
-                </elementSpec>
-                <elementSpec ident="placeName" module="namesdates" mode="change">
-                    <attList>
-                        <attDef ident="ana" mode="delete"/>
-                        <attDef ident="atLeast" mode="delete"/>
-                        <attDef ident="atMost" mode="delete"/>
-                        <attDef ident="calendar" mode="delete"/>
-                        <attDef ident="cert" mode="delete"/>
-                        <attDef ident="change" mode="delete"/>
-                        <attDef ident="confidence" mode="delete"/>
-                        <attDef ident="copyOf" mode="delete"/>
-                        <attDef ident="corresp" mode="delete"/>
-                        <attDef ident="datingMethod" mode="delete"/>
-                        <attDef ident="datingPoint" mode="delete"/>
-                        <attDef ident="evidence" mode="delete"/>
-                        <attDef ident="exclude" mode="delete"/>
-                        <attDef ident="extent" mode="delete"/>
-                        <attDef ident="facs" mode="delete"/>
-                        <attDef ident="from" mode="delete"/>
-                        <attDef ident="from-custom" mode="delete"/>
-                        <attDef ident="from-iso" mode="delete"/>
-                        <attDef ident="full" mode="delete"/>
-                        <attDef ident="instant" mode="delete"/>
-                        <attDef ident="max" mode="delete"/>
-                        <attDef ident="min" mode="delete"/>
-                        <attDef ident="n" mode="delete"/>
-                        <attDef ident="next" mode="delete"/>
-                        <attDef ident="notAfter" mode="delete"/>
-                        <attDef ident="notAfter-custom" mode="delete"/>
-                        <attDef ident="notAfter-iso" mode="delete"/>
-                        <attDef ident="notBefore" mode="delete"/>
-                        <attDef ident="notBefore-custom" mode="delete"/>
-                        <attDef ident="notBefore-iso" mode="delete"/>
-                        <attDef ident="nymRef" mode="delete"/>
-                        <attDef ident="period" mode="delete"/>
-                        <attDef ident="precision" mode="delete"/>
-                        <attDef ident="prev" mode="delete"/>
-                        <attDef ident="quantity" mode="delete"/>
-                        <attDef ident="ref" mode="delete"/>
-                        <attDef ident="rend" mode="delete"/>
-                        <attDef ident="rendition" mode="delete"/>
-                        <attDef ident="resp" mode="delete"/>
-                        <attDef ident="role" mode="delete"/>
-                        <attDef ident="sameAs" mode="delete"/>
-                        <attDef ident="scope" mode="delete"/>
-                        <attDef ident="select" mode="delete"/>
-                        <attDef ident="sort" mode="delete"/>
-                        <attDef ident="source" mode="delete"/>
-                        <attDef ident="style" mode="delete"/>
-                        <attDef ident="subtype" mode="change" usage="req">
-                            <desc>declares the placeName to be used in direct ("dire") or allusive
-                                ("allu") manner.</desc>
-                            <valList type="closed" mode="replace">
-                                <valItem ident="dire"/>
-                                <valItem ident="allu"/>
-                            </valList>
-                        </attDef>
-                        <attDef ident="synch" mode="delete"/>
-                        <attDef ident="to" mode="delete"/>
-                        <attDef ident="to-custom" mode="delete"/>
-                        <attDef ident="to-iso" mode="delete"/>
-                        <attDef ident="unit" mode="delete"/>
-                        <attDef ident="when" mode="delete"/>
-                        <attDef ident="when-custom" mode="delete"/>
-                        <attDef ident="when-iso" mode="delete"/>
-                        <attDef ident="xml:base" mode="delete"/>
-                        <attDef ident="xml:id" mode="delete"/>
-                        <attDef ident="xml:lang" mode="delete"/>
-                        <attDef ident="xml:space" mode="delete"/>
-                        <attDef ident="type" mode="change" usage="req">
-                            <desc>the type of a placeName</desc>
-                            <valList type="closed" mode="replace">
-                                <valItem ident="cont">
-                                    <desc>continent</desc>
-                                </valItem>
-                                <valItem ident="coun">
-                                    <desc>country</desc>
-                                </valItem>
-                                <valItem ident="dist">
-                                    <desc>district</desc>
-                                </valItem>
-                                <valItem ident="city">
-                                    <desc>city</desc>
-                                </valItem>
-                                <valItem ident="sett">
-                                    <desc>settlement</desc>
-                                </valItem>
-                                <valItem ident="stre">
-                                    <desc>street</desc>
-                                </valItem>
-                                <valItem ident="moun">
-                                    <desc>mountain</desc>
-                                </valItem>
-                                <valItem ident="rive">
-                                    <desc>river</desc>
-                                </valItem>
-                                <valItem ident="lake">
-                                    <desc>lake</desc>
-                                </valItem>
-                                <valItem ident="sea">
-                                    <desc>sea</desc>
-                                </valItem>
-                                <valItem ident="subu">
-                                    <desc>a part of a city or town</desc>
-                                </valItem>
-                                <valItem ident="vill">
-                                    <desc>village</desc>
-                                </valItem>
-                            </valList>
-                        </attDef>
-                        <attDef ident="key" mode="change">
-                            <valList type="closed" mode="replace">
-                                <valItem ident="ach"/>
-                                    <valItem ident="acro"/>
-                                    <valItem ident="afri"/>
-                                    <valItem ident="alst"/>
-                                    <valItem ident="alto"/>
-                                    <valItem ident="anti"/>
-                                    <valItem ident="arag"/>
-                                    <valItem ident="asch"/>
-                                    <valItem ident="asia"/>
-                                    <valItem ident="assy"/>
-                                    <valItem ident="athe"/>
-                                    <valItem ident="augs"/>
-                                    <valItem ident="aust"/>
-                                    <valItem ident="aver"/>
-                                    <valItem ident="babe"/>
-                                    <valItem ident="babi"/>
-                                    <valItem ident="baby"/>
-                                    <valItem ident="bamb"/>
-                                    <valItem ident="base"/>
-                                    <valItem ident="bava"/>
-                                    <valItem ident="bego"/>
-                                    <valItem ident="berg"/>
-                                    <valItem ident="bern"/>
-                                    <valItem ident="bers"/>
-                                    <valItem ident="beth"/>
-                                    <valItem ident="bethu"/>
-                                    <valItem ident="bett"/>
-                                    <valItem ident="bohe"/>
-                                    <valItem ident="bono"/>
-                                    <valItem ident="brab"/>
-                                    <valItem ident="bras"/>
-                                    <valItem ident="bred"/>
-                                    <valItem ident="bret"/>
-                                    <valItem ident="brit"/>
-                                    <valItem ident="brus"/>
-                                    <valItem ident="burg"/>
-                                    <valItem ident="byth"/>
-                                    <valItem ident="cali"/>
-                                    <valItem ident="call"/>
-                                    <valItem ident="cana"/>
-                                    <valItem ident="canar"/>
-                                    <valItem ident="cand"/>
-                                    <valItem ident="cape"/>
-                                    <valItem ident="capp"/>
-                                    <valItem ident="cari"/>
-                                    <valItem ident="carm"/>
-                                    <valItem ident="carn"/>
-                                    <valItem ident="cata"/>
-                                    <valItem ident="cedr"/>
-                                    <valItem ident="cerv"/>
-                                    <valItem ident="chim"/>
-                                    <valItem ident="chot"/>
-                                    <valItem ident="clai"/>
-                                    <valItem ident="colo"/>
-                                    <valItem ident="cons"/>
-                                    <valItem ident="cors"/>
-                                    <valItem ident="cypr"/>
-                                    <valItem ident="dan"/>
-                                    <valItem ident="danu"/>
-                                    <valItem ident="danz"/>
-                                    <valItem ident="dead"/>
-                                    <valItem ident="diez"/>
-                                    <valItem ident="eger"/>
-                                    <valItem ident="egyp"/>
-                                    <valItem ident="enge"/>
-                                    <valItem ident="engl"/>
-                                    <valItem ident="enns"/>
-                                    <valItem ident="ethi"/>
-                                    <valItem ident="etna"/>
-                                    <valItem ident="euph"/>
-                                    <valItem ident="euro"/>
-                                    <valItem ident="fail"/>
-                                    <valItem ident="feld"/>
-                                    <valItem ident="fich"/>
-                                    <valItem ident="flor"/>
-                                    <valItem ident="fran"/>
-                                    <valItem ident="frank"/>
-                                    <valItem ident="frans"/>
-                                    <valItem ident="gali"/>
-                                    <valItem ident="galiM"/>
-                                    <valItem ident="gast"/>
-                                    <valItem ident="geno"/>
-                                    <valItem ident="germ"/>
-                                    <valItem ident="giho"/>
-                                    <valItem ident="gomo"/>
-                                    <valItem ident="graz"/>
-                                    <valItem ident="gree"/>
-                                    <valItem ident="green"/>
-                                    <valItem ident="hai"/>
-                                    <valItem ident="hamb"/>
-                                    <valItem ident="hecl"/>
-                                    <valItem ident="hein"/>
-                                    <valItem ident="heke"/>
-                                    <valItem ident="helb"/>
-                                    <valItem ident="held"/>
-                                    <valItem ident="hels"/>
-                                    <valItem ident="herr"/>
-                                    <valItem ident="hert"/>
-                                    <valItem ident="himb"/>
-                                    <valItem ident="hiri"/>
-                                    <valItem ident="hung"/>
-                                    <valItem ident="icel"/>
-                                    <valItem ident="indi"/>
-                                    <valItem ident="ingo"/>
-                                    <valItem ident="isaf"/>
-                                    <valItem ident="isra"/>
-                                    <valItem ident="ital"/>
-                                    <valItem ident="jeri"/>
-                                    <valItem ident="jeru"/>
-                                    <valItem ident="jord"/>
-                                    <valItem ident="juda"/>
-                                    <valItem ident="kahl"/>
-                                    <valItem ident="kara"/>
-                                    <valItem ident="kitz"/>
-                                    <valItem ident="kons"/>
-                                    <valItem ident="korn"/>
-                                    <valItem ident="kree"/>
-                                    <valItem ident="krem"/>
-                                    <valItem ident="laeb"/>
-                                    <valItem ident="laim"/>
-                                    <valItem ident="land"/>
-                                    <valItem ident="laus"/>
-                                    <valItem ident="laxe"/>
-                                    <valItem ident="leba"/>
-                                    <valItem ident="lech"/>
-                                    <valItem ident="leip"/>
-                                    <valItem ident="leit"/>
-                                    <valItem ident="leop"/>
-                                    <valItem ident="linz"/>
-                                    <valItem ident="lisb"/>
-                                    <valItem ident="loau"/>
-                                    <valItem ident="lore"/>
-                                    <valItem ident="lugd"/>
-                                    <valItem ident="lyci"/>
-                                    <valItem ident="lydi"/>
-                                    <valItem ident="mabr"/>
-                                    <valItem ident="madr"/>
-                                    <valItem ident="magd"/>
-                                    <valItem ident="mago"/>
-                                    <valItem ident="main"/>
-                                    <valItem ident="mala"/>
-                                    <valItem ident="malu"/>
-                                    <valItem ident="mann"/>
-                                    <valItem ident="maur"/>
-                                    <valItem ident="maze"/>
-                                    <valItem ident="mess"/>
-                                    <valItem ident="mila"/>
-                                    <valItem ident="moes"/>
-                                    <valItem ident="molu"/>
-                                    <valItem ident="moro"/>
-                                    <valItem ident="mosc"/>
-                                    <valItem ident="muen"/>
-                                    <valItem ident="naim"/>
-                                    <valItem ident="nanq"/>
-                                    <valItem ident="nant"/>
-                                    <valItem ident="napl"/>
-                                    <valItem ident="nava"/>
-                                    <valItem ident="naza"/>
-                                    <valItem ident="neth"/>
-                                    <valItem ident="neuk"/>
-                                <valItem ident="nijm"/>
-                                    <valItem ident="nini"/>
-                                    <valItem ident="nola"/>
-                                    <valItem ident="norw"/>
-                                    <valItem ident="nure"/>
-                                    <valItem ident="ober"/>
-                                    <valItem ident="oder"/>
-                                    <valItem ident="otto"/>
-                                    <valItem ident="padu"/>
-                                    <valItem ident="pala"/>
-                                    <valItem ident="pale"/>
-                                    <valItem ident="pali"/>
-                                    <valItem ident="paqu"/>
-                                    <valItem ident="pari"/>
-                                    <valItem ident="parn"/>
-                                    <valItem ident="pass"/>
-                                    <valItem ident="pegu"/>
-                                    <valItem ident="penz"/>
-                                    <valItem ident="perg"/>
-                                    <valItem ident="pers"/>
-                                    <valItem ident="peru"/>
-                                    <valItem ident="phil"/>
-                                    <valItem ident="phis"/>
-                                    <valItem ident="pola"/>
-                                    <valItem ident="port"/>
-                                    <valItem ident="prag"/>
-                                    <valItem ident="presb"/>
-                                    <valItem ident="presl"/>
-                                    <valItem ident="prug"/>
-                                    <valItem ident="rege"/>
-                                    <valItem ident="reic"/>
-                                    <valItem ident="reid"/>
-                                    <valItem ident="rein"/>
-                                    <valItem ident="rhin"/>
-                                    <valItem ident="rome"/>
-                                    <valItem ident="rora"/>
-                                    <valItem ident="ross"/>
-                                    <valItem ident="salm"/>
-                                    <valItem ident="salz"/>
-                                    <valItem ident="sant"/>
-                                    <valItem ident="sard"/>
-                                    <valItem ident="sava"/>
-                                    <valItem ident="scay"/>
-                                    <valItem ident="scha"/>
-                                    <valItem ident="scho"/>
-                                    <valItem ident="schw"/>
-                                    <valItem ident="scot"/>
-                                    <valItem ident="scyt"/>
-                                    <valItem ident="sici"/>
-                                    <valItem ident="sile"/>
-                                    <valItem ident="sina"/>
-                                    <valItem ident="sodo"/>
-                                    <valItem ident="soll"/>
-                                    <valItem ident="solo"/>
-                                    <valItem ident="spai"/>
-                                    <valItem ident="spey"/>
-                                    <valItem ident="spit"/>
-                                    <valItem ident="stai"/>
-                                    <valItem ident="stau"/>
-                                    <valItem ident="stei"/>
-                                    <valItem ident="stra"/>
-                                    <valItem ident="strb"/>
-                                    <valItem ident="styr"/>
-                                    <valItem ident="sues"/>
-                                    <valItem ident="swab"/>
-                                    <valItem ident="swed"/>
-                                    <valItem ident="swis"/>
-                                    <valItem ident="tabo"/>
-                                    <valItem ident="taxa"/>
-                                    <valItem ident="teon"/>
-                                    <valItem ident="thek"/>
-                                    <valItem ident="thur"/>
-                                    <valItem ident="tibe"/>
-                                    <valItem ident="tigr"/>
-                                    <valItem ident="tole"/>
-                                    <valItem ident="tren"/>
-                                    <valItem ident="troy"/>
-                                    <valItem ident="tuni"/>
-                                    <valItem ident="tyro"/>
-                                    <valItem ident="tyros"/>
-                                    <valItem ident="ulm"/>
-                                    <valItem ident="umbr"/>
-                                    <valItem ident="umke"/>
-                                    <valItem ident="undefined"/>
-                                    <valItem ident="uoes"/>
-                                    <valItem ident="upau"/>
-                                    <valItem ident="veni"/>
-                                    <valItem ident="vero"/>
-                                    <valItem ident="vesu"/>
-                                    <valItem ident="vien"/>
-                                    <valItem ident="vienAlterFleischmarckt"/>
-                                    <valItem ident="vienArsenal-Cordina"/>
-                                    <valItem ident="vienAugustiner-Cordina"/>
-                                    <valItem ident="vienBäckerstraße"/>
-                                    <valItem ident="vienBauernmarkt"/>
-                                    <valItem ident="vienBiber-Cordina"/>
-                                    <valItem ident="vienBlutgasse"/>
-                                    <valItem ident="vienBognergasse"/>
-                                    <valItem ident="vienBräunerstraße"/>
-                                    <valItem ident="vienBrandstätte"/>
-                                    <valItem ident="vienBraun-Bastei"/>
-                                    <valItem ident="vienBraun-Cordina"/>
-                                    <valItem ident="vienBurg-Bastei"/>
-                                    <valItem ident="vienBurg-Cordina"/>
-                                    <valItem ident="vienBurgtor"/>
-                                    <valItem ident="vienDominikaner-Bastei"/>
-                                    <valItem ident="vienDorotheergasse"/>
-                                    <valItem ident="vienElend-Bastei"/>
-                                    <valItem ident="vienFärbergasse"/>
-                                    <valItem ident="vienFischerstiege"/>
-                                    <valItem ident="vienFischmarkt"/>
-                                    <valItem ident="vienFleischmarkt"/>
-                                    <valItem ident="vienFreyung"/>
-                                    <valItem ident="vienGrünanger"/>
-                                    <valItem ident="vienGraben"/>
-                                    <valItem ident="vienHeidenschuss"/>
-                                    <valItem ident="vienHerrengasse"/>
-                                    <valItem ident="vienHimmelpfortgasse"/>
-                                    <valItem ident="vienHimmelspforte"/>
-                                    <valItem ident="vienHoheBrücke"/>
-                                    <valItem ident="vienHoherMarkt"/>
-                                    <valItem ident="vienHutergassel"/>
-                                    <valItem ident="vienJohannesgasse"/>
-                                    <valItem ident="vienJudengasse"/>
-                                    <valItem ident="vienJudenplatz"/>
-                                    <valItem ident="vienJungferngasse"/>
-                                    <valItem ident="vienKärntner-Bastei"/>
-                                    <valItem ident="vienKärntner-Cordina"/>
-                                    <valItem ident="vienKärntnerStraße"/>
-                                    <valItem ident="vienKärntnertor"/>
-                                    <valItem ident="vienKatzensteig"/>
-                                    <valItem ident="vienKienmarkt"/>
-                                    <valItem ident="vienKlugerstraße"/>
-                                    <valItem ident="vienKohlmarkt"/>
-                                    <valItem ident="vienLöwel-Bastei"/>
-                                    <valItem ident="vienLöwel-Cordina"/>
-                                    <valItem ident="vienLandskrongasse"/>
-                                    <valItem ident="vienMönch-Cordina"/>
-                                    <valItem ident="vienMelker-Bastei"/>
-                                    <valItem ident="vienNaglergasse"/>
-                                    <valItem ident="vienNeueBastei"/>
-                                    <valItem ident="vienNeuerMarkt"/>
-                                    <valItem ident="vienNeuesWerk"/>
-                                    <valItem ident="vienOfenloch"/>
-                                    <valItem ident="vienRathgasse"/>
-                                    <valItem ident="vienRenngasse"/>
-                                    <valItem ident="vienRiemergasse"/>
-                                    <valItem ident="vienRosengasse"/>
-                                    <valItem ident="vienSalzgries"/>
-                                    <valItem ident="vienSaumarkt"/>
-                                    <valItem ident="vienSauwinkel"/>
-                                    <valItem ident="vienSchaumarkt"/>
-                                    <valItem ident="vienSchenkerstraße"/>
-                                    <valItem ident="vienSchlossergasse"/>
-                                    <valItem ident="vienSchotten-Cordina"/>
-                                    <valItem ident="vienSchottentor"/>
-                                    <valItem ident="vienSchulerstraße"/>
-                                    <valItem ident="vienSeilerstätte"/>
-                                    <valItem ident="vienSingerstraße"/>
-                                    <valItem ident="vienStockimEisen"/>
-                                    <valItem ident="vienStrohgasse"/>
-                                    <valItem ident="vienStubentor"/>
-                                    <valItem ident="vienStubentor-Cordina"/>
-                                    <valItem ident="vienTeinfaltstraße"/>
-                                    <valItem ident="vienWallerstraße"/>
-                                    <valItem ident="vienWasserkunst-Bastei"/>
-                                    <valItem ident="vienWeidenburg"/>
-                                    <valItem ident="vienWipplingerstraße"/>
-                                    <valItem ident="vienZwölfApostel"/>
-                                    <valItem ident="viln"/>
-                                    <valItem ident="virg"/>
-                                    <valItem ident="würz"/>
-                                    <valItem ident="waid"/>
-                                    <valItem ident="wald"/>
-                                    <valItem ident="walt"/>
-                                    <valItem ident="wayd"/>
-                                    <valItem ident="wels"/>
-                                    <valItem ident="weph"/>
-                                    <valItem ident="wrNe"/>
-                                    <valItem ident="zion"/>
-                            </valList>
-                        </attDef>
-                    </attList>
-                </elementSpec>
-                <elementSpec ident="pc" module="analysis" mode="change">
-                    <attList>
-                        <attDef ident="ana" mode="delete"/>
-                        <attDef ident="change" mode="delete"/>
-                        <attDef ident="copyOf" mode="delete"/>
-                        <attDef ident="corresp" mode="delete"/>
-                        <attDef ident="datcat" mode="delete"/>
-                        <attDef ident="exclude" mode="delete"/>
-                        <attDef ident="facs" mode="delete"/>
-                        <attDef ident="force" mode="delete"/>
-                        <attDef ident="function" mode="delete"/>
-                        <attDef ident="met" mode="delete"/>
-                        <attDef ident="n" mode="delete"/>
-                        <attDef ident="next" mode="delete"/>
-                        <attDef ident="part" mode="delete"/>
-                        <attDef ident="pre" mode="delete"/>
-                        <attDef ident="prev" mode="delete"/>
-                        <attDef ident="real" mode="delete"/>
-                        <attDef ident="rend" mode="delete"/>
-                        <attDef ident="rendition" mode="delete"/>
-                        <attDef ident="rhyme" mode="delete"/>
-                        <attDef ident="sameAs" mode="delete"/>
-                        <attDef ident="select" mode="delete"/>
-                        <attDef ident="style" mode="delete"/>
-                        <attDef ident="subtype" mode="delete"/>
-                        <attDef ident="synch" mode="delete"/>
-                        <attDef ident="unit" mode="delete"/>
-                        <attDef ident="valueDatcat" mode="delete"/>
-                        <attDef ident="xml:base" mode="delete"/>
-                        <attDef ident="xml:lang" mode="delete"/>
-                        <attDef ident="xml:space" mode="delete"/>
-                        <attDef ident="type" mode="change" usage="req">
-                            <desc>Provides the type of punctuation character.</desc>
-                            <valList type="closed" mode="replace">
-                                <valItem ident="comma">
-                                    <desc>equal to STTS tag $,</desc>
-                                </valItem>
-                                <valItem ident="final">
-                                    <desc>equal to STTS tag $.</desc>
-                                </valItem>
-                                <valItem ident="internal">
-                                    <desc>equal to STTS tag $(</desc>
-                                </valItem>
-                                <valItem ident="span">
-                                    <desc>indicates that the character in question is part of a token</desc>
-                                </valItem>
-                            </valList>
-                        </attDef>
-                    </attList>
-                </elementSpec>
-                <elementSpec ident="w" module="analysis" mode="change">
-                    <attList>
-                        <attDef ident="change" mode="delete"/>
-                        <attDef ident="copyOf" mode="delete"/>
-                        <attDef ident="corresp" mode="delete"/>
-                        <attDef ident="datcat" mode="delete"/>
-                        <attDef ident="exclude" mode="delete"/>
-                        <attDef ident="facs" mode="delete"/>
-                        <attDef ident="function" mode="delete"/>
-                        <attDef ident="lemmaRef" mode="delete"/>
-                        <attDef ident="met" mode="delete"/>
-                        <attDef ident="n" mode="delete"/>
-                        <attDef ident="next" mode="delete"/>
-                        <attDef ident="part" mode="delete"/>
-                        <attDef ident="prev" mode="delete"/>
-                        <attDef ident="real" mode="delete"/>
-                        <attDef ident="rend" mode="delete"/>
-                        <attDef ident="rendition" mode="delete"/>
-                        <attDef ident="rhyme" mode="delete"/>
-                        <attDef ident="sameAs" mode="delete"/>
-                        <attDef ident="select" mode="delete"/>
-                        <attDef ident="style" mode="delete"/>
-                        <attDef ident="subtype" mode="delete"/>
-                        <attDef ident="synch" mode="delete"/>
-                        <attDef ident="valueDatcat" mode="delete"/>
-                        <attDef ident="xml:base" mode="delete"/>
-                        <attDef ident="xml:lang" mode="delete"/>
-                        <attDef ident="xml:space" mode="delete"/>
-                        <attDef ident="ana" mode="change" usage="opt">
-                            <valList>
-                                <valItem ident="#oov"><desc>out-of-vocabulary word</desc></valItem>
-                            </valList>
-                        </attDef>
-                        <attDef ident="type" mode="change" usage="req">
-                            <desc>Characerizes the token following the STTS tagset with certain
-                                extensions for contracted (two STTS tags concatenated with a
-                                underscore) or ambiguous types (two tags concatened with a pipe
-                                symbol)</desc>
-                            <valList type="closed" mode="replace">
-                                <valItem ident="ADJA"/>
-                                <valItem ident="ADJA_NN"/>
-                                <valItem ident="ADJD"/>
-                                <valItem ident="ADJD_VVPP"/>
-                                <valItem ident="ADV"/>
-                                <valItem ident="ADV_ADJA"/>
-                                <valItem ident="ADV_ADV"/>
-                                <valItem ident="ADVART"/>
-                                <valItem ident="APPO"/>
-                                <valItem ident="APPR"/>
-                                <valItem ident="APPRART"/>
-                                <valItem ident="APPR_NN"/>
-                                <valItem ident="APPR_APZR"/>
-                                <valItem ident="APPR_ART"/>
-                                <valItem ident="APZR"/>
-                                <valItem ident="ART"/>
-                                <valItem ident="ART_NN"/>
-                                <valItem ident="ARTNN"/>
-                                <valItem ident="CARD"/>
-                                <valItem ident="FM"/>
-                                <valItem ident="FM_FM"/>
-                                <valItem ident="ITJ"/>
-                                <valItem ident="KOKOM"/>
-                                <valItem ident="KON"/>
-                                <valItem ident="KOUI"/>
-                                <valItem ident="KOUS"/>
-                                <valItem ident="KOUS_PIS"/>
-                                <valItem ident="KOUSPPER"/>
-                                <valItem ident="NE"/>
-                                <valItem ident="NE::top"/>
-                                <valItem ident="NE_NE"/>
-                                <valItem ident="NN"/>
-                                <valItem ident="NN_NE::top"/>
-                                <valItem ident="NN_NN"/>
-                                <valItem ident="PAV"/>
-                                <valItem ident="PAV_PPER"/>
-                                <valItem ident="PDAT"/>
-                                <valItem ident="PDS"/>
-                                <valItem ident="PDSPPER"/>
-                                <valItem ident="PIAT"/>
-                                <valItem ident="PIS"/>
-                                <valItem ident="PISPPER"/>
-                                <valItem ident="PPER"/>
-                                <valItem ident="PPERPPER"/>
-                                <valItem ident="PPOSAT"/>
-                                <valItem ident="PPOSS"/>
-                                <valItem ident="PRELAT"/>
-                                <valItem ident="PRELS"/>
-                                <valItem ident="PRF"/>
-                                <valItem ident="PRFPPER"/>
-                                <valItem ident="PTKA"/>
-                                <valItem ident="PTKANT"/>
-                                <valItem ident="PTKNEG"/>
-                                <valItem ident="PTKVZ"/>
-                                <valItem ident="PTKVZ_PTKZU"/>
-                                <valItem ident="PTKVZ_ADJD"/>
-                                <valItem ident="PTKZU"/>
-                                <valItem ident="PTKZU_VVINF"/>
-                                <valItem ident="PWAT"/>
-                                <valItem ident="PWAV"/>
-                                <valItem ident="PWS"/>
-                                <valItem ident="TRUNC"/>
-                                <valItem ident="VAFIN"/>
-                                <valItem ident="VAFINPPER"/>
-                                <valItem ident="VAIMP"/>
-                                <valItem ident="VAINF"/>
-                                <valItem ident="VAPP"/>
-                                <valItem ident="VMFIN"/>
-                                <valItem ident="VMFINPPER"/>
-                                <valItem ident="VMINF"/>
-                                <valItem ident="VMPP"/>
-                                <valItem ident="VVFIN"/>
-                                <valItem ident="VVFINPPER"/>
-                                <valItem ident="VVIMP"/>
-                                <valItem ident="VVIMPART"/>
-                                <valItem ident="VVIMPPPER"/>
-                                <valItem ident="VVINF"/>
-                                <valItem ident="VVIZU"/>
-                                <valItem ident="VVIZU_VVINF"/>
-                                <valItem ident="VVPP"/>
-                                <valItem ident="XY"/>
-                                <valItem ident="span"/>
-                            </valList>
-                        </attDef>
-                    </attList>
-                </elementSpec>
-                <elementSpec ident="fw" module="transcr" mode="change">
-                    <attList>
-                        <attDef ident="ana" mode="delete"/>
-                        <attDef ident="change" mode="delete"/>
-                        <attDef ident="copyOf" mode="delete"/>
-                        <attDef ident="corresp" mode="delete"/>
-                        <attDef ident="exclude" mode="delete"/>
-                        <attDef ident="facs" mode="delete"/>
-                        <attDef ident="next" mode="delete"/>
-                        <attDef ident="prev" mode="delete"/>
-                        <attDef ident="rend" mode="delete"/>
-                        <attDef ident="rendition" mode="delete"/>
-                        <attDef ident="sameAs" mode="delete"/>
-                        <attDef ident="select" mode="delete"/>
-                        <attDef ident="style" mode="delete"/>
-                        <attDef ident="synch" mode="delete"/>
-                        <attDef ident="xml:base" mode="delete"/>
-                        <attDef ident="xml:id" mode="delete"/>
-                        <attDef ident="xml:lang" mode="delete"/>
-                        <attDef ident="xml:space" mode="delete"/>
-                        <attDef ident="type" mode="change" usage="opt">
-                            <desc>Differentiates between header and footers, catch words, marginal notes and
-                                pagination. </desc>
-                            <valList type="closed" mode="replace">
-                                <valItem ident="header"/>
-                                <valItem ident="footer"/>
-                                <valItem ident="pageNum"/>
-                                <valItem ident="catch"/>
-                                <valItem ident="marginalNote"/>
-                            </valList>
-                        </attDef>
-                        <attDef ident="place" mode="change">
-                            <valList type="closed" mode="replace">
-                                <valItem ident="bot_center"/>
-                                <valItem ident="bot_left"/>
-                                <valItem ident="bot_right"/>
-                                <valItem ident="margin_right"/>
-                                <valItem ident="top_center"/>
-                                <valItem ident="top_left"/>
-                                <valItem ident="top_right"/>
-                            </valList>
-                        </attDef>
-                    </attList>
-                </elementSpec>
-                <elementSpec ident="rs" module="core" mode="change">
-                    <attList>
-                        <attDef ident="type" mode="replace">
-                            <valList mode="replace" type="closed">
-                                <valItem ident="death"/>
-                                <valItem ident="game"/>
-                                <valItem ident="profession"/>
-                            </valList>
-                        </attDef>
-                        <attDef ident="subtype" mode="replace">
-                            <valList mode="replace" type="closed">
-                                <valItem ident="acti"/>
-                                <valItem ident="attr"/>
-                                <valItem ident="cleric"/>
-                                <valItem ident="corp"/>
-                                <valItem ident="even"/>
-                                <valItem ident="even_a"/>
-                                <valItem ident="even_b"/>
-                                <valItem ident="even_c"/>
-                                <valItem ident="figu"/>
-                                <valItem ident="figu_alt"/>
-                                <valItem ident="foolery"/>
-                                <valItem ident="fraud"/>
-                                <valItem ident="fraud_"/>
-                                <valItem ident="fune"/>
-                                <valItem ident="jargon"/>
-                                <valItem ident="misc"/>
-                                <valItem ident="name"/>
-                                <valItem ident="player"/>
-                                <valItem ident="requisite"/>
-                                <valItem ident="science"/>
-                                <valItem ident="scientist"/>
-                                <valItem ident="stat"/>
-                                <valItem ident="term"/>
-                                <valItem ident="term_"/>
-                                <valItem ident="_scie"/>
-                            </valList>
-                        </attDef>
-                        <attDef ident="ref" mode="replace">
-                            <datatype minOccurs="1" maxOccurs="unbounded">
-                                <rng:ref name="data.pointer"/>
-                            </datatype>
-                            <valList type="closed">
-                                <valItem ident="#abbo"/>
-                                <valItem ident="#apos"/>
-                                <valItem ident="#arch"/>
-                                <valItem ident="#arit"/>
-                                <valItem ident="#astr"/>
-                                <valItem ident="#attr"/>
-                                <valItem ident="#attr_s"/>
-                                <valItem ident="#augu"/>
-                                <valItem ident="#barm"/>
-                                <valItem ident="#barn"/>
-                                <valItem ident="#bene"/>
-                                <valItem ident="#bish"/>
-                                <valItem ident="#calv"/>
-                                <valItem ident="#capu"/>
-                                <valItem ident="#card"/>
-                                <valItem ident="#carm"/>
-                                <valItem ident="#chap"/>
-                                <valItem ident="#domi"/>
-                                <valItem ident="#evan"/>
-                                <valItem ident="#fool"/>
-                                <valItem ident="#fran"/>
-                                <valItem ident="#fratMin"/>
-                                <valItem ident="#geog"/>
-                                <valItem ident="#geom"/>
-                                <valItem ident="#habi"/>
-                                <valItem ident="#habi_"/>
-                                <valItem ident="#hist"/>
-                                <valItem ident="#hohe"/>
-                                <valItem ident="#huss"/>
-                                <valItem ident="#inst"/>
-                                <valItem ident="#jest"/>
-                                <valItem ident="#jest_"/>
-                                <valItem ident="#jesu"/>
-                                <valItem ident="#juri"/>
-                                <valItem ident="#lang"/>
-                                <valItem ident="#math"/>
-                                <valItem ident="#medi"/>
-                                <valItem ident="#mino"/>
-                                <valItem ident="#parl"/>
-                                <valItem ident="#parl_"/>
-                                <valItem ident="#patr"/>
-                                <valItem ident="#paul"/>
-                                <valItem ident="#pers"/>
-                                <valItem ident="#phil"/>
-                                <valItem ident="#pont"/>
-                                <valItem ident="#prae"/>
-                                <valItem ident="#prie"/>
-                                <valItem ident="#rabb"/>
-                                <valItem ident="#rtheo"/>
-                                <valItem ident="#scie"/>
-                                <valItem ident="#scie_asso"/>
-                                <valItem ident="#serv"/>
-                                <valItem ident="#sour"/>
-                                <valItem ident="#_cler"/>
-                                <valItem ident="#_fool"/>
-                                <valItem ident="#_scie"/>
-                            </valList>
-                        </attDef>
-                    </attList>
-                </elementSpec>
-                <elementSpec ident="seg" module="linking" mode="change">
-                    <desc>represents a typographically distinct segment of text (when used with a <att>rend</att> attribute), a whitespace (when used with <att>type</att> attribute of value <val>whitespace</val>), or servces as a wrapper element for either ornaments of any kind (florals and the like) (<att>type</att> of value <val>ornament</val>) or numbering expressions in headings (<att>type</att> of value <val>enum</val>).</desc>
-                    <attList>
-                        <attDef ident="ana" mode="delete"/>
-                        <attDef ident="cert" mode="delete"/>
-                        <attDef ident="change" mode="delete"/>
-                        <attDef ident="copyOf" mode="delete"/>
-                        <attDef ident="corresp" mode="delete"/>
-                        <attDef ident="datcat" mode="delete"/>
-                        <attDef ident="exclude" mode="delete"/>
-                        <attDef ident="facs" mode="delete"/>
-                        <attDef ident="function" mode="delete"/>
-                        <attDef ident="met" mode="delete"/>
-                        <attDef ident="n" mode="delete"/>
-                        <attDef ident="next" mode="delete"/>
-                        <attDef ident="part" mode="delete"/>
-                        <attDef ident="prev" mode="delete"/>
-                        <attDef ident="real" mode="delete"/>
-                        <attDef ident="rend" mode="change" usage="opt">
-                            <valList type="closed" mode="replace">
-                                <valItem ident="antiqua"/>
-                                <valItem ident="initialCapital"/>
-                                <valItem ident="bold"/>
-                                <valItem ident="italicised"/>
-                                <valItem ident="smallCaps"/>
-                                <valItem ident="spaced"/>
-                                <valItem ident="gothic"/>
-                                <valItem ident="sup"/>
-                            </valList>
-                        </attDef>
-                        <attDef ident="rendition" mode="delete"/>
-                        <attDef ident="resp" mode="delete"/>
-                        <attDef ident="rhyme" mode="delete"/>
-                        <attDef ident="sameAs" mode="delete"/>
-                        <attDef ident="select" mode="delete"/>
-                        <attDef ident="source" mode="delete"/>
-                        <attDef ident="style" mode="delete"/>
-                        <attDef ident="subtype" mode="delete"/>
-                        <attDef ident="synch" mode="delete"/>
-                        <attDef ident="valueDatcat" mode="delete"/>
-                        <attDef ident="xml:base" mode="delete"/>
-                        <attDef ident="xml:id" mode="delete"/>
-                        <attDef ident="type" mode="change" usage="opt">
-                            <valList type="closed" mode="replace">
-                                <valItem ident="whitespace"/>
-                                <valItem ident="ornament"/>
-                                <valItem ident="enum"/>
-                            </valList>
-                        </attDef>
-                    </attList>
-                </elementSpec>
-                
-                <!-- XInclude elements (copied from ROMA template) -->
-                <elementSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" ident="include"
-                    ns="http://www.w3.org/2001/XInclude" mode="add">
-                    <desc xml:lang="en" versionDate="2014-01-12">The W3C XInclude element</desc>
-                    <classes>
-                        <memberOf key="model.common"/>
-                        <memberOf key="model.headerPart"/>
-                    </classes>
-                    <content>
-                        <rng:optional>
-                            <rng:ref name="fallback"/>
-                        </rng:optional>
-                    </content>
-                    <attList>
-                        <attDef ident="href">
-                            <desc xml:lang="en" versionDate="2014-01-12">pointer to the resource being
-                                included</desc>
-                            <datatype><rng:ref name="data.pointer"/></datatype>
-                        </attDef>
-                        <attDef ident="parse" usage="opt">
-                            <defaultVal>xml</defaultVal>
-                            <valList type="closed">
-                                <valItem ident="xml"/>
-                                <valItem ident="text"/>
-                            </valList>
-                        </attDef>
-                        <attDef ident="xpointer" usage="opt">
-                            <datatype><rng:text/></datatype>
-                        </attDef>
-                        <attDef ident="encoding" usage="opt">
-                            <datatype><rng:text/></datatype>
-                        </attDef>
-                        <attDef ident="accept" usage="opt">
-                            <datatype><rng:text/></datatype>
-                        </attDef>
-                        <attDef ident="accept-charset" usage="opt">
-                            <datatype><rng:text/></datatype>
-                        </attDef>
-                        <attDef ident="accept-language" usage="opt">
-                            <datatype><rng:text/></datatype>
-                        </attDef>
-                    </attList>
-                </elementSpec>
-                <elementSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" ident="fallback"
-                    ns="http://www.w3.org/2001/XInclude" mode="add">
-                    <desc xml:lang="en" versionDate="2014-01-12">Wrapper for fallback elements if an XInclude
-                        fails</desc>
-                    <content>
-                        <oneOrMore xmlns="http://relaxng.org/ns/structure/1.0">
-                            <choice>
-                                <text/>
-                                <ref name="macro.anyThing"/>
-                            </choice>
-                        </oneOrMore>
-                    </content>
-                </elementSpec>
-                
-                <macroSpec ident="macro.anyThing" mode="add">
-                    <content><?NameList?></content>
-                </macroSpec>
-            </schemaSpec>
+            <div xml:id="corpus">
+                <head>Corpus</head>
+                <p><hi rend="bold">ABaC:us – Austrian Baroque Corpus</hi>
+                    ist eine strukturierte Sammlung von digitalen Volltexten aus der
+                    Barockzeit, die seit 2010 an der Österreichischen Akademie der
+                    Wissenschaften in Wien aufgebaut und beforscht wird. Die in ABaC:us
+                    vereinten historischen Texte stammen aus dem
+                    <hi rend="bold">Zeitraum von 1650 bis 1750</hi> und lassen
+                    sich der Periode des „Älteren Neuhochdeutsch“ zuordnen. Sie sind
+                    Zeugnisse eines reichhaltigen und weitverbreiteten Literaturzweiges,
+                    der sich mit der Vorbereitung auf den Tod beschäftigt.</p>
+                <p>Mit ABaC:us wird der Versuch unternommen, zeitentfernte
+                    Printprodukte aus der Barockzeit mit zeitgemäßen texttechnologischen
+                    Methoden und international anerkannten Standards zu verbinden. Das
+                    Projektteam hat sich bei der Konzeption des Korpus für eine streng
+                    quellenkundliche Vorgehensweise entschieden und jeweils Erstausgaben
+                    zur Digitalisierung ausgewählt, sofern diese zu identifizieren waren
+                    (Erstdruckprinzip).</p>
+                <p>ABaC:us umfasst derzeit etwa 200.000 Token – etwa
+                    <hi rend="bold">1000 Textseiten</hi> stellt das
+                    Projektteam nun testweise, kostenfrei und in hochwertiger Qualität für
+                    den wissenschaftlichen Bedarf zur Verfügung.</p>
+                <p>Alle Schriften, die in
+                    <ref target="https://acdh.oeaw.ac.at/abacus/">ABaC:us</ref> derzeit
+                    online verfügbar und in
+                    <ref target="https://id.acdh.oeaw.ac.at/abacus/">ARCHE</ref>
+                    langzeitarchiviert sind, gehen auf den bekannten Augustiner Barfüßer
+                    Prediger und Schriftsteller <hi rend="bold">Abraham a
+                        Sancta Clara</hi> (1644-1709, eigentlich Johann Ulrich Megerle) zurück
+                    bzw. werden sie ihm bis heute zugeschrieben:</p>
+                <p>Abraham â Sancta Clara: <hi rend="bold">Mercks
+                    Wienn</hi> / Das ist Deß wütenden Todts ein vmbständige Beschreibung
+                    Jn Der berühmten Haubt vnd Kayserl. Residentz Statt in Oesterreich
+                    [...] . Gedruckt zu Wienn / bey Peter Paul Vivian / der löbl:
+                    Universitet Buchdrucker 1680. Stiftsbibliothek Melk (Signatur
+                    48.022)</p>
+                <p>Abraham â Sancta Clara: <hi rend="bold">Lösch
+                    Wienn</hi> / Das ist Ein Bewögliche Anmahnung zu der Kays.
+                    Residentz=Statt Wienn in Oesterreich [...] Gedruckt zu Wien / bey
+                    Peter Paul Vivian / 1680. Universitätsbibliothek Graz, Rara Sammlung
+                    (Signatur I 25.896 Rara II)</p>
+                <p>[Abraham â Sancta Clara]: <hi rend="bold">Grosse Todten
+                    Bruderschaft</hi> / Das ist Ein kurtzer Entwurff Deß Sterblichen
+                    Lebens [...] Gedruckt im Jahr 1681. Österreichische
+                    Nationalbibliothek, Sammlung von Handschriften und alten Drucken
+                    (Signatur 298.002-A)</p>
+                <p>Abraham â Sancta Clara: <hi rend="bold">AUGUSTINI
+                    Feuriges Hertz</hi> Tragt Ein Hertzliches Mitleyden mit den armen im
+                    Feeg=Feuer Leydenden Seelen [...] Gedruckt zu Saltzburg bey Melchior
+                    Haan [...] Anno 1693. Österreichische Nationalbibliothek, Sammlung von
+                    Handschriften und alten Drucken (Signatur 484.862-A Alt)</p>
+                <p>[Abraham â Sancta Clara]: Besonders meublirt- und gezierte
+                    Todten=Capelle / Oder Allgemeiner Todten=Spiegel / [...] Nürnberg /
+                    Bey Christoph Weigel [...] Würtzburg / Druckts Marrtin Frantz Hertz.
+                    An. 1710. University Library Illinois, Emblem Collection of the
+                    University of Illinois, Urbana-Champaign (Signatur
+                    <ref target="http://www.archive.org/details/revpabrahamsclar00abra">832Ab8</ref>)</p>
+            </div>
+            <div type="level1" xml:id="annotation">
+                <head>Annotation</head>
+                <p>Zur Erstellung originalnaher
+                    <hi rend="bold">Transkriptionen</hi> wurden die
+                    Druckvorlagen mit <hi rend="bold">XML</hi> und verwandten
+                    Technologien zu maschinenlesbarem Text verarbeitet und gemäß
+                    international empfohlener Standards
+                    (<ref target="https://tei-c.org/Guidelines/">TEI – Text Encoding
+                        Initiative</ref>, Version P5) erschlossen. Die zugrundeliegende
+                    <hi rend="italic">TEI Customization</hi> ist im
+                    <ref target="https://id.acdh.oeaw.ac.at/abacus/auxiliary_files/schema/abacus.odd">ODD-Format</ref>
+                    bzw. als
+                    <ref target="https://id.acdh.oeaw.ac.at/abacus/auxiliary_files/schema/abacus.nrg">Relax NG-Schema</ref> verfügbar.</p>
+                <p>Die digitalen Daten bilden die jeweilige Druckvorlage seiten-,
+                    zeilen-, und zeichengetreu ab. Sie haben mehrfache
+                    Kollationierungsgänge durchlaufen, sind hinsichtlich ihrer Qualität
+                    sorgfältig überprüft und geben den
+                    <hi rend="bold">historischen Sprachstand</hi> der Texte
+                    unverändert wieder.</p>
+                <p>Die <hi rend="bold">Typografie des Originals</hi> wurde
+                    weitgehend beibehalten, d.h. u und v sowie i und j bleiben ebenso
+                    erhalten wie Kapitälchen, Initialen oder der Wechsel von Fraktur- und
+                    Antiquadruck bzw. Fett- und Kursivdruck – ausgenommen sind Ligaturen,
+                    für die es keinen Unicode gibt. Das e über a, o und u wurde mit den
+                    Unicodes der entsprechenden Umlaute wiedergegeben (zB: &amp;#252; für
+                    ü); auf eine Differenzierung von rundem s und Schaft-s wurde
+                    verzichtet. Längenstriche sind durch den Unicode U+305 repräsentiert,
+                    der dem jeweiligen Buchstaben nachgestellt ist. Abkürzungen im Text
+                    sind nicht aufgelöst, aber bei der Lemmatisierung berücksichtigt. Das
+                    tironische Et im Wortgruppenlexem et cetera ist – dem damaligen
+                    Druckbild entsprechend – als kursiviertes r dargestellt.</p>
+                <p>Silbentrennungen wurden im elektronischen Text zusammengeführt,
+                    sodass eine Suche uneingeschränkt möglich ist. Substantivkomposita mit
+                    Mittelstrichschreibung wie
+                    <hi rend="italic">Schutz=Engel</hi> werden mit
+                    Istgleichzeichen dargestellt, weil es dem damaligen Druckbild am
+                    nächsten kommt. Für die Virgel wurde der Schrägstrich mit Spatien
+                    verwendet, vgl. etwa: <hi rend="italic">Ein Teuffel / von
+                        dem sich ein jeder gern lasst holen.</hi></p>
+                <p>In den Texten wurden außerdem
+                    <hi rend="bold">historische, biblische und mythologische
+                        Personennamen</hi> sowie
+                    <hi rend="bold">Ortseigennamen</hi> annotiert und
+                    kategorisiert, die in der Edition als einzelne Register und mit
+                    Frequenzangaben versehen aufbereitet sind.</p>
+                <p>Die Kodierung ist nicht nur dokumentarisch, weil sie den
+                    Druckvorlagen auf das genaueste folgt, sondern auch textkritisch,
+                    indem sie offensichtliche Textfehler ausweist und kommentiert:
+                    <hi rend="bold">Editorische Anmerkungen</hi> wurden im
+                    elektronischen Text durch rote, hochgestellte Klammern dargestellt,
+                    die sich mit dem jeweiligen Korrekturvorschlag öffnen, sobald
+                    Benutzer:innen mit dem Cursor in deren Nähe kommen.</p>
+                <p>Die Annotation betrifft erstens eindeutige Fehler des Setzers wie
+                    etwa ausgelassene Wörter (<hi rend="italic">Aber bey dem
+                        unersättlichen Todt nichts frey</hi> statt
+                    <hi rend="italic">Aber bey dem unersättlichen Todt ist
+                        nichts frey</hi>) oder ausgelassene Buchstaben mit oder ohne Spatium
+                    (<hi rend="italic">Sillschweigen</hi> statt
+                    <hi rend="italic">Stillschweigen</hi>) sowie überflüssige
+                    Buchstaben, wie sie in <hi rend="italic">Blättter</hi>
+                    oder <hi rend="italic">Schnittter</hi> vorkommen. Häufig
+                    ist auch die Verwechslung von Buchstaben (d.h.
+                    <hi rend="italic">Pharoanischen</hi> statt
+                    <hi rend="italic">Pharaonischen</hi>), besonders von „n“
+                    und „u“: <hi rend="italic">Gefängnnß</hi> statt
+                    <hi rend="italic">Gefängnuß</hi> oder umgekehrt
+                    <hi rend="italic">Gottseligeu</hi> statt
+                    <hi rend="italic">Gottseligen</hi>. Weiters wurden
+                    fehlerhafte Wortgrenzen (<hi rend="italic">nich tviel</hi>
+                    statt <hi rend="italic">nicht viel</hi>) im Kommentar
+                    korrigiert. Ausgezeichnet und mit einer Berichtigung versehen wurden
+                    zweitens fehlerhafte Zahlenangaben bei Kapitelnummerierungen,
+                    Seitenpaginierungen und -verweisen, aber auch im Fließtext – ein
+                    Beispiel dafür wäre die Aussage: <hi rend="italic">Seth
+                        war 112. Jahr alt und starb</hi>, bei der die Altersangabe auf 912
+                    korrigiert werden musste. Auch die zahlreichen Bibelstellenangaben mit
+                    Kapitel- und Verszahlen wurden überprüft und gegebenenfalls
+                    korrigiert. Drittens haben wir inhaltliche Irrtümer mit einem
+                    Vorschlag richtiggestellt – so etwa den Verweis einer Vorrede der
+                    „Todten-Capelle“ auf das Werk <hi rend="italic">Mercks
+                        Wienn</hi>, mit dem eigentlich nur <hi rend="italic">Auff,
+                            auff, ihr Christen</hi> gemeint sein kann.</p>
+                <p>Unter Berücksichtigung des historischen Sprach- und Schreibstandes
+                    ist grundsätzlich zu überlegen, wie tolerant Herausgeber:innen bei der
+                    Einschätzung von Fehlern sein sollen. Allein im Fall von „Mercks
+                    Wienn“ hat Werner Welzig bislang den Versuch unternommen, ein Register
+                    von Fehlern anzulegen (vgl. Deutsche Neudrucke, Reihe Barock, Band 31
+                    1983, Nachwort S. 13 f.), das bei der Annotation vorliegender
+                    Online-Ausgabe in die Überlegungen mit einbezogen worden ist.</p>
+                <p>Für die <hi rend="bold">Linguistische
+                    Basisannotation</hi> wurde zuerst der Zeichenstrom der Rohtexte in
+                    einem automatischen Verarbeitungsschritt auf Wortebene segmentiert.
+                    Historische Konventionen der Zusammen- und Getrenntschreibung
+                    erschweren die <hi rend="bold">Tokenisierung</hi> und
+                    machen eine manuelle Nachbearbeitung erforderlich (etwa bei Belegen
+                    wie <hi rend="italic">Capellan Stell</hi>,
+                    <hi rend="italic">Sonnen Uhr</hi> oder
+                    <hi rend="italic">Galgen Vogel</hi> bzw. kontrahierten
+                    Formen wie <hi rend="italic">auffs</hi> oder
+                    <hi rend="italic">wirdʼs</hi>,
+                    <hi rend="italic">verachstu</hi> oder
+                    <hi rend="italic">mustu</hi>).</p>
+                <p>In einem nächsten Verarbeitungsschritt wurde jedes einzelne Token
+                    mit Hilfe der Software
+                    <ref target="http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/">TreeTagger</ref>
+                    automatisch einer morphosyntaktischen Wortklasse zugewiesen
+                    (<hi rend="bold">Part-of-Speech Tagging</hi>). Als
+                    Klassifikationssystem wurde das 54-teilige Stuttgart-Tübingen-TagSet
+                    (<ref target="https://www.ims.uni-stuttgart.de/documents/ressourcen/lexika/TagSets/stts-1999.pdf">STTS</ref>)
+                    herangezogen, das von der ABaC:us-Projektgruppe zur Annotation
+                    kontrahierter Formen mit neuen, kombinierten Kategorien (etwa KOUSPER
+                    für <hi rend="italic">wanns</hi> oder
+                    <hi rend="italic">obs</hi> bzw. VVFINPPER für
+                    <hi rend="italic">beweists</hi>,
+                    <hi rend="italic">gibts</hi> oder
+                    <hi rend="italic">kommts</hi>) erweitert wurde.</p>
+                <p>Bei der <hi rend="bold">Lemmatisierung</hi> wurde für
+                    jedes Token eine normalisierte Grundwortform angesetzt und der
+                    <ref target="http://www.duden.de/">Duden</ref> sowie das
+                    <ref target="http://www.dwb.uni-trier.de/">Deutsche Wörterbuch von
+                        Jacob und Wilhelm Grimm</ref> als Referenzwerke herangezogen. Die mehr
+                    als 1000 im Untersuchungskorpus vorkommenden Wortformen, zu denen es
+                    in den beiden genannten Referenzwerken keinen entsprechenden
+                    Wörterbucheintrag gibt, wurden als sogenannte
+                    „out-of-vocabulary“-words in der Lemmaliste mit Stern gekennzeichnet
+                    und auf eine naheliegende Grundform zurückgeführt – Beispiele hierfür
+                    sind Lexeme wie <hi rend="italic">vernunftselig</hi>,
+                    <hi rend="italic">schlechtbeherzt</hi>,
+                    <hi rend="italic">Tigergemüt</hi>,
+                    <hi rend="italic">Butterkind</hi> oder
+                    <hi rend="italic">Weltzärtling</hi> u.v.m. Zweifelsfälle –
+                    etwa Wortkreationen wie
+                    <hi rend="italic">GehWeck=Silber</hi> (für Quecksilber)
+                    oder <hi rend="italic">Doch=Toren</hi> (für Doktoren)
+                    wurden nach Gesichtspunkten der Handhabbarkeit bzw. der
+                    Nutzerbedürfnisse entschieden. Lateinische Wörter (FM) wurden
+                    ebenfalls lexikalisch identifiziert.</p>
+                <p>Der <hi rend="bold">Wert des linguistisch annotierten
+                    und manuell überprüften Korpus</hi> liegt in der
+                    <hi rend="bold">Wiederverwendbarkeit</hi> von bereits
+                    erarbeitetem Wissen über den Text, d.h. die Projektgruppe selbst, aber
+                    auch künftige Nutzer:innen der Korpusdaten werden die Annotationen
+                    zeitsparend, zweckmäßig und gewinnbringend für ihre
+                    Erkenntnisinteressen einsetzen können.</p>
+            </div>
+            
+            <div>
+                <head>Formale Spezifikation</head>
+                <p>Diese TEI-Anpassung beschreibt das Schema, das für Texte des österreichischen Barockcorpus ABaC:us verwendet wird.</p>
+                <schemaSpec ident="abacus" docLang="en" prefix="tei_" xml:lang="en" start="TEI teiCorpus">
+                    <moduleRef key="core"
+                        except="abbr add analytic biblScope binaryObject cb citedRange del desc distinct divGen emph expan gb gloss graphic headItem headLabel hi index listBibl measureGrp media meeting mentioned num q relatedItem said soCalled sp speaker stage street textLang time unclear editor email label postCode postBox"/>
+                    <moduleRef key="corpus" except=""/>
+                    <moduleRef key="tei" except=""/>
+                    <moduleRef key="header" except="abstract appInfo application authority biblFull cRefPattern calendar calendarDesc catRef revisionDesc revisionDesc listChange change classCode creation docEdition geoDecl handNote listPrefixDef refState prefixDef principal punctuation quotation refsDecl"/>
+                    <moduleRef key="textstructure"
+                        except="argument closer dateline div1 div2 div3 div4 div5 div6 div7 floatingText group opener postscript salute signed trailer"/>
+                    <moduleRef key="gaiji" include="g char charDecl unicodeProp mapping"/>
+                    <moduleRef key="transcr"
+                        except="addSpan am damage damageSpan delSpan ex facsimile handNotes handShift line listTranspose metamark mod redo restore retrace sourceDoc space subst substJoin surface surfaceGrp surplus transpose undo zone"/>
+                    <moduleRef key="analysis" except="c cl m phr s span spanGrp"/>
+                    <moduleRef key="msdescription"
+                        except="accMat acquisition additions adminInfo altIdentifier binding bindingDesc catchwords collation colophon condition custEvent custodialHist decoDesc decoNote depth dim dimensions explicit filiation finalRubric foliation handDesc height heraldry history incipit layout layoutDesc locus locusGrp material msContents msItem msItemStruct msName msPart musicNotation objectDesc objectType origDate origPlace origin physDesc provenance recordHist rubric scriptDesc seal sealDesc secFol signatures source stamp summary support supportDesc typeDesc watermark width"/>
+                    <moduleRef key="figures" except="notatedMusic figDesc formula"/>
+                    <moduleRef key="namesdates"
+                        except="addName affiliation age birth bloc climate country death district education event faith floruit forename genName geo geogFeat geogName langKnowledge langKnown listEvent listNym listOrg listRelation location nameLink nationality nym occupation offset org orgName personGrp population region relation residence roleName sex socecStatus state surname terrain trait"/>
+                    <moduleRef key="linking"
+                        except="ab alt altGrp anchor join joinGrp link linkGrp timeline when"/>
+                    
+                    
+                    <!-- Attributklassen-->
+                    <classSpec ident="att.ascribed" module="tei" mode="change" type="atts">
+                        <attList>
+                            <attDef ident="who" mode="delete"/>
+                        </attList>
+                    </classSpec>
+                    <classSpec ident="att.cReferencing" module="tei" mode="change" type="atts">
+                        <attList>
+                            <attDef ident="cRef" mode="delete"/>
+                        </attList>
+                    </classSpec>
+                    <classSpec type="atts" ident="att.citing" mode="delete"/>
+                    <classSpec type="atts" ident="att.combinable" mode="delete"/>
+                    <classSpec type="atts" ident="att.coordinated" mode="delete"/>
+                    <classSpec type="atts" ident="att.damaged" mode="delete"/>
+                    
+                    <!-- Elemente -->
+                    <elementSpec ident="text" mode="change">
+                        <attList>
+                            <attDef ident="ana" mode="change" usage="opt">
+                                <valList mode="replace" type="closed">
+                                    <valItem ident="#prose">
+                                        <desc>Text ist (hauptsächlich) in Prosa geschrieben ist</desc>
+                                    </valItem>
+                                    
+                                </valList>
+                            </attDef>
+                            <attDef ident="type" mode="change" usage="req">
+                                <valList mode="replace" type="closed">
+                                    <valItem ident="book">
+                                        <desc>Textblock repräsentiert ein Buch (einschließlich leerer Seiten usw.).</desc>
+                                    </valItem>
+                                    <valItem ident="corpusIndex">
+                                        <desc>Textblock enthält einen digital generierten, corpus-weiten Index</desc>
+                                        <remarks><p>nicht zu verwechseln mit einem bereits in der Quellen vorhandenen Index/Register</p></remarks>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    <elementSpec ident="lg" mode="change">
+                        <attList>
+                            <attDef ident="ana" mode="change" usage="opt">
+                                <valList mode="replace" type="closed">
+                                    <valItem ident="#verse">
+                                        <desc>Inhalt des Elements ist in Versmaß geschrieben</desc>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    
+                    <elementSpec ident="epigraph" mode="change">
+                        <attList>
+                            <attDef ident="ana" mode="change" usage="opt">
+                                <valList mode="replace" type="closed">
+                                    <valItem ident="#verse">
+                                        <desc>Inhalt des Elements ist in Versmaß geschrieben</desc>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    <elementSpec ident="div" module="textstructure" mode="change">
+                        <attList>
+                            <attDef ident="n" mode="change">
+                                <desc>Bietet einen modernisierten Titel der Sektion, der er zugeordnet ist. Dieser Titel wird ggf. in einem automatisch generierten Inhaltsverzeichnis angezeigt.</desc>
+                            </attDef>
+                            <attDef ident="ana" mode="change" usage="opt">
+                                <valList mode="replace" type="closed">
+                                    <valItem ident="#verse">
+                                        <desc>Inhalt des Elements ist in Versmaß geschrieben</desc>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                            <attDef ident="change" mode="delete"/>
+                            <attDef ident="copyOf" mode="delete"/>
+                            <attDef ident="corresp" mode="delete"/>
+                            <attDef ident="decls" mode="delete"/>
+                            <attDef ident="exclude" mode="delete"/>
+                            <attDef ident="facs" mode="delete"/>
+                            <attDef ident="met" mode="delete"/>
+                            <attDef ident="next" mode="delete"/>
+                            <attDef ident="org" mode="delete"/>
+                            <attDef ident="part" mode="delete"/>
+                            <attDef ident="prev" mode="delete"/>
+                            <attDef ident="real" mode="delete"/>
+                            <attDef ident="rend" mode="delete"/>
+                            <attDef ident="rendition" mode="delete"/>
+                            <attDef ident="rhyme" mode="delete"/>
+                            <attDef ident="sameAs" mode="delete"/>
+                            <attDef ident="sample" mode="delete"/>
+                            <attDef ident="select" mode="delete"/>
+                            <attDef ident="style" mode="delete"/>
+                            <attDef ident="subtype" mode="delete"/>
+                            <attDef ident="synch" mode="delete"/>
+                            
+                            
+                            
+                            
+                            <attDef ident="type" mode="change">
+                                <desc>Bietet eine einfache Typologie für ausgewählte Arten von Divisionen. Erlaubte Werte sind "preface" (Vorwort), "dedcation" (Widmung), "chapter" (Kapitel), "imprint" (Impressum) und index (Index).</desc>
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="preface">
+                                        <desc>Vorwort</desc>
+                                    </valItem>
+                                    <valItem ident="dedication">
+                                        <desc>Dediactio</desc>
+                                    </valItem>
+                                    <valItem ident="chapter">
+                                        <desc>Kapitel</desc>
+                                    </valItem>
+                                    <valItem ident="imprint">
+                                        <desc>Imprint</desc>
+                                    </valItem>
+                                    <valItem ident="index">
+                                        <desc>Register</desc>
+                                    </valItem>
+                                    <valItem ident="corpusIndex">
+                                        <desc>corpusweiter, digital erstellter Index</desc>
+                                        <remarks><p>nicht zu verwechseln mit einem bereits in der Quellen vorhandenen Index/Register</p></remarks>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    
+                    <elementSpec ident="lb" module="core" mode="change">
+                        <attList>
+                            <attDef ident="ana" mode="delete"/>
+                            <attDef ident="change" mode="delete"/>
+                            <attDef ident="copyOf" mode="delete"/>
+                            <attDef ident="corresp" mode="delete"/>
+                            <attDef ident="ed" mode="delete"/>
+                            <attDef ident="edRef" mode="delete"/>
+                            <attDef ident="exclude" mode="delete"/>
+                            <attDef ident="facs" mode="delete"/>
+                            <attDef ident="n" mode="delete"/>
+                            <attDef ident="next" mode="delete"/>
+                            <attDef ident="prev" mode="delete"/>
+                            <attDef ident="rendition" mode="delete"/>
+                            <attDef ident="sameAs" mode="delete"/>
+                            <attDef ident="select" mode="delete"/>
+                            <attDef ident="spanTo" mode="delete"/>
+                            <attDef ident="style" mode="delete"/>
+                            <attDef ident="subtype" mode="delete"/>
+                            <attDef ident="synch" mode="delete"/>
+                            
+                            
+                            
+                            
+                            <attDef ident="type" mode="change">
+                                <desc>Differenziert zwischen einem einfachen Bindestrich ("s") und einem doppelten Bindestrich ("d") in der Textquelle.</desc>
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="s">
+                                        <desc>einfacher Bindestrich</desc>
+                                    </valItem>
+                                    <valItem ident=" d">
+                                        <desc>doppelter Bindestrich</desc>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                            <attDef ident="rend" mode="change">
+                                <desc>Differenziert zwischen einem schmalen ("line") oder dickem ("line_high") horizontalem Ornament.</desc>
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="line"/>
+                                    <valItem ident="line_high"/>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    
+                    <elementSpec ident="milestone" mode="change" module="core">
+                        <desc>markiert einen Trenner jeglicher Art</desc>
+                        <attList>
+                            <attDef ident="type" mode="replace">
+                                <valList type="closed">
+                                    <valItem ident="separator"/>
+                                </valList>
+                            </attDef>
+                            <attDef ident="unit" mode="replace">
+                                <valList type="closed">
+                                    <valItem ident="undetermined"/>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    <elementSpec ident="g" module="gaiji" mode="change">
+                        <attList>
+                            <attDef ident="ana" mode="delete"/>
+                            <attDef ident="change" mode="delete"/>
+                            <attDef ident="copyOf" mode="delete"/>
+                            <attDef ident="corresp" mode="delete"/>
+                            <attDef ident="exclude" mode="delete"/>
+                            <attDef ident="facs" mode="delete"/>
+                            <attDef ident="n" mode="delete"/>
+                            <attDef ident="next" mode="delete"/>
+                            <attDef ident="prev" mode="delete"/>
+                            <attDef ident="rend" mode="delete"/>
+                            <attDef ident="rendition" mode="delete"/>
+                            <attDef ident="sameAs" mode="delete"/>
+                            <attDef ident="select" mode="delete"/>
+                            <attDef ident="style" mode="delete"/>
+                            <attDef ident="subtype" mode="delete"/>
+                            <attDef ident="synch" mode="delete"/>
+                            <attDef ident="type" mode="delete"/>
+                            
+                            
+                            
+                            
+                            <attDef ident="ref" mode="change" usage="req">
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="#tironian-et">
+                                        <desc>repräsentiert ein tironisches Et (Unicode-Zeichen U+204A, 'TIRONIAN SIGN ET')</desc>
+                                    </valItem>
+                                    <valItem ident="#footerDots"/>
+                                    <valItem ident="#bracketsGM"/>
+                                    <valItem ident="#bracketsMW"/>
+                                    <valItem ident="#bracketsTC"/>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    
+                    <elementSpec ident="persName" module="namesdates" mode="change">
+                        <constraintSpec ident="persName-index-consistency" mode="add" scheme="schematron">
+                            <constraint>
+                                <s:rule context="tei:persName[ancestor::tei:text/@type='book'][@key]">
+                                    <s:let name="pathToPersonIndex" value="'../index/output/abacus-index_persnames.xml'"/>
+                                    <s:let name="personIndex" value="doc($pathToPersonIndex)"/>
+                                    <s:let name="persNameTypes" value="$personIndex//tei:listPerson/@type"/>
+                                    <s:let name="instanceKey" value="@key"/>
+                                    <s:let name="personEntry" value="$personIndex//tei:persName[@type='main'][@key= $instanceKey]"/>
+                                    <s:let name="instanceType" value="@type"/>
+                                    <s:let name="personEntryCategory" value="$personEntry/ancestor::tei:listPerson/@type"/>
+                                    <s:report test="count($persNameTypes) eq 0">Fehler beim Generieren der Liste von personName/@type aus <s:value-of select="$pathToPersonIndex"/></s:report>
+                                    <s:assert test="@type = $persNameTypes">persName/@type muss einer der folgenden sein: <s:value-of select="string-join($persNameTypes,',')"/></s:assert>
+                                    <s:assert test="exists($personEntry)">Eintrag im Personeregister konnte nicht anhand @key <s:value-of select="instanceKey"/> identifiziert werden.</s:assert>
+                                    <s:assert test="$instanceType = $personEntryCategory">persName/@type (<s:value-of select="$instanceType"/>) entspricht nicht listPerson/@type des Registereintrags (<s:value-of select="$personEntryCategory"/>)</s:assert>
+                                </s:rule>
+                            </constraint>
+                        </constraintSpec>
+                        <attList>
+                            <attDef ident="ana" mode="delete"/>
+                            <attDef ident="atLeast" mode="delete"/>
+                            <attDef ident="atMost" mode="delete"/>
+                            <attDef ident="calendar" mode="delete"/>
+                            <attDef ident="cert" mode="delete"/>
+                            <attDef ident="change" mode="delete"/>
+                            <attDef ident="confidence" mode="delete"/>
+                            <attDef ident="copyOf" mode="delete"/>
+                            <attDef ident="corresp" mode="delete"/>
+                            <attDef ident="datingMethod" mode="delete"/>
+                            <attDef ident="datingPoint" mode="delete"/>
+                            <attDef ident="evidence" mode="delete"/>
+                            <attDef ident="exclude" mode="delete"/>
+                            <attDef ident="extent" mode="delete"/>
+                            <attDef ident="facs" mode="delete"/>
+                            <attDef ident="from" mode="delete"/>
+                            <attDef ident="from-custom" mode="delete"/>
+                            <attDef ident="from-iso" mode="delete"/>
+                            <attDef ident="full" mode="delete"/>
+                            <attDef ident="instant" mode="delete"/>
+                            <attDef ident="max" mode="delete"/>
+                            <attDef ident="min" mode="delete"/>
+                            <attDef ident="n" mode="delete"/>
+                            <attDef ident="next" mode="delete"/>
+                            <attDef ident="notAfter" mode="delete"/>
+                            <attDef ident="notAfter-custom" mode="delete"/>
+                            <attDef ident="notAfter-iso" mode="delete"/>
+                            <attDef ident="notBefore" mode="delete"/>
+                            <attDef ident="notBefore-custom" mode="delete"/>
+                            <attDef ident="notBefore-iso" mode="delete"/>
+                            <attDef ident="nymRef" mode="delete"/>
+                            <attDef ident="period" mode="delete"/>
+                            <attDef ident="precision" mode="delete"/>
+                            <attDef ident="prev" mode="delete"/>
+                            <attDef ident="quantity" mode="delete"/>
+                            <attDef ident="ref" mode="delete"/>
+                            <attDef ident="rend" mode="delete"/>
+                            <attDef ident="rendition" mode="delete"/>
+                            <attDef ident="resp" mode="delete"/>
+                            <attDef ident="role" mode="delete"/>
+                            <attDef ident="sameAs" mode="delete"/>
+                            <attDef ident="scope" mode="delete"/>
+                            <attDef ident="select" mode="delete"/>
+                            <attDef ident="sort" mode="delete"/>
+                            <attDef ident="source" mode="delete"/>
+                            <attDef ident="style" mode="delete"/>
+                            <attDef ident="subtype" mode="delete"/>
+                            <attDef ident="synch" mode="delete"/>
+                            <attDef ident="to" mode="delete"/>
+                            <attDef ident="to-custom" mode="delete"/>
+                            <attDef ident="to-iso" mode="delete"/>
+                            <attDef ident="unit" mode="delete"/>
+                            <attDef ident="when" mode="delete"/>
+                            <attDef ident="when-custom" mode="delete"/>
+                            <attDef ident="when-iso" mode="delete"/>
+                            
+                            
+                            
+                            
+                            <attDef ident="type" mode="change" usage="req">
+                                <desc>Characeterisiert den Namen als historisch ("hist"), biblisch ("bibl"),
+                                    mythologisch ("Mythos") oder undefiniert/unbekannt.</desc>
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="hist">
+                                        <desc>Name einer historischen Person</desc>
+                                    </valItem>
+                                    <valItem ident="bibl">
+                                        <desc>Name einer biblischen Person</desc>
+                                    </valItem>
+                                    <valItem ident="undefined">
+                                        <desc>Name nicht kategorisierten Person</desc>
+                                    </valItem>
+                                    <valItem ident="myth">
+                                        <desc>Name einer mythologischen Person</desc>
+                                    </valItem>
+                                    <valItem ident="main">
+                                        <desc>Hauptansetzung eines Personennamens im Personenregiser</desc>
+                                    </valItem>
+                                    <valItem ident="variation">
+                                        <desc>Nebenansetzung eines Personennamens im Personenregiser</desc>
+                                    </valItem>
+                                    <valItem ident="reg">
+                                        <desc>Normalisierte Ansetzung eines Personennamens im Personenregiser</desc>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    <elementSpec ident="placeName" module="namesdates" mode="change">
+                        <constraintSpec ident="subtype-on-placeName-in-editions" mode="add" scheme="schematron">
+                            <constraint>
+                                <s:rule context="tei:placeName[@type='main'][ancestor::tei:text/@type='corpusIndex']">
+                                    <s:assert test="exists(@key)">@key ist verpflichtend auf der Hauptansetzung des Ortsnamens im Ortsregister</s:assert>
+                                </s:rule>
+                                <s:rule context="tei:placeName[ancestor::tei:text/@type='book']">
+                                    <s:assert test="exists(@subtype)">@subtype ist verpflichtend auf placeName in editierten Texten</s:assert>
+                                    <s:assert test="exists(@key)">@key ist verpflichtend auf placeName in editierten Texten</s:assert>
+                                </s:rule>
+                            </constraint>
+                        </constraintSpec>
+                        <constraintSpec ident="placeName-index-consistency" mode="add" scheme="schematron">
+                            <constraint>
+                                <s:rule context="tei:placeName[ancestor::tei:text/@type='book'][@key]">
+                                    <s:let name="pathToPlaceIndex" value="'../index/output/abacus-index_placenames.xml'"/>
+                                    <s:let name="placeIndex" value="doc($pathToPlaceIndex)"/>
+                                    <s:let name="placeNameTypes" value="$placeIndex//tei:listPlace/@type"/>
+                                    <s:let name="instanceKey" value="@key"/>
+                                    <s:let name="placeEntry" value="$placeIndex//tei:placeName[@type='main'][@key= $instanceKey]"/>
+                                    <s:let name="instanceType" value="@type"/>
+                                    <s:let name="placeEntryCategory" value="$placeEntry/ancestor::tei:listPlace/@type"/>
+                                    <s:report test="count($placeNameTypes) eq 0">Fehler beim Generieren der Liste von placeName/@type aus <s:value-of select="$pathToPlaceIndex"/></s:report>
+                                    <s:assert test="@type = $placeNameTypes">placeName/@type muss einer der folgenden sein: <s:value-of select="string-join($placeNameTypes,',')"/></s:assert>
+                                    <s:assert test="exists($placeEntry)">Eintrag im Ortsregister konnte nicht anhand @key <s:value-of select="instanceKey"/> identifiziert werden.</s:assert>
+                                    <s:assert test="$instanceType = $placeEntryCategory">placeName/@type (<s:value-of select="$instanceType"/>) entspricht nicht listPlace/@type des Registereintrags (<s:value-of select="$placeEntryCategory"/>)</s:assert>
+                                </s:rule>
+                            </constraint>
+                        </constraintSpec>
+                        <attList>
+                            <attDef ident="ana" mode="delete"/>
+                            <attDef ident="atLeast" mode="delete"/>
+                            <attDef ident="atMost" mode="delete"/>
+                            <attDef ident="calendar" mode="delete"/>
+                            <attDef ident="cert" mode="delete"/>
+                            <attDef ident="change" mode="delete"/>
+                            <attDef ident="confidence" mode="delete"/>
+                            <attDef ident="copyOf" mode="delete"/>
+                            <attDef ident="corresp" mode="delete"/>
+                            <attDef ident="datingMethod" mode="delete"/>
+                            <attDef ident="datingPoint" mode="delete"/>
+                            <attDef ident="evidence" mode="delete"/>
+                            <attDef ident="exclude" mode="delete"/>
+                            <attDef ident="extent" mode="delete"/>
+                            <attDef ident="facs" mode="delete"/>
+                            <attDef ident="from" mode="delete"/>
+                            <attDef ident="from-custom" mode="delete"/>
+                            <attDef ident="from-iso" mode="delete"/>
+                            <attDef ident="full" mode="delete"/>
+                            <attDef ident="instant" mode="delete"/>
+                            <attDef ident="max" mode="delete"/>
+                            <attDef ident="min" mode="delete"/>
+                            <attDef ident="n" mode="delete"/>
+                            <attDef ident="next" mode="delete"/>
+                            <attDef ident="notAfter" mode="delete"/>
+                            <attDef ident="notAfter-custom" mode="delete"/>
+                            <attDef ident="notAfter-iso" mode="delete"/>
+                            <attDef ident="notBefore" mode="delete"/>
+                            <attDef ident="notBefore-custom" mode="delete"/>
+                            <attDef ident="notBefore-iso" mode="delete"/>
+                            <attDef ident="nymRef" mode="delete"/>
+                            <attDef ident="period" mode="delete"/>
+                            <attDef ident="precision" mode="delete"/>
+                            <attDef ident="prev" mode="delete"/>
+                            <attDef ident="quantity" mode="delete"/>
+                            <attDef ident="ref" mode="delete"/>
+                            <attDef ident="rend" mode="delete"/>
+                            <attDef ident="rendition" mode="delete"/>
+                            <attDef ident="resp" mode="delete"/>
+                            <attDef ident="role" mode="delete"/>
+                            <attDef ident="sameAs" mode="delete"/>
+                            <attDef ident="scope" mode="delete"/>
+                            <attDef ident="select" mode="delete"/>
+                            <attDef ident="sort" mode="delete"/>
+                            <attDef ident="source" mode="delete"/>
+                            <attDef ident="style" mode="delete"/>
+                            <attDef ident="subtype" mode="change" usage="opt">
+                                <desc>Charakterisiert die Art der Nennung des Ortsnames als direkt ("dire") oder in Form einer Anspielung ("allu").</desc>
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="dire"/>
+                                    <valItem ident="allu"/>
+                                </valList>
+                            </attDef>
+                            <attDef ident="synch" mode="delete"/>
+                            <attDef ident="to" mode="delete"/>
+                            <attDef ident="to-custom" mode="delete"/>
+                            <attDef ident="to-iso" mode="delete"/>
+                            <attDef ident="unit" mode="delete"/>
+                            <attDef ident="when" mode="delete"/>
+                            <attDef ident="when-custom" mode="delete"/>
+                            <attDef ident="when-iso" mode="delete"/>
+                            
+                            
+                            
+                            
+                            <attDef ident="type" mode="change" usage="req">
+                                <desc>Typ des Ortes</desc>
+                            </attDef>
+                            <attDef ident="key" mode="change" usage="opt">
+                                <desc>Identifier des Eintrags im Ortsregister</desc>
+                                <!--<valList type="closed" mode="replace">
+                                    <valItem ident="ach"/>
+                                        <valItem ident="acro"/>
+                                        <valItem ident="afri"/>
+                                        <valItem ident="alst"/>
+                                        <valItem ident="alto"/>
+                                        <valItem ident="anti"/>
+                                        <valItem ident="arag"/>
+                                        <valItem ident="asch"/>
+                                        <valItem ident="asia"/>
+                                        <valItem ident="assy"/>
+                                        <valItem ident="athe"/>
+                                        <valItem ident="augs"/>
+                                        <valItem ident="aust"/>
+                                        <valItem ident="aver"/>
+                                        <valItem ident="babe"/>
+                                        <valItem ident="babi"/>
+                                        <valItem ident="baby"/>
+                                        <valItem ident="bamb"/>
+                                        <valItem ident="base"/>
+                                        <valItem ident="bava"/>
+                                        <valItem ident="bego"/>
+                                        <valItem ident="berg"/>
+                                        <valItem ident="bern"/>
+                                        <valItem ident="bers"/>
+                                        <valItem ident="beth"/>
+                                        <valItem ident="bethu"/>
+                                        <valItem ident="bett"/>
+                                        <valItem ident="bohe"/>
+                                        <valItem ident="bono"/>
+                                        <valItem ident="brab"/>
+                                        <valItem ident="bras"/>
+                                        <valItem ident="bred"/>
+                                        <valItem ident="bret"/>
+                                        <valItem ident="brit"/>
+                                        <valItem ident="brus"/>
+                                        <valItem ident="burg"/>
+                                        <valItem ident="byth"/>
+                                        <valItem ident="cali"/>
+                                        <valItem ident="call"/>
+                                        <valItem ident="cana"/>
+                                        <valItem ident="canar"/>
+                                        <valItem ident="cand"/>
+                                        <valItem ident="cape"/>
+                                        <valItem ident="capp"/>
+                                        <valItem ident="cari"/>
+                                        <valItem ident="carm"/>
+                                        <valItem ident="carn"/>
+                                        <valItem ident="cata"/>
+                                        <valItem ident="cedr"/>
+                                        <valItem ident="cerv"/>
+                                        <valItem ident="chim"/>
+                                        <valItem ident="chot"/>
+                                        <valItem ident="clai"/>
+                                        <valItem ident="colo"/>
+                                        <valItem ident="cons"/>
+                                        <valItem ident="cors"/>
+                                        <valItem ident="cypr"/>
+                                        <valItem ident="dan"/>
+                                        <valItem ident="danu"/>
+                                        <valItem ident="danz"/>
+                                        <valItem ident="dead"/>
+                                        <valItem ident="diez"/>
+                                        <valItem ident="eger"/>
+                                        <valItem ident="egyp"/>
+                                        <valItem ident="enge"/>
+                                        <valItem ident="engl"/>
+                                        <valItem ident="enns"/>
+                                        <valItem ident="ethi"/>
+                                        <valItem ident="etna"/>
+                                        <valItem ident="euph"/>
+                                        <valItem ident="euro"/>
+                                        <valItem ident="fail"/>
+                                        <valItem ident="feld"/>
+                                        <valItem ident="fich"/>
+                                        <valItem ident="flor"/>
+                                        <valItem ident="fran"/>
+                                        <valItem ident="frank"/>
+                                        <valItem ident="frans"/>
+                                        <valItem ident="gali"/>
+                                        <valItem ident="galiM"/>
+                                        <valItem ident="gast"/>
+                                        <valItem ident="geno"/>
+                                        <valItem ident="germ"/>
+                                        <valItem ident="giho"/>
+                                        <valItem ident="gomo"/>
+                                        <valItem ident="graz"/>
+                                        <valItem ident="gree"/>
+                                        <valItem ident="green"/>
+                                        <valItem ident="hai"/>
+                                        <valItem ident="hamb"/>
+                                        <valItem ident="hecl"/>
+                                        <valItem ident="hein"/>
+                                        <valItem ident="heke"/>
+                                        <valItem ident="helb"/>
+                                        <valItem ident="held"/>
+                                        <valItem ident="hels"/>
+                                        <valItem ident="herr"/>
+                                        <valItem ident="hert"/>
+                                        <valItem ident="himb"/>
+                                        <valItem ident="hiri"/>
+                                        <valItem ident="hung"/>
+                                        <valItem ident="icel"/>
+                                        <valItem ident="indi"/>
+                                        <valItem ident="ingo"/>
+                                        <valItem ident="isaf"/>
+                                        <valItem ident="isra"/>
+                                        <valItem ident="ital"/>
+                                        <valItem ident="jeri"/>
+                                        <valItem ident="jeru"/>
+                                        <valItem ident="jord"/>
+                                        <valItem ident="juda"/>
+                                        <valItem ident="kahl"/>
+                                        <valItem ident="kara"/>
+                                        <valItem ident="kitz"/>
+                                        <valItem ident="kons"/>
+                                        <valItem ident="korn"/>
+                                        <valItem ident="kree"/>
+                                        <valItem ident="krem"/>
+                                        <valItem ident="laeb"/>
+                                        <valItem ident="laim"/>
+                                        <valItem ident="land"/>
+                                        <valItem ident="laus"/>
+                                        <valItem ident="laxe"/>
+                                        <valItem ident="leba"/>
+                                        <valItem ident="lech"/>
+                                        <valItem ident="leip"/>
+                                        <valItem ident="leit"/>
+                                        <valItem ident="leop"/>
+                                        <valItem ident="linz"/>
+                                        <valItem ident="lisb"/>
+                                        <valItem ident="loau"/>
+                                        <valItem ident="lore"/>
+                                        <valItem ident="lugd"/>
+                                        <valItem ident="lyci"/>
+                                        <valItem ident="lydi"/>
+                                        <valItem ident="mabr"/>
+                                        <valItem ident="madr"/>
+                                        <valItem ident="magd"/>
+                                        <valItem ident="mago"/>
+                                        <valItem ident="main"/>
+                                        <valItem ident="mala"/>
+                                        <valItem ident="malu"/>
+                                        <valItem ident="mann"/>
+                                        <valItem ident="maur"/>
+                                        <valItem ident="maze"/>
+                                        <valItem ident="mess"/>
+                                        <valItem ident="mila"/>
+                                        <valItem ident="moes"/>
+                                        <valItem ident="molu"/>
+                                        <valItem ident="moro"/>
+                                        <valItem ident="mosc"/>
+                                        <valItem ident="muen"/>
+                                        <valItem ident="naim"/>
+                                        <valItem ident="nanq"/>
+                                        <valItem ident="nant"/>
+                                        <valItem ident="napl"/>
+                                        <valItem ident="nava"/>
+                                        <valItem ident="naza"/>
+                                        <valItem ident="neth"/>
+                                        <valItem ident="neuk"/>
+                                    <valItem ident="nijm"/>
+                                        <valItem ident="nini"/>
+                                        <valItem ident="nola"/>
+                                        <valItem ident="norw"/>
+                                        <valItem ident="nure"/>
+                                        <valItem ident="ober"/>
+                                        <valItem ident="oder"/>
+                                        <valItem ident="otto"/>
+                                        <valItem ident="padu"/>
+                                        <valItem ident="pala"/>
+                                        <valItem ident="pale"/>
+                                        <valItem ident="pali"/>
+                                        <valItem ident="paqu"/>
+                                        <valItem ident="pari"/>
+                                        <valItem ident="parn"/>
+                                        <valItem ident="pass"/>
+                                        <valItem ident="pegu"/>
+                                        <valItem ident="penz"/>
+                                        <valItem ident="perg"/>
+                                        <valItem ident="pers"/>
+                                        <valItem ident="peru"/>
+                                        <valItem ident="phil"/>
+                                        <valItem ident="phis"/>
+                                        <valItem ident="pola"/>
+                                        <valItem ident="port"/>
+                                        <valItem ident="prag"/>
+                                        <valItem ident="presb"/>
+                                        <valItem ident="presl"/>
+                                        <valItem ident="prug"/>
+                                        <valItem ident="rege"/>
+                                        <valItem ident="reic"/>
+                                        <valItem ident="reid"/>
+                                        <valItem ident="rein"/>
+                                        <valItem ident="rhin"/>
+                                        <valItem ident="rome"/>
+                                        <valItem ident="rora"/>
+                                        <valItem ident="ross"/>
+                                        <valItem ident="salm"/>
+                                        <valItem ident="salz"/>
+                                        <valItem ident="sant"/>
+                                        <valItem ident="sard"/>
+                                        <valItem ident="sava"/>
+                                        <valItem ident="scay"/>
+                                        <valItem ident="scha"/>
+                                        <valItem ident="scho"/>
+                                        <valItem ident="schw"/>
+                                        <valItem ident="scot"/>
+                                        <valItem ident="scyt"/>
+                                        <valItem ident="sici"/>
+                                        <valItem ident="sile"/>
+                                        <valItem ident="sina"/>
+                                        <valItem ident="sodo"/>
+                                        <valItem ident="soll"/>
+                                        <valItem ident="solo"/>
+                                        <valItem ident="spai"/>
+                                        <valItem ident="spey"/>
+                                        <valItem ident="spit"/>
+                                        <valItem ident="stai"/>
+                                        <valItem ident="stau"/>
+                                        <valItem ident="stei"/>
+                                        <valItem ident="stra"/>
+                                        <valItem ident="strb"/>
+                                        <valItem ident="styr"/>
+                                        <valItem ident="sues"/>
+                                        <valItem ident="swab"/>
+                                        <valItem ident="swed"/>
+                                        <valItem ident="swis"/>
+                                        <valItem ident="tabo"/>
+                                        <valItem ident="taxa"/>
+                                        <valItem ident="teon"/>
+                                        <valItem ident="thek"/>
+                                        <valItem ident="thur"/>
+                                        <valItem ident="tibe"/>
+                                        <valItem ident="tigr"/>
+                                        <valItem ident="tole"/>
+                                        <valItem ident="tren"/>
+                                        <valItem ident="troy"/>
+                                        <valItem ident="tuni"/>
+                                        <valItem ident="tyro"/>
+                                        <valItem ident="tyros"/>
+                                        <valItem ident="ulm"/>
+                                        <valItem ident="umbr"/>
+                                        <valItem ident="umke"/>
+                                        <valItem ident="undefined"/>
+                                        <valItem ident="uoes"/>
+                                        <valItem ident="upau"/>
+                                        <valItem ident="veni"/>
+                                        <valItem ident="vero"/>
+                                        <valItem ident="vesu"/>
+                                        <valItem ident="vien"/>
+                                        <valItem ident="vienAlterFleischmarckt"/>
+                                        <valItem ident="vienArsenal-Cordina"/>
+                                        <valItem ident="vienAugustiner-Cordina"/>
+                                        <valItem ident="vienBäckerstraße"/>
+                                        <valItem ident="vienBauernmarkt"/>
+                                        <valItem ident="vienBiber-Cordina"/>
+                                        <valItem ident="vienBlutgasse"/>
+                                        <valItem ident="vienBognergasse"/>
+                                        <valItem ident="vienBräunerstraße"/>
+                                        <valItem ident="vienBrandstätte"/>
+                                        <valItem ident="vienBraun-Bastei"/>
+                                        <valItem ident="vienBraun-Cordina"/>
+                                        <valItem ident="vienBurg-Bastei"/>
+                                        <valItem ident="vienBurg-Cordina"/>
+                                        <valItem ident="vienBurgtor"/>
+                                        <valItem ident="vienDominikaner-Bastei"/>
+                                        <valItem ident="vienDorotheergasse"/>
+                                        <valItem ident="vienElend-Bastei"/>
+                                        <valItem ident="vienFärbergasse"/>
+                                        <valItem ident="vienFischerstiege"/>
+                                        <valItem ident="vienFischmarkt"/>
+                                        <valItem ident="vienFleischmarkt"/>
+                                        <valItem ident="vienFreyung"/>
+                                        <valItem ident="vienGrünanger"/>
+                                        <valItem ident="vienGraben"/>
+                                        <valItem ident="vienHeidenschuss"/>
+                                        <valItem ident="vienHerrengasse"/>
+                                        <valItem ident="vienHimmelpfortgasse"/>
+                                        <valItem ident="vienHimmelspforte"/>
+                                        <valItem ident="vienHoheBrücke"/>
+                                        <valItem ident="vienHoherMarkt"/>
+                                        <valItem ident="vienHutergassel"/>
+                                        <valItem ident="vienJohannesgasse"/>
+                                        <valItem ident="vienJudengasse"/>
+                                        <valItem ident="vienJudenplatz"/>
+                                        <valItem ident="vienJungferngasse"/>
+                                        <valItem ident="vienKärntner-Bastei"/>
+                                        <valItem ident="vienKärntner-Cordina"/>
+                                        <valItem ident="vienKärntnerStraße"/>
+                                        <valItem ident="vienKärntnertor"/>
+                                        <valItem ident="vienKatzensteig"/>
+                                        <valItem ident="vienKienmarkt"/>
+                                        <valItem ident="vienKlugerstraße"/>
+                                        <valItem ident="vienKohlmarkt"/>
+                                        <valItem ident="vienLöwel-Bastei"/>
+                                        <valItem ident="vienLöwel-Cordina"/>
+                                        <valItem ident="vienLandskrongasse"/>
+                                        <valItem ident="vienMönch-Cordina"/>
+                                        <valItem ident="vienMelker-Bastei"/>
+                                        <valItem ident="vienNaglergasse"/>
+                                        <valItem ident="vienNeueBastei"/>
+                                        <valItem ident="vienNeuerMarkt"/>
+                                        <valItem ident="vienNeuesWerk"/>
+                                        <valItem ident="vienOfenloch"/>
+                                        <valItem ident="vienRathgasse"/>
+                                        <valItem ident="vienRenngasse"/>
+                                        <valItem ident="vienRiemergasse"/>
+                                        <valItem ident="vienRosengasse"/>
+                                        <valItem ident="vienSalzgries"/>
+                                        <valItem ident="vienSaumarkt"/>
+                                        <valItem ident="vienSauwinkel"/>
+                                        <valItem ident="vienSchaumarkt"/>
+                                        <valItem ident="vienSchenkerstraße"/>
+                                        <valItem ident="vienSchlossergasse"/>
+                                        <valItem ident="vienSchotten-Cordina"/>
+                                        <valItem ident="vienSchottentor"/>
+                                        <valItem ident="vienSchulerstraße"/>
+                                        <valItem ident="vienSeilerstätte"/>
+                                        <valItem ident="vienSingerstraße"/>
+                                        <valItem ident="vienStockimEisen"/>
+                                        <valItem ident="vienStrohgasse"/>
+                                        <valItem ident="vienStubentor"/>
+                                        <valItem ident="vienStubentor-Cordina"/>
+                                        <valItem ident="vienTeinfaltstraße"/>
+                                        <valItem ident="vienWallerstraße"/>
+                                        <valItem ident="vienWasserkunst-Bastei"/>
+                                        <valItem ident="vienWeidenburg"/>
+                                        <valItem ident="vienWipplingerstraße"/>
+                                        <valItem ident="vienZwölfApostel"/>
+                                        <valItem ident="viln"/>
+                                        <valItem ident="virg"/>
+                                        <valItem ident="würz"/>
+                                        <valItem ident="waid"/>
+                                        <valItem ident="wald"/>
+                                        <valItem ident="walt"/>
+                                        <valItem ident="wayd"/>
+                                        <valItem ident="wels"/>
+                                        <valItem ident="weph"/>
+                                        <valItem ident="wrNe"/>
+                                        <valItem ident="zion"/>
+                                </valList>-->
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    <elementSpec ident="pc" module="analysis" mode="change">
+                        <attList>
+                            <attDef ident="ana" mode="delete"/>
+                            <attDef ident="change" mode="delete"/>
+                            <attDef ident="copyOf" mode="delete"/>
+                            <attDef ident="corresp" mode="delete"/>
+                            <attDef ident="datcat" mode="delete"/>
+                            <attDef ident="exclude" mode="delete"/>
+                            <attDef ident="facs" mode="delete"/>
+                            <attDef ident="force" mode="delete"/>
+                            <attDef ident="function" mode="delete"/>
+                            <attDef ident="met" mode="delete"/>
+                            <attDef ident="n" mode="delete"/>
+                            <attDef ident="next" mode="delete"/>
+                            <attDef ident="part" mode="delete"/>
+                            <attDef ident="pre" mode="delete"/>
+                            <attDef ident="prev" mode="delete"/>
+                            <attDef ident="real" mode="delete"/>
+                            <attDef ident="rend" mode="delete"/>
+                            <attDef ident="rendition" mode="delete"/>
+                            <attDef ident="rhyme" mode="delete"/>
+                            <attDef ident="sameAs" mode="delete"/>
+                            <attDef ident="select" mode="delete"/>
+                            <attDef ident="style" mode="delete"/>
+                            <attDef ident="subtype" mode="delete"/>
+                            <attDef ident="synch" mode="delete"/>
+                            <attDef ident="unit" mode="delete"/>
+                            <attDef ident="valueDatcat" mode="delete"/>
+                            
+                            
+                            
+                            <attDef ident="type" mode="change" usage="req">
+                                <desc>Typ des Interpunktionszeichens</desc>
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="comma">
+                                        <desc>entspricht STTS tag $,</desc>
+                                    </valItem>                                    
+                                    <valItem ident="final">
+                                        <desc>entspricht STTS tag $.</desc>
+                                    </valItem>
+                                    <valItem ident="internal">
+                                        <desc>entspricht STTS tag $(</desc>
+                                    </valItem>
+                                    <valItem ident="span">
+                                        <desc>Bestandteil eines aus mehreren Worten bestehenden Tokens</desc>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    <elementSpec ident="w" module="analysis" mode="change">
+                        <attList>
+                            <attDef ident="change" mode="delete"/>
+                            <attDef ident="copyOf" mode="delete"/>
+                            <attDef ident="corresp" mode="delete"/>
+                            <attDef ident="datcat" mode="delete"/>
+                            <attDef ident="exclude" mode="delete"/>
+                            <attDef ident="facs" mode="delete"/>
+                            <attDef ident="function" mode="delete"/>
+                            <attDef ident="lemmaRef" mode="delete"/>
+                            <attDef ident="met" mode="delete"/>
+                            <attDef ident="n" mode="delete"/>
+                            <attDef ident="next" mode="delete"/>
+                            <attDef ident="part" mode="delete"/>
+                            <attDef ident="prev" mode="delete"/>
+                            <attDef ident="real" mode="delete"/>
+                            <attDef ident="rend" mode="delete"/>
+                            <attDef ident="rendition" mode="delete"/>
+                            <attDef ident="rhyme" mode="delete"/>
+                            <attDef ident="sameAs" mode="delete"/>
+                            <attDef ident="select" mode="delete"/>
+                            <attDef ident="style" mode="delete"/>
+                            <attDef ident="subtype" mode="delete"/>
+                            <attDef ident="synch" mode="delete"/>
+                            <attDef ident="valueDatcat" mode="delete"/>
+                            
+                            
+                            
+                            <attDef ident="ana" mode="change" usage="opt">
+                                <valList>
+                                    <valItem ident="#oov"><desc>out-of-vocabulary word</desc></valItem>
+                                </valList>
+                            </attDef>
+                            <attDef ident="type" mode="change" usage="req">
+                                <desc>Charakterisiert den Token nach dem STTS-Tagset mit bestimmten Erweiterungen für kontraktierte (zwei STTS-Tags, die mit Unterstrich verbunden sind) oder mehrdeutige Typen (zwei Tags, die mit einem Pipe-Symbol verbunden sind)</desc>
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="ADJA"/>
+                                    <valItem ident="ADJA_NN"/>
+                                    <valItem ident="ADJD"/>
+                                    <valItem ident="ADJD_VVPP"/>
+                                    <valItem ident="ADV"/>
+                                    <valItem ident="ADV_ADJA"/>
+                                    <valItem ident="ADV_ADV"/>
+                                    <valItem ident="ADVART"/>
+                                    <valItem ident="APPO"/>
+                                    <valItem ident="APPR"/>
+                                    <valItem ident="APPRART"/>
+                                    <valItem ident="APPR_NN"/>
+                                    <valItem ident="APPR_APZR"/>
+                                    <valItem ident="APPR_ART"/>
+                                    <valItem ident="APZR"/>
+                                    <valItem ident="ART"/>
+                                    <valItem ident="ART_NN"/>
+                                    <valItem ident="ARTNN"/>
+                                    <valItem ident="CARD"/>
+                                    <valItem ident="FM"/>
+                                    <valItem ident="FM_FM"/>
+                                    <valItem ident="ITJ"/>
+                                    <valItem ident="KOKOM"/>
+                                    <valItem ident="KON"/>
+                                    <valItem ident="KOUI"/>
+                                    <valItem ident="KOUS"/>
+                                    <valItem ident="KOUS_PIS"/>
+                                    <valItem ident="KOUSPPER"/>
+                                    <valItem ident="NE"/>
+                                    <valItem ident="NE::top"/>
+                                    <valItem ident="NE_NE"/>
+                                    <valItem ident="NN"/>
+                                    <valItem ident="NN_NE::top"/>
+                                    <valItem ident="NN_NN"/>
+                                    <valItem ident="PAV"/>
+                                    <valItem ident="PAV_PPER"/>
+                                    <valItem ident="PDAT"/>
+                                    <valItem ident="PDS"/>
+                                    <valItem ident="PDSPPER"/>
+                                    <valItem ident="PIAT"/>
+                                    <valItem ident="PIS"/>
+                                    <valItem ident="PISPPER"/>
+                                    <valItem ident="PPER"/>
+                                    <valItem ident="PPERPPER"/>
+                                    <valItem ident="PPOSAT"/>
+                                    <valItem ident="PPOSS"/>
+                                    <valItem ident="PRELAT"/>
+                                    <valItem ident="PRELS"/>
+                                    <valItem ident="PRF"/>
+                                    <valItem ident="PRFPPER"/>
+                                    <valItem ident="PTKA"/>
+                                    <valItem ident="PTKANT"/>
+                                    <valItem ident="PTKNEG"/>
+                                    <valItem ident="PTKVZ"/>
+                                    <valItem ident="PTKVZ_PTKZU"/>
+                                    <valItem ident="PTKVZ_ADJD"/>
+                                    <valItem ident="PTKZU"/>
+                                    <valItem ident="PTKZU_VVINF"/>
+                                    <valItem ident="PWAT"/>
+                                    <valItem ident="PWAV"/>
+                                    <valItem ident="PWS"/>
+                                    <valItem ident="TRUNC"/>
+                                    <valItem ident="VAFIN"/>
+                                    <valItem ident="VAFINPPER"/>
+                                    <valItem ident="VAIMP"/>
+                                    <valItem ident="VAINF"/>
+                                    <valItem ident="VAPP"/>
+                                    <valItem ident="VMFIN"/>
+                                    <valItem ident="VMFINPPER"/>
+                                    <valItem ident="VMINF"/>
+                                    <valItem ident="VMPP"/>
+                                    <valItem ident="VVFIN"/>
+                                    <valItem ident="VVFINPPER"/>
+                                    <valItem ident="VVIMP"/>
+                                    <valItem ident="VVIMPART"/>
+                                    <valItem ident="VVIMPPPER"/>
+                                    <valItem ident="VVINF"/>
+                                    <valItem ident="VVIZU"/>
+                                    <valItem ident="VVIZU_VVINF"/>
+                                    <valItem ident="VVPP"/>
+                                    <valItem ident="XY"/>
+                                    <valItem ident="span">
+                                        <desc>Bestandteil eines aus mehreren Worten bestehenden Tokens</desc>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    <elementSpec ident="fw" module="transcr" mode="change">
+                        <attList>
+                            <attDef ident="ana" mode="delete"/>
+                            <attDef ident="change" mode="delete"/>
+                            <attDef ident="copyOf" mode="delete"/>
+                            <attDef ident="corresp" mode="delete"/>
+                            <attDef ident="exclude" mode="delete"/>
+                            <attDef ident="facs" mode="delete"/>
+                            <attDef ident="next" mode="delete"/>
+                            <attDef ident="prev" mode="delete"/>
+                            <attDef ident="rend" mode="delete"/>
+                            <attDef ident="rendition" mode="delete"/>
+                            <attDef ident="sameAs" mode="delete"/>
+                            <attDef ident="select" mode="delete"/>
+                            <attDef ident="style" mode="delete"/>
+                            <attDef ident="synch" mode="delete"/>
+                            
+                            
+                            
+                            
+                            <attDef ident="type" mode="change" usage="opt">
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="header">
+                                        <desc>Kopfzeile</desc>
+                                    </valItem>
+                                    <valItem ident="footer">
+                                        <desc>Fußzeile</desc>
+                                    </valItem>
+                                    <valItem ident="pageNum">
+                                        <desc>Paginierung</desc>
+                                    </valItem>
+                                    <valItem ident="catch">
+                                        <desc>Kustode</desc>
+                                    </valItem>
+                                    <valItem ident="marginalNote">
+                                        <desc>Marginalie</desc>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                            <attDef ident="place" mode="change">
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="bot_center">
+                                        <desc>am Seitenende, zentriert</desc>
+                                    </valItem>
+                                    <valItem ident="bot_left">
+                                        <desc>am Seitenende, links</desc>
+                                    </valItem>
+                                    <valItem ident="bot_right">
+                                        <desc>am Seitenende, rechts</desc>
+                                    </valItem>
+                                    <valItem ident="margin_right">
+                                        <desc>am Seitenrand, rechts</desc>
+                                    </valItem>
+                                    <valItem ident="top_center">
+                                        <desc>am Seitenanfang, zentriert</desc>
+                                    </valItem>
+                                    <valItem ident="top_left">
+                                        <desc>am Seitenanfang, links</desc>
+                                    </valItem>
+                                    <valItem ident="top_right">
+                                        <desc>am Seitenanfang, rechts</desc>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    <elementSpec ident="rs" module="core" mode="change">
+                        <attList>
+                            <attDef ident="type" mode="replace">
+                                <valList mode="replace" type="closed">
+                                    <valItem ident="death"/>
+                                    <valItem ident="game"/>
+                                    <valItem ident="profession"/>
+                                </valList>
+                            </attDef>
+                            <attDef ident="subtype" mode="replace">
+                                <valList mode="replace" type="closed">
+                                    <valItem ident="acti"/>
+                                    <valItem ident="attr"/>
+                                    <valItem ident="cleric"/>
+                                    <valItem ident="corp"/>
+                                    <valItem ident="even"/>
+                                    <valItem ident="even_a"/>
+                                    <valItem ident="even_b"/>
+                                    <valItem ident="even_c"/>
+                                    <valItem ident="figu"/>
+                                    <valItem ident="figu_alt"/>
+                                    <valItem ident="foolery"/>
+                                    <valItem ident="fraud"/>
+                                    <valItem ident="fraud_"/>
+                                    <valItem ident="fune"/>
+                                    <valItem ident="jargon"/>
+                                    <valItem ident="misc"/>
+                                    <valItem ident="name"/>
+                                    <valItem ident="player"/>
+                                    <valItem ident="requisite"/>
+                                    <valItem ident="science"/>
+                                    <valItem ident="scientist"/>
+                                    <valItem ident="stat"/>
+                                    <valItem ident="term"/>
+                                    <valItem ident="term_"/>
+                                    <valItem ident="_scie"/>
+                                </valList>
+                            </attDef>
+                            <attDef ident="ref" mode="replace">
+                                <datatype minOccurs="1" maxOccurs="unbounded">
+                                    <rng:ref name="data.pointer"/>
+                                </datatype>
+                                <valList type="closed">
+                                    <valItem ident="#abbo"/>
+                                    <valItem ident="#apos"/>
+                                    <valItem ident="#arch"/>
+                                    <valItem ident="#arit"/>
+                                    <valItem ident="#astr"/>
+                                    <valItem ident="#attr"/>
+                                    <valItem ident="#attr_s"/>
+                                    <valItem ident="#augu"/>
+                                    <valItem ident="#barm"/>
+                                    <valItem ident="#barn"/>
+                                    <valItem ident="#bene"/>
+                                    <valItem ident="#bish"/>
+                                    <valItem ident="#calv"/>
+                                    <valItem ident="#capu"/>
+                                    <valItem ident="#card"/>
+                                    <valItem ident="#carm"/>
+                                    <valItem ident="#chap"/>
+                                    <valItem ident="#domi"/>
+                                    <valItem ident="#evan"/>
+                                    <valItem ident="#fool"/>
+                                    <valItem ident="#fran"/>
+                                    <valItem ident="#fratMin"/>
+                                    <valItem ident="#geog"/>
+                                    <valItem ident="#geom"/>
+                                    <valItem ident="#habi"/>
+                                    <valItem ident="#habi_"/>
+                                    <valItem ident="#hist"/>
+                                    <valItem ident="#hohe"/>
+                                    <valItem ident="#huss"/>
+                                    <valItem ident="#inst"/>
+                                    <valItem ident="#jest"/>
+                                    <valItem ident="#jest_"/>
+                                    <valItem ident="#jesu"/>
+                                    <valItem ident="#juri"/>
+                                    <valItem ident="#lang"/>
+                                    <valItem ident="#math"/>
+                                    <valItem ident="#medi"/>
+                                    <valItem ident="#mino"/>
+                                    <valItem ident="#parl"/>
+                                    <valItem ident="#parl_"/>
+                                    <valItem ident="#patr"/>
+                                    <valItem ident="#paul"/>
+                                    <valItem ident="#pers"/>
+                                    <valItem ident="#phil"/>
+                                    <valItem ident="#pont"/>
+                                    <valItem ident="#prae"/>
+                                    <valItem ident="#prie"/>
+                                    <valItem ident="#rabb"/>
+                                    <valItem ident="#rtheo"/>
+                                    <valItem ident="#scie"/>
+                                    <valItem ident="#scie_asso"/>
+                                    <valItem ident="#serv"/>
+                                    <valItem ident="#sour"/>
+                                    <valItem ident="#_cler"/>
+                                    <valItem ident="#_fool"/>
+                                    <valItem ident="#_scie"/>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    <elementSpec ident="seg" module="linking" mode="change">
+                        <desc>repräsentiert ein typografisch distinktes Textsegment (wenn es ohne <att>type</att> mit dem Attribut <att>rend</att> verwendet wird); dient als Container für ornamentale Elemente (<att>type</att> = <val>ornament</val>) oder zur Auszeichnung von Gliederungsnummern in Überschriften (<att>type</att> = <val>enum</val>).</desc>
+                        <attList>
+                            <attDef ident="ana" mode="delete"/>
+                            <attDef ident="cert" mode="delete"/>
+                            <attDef ident="change" mode="delete"/>
+                            <attDef ident="copyOf" mode="delete"/>
+                            <attDef ident="corresp" mode="delete"/>
+                            <attDef ident="datcat" mode="delete"/>
+                            <attDef ident="exclude" mode="delete"/>
+                            <attDef ident="facs" mode="delete"/>
+                            <attDef ident="function" mode="delete"/>
+                            <attDef ident="met" mode="delete"/>
+                            <attDef ident="n" mode="delete"/>
+                            <attDef ident="next" mode="delete"/>
+                            <attDef ident="part" mode="delete"/>
+                            <attDef ident="prev" mode="delete"/>
+                            <attDef ident="real" mode="delete"/>
+                            <attDef ident="rend" mode="change" usage="opt">
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="antiqua"/>
+                                    <valItem ident="initialCapital"/>
+                                    <valItem ident="bold"/>
+                                    <valItem ident="italicised"/>
+                                    <valItem ident="smallCaps"/>
+                                    <valItem ident="spaced"/>
+                                    <valItem ident="gothic"/>
+                                    <valItem ident="sup"/>
+                                </valList>
+                            </attDef>
+                            <attDef ident="rendition" mode="delete"/>
+                            <attDef ident="resp" mode="delete"/>
+                            <attDef ident="rhyme" mode="delete"/>
+                            <attDef ident="sameAs" mode="delete"/>
+                            <attDef ident="select" mode="delete"/>
+                            <attDef ident="source" mode="delete"/>
+                            <attDef ident="style" mode="delete"/>
+                            <attDef ident="subtype" mode="delete"/>
+                            <attDef ident="synch" mode="delete"/>
+                            <attDef ident="valueDatcat" mode="delete"/>
+                            
+                            
+                            <attDef ident="type" mode="change" usage="opt">
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="ornament"/>
+                                    <valItem ident="enum"/>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                </schemaSpec>
+            </div>
         </body>
     </text>
 </TEI>
