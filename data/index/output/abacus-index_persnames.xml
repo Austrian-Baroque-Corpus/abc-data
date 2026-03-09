@@ -1061,8 +1061,8 @@
                         <note type="mentions" n="2">2 Erwähnungen gesamt</note>
                      </noteGrp>
                   </person>
-                  <person xml:id="balaam1" role="bibl">
-                     <persName type="main" key="balaam1">Balaam</persName>
+                  <person xml:id="balaam" role="bibl">
+                     <persName type="main" key="balaam">Balaam</persName>
                      <persName type="variation">Baalam</persName> 
                      <persName type="variation">Balaam</persName> 
                 
