@@ -131,19 +131,18 @@
                   </place>
                   <place xml:id="rome" type="city">
                      <placeName type="main" key="rome">Rom</placeName>
-                     <placeName type="variation">Laterano</placeName> 
                      <placeName type="variation">Rom</placeName> 
                      <placeName type="variation">Roms</placeName> 
                      <placeName type="variation">Stadt</placeName> 
                      <placeName type="variation">Statt</placeName> 
                 
                      <noteGrp>
-                        <note type="mentions" target="Abraham-Augustini_feuriges_Hertz.xml" n="3">3 Erwähnungen in der Datei Abraham-Augustini_feuriges_Hertz.xml</note>
+                        <note type="mentions" target="Abraham-Augustini_feuriges_Hertz.xml" n="2">2 Erwähnungen in der Datei Abraham-Augustini_feuriges_Hertz.xml</note>
                         <note type="mentions" target="Abraham-Loesch_Wienn.xml" n="5">5 Erwähnungen in der Datei Abraham-Loesch_Wienn.xml</note>
                         <note type="mentions" target="Abraham-Mercks_Wienn.xml" n="4">4 Erwähnungen in der Datei Abraham-Mercks_Wienn.xml</note>
                         <note type="mentions" target="Abraham-Todten_Bruderschaft.xml" n="2">2 Erwähnungen in der Datei Abraham-Todten_Bruderschaft.xml</note>
                         <note type="mentions" target="Abraham-Todten_Capelle.xml" n="8">8 Erwähnungen in der Datei Abraham-Todten_Capelle.xml</note>
-                        <note type="mentions" n="22">22 Erwähnungen gesamt</note>
+                        <note type="mentions" n="21">21 Erwähnungen gesamt</note>
                      </noteGrp>
                   </place>
                   <place xml:id="prag" type="city">
@@ -3057,6 +3056,15 @@
                 
                      <noteGrp>
                         <note type="mentions" target="Abraham-Loesch_Wienn.xml" n="1">1 Erwähnung in der Datei Abraham-Loesch_Wienn.xml</note>
+                        <note type="mentions" n="1">1 Erwähnungen gesamt</note>
+                     </noteGrp>
+                  </place>
+                  <place xml:id="late" type="subu">
+                     <placeName type="main" key="late">Lateran</placeName>
+                     <placeName type="variation">Laterano</placeName> 
+                
+                     <noteGrp>
+                        <note type="mentions" target="Abraham-Augustini_feuriges_Hertz.xml" n="1">1 Erwähnung in der Datei Abraham-Augustini_feuriges_Hertz.xml</note>
                         <note type="mentions" n="1">1 Erwähnungen gesamt</note>
                      </noteGrp>
                   </place>

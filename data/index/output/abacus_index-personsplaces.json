@@ -16752,12 +16752,12 @@
     {
       "key": "rome",
       "lemma": "Rom",
-      "TOTAL": 22,
+      "TOTAL": 21,
       "type": "city",
       "files": [
         {
           "file": "Abraham-Augustini_feuriges_Hertz.xml",
-          "count": 3
+          "count": 2
         },
         {
           "file": "Abraham-Loesch_Wienn.xml",
@@ -16777,7 +16777,6 @@
         }
       ],
       "variations": [
-        "Laterano",
         "Rom",
         "Roms",
         "Stadt",
@@ -20641,6 +20640,21 @@
       ],
       "variations": [
         "Landstraß"
+      ]
+    },
+    {
+      "key": "late",
+      "lemma": "Lateran",
+      "TOTAL": 1,
+      "type": "subu",
+      "files": [
+        {
+          "file": "Abraham-Augustini_feuriges_Hertz.xml",
+          "count": 1
+        }
+      ],
+      "variations": [
+        "Laterano"
       ]
     },
     {
