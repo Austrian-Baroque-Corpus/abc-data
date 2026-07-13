@@ -22,6 +22,12 @@
 						<name>Christian Lendl</name>
 					</name>
 				</respStmt>
+				<respStmt>
+   					<resp>Datenaktualisierung im Zuge der Neuauflage 2026</resp>
+						<name>
+   							<name>Christian Lendl</name>
+						</name>
+					</respStmt>
 			</titleStmt>
 			<editionStmt>
 				<edition>Revidierte Neuauflage (2026)</edition>
@@ -35,7 +41,7 @@
 				<pubPlace>Wien</pubPlace>
 				<date when="2026">2026</date>
 				<availability status="free">
-					<licence>http://creativecommons.org/licenses/by-nc-sa/3.0/</licence>
+					<licence>https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0</licence>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
