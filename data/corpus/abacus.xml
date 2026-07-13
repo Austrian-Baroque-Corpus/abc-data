@@ -8,25 +8,19 @@
 				<title level="m">ABaC:us – Austrian Baroque Corpus</title>
 				<respStmt>
 					<resp>herausgegeben von</resp>
-					<name>
 						<name>Ulrike Czeitschner</name>
 						<name>Claudia Resch</name>
-					</name>
 				</respStmt>
 				<respStmt>
 					<resp>unter Mitarbeit von</resp>
-					<name>
 						<name>Barbara Krautgartner</name>
 						<name>Eva Wohlfarter</name>
 						<name>Daniel Elsner</name>
 						<name>Christian Lendl</name>
-					</name>
 				</respStmt>
 				<respStmt>
    					<resp>Datenaktualisierung im Zuge der Neuauflage 2026</resp>
-						<name>
    							<name>Christian Lendl</name>
-						</name>
 					</respStmt>
 			</titleStmt>
 			<editionStmt>
