@@ -7,19 +7,22 @@
             <title>Augustini Feuriges Hertz, digitale Ausgabe</title>
             <author>Abraham â Sancta Clara</author>
             <respStmt>
-               <resp xml:lang="de">herausgegeben von</resp>
+               <resp>herausgegeben von</resp>
                <name>Ulrike Czeitschner</name>
                <name>Claudia Resch</name>
             </respStmt>
             <respStmt>
-               <resp xml:lang="de">unter Mitarbeit von</resp>
+               <resp>unter Mitarbeit von</resp>
                <name>Barbara Krautgartner</name>
                <name>Eva Wohlfarter</name>
             </respStmt>
+            <respStmt>
+               <resp>Datenaktualisierung im Zuge der Neuauflage <date when="2026">2026</date></resp>
+               <name>Christian Lendl</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>Vollständig digitalisierte Ausgabe <date when="2015">2015</date>
-            </edition>
+            <edition>Vollständig digitalisierte Ausgabe <date when="2015">2015</date>, letzte Aktualisierung <date when="2026">2026</date></edition>
             <funder>Institut für Corpuslinguistik und Texttechnologie</funder>
             <funder>Jubiläumsfonds der Österreichischen Nationalbank</funder>
          </editionStmt>
@@ -30,13 +33,13 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities, Österreichische Akademie der Wissenschaften</publisher>
             <address>
-               <addrLine>Sonnenfelsgasse 19</addrLine>
+               <addrLine>Bäckerstraße 13</addrLine>
                <addrLine>1010 Wien</addrLine>
             </address>
             <pubPlace>Wien</pubPlace>
-            <date when="2015">2015</date>
+            <date when="2026">2026</date>
             <availability status="free">
-               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+               <licence target="https://creativecommons.org/licenses/by/4.0/"/>
             </availability>
             <idno type="cr-xq-mets">abacus.9</idno>
          </publicationStmt>
