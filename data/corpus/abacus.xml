@@ -4,27 +4,23 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title level="a">Corpus-Metadata und Index</title>
+				<title level="a">Corpus-Metadaten und -Index</title>
 				<title level="m">ABaC:us – Austrian Baroque Corpus</title>
 				<respStmt>
 					<resp>herausgegeben von</resp>
-					<name>
 						<name>Ulrike Czeitschner</name>
 						<name>Claudia Resch</name>
-					</name>
 				</respStmt>
 				<respStmt>
 					<resp>unter Mitarbeit von</resp>
-					<name>
 						<name>Barbara Krautgartner</name>
 						<name>Eva Wohlfarter</name>
 						<name>Daniel Elsner</name>
 						<name>Christian Lendl</name>
-					</name>
 				</respStmt>
 			</titleStmt>
 			<editionStmt>
-				<edition>Revidierte Neuauflage (2026)</edition>
+				<edition>Revidierte Neuauflage (<date when="2026">2026</date>)</edition>
 			</editionStmt>
 			<publicationStmt>
 				<publisher>Austrian Centre for Digital Humanities, Österreichische Akademie der Wissenschaften</publisher>
@@ -35,7 +31,7 @@
 				<pubPlace>Wien</pubPlace>
 				<date when="2026">2026</date>
 				<availability status="free">
-					<licence>http://creativecommons.org/licenses/by-nc-sa/3.0/</licence>
+					<licence target="https://creativecommons.org/licenses/by/4.0/"/>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
